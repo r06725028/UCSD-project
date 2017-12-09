@@ -1,19 +1,17 @@
 # UCSD-project
 
-### 安裝 (非必要)
-> 下載產生db之檔案 & 產生圖表之db
+### 安裝
 
 ```sh
 $ git clone https://github.com/r06725028/UCSD-project.git
-$ cd UCSD-project
+$ cd UCSD-project # 下載產生db之檔案 & 產生圖表之db (皆非必要)
 $ sh install.sh
 ```
 
 ### Usage
-> 產生db
 
 ```sh
-$ python3 extract/men_rel.py extract/node.py
+$ python3 extract/men_rel.py extract/node.py # 產生db
 ```
 
 ### 目錄
