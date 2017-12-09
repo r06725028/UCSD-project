@@ -10,3 +10,4 @@ node.py : 新增node table的程式
 men_rel.py : 新增mention、relationship table的程式
 
 
+20171019 : 分成30群的txt檔
