@@ -12,7 +12,7 @@ from process_duplicate import mention_tsv_filter, relationship_tsv_filter, meta_
 #############################################
 #連結資料庫
 conn = sqlite3.connect('newdb.db')
-
+"""
 conn.execute('''CREATE TABLE NODE (
 	ID INT PRIMARY KEY NOT NULL, 
 	MENTION INT NOT NULL, ONE_MENTION INT NOT NULL, 
@@ -21,7 +21,7 @@ conn.execute('''CREATE TABLE NODE (
 	POINT_TWO_MENTION INT NOT NULL, 
 	NAME TEXT, ABBR TEXT, URL TEXT, COMMUNITIES INT);''')
 print("create node ok")
-
+"""
 ##########################################
 #讀tsv檔
 print("write node start..")
