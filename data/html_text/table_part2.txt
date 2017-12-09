@@ -1,0 +1,19 @@
+</h2>
+  <!-- This is the name of the resource "SCR_003238". You can find the -->
+  <!-- information in rrids/nlx_154697-1.csv or rrids/nlx_144509-1.csv -->
+<!-- See rrids/fragments.xlsx for useful fields -->
+<!-- use either resource_name, or abbreviation, if too long -->
+<!-- name should be used in the graph, too -->
+
+<table>
+  <tr>
+    <th>RRID</th>
+    <th>Resource name</th> <!-- see above -->
+    <th>Co-mention partners</th> 
+    <th>Total mentions</th> 
+    <th>Confirmed mentions</th> <!-- these are from
+  resource_mentions_10142016.txt --> 
+    <th>Curated mentions</th>
+    <th>Probable mentions</th>
+    <th>Possible mentions</th>
+  </tr>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+text {
+  font: 15px sans-serif;
+}
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="https://rawgithub.com/d3/d3-plugins/master/fisheye/fisheye.js"></script>
+<script>
+
+var width = 1440 ,
+    height = 960;
+
+var color = d3.scale.category10();
+
+
+var force = d3.layout.force()
+    .charge(-400)
+    .linkDistance(500)
+    .size([width, height]);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+var graph = {"nodes":[
+	{"name": "6472 NCBI", "group": 0, "value": 10.564090117},
+	{"name": "4633 ", "group": 0, "value": 7.79422863406},
+	{"name": "7303 GEO", "group": 0, "value": 5.95566956773},
+	{"name": "2338 ", "group": 0, "value": 5.38516480713},
+	{"name": "2846 ", "group": 0, "value": 4.5912961133},
+	{"name": "6442 ", "group": 0, "value": 4.50111097397},
+	{"name": "2344 ", "group": 0, "value": 4.33012701892},
+	{"name": "7073 ", "group": 0, "value": 4.12916456441},
+	{"name": "1461 IBDGC, NIDDK IBDGC", "group": 0, "value": 4.12310562562},
+	{"name": "10845 ", "group": 0, "value": 3.72424488991},
+	{"name": "7405 ", "group": 0, "value": 3.68646171823},
+	{"name": "4180 ", "group": 0, "value": 3.55105618091},
+	{"name": "5921 ", "group": 0, "value": 3.52703841771},
+	{"name": "9411 ", "group": 0, "value": 3.35857112475},
+	{"name": "2576 ", "group": 0, "value": 3.31963853454},
+	{"name": "6948 ", "group": 0, "value": 3.29848450049},
+	{"name": "3434 ", "group": 0, "value": 3.28329103188},
+	{"name": "11214 ", "group": 0, "value": 3.24345494805},
+	{"name": "1973 ", "group": 0, "value": 3.21714158843},
+	{"name": "8173 ", "group": 0, "value": 3.2},
+	{"name": "1757 ", "group": 0, "value": 3.1336879232},
+	{"name": "1314 ", "group": 0, "value": 3.10483493925},
+	{"name": "6805 DCCT,", "group": 0, "value": 3.08382878902},
+	{"name": "9419 ", "group": 0, "value": 3.06757233004},
+	{"name": "1522 JDRF", "group": 0, "value": 3.04630924235},
+	{"name": "2764 ", "group": 0, "value": 3.03315017762},
+	{"name": "7333 ", "group": 0, "value": 2.95972971739},
+	{"name": "9197 ", "group": 0, "value": 2.90516780927},
+	{"name": "8623 ", "group": 0, "value": 2.89654967159},
+	{"name": "9236 ", "group": 0, "value": 2.84253408071},
+	{"name": "133 GoKinD, Go KinD", "group": 1, "value": 0.67082039325}
+],
+"links":[
+	{"source": 30, "target": 14, "value": 0.4},
+	{"source": 30, "target": 29, "value": 0.2},
+	{"source": 30, "target": 1, "value": 0.2},
+	{"source": 30, "target": 18, "value": 0.2},
+	{"source": 30, "target": 11, "value": 0.2},
+	{"source": 30, "target": 9, "value": 0.2},
+	{"source": 30, "target": 2, "value": 0.2},
+	{"source": 30, "target": 22, "value": 0.8},
+	{"source": 30, "target": 12, "value": 0.2},
+	{"source": 30, "target": 26, "value": 0.2},
+	{"source": 30, "target": 13, "value": 0.2},
+	{"source": 30, "target": 23, "value": 0.2},
+	{"source": 30, "target": 25, "value": 0.2},
+	{"source": 30, "target": 3, "value": 0.2},
+	{"source": 30, "target": 20, "value": 0.6},
+	{"source": 30, "target": 10, "value": 0.2},
+	{"source": 30, "target": 4, "value": 0.6},
+	{"source": 30, "target": 21, "value": 0.4},
+	{"source": 30, "target": 15, "value": 0.2},
+	{"source": 30, "target": 6, "value": 0.2},
+	{"source": 30, "target": 5, "value": 0.2},
+	{"source": 30, "target": 0, "value": 0.2},
+	{"source": 30, "target": 16, "value": 0.2},
+	{"source": 30, "target": 19, "value": 0.2},
+	{"source": 30, "target": 7, "value": 0.2},
+	{"source": 30, "target": 28, "value": 0.2},
+	{"source": 30, "target": 8, "value": 0.2},
+	{"source": 30, "target": 17, "value": 0.8},
+	{"source": 30, "target": 27, "value": 0.2},
+	{"source": 30, "target": 24, "value": 0.2},
+	{"source": 21, "target": 28, "value": 3.0},
+	{"source": 21, "target": 23, "value": 2.4},
+	{"source": 21, "target": 8, "value": 3.0},
+	{"source": 21, "target": 20, "value": 2.6},
+	{"source": 21, "target": 18, "value": 3.2},
+	{"source": 21, "target": 3, "value": 5.8},
+	{"source": 21, "target": 6, "value": 2.2},
+	{"source": 21, "target": 14, "value": 4.8},
+	{"source": 21, "target": 4, "value": 6.2},
+	{"source": 21, "target": 1, "value": 3.8},
+	{"source": 21, "target": 5, "value": 9.8},
+	{"source": 21, "target": 0, "value": 13.8},
+	{"source": 21, "target": 7, "value": 4.2},
+	{"source": 21, "target": 2, "value": 9.4},
+	{"source": 8, "target": 28, "value": 4.0},
+	{"source": 8, "target": 29, "value": 3.6},
+	{"source": 8, "target": 13, "value": 6.2},
+	{"source": 8, "target": 23, "value": 2.8},
+	{"source": 8, "target": 24, "value": 2.6},
+	{"source": 8, "target": 20, "value": 14.4},
+	{"source": 8, "target": 18, "value": 51.0},
+	{"source": 8, "target": 3, "value": 9.2},
+	{"source": 8, "target": 14, "value": 15.2},
+	{"source": 8, "target": 25, "value": 2.2},
+	{"source": 8, "target": 4, "value": 19.2},
+	{"source": 8, "target": 16, "value": 3.2},
+	{"source": 8, "target": 11, "value": 2.8},
+	{"source": 8, "target": 6, "value": 3.0},
+	{"source": 8, "target": 0, "value": 13.4},
+	{"source": 8, "target": 15, "value": 2.0},
+	{"source": 8, "target": 7, "value": 7.4},
+	{"source": 8, "target": 2, "value": 2.2},
+	{"source": 8, "target": 10, "value": 2.6},
+	{"source": 24, "target": 18, "value": 3.0},
+	{"source": 24, "target": 11, "value": 2.4},
+	{"source": 24, "target": 1, "value": 4.6},
+	{"source": 24, "target": 0, "value": 2.2},
+	{"source": 20, "target": 28, "value": 5.0},
+	{"source": 20, "target": 23, "value": 8.2},
+	{"source": 20, "target": 18, "value": 13.2},
+	{"source": 20, "target": 3, "value": 8.6},
+	{"source": 20, "target": 14, "value": 11.4},
+	{"source": 20, "target": 25, "value": 3.8},
+	{"source": 20, "target": 4, "value": 23.0},
+	{"source": 20, "target": 16, "value": 3.2},
+	{"source": 20, "target": 6, "value": 3.8},
+	{"source": 20, "target": 0, "value": 14.8},
+	{"source": 20, "target": 7, "value": 19.6},
+	{"source": 20, "target": 2, "value": 2.2},
+	{"source": 18, "target": 28, "value": 4.8},
+	{"source": 18, "target": 29, "value": 3.6},
+	{"source": 18, "target": 13, "value": 2.8},
+	{"source": 18, "target": 23, "value": 3.6},
+	{"source": 18, "target": 3, "value": 6.4},
+	{"source": 18, "target": 14, "value": 13.0},
+	{"source": 18, "target": 25, "value": 2.8},
+	{"source": 18, "target": 4, "value": 21.2},
+	{"source": 18, "target": 16, "value": 2.8},
+	{"source": 18, "target": 6, "value": 2.8},
+	{"source": 18, "target": 0, "value": 10.6},
+	{"source": 18, "target": 7, "value": 5.0},
+	{"source": 3, "target": 28, "value": 4.8},
+	{"source": 3, "target": 29, "value": 3.0},
+	{"source": 3, "target": 13, "value": 2.6},
+	{"source": 3, "target": 23, "value": 7.8},
+	{"source": 3, "target": 14, "value": 22.4},
+	{"source": 3, "target": 9, "value": 2.2},
+	{"source": 3, "target": 25, "value": 2.2},
+	{"source": 3, "target": 4, "value": 41.0},
+	{"source": 3, "target": 11, "value": 7.0},
+	{"source": 3, "target": 1, "value": 3.6},
+	{"source": 3, "target": 6, "value": 16.6},
+	{"source": 3, "target": 5, "value": 6.8},
+	{"source": 3, "target": 0, "value": 53.0},
+	{"source": 3, "target": 7, "value": 15.8},
+	{"source": 3, "target": 2, "value": 13.4},
+	{"source": 3, "target": 26, "value": 2.2},
+	{"source": 3, "target": 19, "value": 3.6},
+	{"source": 6, "target": 13, "value": 2.4},
+	{"source": 6, "target": 14, "value": 8.4},
+	{"source": 6, "target": 9, "value": 6.2},
+	{"source": 6, "target": 25, "value": 2.0},
+	{"source": 6, "target": 4, "value": 12.2},
+	{"source": 6, "target": 11, "value": 2.0},
+	{"source": 6, "target": 1, "value": 6.8},
+	{"source": 6, "target": 5, "value": 10.4},
+	{"source": 6, "target": 0, "value": 88.0},
+	{"source": 6, "target": 7, "value": 10.0},
+	{"source": 6, "target": 2, "value": 9.8},
+	{"source": 14, "target": 28, "value": 9.4},
+	{"source": 14, "target": 29, "value": 2.6},
+	{"source": 14, "target": 13, "value": 4.2},
+	{"source": 14, "target": 23, "value": 16.4},
+	{"source": 14, "target": 25, "value": 2.8},
+	{"source": 14, "target": 4, "value": 60.6},
+	{"source": 14, "target": 16, "value": 2.8},
+	{"source": 14, "target": 11, "value": 2.4},
+	{"source": 14, "target": 5, "value": 3.8},
+	{"source": 14, "target": 0, "value": 25.0},
+	{"source": 14, "target": 7, "value": 13.4},
+	{"source": 14, "target": 2, "value": 4.6},
+	{"source": 25, "target": 23, "value": 2.2},
+	{"source": 25, "target": 4, "value": 6.8},
+	{"source": 25, "target": 0, "value": 8.2},
+	{"source": 25, "target": 7, "value": 2.2},
+	{"source": 25, "target": 2, "value": 2.0},
+	{"source": 4, "target": 28, "value": 24.2},
+	{"source": 4, "target": 29, "value": 8.4},
+	{"source": 4, "target": 13, "value": 4.0},
+	{"source": 4, "target": 23, "value": 32.0},
+	{"source": 4, "target": 16, "value": 6.8},
+	{"source": 4, "target": 11, "value": 2.0},
+	{"source": 4, "target": 5, "value": 3.4},
+	{"source": 4, "target": 0, "value": 35.2},
+	{"source": 4, "target": 7, "value": 31.0},
+	{"source": 4, "target": 2, "value": 6.4},
+	{"source": 4, "target": 19, "value": 2.8},
+	{"source": 16, "target": 29, "value": 4.6},
+	{"source": 16, "target": 13, "value": 2.4},
+	{"source": 16, "target": 0, "value": 6.8},
+	{"source": 16, "target": 7, "value": 2.4},
+	{"source": 11, "target": 29, "value": 2.0},
+	{"source": 11, "target": 17, "value": 3.4},
+	{"source": 11, "target": 1, "value": 4.4},
+	{"source": 11, "target": 0, "value": 10.6},
+	{"source": 11, "target": 7, "value": 2.2},
+	{"source": 11, "target": 2, "value": 7.0},
+	{"source": 1, "target": 5, "value": 6.0},
+	{"source": 1, "target": 0, "value": 15.4},
+	{"source": 1, "target": 7, "value": 2.4},
+	{"source": 1, "target": 2, "value": 9.2},
+	{"source": 1, "target": 26, "value": 94.6},
+	{"source": 12, "target": 10, "value": 2.0},
+	{"source": 5, "target": 9, "value": 2.4},
+	{"source": 5, "target": 0, "value": 29.6},
+	{"source": 5, "target": 7, "value": 12.6},
+	{"source": 5, "target": 2, "value": 42.6},
+	{"source": 0, "target": 28, "value": 4.4},
+	{"source": 0, "target": 27, "value": 5.6},
+	{"source": 0, "target": 29, "value": 6.2},
+	{"source": 0, "target": 13, "value": 5.2},
+	{"source": 0, "target": 23, "value": 9.2},
+	{"source": 0, "target": 9, "value": 10.2},
+	{"source": 0, "target": 17, "value": 2.4},
+	{"source": 0, "target": 7, "value": 52.6},
+	{"source": 0, "target": 2, "value": 63.4},
+	{"source": 0, "target": 26, "value": 3.2},
+	{"source": 0, "target": 10, "value": 3.4},
+	{"source": 0, "target": 19, "value": 4.6},
+	{"source": 15, "target": 17, "value": 2.0},
+	{"source": 7, "target": 28, "value": 6.8},
+	{"source": 7, "target": 23, "value": 14.8},
+	{"source": 7, "target": 9, "value": 3.6},
+	{"source": 7, "target": 2, "value": 19.2},
+	{"source": 2, "target": 9, "value": 11.4},
+	{"source": 2, "target": 19, "value": 2.4},
+	{"source": 28, "target": 23, "value": 15.2},
+	{"source": 29, "target": 13, "value": 3.4},
+	{"source": 13, "target": 23, "value": 3.0}
+]}
+
+ force
+      .nodes(graph.nodes)
+      .links(graph.links)
+      .start();
+
+  var link = svg.selectAll(".link")
+      .data(graph.links)
+      .enter().append("line")
+      .attr("class", "link")
+      .style("stroke-width", function(d) { return Math.sqrt(d.value); });
+
+  var gnodes = svg.selectAll('g.gnode')
+     .data(graph.nodes)
+     .enter()
+     .append('g')
+     .classed('gnode', true); 
+      
+  var node = gnodes.append("circle")
+      .attr("class", "node")
+      .attr("r", function(d) { return d.value*8; } )
+      .style("fill", function(d) { return color(d.group); })
+      .call(force.drag);
+
+  var labels = gnodes.append("text")
+      .text(function(d) { return d.name; });
+
+  console.log(labels);
+      
+
+  force.on("tick", function() {
+    link.attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    //node.attr("cx", function(d) { return d.x; })
+        //.attr("cy", function(d) { return d.y; });
+        
+    // Translate the groups
+    gnodes.attr("transform", function(d) { 
+        return 'translate(' + [d.x, d.y] + ')'; 
+    });
+    
+   
+    
+    
+  });
+//});
+
+
+</script>

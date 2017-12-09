@@ -1,0 +1,14 @@
+ mentioned</h1>
+<table>
+  <tr>  <!-- These are the field names from resource_mentions_10142016.txt -->
+    <!-- only 5 fields are used here -->
+    <!-- id	uid -->
+    <th>rid</th>
+    <th>mentionid</th>
+    <!-- rating	timestamp	mentionid_int -->
+    <th>input_source</th>
+    <th>confidence</th>
+    <!-- vote_sum -->
+    <th> snippet </th>
+  </tr>
+  <tr>

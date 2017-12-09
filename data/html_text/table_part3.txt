@@ -1,0 +1,21 @@
+</table>
+</div>
+<p>Legend:</p>
+<ul>
+  <li> RRID - Resource ID</li>
+  <li> Resource - Name of the resource</li>
+  <li> Co-mention partners - Count of resources co-mentioned</li>
+  <li> Co-mentions - Count of identified co-mentions</li>
+  <li> Mutual Info - Expected mutual information * 5 * 10e5, btw resource and co-mentioned partner</li>
+  <li> Total mentions - Total mentions</li>
+  <li> Confirmed mentions - Confirmed URL or user added mention</li>
+  <li> Curated mentions - Curated by reliable sources</li>
+  <li> Probable mentions - Identified automatically by a text mining computer program</li>
+  <li> Possible mentions - Found through publisher search engines</li>
+  <li> Co-mention network - Go to a co-mention network like this</li>
+</ul>
+
+<hr>
+<address>UC San Diego, La Jolla, CA</address>
+<!-- hhmts start -->Last modified: Wed Sep 20 10:19:46 PDT 2017 <!-- hhmts end -->
+</body> </html>
