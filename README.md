@@ -32,4 +32,4 @@ $ python3 extract/men_rel.py extract/node.py # 產生db
 
 ### 遠端ftp與google drive連結
 1. FTP [USCD目錄](ftp://140.112.107.148/UCSD/)
-2. newdb.db所在的[雲端硬碟連結](https://drive.google.com/file/d/1bp3HdMGZYYX-8Lhq21i2EkP0sk3Av5iV/view?usp=sharing)
+2. newdb.db所在的[雲端硬碟連結](https://drive.google.com/file/d/1Pdlg_IOHJ1OrctheDo8N0P9voRDXGLvH/view?usp=sharing)
