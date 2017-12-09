@@ -3,7 +3,9 @@
 ### 安裝 (非必要)
 > 下載產生db之檔案 & 產生圖表之db
 
-```sh
+```bash
+$ git clone https://github.com/r06725028/UCSD-project.git
+$ cd UCSD-project
 $ sh install.sh
 ```
 
