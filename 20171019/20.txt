@@ -1,0 +1,4 @@
+RRID	Resource Name	total mention count
+12983	Virus Pathogen Resource	366
+10685	vipR	354
+7223	Brown University; Department of Neuroscience	14

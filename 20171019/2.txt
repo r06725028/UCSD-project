@@ -1,0 +1,2077 @@
+RRID	Resource Name	total mention count
+2846	International HapMap Project	2835
+1461	NIDDK Inflammatory Bowel Disease Genetics Consortium	1701
+13355	Longitudinal Studies of Aging	1506
+7260	ALSPAC	1462
+10617	European Collection of Cell Cultures	1450
+12734	Intramural Research Program	1443
+3016	CERAD - Consortium to Establish a Registry for Alzheimer's Disease	1386
+3076	Haploview	1320
+13028	Human Genome Project Information	1305
+1757	PLINK	1287
+7267	Cavalli lab: Chromatin and Cell Biology	1279
+13359	Operational Criteria	1263
+11416	National Human Genome Research Institute	1250
+8730	Moffitt Cancer Center	1235
+12977	American Spinal Injury Association	1159
+6699	United States Renal Data System	1131
+7626	DoOP - Databases of Orthologous Promoters	1125
+10626	Hunt Biobank	1111
+3043	Coriell Institute for Medical Research	1105
+2576	Mouse HapMap Imputation Genotype Resource	1102
+5422	International Agency for Research on Cancer	1083
+4327	Biospecimens/Biorepositories: Rare Disease-HUB (RD-HUB)	1080
+4517	NIGMS Human Genetic Cell Repository	1078
+392	WILEY Interdisciplinary Reviews	1074
+11691	University of Navarra; Pamplona; Spain	1056
+6628	Orphanet	1046
+1973	Wellcome Trust Case Control Consortium	1044
+7262	American Epilepsy Society	1032
+2008	National Hydrocephalus Foundation	1031
+8173	Bioethics Institutes Database	1024
+8930	Health and Retirement Study	1004
+4510	KORA-gen	1001
+716	Queens College, Neuroscience	988
+8495	BCM ET	987
+12745	GWAS: Catalog of Published Genome-Wide Association Studies	987
+6996	Criminal Justice Drug Abuse Treatment Studies	964
+6805	Diabetes Control and Complications Trial	951
+4588	National Comorbidity Survey	934
+2764	Coding Potential Calculator	931
+6833	Physician Data Query	919
+4004	Alzheimers Disease Genetics Consortium	917
+8138	NIDA Networking Project: Facilitating information exchange and research collaboration	917
+1257	SABER	912
+8110	Athena	905
+7000	Database of Genomic Variants: A curated catalogue of structural variation in the human genome	896
+4718	PROMIS	867
+13408	CBiS	864
+13535	Foundation for Biomedical Research	860
+9197	GENIE	848
+3074	NIDDK - National Institute of Diabetes and Digestive and Kidney Diseases Obesity Resources	843
+8623	TAGSNP	842
+1584	An efficient P300-based brain-computer interface for disabled subjects	837
+9084	QUANTO	826
+1852	Welcome Trust	817
+7654	Functional Coverage of the Proteome	807
+3562	PheWAS Catalog	806
+5859	American Urological Association	798
+4655	PSP Association	796
+5299	DONE: Detection of Outlier NEurons	786
+5644	MATRICS - Measurement And Treatment Research to Improve Cognition in Schizophrenia	783
+6698	NIMH Center for Collaborative Genetic Studies on Mental Disorders	782
+7402	British Neuroscience Association	778
+5041	Tissue Banks International - TBI	768
+3873	DepressionTools.org Clinical Significance Calculator	754
+13162	Colon CFR	754
+4883	Organ Procurement and Transplantation Network	747
+7449	Dartmouth Medical School Neuroscience	737
+13345	Coordination and sustainability of international mouse informatics resources	731
+6082	Zinc Finger Consortium Database	725
+7079	Tetraodon Genome Browser	717
+3001	Cambridge Cognition	708
+4222	UAB Comprehensive Cancer Center Tissue Procurement Shared Facility	703
+677	WHO Collaborating Centre for Drug Statistics Methodology	694
+1482	NIH Chronic Prostatitis Symptom Index	692
+249	CoGenT++	684
+3476	SNAPE-pooled	681
+7130	Focal Segmental Glomerulosclerosis in Children and Young Adults Interventional Study	681
+8639	Diabetes Genes	679
+7516	University of Minnesota Graduate Program in Neuroscience	675
+4407	National Drug Abuse Treatment Clinical Trials Network	668
+4495	Psychiatric Genomics Consortium	668
+7339	Center for Inherited Disease Research	660
+8337	Nature Supplements: Collections archive	656
+1536	Longitudinal Assessment of Bariatric Surgery	654
+8883	Swedish Twin Registry	646
+3244	Coriell Cell Repositories	639
+8806	Institute for Basic Research in Developmental Disabilities	637
+4582	Community Tissue Services - CTS	631
+6691	Functional Dyspepsia Treatment Trial	629
+5881	Finnish Cancer Registry	615
+7215	BACPAC Resources Center	613
+7157	Census Dissemination Unit	608
+7031	National Survey on Drug Use and Health	601
+6451	Autoimmune Lymphoproliferative Syndrome Information	600
+4471	Roswell Park Cancer Institute	599
+12191	Golden Helix	597
+508	Karmanos Cancer Institute	594
+12205	UCLA High-Throughput Clinical Proteomics Core	585
+7014	Frequent Hemodialysis Network Nocturnal Trial	577
+8941	Longitudinal Study of Elderly Mexican American Health	575
+6462	Public Health Genomics	573
+9119	AMELIA	573
+2002	NIDA Data Share	556
+5582	Childrens Hospital Oakland Research Institute	554
+9313	OSIRIS	553
+8026	Centre dEtude du Polymorphisme Humain	552
+5961	MRB - Mouse Resource Browser	549
+1520	BacPac Resources Center: BAC Clones Distribution Center	548
+2013	METAL	542
+2687	Knowledgebase for Addiction Related Genes	540
+4680	CDC Cell and DNA Repository	535
+4741	Autism Speaks	534
+2079	Electronic Molecular Interaction Map	532
+1434	Anxiety Treatment Australia: Anxiety Disorder Help, Information and Psychologist List	528
+13600	Psychotropics	527
+7464	Mount Sianai Department of Neuroscience	526
+1992	Brain and Behavior Research Foundation	525
+10929	Genotyping Console Software	515
+12986	Nonhuman Primate Reagent Resource	514
+1725	FunDO	508
+2709	dbGaP at NCBI	505
+8567	Statistical Analysis System	504
+11276	Health Resources and Services Administration	502
+4822	Brain and Body Donation Program	501
+7502	University of Iowa College of Medicine Department of Pharmacology	501
+8042	Integrative Neuroscience Initiative on Alcoholism	501
+3125	FRAXA Research Foundation	500
+8355	Paris School of Neuroscience PhD Program	498
+3072	Cancer Genome Anatomy Project	496
+13014	Fugu Genome Project	492
+6631	Stanford University HIV Drug Resistance Database	490
+210	Knight Alzheimers Disease Research Center	486
+7508	University of Kansas Medical Center Pharmacology	486
+1563	Neural Maestro	485
+8879	Cancer Registry of Norway	485
+11440	National Institute on Drug Abuse	484
+12763	Stata	479
+1840	TCAG	468
+6067	University of Nebraska Medical Center Pharmacology	468
+13111	Wake Forest University Pharmacology	468
+7123	Tetraodon nigroviridis Database	466
+8504	European Centre for the Validation of Alternative Methods	463
+6341	James S. McDonnell Foundation	461
+8438	Core Genotyping Facility	459
+5778	GARBAN	457
+612	MacArthur Foundation	450
+1803	National Society of Genetic Counselors	450
+7374	Informatics resources for mouse functional genomics	448
+7488	Thomas Jefferson University Neurology	445
+5951	ROAR	443
+2934	Office of Intramural Training and Education	441
+9179	FINETTI	439
+4351	DRUT	432
+1859	SeattleSNPs - Variation Discovery Resource	431
+8082	WE MOVE: Worldwide Education and Awareness for Movement Disorders	430
+6441	Creatinine Standardization Program	428
+6940	Southern Illinois University School of Medicine Department of Pharmacology	427
+13536	Faculty for Undergraduate Neuroscience	425
+813	Advanced Cognitive Training for Independent and Vital Elderly (ACTIVE)	424
+3422	MAGENTA	423
+8491	Extended Haplotype Homozygosity	417
+4843	Research Tissue Repository - University of Connecticut	416
+7520	University of New Mexico Sleep Disorders Clinic	416
+13605	Baylor College of Medicine Human Genome Sequencing Center	415
+8015	Alzheimer's Australia: Living with Dementia	411
+13565	Barrow Neurological Institute (BNI)	411
+10715	T-REX	409
+9112	TUNA	408
+7487	University of Toledo Department of Neurosciences	407
+3144	NYCE	406
+8735	PTSD-TBI INTRuST	404
+6644	Urologic Diseases in America	403
+7541	University of Western Ontario London Ontario Canada Physiology and Pharmacology	403
+3410	Honig Lab	398
+4920	BioMarkers for SMA Data Portal	398
+5769	American College of Medical Genetics and Genomics	392
+1529	HALT PKD	390
+9198	GENETIC POWER CALCULATOR	387
+1519	Nonalcoholic Steatohepatitis Clinical Research Network	384
+2949	Interrupted CoDing Sequence Database	384
+12816	Swiss Institute of Bioinformatics	384
+4371	RETICULUM - Neuroscience History Resources	382
+6288	Adult Wistar Rat Atlas	381
+6654	European Monitoring Centre for Drugs and Drug Addiction	381
+2670	Office of Scientific and Technical Information	380
+4965	Eigensoft	380
+8371	Hardy-Weinberg Equilibrium Calculator	380
+2877	Computational Biology Center	379
+1914	Yerkes National Primate Research Center	375
+713	NIH - Rapid Access to Interventional Development	374
+8255	Fisher Center For Alzheimers Research Foundation: ALZinfo.org	374
+12815	UK Biobank	367
+724	University of Vermont College of Medicine, Pharmacology	366
+2022	Parkinsons UK	363
+5590	Solve Therapies	362
+1825	Online Encyclopedia for Genetic Epidemiology studies	360
+2635	RVD	360
+6793	ENCODE - Encyclopedia of DNA Elements	360
+391	World Health Organization: The Global Health Library	359
+7406	International Brain Research Organization	359
+8909	Established Populations for Epidemiologic Studies of the Elderly	359
+122	Body Mass Index Calculator	357
+1944	Biospecimen Research Database	357
+5065	Zebrafish International Resource Center	356
+7324	NIA Nonhuman Primate Tissue Bank	355
+1531	Hepatitis B Research Network	354
+6380	CTSA-IP	354
+7436	National Institute of Mental Health (NIMH) Human Genetics Initiative	354
+5351	University of Colorado School of Medicine Department of Neurology	350
+6474	Autism Chromosome Rearrangement Database: A database of structural variants in autism spectrum disorder	345
+2518	PennCNV	344
+1557	Type 1 Diabetes Genetics Consortium	343
+4418	University of Chicago Human Tissue Resource Center Biospecimen Banking	343
+8959	Brain and Body Genetic Resource Exchange	342
+2264	NCI Mouse Repository	340
+1828	Royal Institute of Technology: PDC	338
+6860	NIMH Division of Intramural Research Programs	336
+5063	Neuron Navigator	335
+1991	Helen Wills Neuroscience Institute	331
+5594	NIMH Video	331
+3270	Jackson Laboratory Cytogenetic Models Resource	329
+5592	Learn about SMA website	329
+6523	Transverse Myelitis Association	329
+5713	UT Southwestern Medical Center Department of Pathology	328
+8338	Digital Fish Library	328
+8498	Embase Biomedical Answers	328
+12793	Emergency Preparedness and Response	328
+1967	National Center for PTSD	327
+8154	HPV Sequence Database	327
+4778	Knut and Alice Wallenberg Foundation	326
+12906	University of Rochester Medical Center Pharmacology and Physiology	326
+12875	European Society for Paediatric Urology	324
+6012	Doris Duke Charitable Foundation	322
+2737	Erasmus MC Department of Neuroscience	321
+2616	National Toxicology Program: Department of Health and Human Services	320
+3172	HuGE Navigator - Human Genome Epidemiology Navigator	319
+8626	Allergen Database for Food Safety	316
+6443	Glomerular Filtration Rate Calculators	315
+550	National Disease Research Interchange	313
+1842	GenABEL	312
+2207	EarthChem	312
+2943	National Center for Toxicological Research	312
+8152	Australian Sheep Gene Mapping	312
+4270	University of Minnesota Tissue Procurement Facility	311
+3307	Wellcome Trust Centre for Human Genetics	310
+3320	Columbia University College of Physicians and Surgeons Department of Pharmacology	307
+7121	Genes to Cognition: Neuroscience Research Programme	307
+12895	NIDDK - National Institute of Diabetes and Digestive and Kidney Diseases	306
+8468	Lausanne Genomic Technologies Facility	303
+707	Comprehensive Drug Self-administration and Discrimination Bibliographic Databases	302
+4842	Susan G. Komen for the Cure	302
+8027	CRE Binding-protein Target Gene Database	302
+7391	Ikaros Project	300
+8713	Bioserve Global BioRepository	299
+13416	SAPALDIA	299
+12987	Wisconsin National Primate Research Center	298
+396	Projection of Protein Networks across Species	297
+547	Indiana University-Bloomington Neuroscience Program	297
+5635	Bridging Interventional Development Gaps	297
+5630	NIMH Psychoactive Drug Screening Program	296
+7315	POPGEN	296
+8692	BioInformatics Resource Inventory	295
+334	Center for Computational Biology at UCLA	294
+4448	Epilepsy Research Ireland	294
+127	Symptom Score for Benign Prostatic Hyperplasia	293
+8864	GOMO - Gene Ontology for Motifs	293
+730	Catalogue for Transmission Genetics in Arabs	291
+3334	deCODE genetics	291
+11439	National Institute on Alcohol Abuse and Alcoholism	291
+3342	Duke University, Pharmacology and Cancer Biology	290
+7327	National Alzheimer's Coordinating Center	290
+7509	University of Kentucky Medical Center College of Pharmacy	290
+3363	Georgetown, Neuroscience	289
+1524	Drug-Induced Liver Injury Network	287
+5609	Neuroscience and Psychiatry Module 1: Translating Neural Circuits into Novel Therapeutics	286
+1870	Sparse Learning with Efficient Projections	283
+1928	Shiley-Marcos Alzheimer's Disease Research Center	282
+4403	Autism Genetic Resource Exchange	282
+8464	Drug Development Pipeline	282
+2851	Neurogenetics and Behavior Center	280
+1510	Living Biobank	279
+7280	Neurogenetics Online	279
+4730	IMPACT Prognostic Calculator	278
+7078	University of Texas Health Science Center at San Antonio Department of Pharmacology	276
+1675	Genes to Cognition - Biological Resources	270
+4796	RIKEN Brain Science Institute	270
+5613	NIMH Clinical Trials	270
+8291	Oregon National Primate Research Center	270
+2682	Neuromuscular Models Library	268
+4503	Swedish Regional Biobank	268
+7462	McGill University Pharmacology	266
+5310	University of Colorado at Boulder, Department of Neuroscience	265
+1470	anage	263
+3333	Creighton University, Department of Pharmacology	263
+4199	EVOLUTIONARY FOUNDATIONS FOR THE HUMAN FOREBRAIN	263
+149	UW Department of Biochemistry	262
+4840	Minnesota Liver Tissue Cell Distribution System	262
+6552	DECIPHER	262
+2142	SNPSTATS	261
+4033	French Muscular Dystrophy Association	260
+4505	Defense and Veterans Brain Injury Center	260
+10672	Tissue Solutions	259
+1150	Earlier versus Later Levodopa Therapy in Parkinson Disease	257
+7386	Association of Neuroscience Departments and Programs	257
+7407	West Virginia University School of Pharmacy Graduate Programs	257
+4983	MD Anderson Pancreas Tissue Bank	256
+6913	Noise Enhancement of Sensorimotor Function	256
+1081	University of Florida College of Medicine Neuroscience	254
+6883	HAMSTeRS - The Haemophilia A Mutation Structure Test and Resource Site	254
+6920	NICHD SECCYD	254
+9129	BIMBAM	252
+9257	LOCUSZOOM	252
+2244	RDoC	251
+10527	Puget Sound Blood Center	251
+4291	Myeloma Tissue Bank	249
+7446	Weill Cornell Department of Neurology & Neuroscience	248
+10548	Biological Resource Centre - National Institute for Cancer Research	246
+13183	NCJDSU	246
+5752	CLASSIFI - Cluster Assignment for Biological Inference	245
+340	University of Vermont; Vermont; USA	244
+6092	John Templeton Foundation	244
+9528	Age Related Atrophy Dataset	243
+8748	Central Brain Tumor Registry of the United States	242
+8936	Kannisto-Thatcher Database on Old Age Mortality	242
+4652	Queen Square Brain Bank	241
+1468	Epidemiology of Diabetes Interventions and Complications	240
+6429	University of Florida, Department of Pharmacology & Therapeutics	239
+10556	Barth Syndrome Foundation	239
+5775	Cordelier Research Center	237
+7025	Bipolar Disorder Neuroimaging Database	237
+8345	Caribbean Primate Research Center Program	237
+4879	Capital Biosciences	235
+8179	CDKN2A Database	235
+4135	Childhood Leukaemia Cell Bank	234
+8820	University of Pennslyvania Brain Bank	234
+1122	Birdseed	233
+4266	Scientific American Cross-Check	233
+4664	Brain Bank for Autism	233
+5106	Damon Runyon Cancer Research Foundation	233
+2658	fMRI Research Center at Columbia	232
+7047	Stanley Medical Research Institute	232
+4530	Biobank of Hospital Clinic - IDIBAPS	231
+6621	Research Digest	231
+2736	Spinal Research	230
+8339	Clinical and Translational Science Awards Consortium	230
+1538	National Center for Integrative Biomedical Informatics	229
+2753	Society for Research on Nicotine and Tobacco	228
+1952	Biomedical Simulations Resource	226
+5128	Regions Hospital Alzheimer's Research Center	226
+6578	Anxiety Disorders Association of America	226
+7972	University of New Mexico Department of Neurosciences	226
+12754	IFPMA - International Federation of Pharmaceutical Manufacturers and Associations	226
+8728	NIMH Intramural Research Program Clinical Brain Disorders Branch	222
+7493	University of Alabama Neurobiology	219
+13471	Therapeutically Relevant Multiple Pathways Database	219
+1249	snpStats: SnpMatrix and XSnpMatrix classes and methods	218
+8942	Matlab Health and Socio-Economic Survey	218
+10703	Asterand	218
+7158	Australian Government Bureau of Meteorology	217
+7495	SIBMED	217
+2326	Developmental and Reproductive Toxicology Database	216
+4979	Competence Network Heart Failure	215
+6292	Genes Cognition and Psychosis Program	215
+8843	Neuroscience and Psychiatry Module 2: Fear/Safety Anxiety and Anxiety Disorders	214
+8974	Nihon University Japanese Longitudinal Study of Aging	214
+13300	NIDA Drug Supply Program	214
+13384	Children and Adults with Attention Deficit/Hyperactivity Disorder	214
+751	Royal Institute of Technology: Research Project Database	213
+6749	AlzGene: Field Synopsis of Genetic Association Studies in AD	213
+9406	SNPTEST	213
+12777	Joint Commission	213
+7984	University of Medicine and Dentistry of New Jersey Pharmacology	212
+8908	McMillen Foundation	212
+1378	Morpholino Database	211
+1450	Vanderbilt University Medical Center Pharmacology	211
+1606	NIDDK Information Network	211
+7415	RMS	211
+1469	NIH Division of Nutrition Research Coordination	210
+3094	Effect Size Calculator	210
+1984	American Society of Radiologic Technologists	208
+6767	NIH Pain Consortium	208
+8072	Gladstone Institute of Neurological Disease	206
+9292	MINIMAC	206
+13156	Ontario Genomics Innovation Centre	206
+9902	Jackson Heart Study	205
+7964	Topology Data Bank of Transmembrane Proteins	204
+8254	Alzheimer's Disease Cooperative Study	204
+8432	An Open Access On-Line Breast Cancer Mutation Data Base	204
+1113	Human Genetics Laboratory: WFS1 Gene Mutation and Polymorphism Database	203
+2050	SFGF	203
+6607	CASA	203
+2866	Tuschl Laboratory: RNA Molecular Biology	202
+4460	National Alliance for Medical Image Computing	202
+7219	A statistical framework for genomic data fusion	202
+4924	Alzheimer's and Dementia Resource Center	201
+13205	Endogenous GPCR List	201
+7456	Karolinska Institutet, Clinical Neuroscience	200
+2618	College on Problems of Drug Dependence	199
+6796	HaploReg	198
+7975	VNTR Locus Database	198
+13015	Washington University in St. Louis School of Medicine Division of Biology and Biomedical Sciences	198
+442	ALS Association	197
+8457	Clinical Trial Solutions with PPD	197
+13117	Human Genome Epidemiology Network	197
+823	BUSM Mass Spectrometry Resource	196
+6510	Autoimmunity Centers of Excellence	196
+6626	National Genome Research Network	195
+7553	ARGONAUTE 2 - A database on mammalian microRNAs and their function in gene and pathway regulation	195
+8167	Tulane National Primate Research Center	195
+7403	German Graduate Schools of Neuroscience	194
+10713	NTNU Systems Biology	194
+4472	CardioVascular Research Grid	193
+7336	RTDT	193
+13287	Effect of Deep Brain Stimulation on Parkinsonian Tremor	193
+6656	Descriptions of Plant Viruses	192
+5760	Expression Atlas of the Marmoset	190
+6987	scn1a	190
+2847	General Clinical Research Centers Program	189
+4331	Wales Cancer Bank	189
+5467	NIMH Multimedia	189
+5515	ENIGMA: Enhancing Neuro Imaging Genetics Through Meta-Analysis	188
+8292	Southwest National Primate Research Center	188
+8798	University of Pennsylvania Center for Neurodegenerative Disease Research	188
+5167	RNA-eXpress	187
+2127	SNAP - SNP Annotation and Proxy Search	186
+7518	University of Missouri Department of Medical Pharmacology and Physiology	186
+9223	HAPLOBLOCK	186
+8382	Adverse Childhood Experiences Study	185
+9201	GENEVAR	185
+7169	Biowulf at the NIH	184
+9433	iGen	184
+6743	NIAID Malaria Research Program	183
+1550	TRIGR	182
+4300	Alzheimer Society of Ireland	182
+4913	UCSF Laboratory for Visual Neuroscience	181
+8932	OHSU Brain Institute	181
+10629	Biobank Japan	180
+8294	Center for Comparative Medicine	178
+1527	Frequent Hemodialysis Network Daily Trial	177
+4116	DCI Tissue and Blood Procurement Shared Resource	177
+5038	Brain Injury Association of Utah	177
+6984	A Whole Genome Admixture Scan for Type 2 Diabetes in African Americans	177
+1540	SEARCH for Diabetes in Youth	176
+4446	Cooperative Human Tissue Network	176
+4644	Simons Simplex Collection	176
+6074	University of New Mexico; New Mexico; USA	176
+6446	Louisiana State University School of Medicine at New Orleans, Health Sciences Center: Neurosciences Center	176
+6938	Schizophrenia Research Forum: Published Candidate Genes for Schizophrenia	176
+7413	Bernstein Network Computational Neuroscience Germany	176
+1543	Urinary Incontinence Treatment Network	175
+4695	Toronto Public Library Health Information	175
+1495	Behavior Enhances Drug Reduction of Incontinence	174
+4233	Osiris Therapeutics	174
+6255	Guppy Project	174
+7544	Washington University in St. Louis Neuroscience	174
+8948	National Nursing Home Survey Follow-Up	174
+926	Australia Breast Cancer Tissue Bank	173
+6570	Common Fund Protein Capture Reagents	173
+8807	Vietnam Era Twin Registry	173
+2878	Dystonia Medical Research Foundation	172
+6961	Parkinson Alliance	172
+7397	Alzheimers Drug Discovery Foundation	172
+6577	NINDS Common Data Elements	171
+5885	Janus Serum Bank	170
+8892	Second Malaysian Family Life Survey	170
+9018	Program to Reduce Incontinence by Diet and Exercise	170
+3384	Sage Bionetworks	169
+1480	Globin Gene Server	168
+6176	Mammalian Adult Neurogenesis Gene Ontology	168
+12705	University of Rochester Medical Center Neurobiology and Anatomy	168
+13388	National Survey of Families and Households	168
+13449	THESIAS	168
+6824	East Carolina University, Department of Pharmacology	167
+6985	AASK Clinical Trial and Cohort Study	167
+7163	Budapest Open Access Initiative	167
+8844	Systematic Treatment Enhancement Program for Bipolar Disorder (STEP-BD)	167
+9067	HELIXTREE	167
+4467	Estonian Genome Center	166
+5511	The Hamner Institute for Health Sciences: BMDExpress and The multiple-path particle dosimetry	166
+9473	False Discovery Rate Weighted	166
+1418	Center for Biomedical OCT Research	165
+12843	CDC DHDSP	165
+26	Epilepsy Foundation	164
+715	Oregon State University College of Pharmacy	164
+1759	MACH 1.0	164
+4945	Erasmus MC Tissue Bank	164
+6605	Wake Forest Cynomolgus Breeding Colony	164
+7409	International Rett Syndrome Foundation	164
+7511	University of Manitoba, Faculty of Medicine, Department of Pharmacology	164
+7513	University of Maryland School of Pharmacy, Pharmaceutical Sciences Graduate Program	164
+8499	Human Embryogenesis at a glance	163
+1539	RiVuR	162
+1920	University of California at Berkeley: The Neural Prediction Challenge	162
+5835	Major depressive disorder neuroimaging database	162
+5845	University of Pittsburgh Bioinformatics Resources Collection	162
+1153	NET-PD (Neuroprotection Exploratory Trials in PD): Futility Study I	161
+8246	Turkish Human Mutation Database	161
+8401	Affymetrix Power Tools	161
+9295	MKGST	161
+5225	CTSAconnect	160
+8075	University of Washington Integrated Brain Project	160
+685	Cystic Fibrosis Mutation Database	159
+2237	Zebrafish Information Server	159
+4609	UK Multiple Sclerosis Tissue Bank	159
+6153	Human Epigenome Atlas	159
+7428	eMERGE Network: electronic Medical Records and Genomics	159
+11340	Leibniz Institute for Age Research	159
+5114	Lasker Foundation	158
+8902	Census Microdata Samples Project	158
+1389	CAMD	157
+1463	Acute Liver Failure Study Group	157
+3080	Dynamic Regulatory Events Miner	157
+7186	Bone Marrow Donors Worldwide	157
+343	Washington University in St. Louis; Missouri; USA	156
+2783	Short Course on the Genetics and Epigenetics of Addiction National Institute on Drug Abuse: Archived Video	156
+3311	Retinal Degeneration Rat Model Resource	156
+3601	NICHD Brain and Tissue Bank for Developmental Disorders	156
+6416	Alzheimer's Research Forum	156
+1096	McGill Global Health Resource Guide	155
+5924	DIG IT - Database of Immunoglobulins and Integrated Tools	154
+6476	ASPET	154
+7504	University of California, Santa Barbara, Pharmacology Undergraduate Program	154
+8814	University of Washington Alzheimers Disease Research Center	154
+4226	Biobanking and Biomolecular Resources Research Infrastructure (BBMRI)	153
+4508	University of Virginia Tissue Culture Facility	153
+4957	Wellness Wiki	153
+6527	National Kidney Disease Education Program	153
+8538	Q-Value Software	153
+13375	American Parkinson's Disease Association Information and Referral Center	153
+6134	NRCAM	152
+6956	Mental Illness Research Education and Clinical Center	152
+3329	Glioma Molecular Dignostic Initiatives	151
+6439	UCSF Brain Tumor Tissue Bank	151
+8613	Cheng Li Lab of Computational Genomics	151
+3316	Harvard Brain Tissue Resource Center	150
+2734	Wellesley College Neurosciences Program	149
+4212	International Biologics, LLC	149
+4369	RDCRN Patient Contact Registry	149
+6299	Society for Developmental Biology	149
+7152	Michael J. Fox Foundation Funded Grants	149
+1640	University of California Davis Center for Neuroscience	148
+4859	Stanley Medical Research Institute Online Genomics Database	148
+1555	Intestinal Stem Cell Consortium	147
+7224	Baylor University; Psychology and Neuroscience	147
+8568	Retrovirus Tagged Cancer Gene Database	147
+9139	CATS	147
+2418	Ligand-Gated Ion Channel Database	146
+3194	Inter-university Consortium for Political and Social Research (ICPSR)	146
+4215	Canadian Breast Cancer Foundation	146
+5382	NBIA Disorders Association	146
+1688	Sanford-Burnham Neuroscience and Aging Research Center	145
+6062	Foundation for Polish Science	145
+8385	Australian Medical Bioinformatics Resource	145
+4785	Ohio Tissue Resource Network	144
+13077	IUPHAR/BPS Guide to Pharmacology	144
+4560	University of Miami Tissue Bank	143
+4692	National LeioMyoSarcoma Foundation	143
+1453	Wake Forest University School of Medicine: Department of Neurology	142
+7492	Tulane University Medical Center Department of Pharmacology	142
+7738	INFEVERS	142
+8822	Layton Center Clinical Data Resources	142
+13289	ENDOG	142
+658	Pediatric Brain Tumor Consortium	140
+1849	ASAP	140
+7486	UTHealth at Houston Neuroscience Research Center	140
+8396	Affymetrix Gene Expression Service Lab	140
+13113	University of Maryland Department of Neuroscience	140
+527	ADA GENNID Study	139
+2130	Transcription Factor encyclopedia	139
+322	Alternative Splicing Annotation Project II Database	138
+1678	Proteome 2D-PAGE Database	138
+4406	Moffitt Cancer Center Tissue Core	138
+6857	aVOR	138
+8776	McKnight Foundation	138
+38	University of Tennessee Genome Science and Technology	137
+93	EPIGEN	137
+7398	alz.org	137
+10702	Precision Allograft Solutions	137
+156	Postgwas	136
+666	Virginia Commonwealth University, Department of Pharmacology	136
+4382	Case Comprehensive Cancer Center Biorepository and Tissue Processing Core Facility	136
+4640	University of Michigan Autism and Communication Disorders Center	136
+4902	Cancer Control using Population-based Registries and Biobanks	135
+7019	Clair library	135
+2422	MIRIAD	134
+2843	GenomEUtwin	134
+3261	Rat Gene Symbol Tracker	134
+4379	Mantle Cell Lymphoma Cell Bank	134
+4903	NIH Biospecimens Interest Group	134
+5679	Gene Class Expression	134
+603	Cardiovascular Proteomics Center	133
+2397	Group Level Imputation of Statistic Maps	133
+5864	Andrew W. Mellon Foundation	133
+1487	National Science Foundation Graduate Research Fellowship Program	132
+1735	Baylor College of Medicine, Human Genome Sequencing Center: Sea Urchin Genome Project	132
+5347	UC College of Medicine Department of Psychiatry and Behavioral Neuroscience	132
+5704	University of Barcelona Statistics and Bioinformatics Research Group	132
+6635	CCUG: Culture Collection; University of Goteborg; Sweden	132
+6735	Simons Foundation	132
+7265	Atlweb: Alternatives to Animal Testing	132
+8279	New Iberia Research Center	132
+9261	LOT	132
+1556	Medical Therapy of Prostatic Symptoms	131
+1862	Simons Foundation Autism Research Initiative: Grant Resource	131
+1941	University of California at San Diego, Neurosciences Graduate Program	131
+3606	National Brain Databank	131
+4136	Cleveland Clinic Genomic Medicine Biorepository	131
+6554	Office of Behavioral and Social Sciences Research	131
+2879	Centre for Vision Research	130
+4220	Diabetes Wiki	130
+5697	NYU Bioinformatics Group	130
+10748	Medical Biobank	130
+12934	Louisiana State University School of Medicine, Health Sciences Center: Department of Neurology	130
+4658	Telethon Genetic Biobank Network	129
+5570	Jackson Laboratory Neurobiology	129
+8562	UW Genome Sciences	129
+9016	Chronic Renal Insufficiency Cohort Study	129
+12804	ImmPort	129
+4261	SFARI - Simons Foundation Autism Research Initiative	128
+12786	Progeria Research Foundation	128
+4704	Repository of molecular brain neoplasia data	127
+5930	Shuttleworth Foundation	127
+7533	University of Virginia Charlottesville VA. Biomedical Sciences	127
+2053	SAMHSAs National Clearinghouse for Alcohol and Drug Information	126
+2908	International Spinal Cord Society	126
+4520	NINDS Repository	126
+7482	Texas A and M Health Science Center College of Medicine Department of Neuroscience and Experimental Therapeutics	126
+7684	Genome information broker	126
+8164	Amphibian Species of the World	126
+13387	Cortical Box Method: Quantitative analysis for gene expressions in rodent cortex	126
+701	International Spinal Research Trust	125
+779	CELL- PREVEN Project	125
+8765	Sanders Brown Center on Aging	125
+10624	Rutgers Cell and DNA Repository	125
+12230	UD DNA Sequencing and Genotyping Center	125
+1264	frappe	124
+2818	Drug Information Portal	124
+6636	Ligand Expo	124
+6664	NCI Breast and Colon Cancer Family Registries	124
+9175	R/META	124
+10595	Museum of Vertebrate Zoology	124
+1483	Sequencing of Idd regions in the NOD mouse genome	123
+2396	Online Information Center for Immunohistochemistry	123
+5113	Kavli Foundation	123
+8461	D. rerio Blast Server	123
+8570	Rick Hansen Foundation	123
+8857	UCSF Helen Diller Family Comprehensive Cancer Center	123
+796	SAGE GENIE	122
+922	NeuroBase	122
+2044	Rat Resource and Research Center	122
+7871	PPD	122
+8478	Diabetes Genetics Initiative	122
+8494	European Molecular Quality Network	122
+1449	National Magnetic Resonance Facility at Madison	121
+4189	EGAPP	121
+5850	NIGMS Computing Life	121
+6172	Brain Resource	121
+6703	Digestive Diseases Statistics for the United States	121
+8241	RIKEN Omics Science Center	121
+8356	Homologous Sequences in Ensembl Animal Genomes	121
+11110	Banner Sun Health Research Institute	121
+802	Online Education for the International Research Community: AboutIntroduction to Clinical Drug and Substance Abuse Research Methods	120
+1485	Bioinformatics Experts	120
+1794	BIRDSUITE	120
+2290	Autosomal Recessive Polycystic Kidney Disease Mutation Database	120
+4368	Marshfield Clinic Biobank	120
+5277	Emory Neurology Database	120
+6170	GWAS Central	120
+6264	RSC Prospect	120
+8269	NIA Scientific Resources	120
+10529	Nordic Genetic Resource Centre (Plants)	120
+12811	Indiana Alzheimer Disease Center	120
+2742	Center for Stroke Research Berlin	119
+2855	Virtual Physiological Human Network of Excellence	119
+3674	Polycystic Kidney Disease Outcomes Consortium	119
+7321	Mouse Mutagenesis Center for Developmental Defects	119
+7448	Cornell University College of Veterinary Medicine Graduate Field of Pharmacology	119
+7997	Charcot-Marie-Tooth Association	119
+9010	Clinical Outcomes Research Initiative	119
+12206	UCLA Immunogenetics Center	119
+13413	eQTL Visualization Tool	119
+8085	NIMH Interdisciplinary Behavioral Science Center	118
+4352	Dana Farber Tissue Bank	117
+4445	EDAR study: biomarkers for Alzheimer's disease	117
+13091	QuantiSNP	117
+1408	Pittsburgh NMR Center for Biomedical Research	116
+3982	ERA-EDTA	116
+4434	National Database for Autism Research	116
+4679	National Biobank of Finland	116
+7164	European Xenopus Resource Center	116
+7463	Medical University of South Carolina; Department of Cell and Molecular Pharmacology and Experimental Therapeutics	116
+13276	i2b2 Research Data Warehouse	116
+4821	Fellowship for Interpretation of Genomes	115
+5364	Open Biobank	115
+8363	Ancillary Domains Associated With Human and Mouse Proteases	115
+1497	Childhood Liver Disease Research and Education Network	114
+4335	Stony Brook University Department of Neurobiology and Behavior	114
+4693	Human Reference Genetic Material Repository	114
+2270	rmeta	113
+3010	Classification of Human Lung Carcinomas by mRNA Expression Profiling Reveals Distinct Adenocarcinoma Sub-classes	113
+4470	Feinstein Institute for Medical Research	113
+8802	Taub Institute for Research on Alzheimers Disease and the Aging Brain	113
+8972	National Survey of Midlife Development in the United States	113
+13090	CFR - Code of Federal Regulations Title 21	113
+447	National Spasmodic Dysphonia Association	112
+4889	Swedish National Biobank Program	112
+7282	Model Organisms for Biomedical Research	112
+8847	Molecular Libraries Program	112
+8963	Framingham Heart Study	112
+10523	Texas Human Biologics	112
+632	Albinism database	111
+3000	C. elegans Gene Knockout Consortium	111
+4935	Biobank Suisse	111
+4970	Peer Review Radio	111
+6542	NIDDK Central Repository	111
+8846	NIMH Publications	111
+4511	WHO World Health Mental Health Surveys	110
+12849	Vervet Research Colony	110
+1126	GAS2	109
+4632	Vanderbilt BioVU	109
+5132	St. Louis University Alzheimer's Brain Bank	109
+8739	Geriatric Depression Scale	109
+8937	Iowa 65+ Rural Health Study	109
+9401	SNPALYZE	109
+12413	University of Minnesota BioMedical Genomics Center	109
+4645	University of Texas at Dallas School of Behavioral and Brain Sciences	108
+7010	LDSELECT	108
+9400	SNAP 3	108
+1484	Bioinformatics Jobs Board	107
+6682	NIMH Stem Cell Center	107
+7111	VIDA	107
+13363	GPCR Natural Variants database	107
+13521	Merge Healthcare Incorporated	107
+720	Temple University School of Medicine, Department of Neuroscience	106
+4248	UCSF DNA Bank	106
+616	CEA; Gif sur Yvette; France	105
+4789	National Cancer Institute Biorepositories	105
+7699	Haemophilia B Mutation Database	105
+9096	STEPC	105
+1970	VISN 4 MIRECC	104
+4264	CHB-MIT Scalp EEG Database	104
+4591	Human Biological Data Interchange	104
+4988	Brain Research Institute	104
+8767	University of Kentucky Alzheimer's Disease Center	104
+3438	National Mesothelioma Virtual Bank	103
+1505	Folic Acid for Vascular Outcome Reduction in Transplantation	102
+1822	Office of Research on Womens Health: Reseach	102
+7534	University of Southern California Department of Neuroscience	102
+8367	Mouse Mutant Resource	102
+8726	NIMH Brain Tissue Collection	102
+651	Autism Tissue Program	101
+1163	International Essential Tremor Foundation	101
+5631	NIMH Toxicological Screens of Novel Ligands	101
+5719	National Hellenic Research Foundation	101
+7478	Stanford University School of Medicine Neurology and Neurological Sciences	101
+8083	BrainSpan: Atlas of the Developing Human Brain	101
+8604	Air Force Suicide Prevention Program	101
+12576	Advanced BioScience Laboratories	101
+12940	Louisiana State University School of Medicine, Health Sciences Center: Department of Psychiatry	101
+13330	Pig Genomic Informatics System	101
+5991	3D Facial Norms Database	100
+7983	University of California San Diego Department of Neurosciences	100
+8048	Max Planck Institute of Neurobiology: Systems and Computational Neurobiology	100
+8051	Sequenced Treatment Alternatives to Relieve Depression Study	100
+8486	Dog Genome Project	100
+10549	International Biobank, Inc.	100
+793	Veterans Health Information Systems and Technology Architecture	99
+1793	Arabidopsis Nucleolar Protein Database	99
+8869	ASH Image Bank	99
+10589	SNPinfo Web Server	99
+10609	Ontario Institute for Cancer Research	99
+10666	Iran National Tumor Bank	99
+1848	Mining On-Line Expert on MedLine	98
+2907	Lowes Syndrome Mutation Database	98
+6002	University of Michigan, Department of Neuroscience	98
+7300	Alpha-7 Database	98
+806	American Federation for Aging Research	97
+5073	Scarpa	97
+6887	Androgen Receptor Gene Mutations Database	97
+7454	Howard University Washington, D.C, Department of Pharmacology	97
+13629	Informatics for Integrating Biology and the Bedside	97
+14	University of Pittsburgh Conte Center for the Neuroscience of Mental Disorders	96
+1792	Arabidopsis Hormone Database	96
+7974	GenePath	96
+1547	Treatment Options for type 2 Diabetes in Adolescents and Youth	95
+2548	X-linked Adrenoleukodystrophy Database	95
+2899	Schizophrenia Research Forum	95
+2928	National Postdoctoral Association	95
+4556	Inflammatory Breast Cancer Biobank	95
+7201	Arizona Center for Education and Research on Therapeutics	95
+7500	University of California, Riverside, Department of Cell Biology and Neuroscience	95
+8079	Genomic Object Net	95
+4303	Alzheimers Disease International	94
+8821	OHSU Layton Aging and Alzheimer's Disease Center	94
+1863	Social Anxiety Disorder: Learn How to Cope with Anxiety	93
+1924	University of California at Los Angeles, School of Medicine: Neuro Imaging Lab of Thompson	93
+4330	Donor Network of Arizona	93
+4991	German Biobank Registry	93
+6874	National Institutes of Health Research Portfolio Online Reporting Tool	93
+7519	University of Nevada Reno Department of Pharmacology	93
+7728	Human Genome Segmental Duplication Database	93
+8935	Cross-National Equivalent Files	93
+12329	Queensland DERM	93
+865	Hitachi Optical Topography System	92
+1925	University of California at Riverside Neuroscience Graduate Program	92
+4896	Database of Genomic Variants Archive	92
+6955	Allograft Resources	92
+13096	Cerebellar Development Transcriptome Database	92
+4121	Office of Rare Diseases Research	91
+4691	HIV Biobank	91
+4930	NIH Neuroscience Microarray Consortium	91
+5102	American Academy of Neurology Research Fellowship Program	91
+5953	Conditioned Taste Aversion: An Annotated Bibliography	91
+7459	University of Houston College of Pharmacy, Department of Pharmaceutical Sciences	91
+7480	SUNY Stony Brook, Pharmacological Sciences	91
+9035	ADMIXMAP	91
+1931	University of California at San Diego Department of Psychiatry	90
+3121	Biomarkers Consortium	90
+4570	UTHealth BioBank	90
+4656	Daily Scan	90
+5111	Helmsley Charitable Trust	90
+5945	CATSS - Child and Adolescent Twin Study in Sweden	90
+8146	CaDBase: Genetic diversity in cattle	90
+10615	Singapore Biobank	90
+12912	American Parkinson Disease Association Inc.	90
+238	BAMS Nested Regions	89
+1042	University of Utah Labs and Facilities	89
+2765	Primate Embryo Gene Expression Resource	89
+4597	British Columbia Tumour Tissue Repository	89
+7490	Trinity College, Department of Neuroscience	89
+8068	Institute for Neural Computation	89
+8165	Animal Genome Database	89
+12952	New Castle University, The Institute of Neuroscience: Major Research Themes	89
+2202	Library of Experimental Phase Relations	88
+5048	University of Texas Tumor Bank	88
+6890	RIKEN integrated database of mammals	88
+7700	Human Ageing Genomic Resources	88
+8115	HOX Pro	88
+9976	OHSU Lipid-Atherosclerosis Laboratory	88
+4480	NEXTDB	87
+4523	eyeGENE	87
+8895	Charleston Heart Study	87
+12568	AM Biotechnologies	87
+704	Backyard Brains	86
+4157	Demystifying Depression	86
+4958	World BioBank	86
+6803	Cooperative Study Group for Autoimmune Disease Prevention	86
+8297	JHU MCP	86
+8599	DMI	86
+9621	MACH	86
+10747	Multiple Sclerosis Research Australia Brain Bank	86
+2256	NHGRI Dog Genome Project	85
+5276	AXA Research Fund	85
+5341	National Ataxia Foundation Patient Registries	85
+6466	University of British Columbia, Department of Pharmacology	85
+6774	Canadian Bioinformatics Workshops	85
+7225	Baylor College of Medicine; Department of Neuroscience	85
+7515	University of Medicine and Dentistry of New Jersey Neuroscience Graduate Program	85
+7522	University of North Dakota Department of Clinical Neuroscience	85
+8097	Laboratory of Molecular Neuroscience, University of Oslo	85
+8640	Berkeley Drosophila Transcription Network Project	85
+12465	UNMC Tissue Sciences Facility	85
+1375	Structure-function linkage database	84
+4194	Progeria Cell and Tissue Bank	84
+4355	Karolisnka Biobank	84
+4783	UAB Traumatic Brain Injury Model System	84
+5456	Lurie Center for Autism	84
+7195	UAB Comprehensive Neuroscience Center	84
+8746	MassGeneral Institute for Neurodegenerative Disease	84
+8874	Max Planck Institute of Neurobiology; Martinsried; Germany	84
+11055	UCSF Nikon Imaging Center	84
+3515	Pennsylvania State University College of Medicine Neuroscience	83
+8488	Wright Cell Imaging Facility	83
+8747	Center for Theoretical Neuroscience; University of Waterloo	83
+397	Protein-Protein Interactions Table for Human herpesvirus 1	82
+1680	5 prime end Serial Analysis of Gene Expression Database	82
+6869	Virginia Commonwealth University Medical Center, Center for Molecular Imaging	82
+7780	Metalloprotein Site Database	82
+8286	Alzheimer Disease and Frontotemporal Dementia Mutation Database	82
+13634	Northern Eclipse 6.0	82
+3508	Oregon Health and Science University Neuroscience Graduate Program	81
+5125	Sackler Colloquia	81
+6171	Deciphering Developmental Disorders	81
+7021	Stanford Center for Narcolepsy	81
+8435	UCSD Center for AIDS Research: Molecular Biology Core	81
+13079	Chordoma Foundation	81
+1073	Qvalue	80
+3350	East Tennessee State University, Department of Pharmacology	80
+4224	Alberta Cancer Foundation	80
+4399	MAGNet - Multiscale Analysis of Genomic and Cellular Networks	80
+7435	University of North Carolina School of Pharmacy PhD Program	80
+8094	Effects of CoEnzyme Q10 in Early Parkinson's Disease	80
+8710	Biobehavioral	80
+9187	GDA	80
+474	Denver University Department of Psychology	79
+1819	Neuroscience Postdoctoral Researcher Jobs	79
+5874	Crystallography Open Database	79
+6184	TEPHINET	79
+6300	Brad Smith Magnetic Resonance Imaging of Embryos	79
+6649	American Brain Tumor Association	79
+7399	American Health Assistance Foundation	79
+7561	Protein Classification Benchmark Collection	79
+7978	University of Pennsylvania Medical Center Neuroscience	79
+8755	Wien Center For Alzheimer's Disease and Memory Disorders	79
+8964	Africa Centre for Health and Population Studies	79
+10613	UC Davis Alzheimer's Disease Center	79
+10679	National Laboratory for the Genetics of Israeli Populations	79
+13085	Oregon Brain Bank	79
+1032	P212121	78
+2000	Italian Rett Syndrome database	78
+3814	EURORDIS	78
+5343	University of Rochester Program for Brain Tumors and Spinal Tumors	78
+5478	neurosphere	78
+6915	Adult Blood Lead Epidemiology and Surveillance Interactive Database	78
+8388	Centre of Excellence in Bioinformatics	78
+8532	German Gene Trap Consortium	78
+9298	MLD	78
+10990	Rutgers University Labs and Facilities	78
+12184	UM Magnetic Resonance Facility	78
+1910	University of Utah Genetic Science Learning Center - Learn Genetics	77
+4992	Tennessee Donor Services	77
+5115	Life Sciences Research Foundation	77
+6367	Pig Genome Database	77
+8011	Institute of Medical Psychology and Behavioral Neurobiology, University of Tbingen	77
+9146	CFC	77
+1307	ffpe	76
+1494	Adult to Adult Living Donor Liver Transplantation Cohort Study	76
+1699	Cerebellar Gene Regulation in Time and Space Database	76
+4901	University Andrology Laboratory	76
+7131	Complementary and Alternative Medicine for Urological Symptoms	76
+12878	North Dakota State University College of Pharmacy, Pharmacy Program	76
+13142	Biologic Specimen and Data Repository Information Coordinating Center	76
+620	Sarah Jane Brain Project	75
+2272	UK Sheep Genome Mapping Project	75
+4408	Catalog of Fishes	75
+4708	Susan G. Komen Tissue Bank	75
+4867	South Texas Accelerated Research Therapeutics	75
+5366	Adenoma Polyp Tissue Bank	75
+7401	Autism Society of America	75
+7985	University of Pittsburgh Department of Neuroscience	75
+8169	Bioethics Literature Database	75
+8171	International Database of Tetrahydrobiopterin Deficiencies	75
+799	Sectional Atlas of Human Brain and Spinal Cord	74
+6168	ISCA Consortium	74
+9314	P ACT	74
+1872	AutDB	73
+3330	Drug Related Gene Database	73
+3399	Loyola University Chicago, Neuroscience	73
+3544	Arizona Cancer Center Tumor Bank	73
+7076	NCI Office of Biospecimens	73
+7238	Power Calculator for Two Stage Association Studies	73
+7542	University of Wisconsin Madison WI. Molecular and Cellular Pharmacology	73
+8360	A Comprehensive Resource Base for C. elegans K+ Channels	73
+9440	Baby Brain Toolkit	73
+10597	Dublin Brain Bank	73
+13008	Database of International Rehabilitation Research	73
+106	Laser Biomedical Research Center	72
+735	Gene Aging Nexus	72
+1390	NIH Common Data Element Resource Portal	72
+4009	International AMD Genetics Consortium	72
+4528	NHGRI Sample Repository for Human Genetic Research	72
+4949	Tufts University, Department of Pharmacology and Experimental Therapeutics	72
+6344	University of South Florida Department of Molecular Pharmacology and Physiology	72
+6381	DataStaR	72
+8287	Francesco Albanese	72
+8377	Chimpanzee Management Program	72
+9630	NIRS-SPM	72
+9642	Robust Biological Parametric Mapping	72
+13550	Christopher and Dana Reeve Foundation	72
+524	CCLG Tissue Bank	71
+4216	AIDS and Cancer Specimen Resource	71
+4583	NLM Catalog	71
+6382	RUcore	71
+6526	Neuroscience Blog	71
+6734	American Society of Hematology	71
+7469	University of Massachusetts, Amherst, MA, Department of Neuroscience and Behavior	71
+10924	CNA-HMMer	71
+8228	Plasmid Genome Database	70
+331	Malaysian Tissue Bank	69
+4623	Autism Research Resource	69
+6050	IndelFR - Indel Flanking Region Database	69
+6666	PDGene - A database for Parkinsons disease genetic association studies	69
+7467	Pomona College, Neuroscience	69
+7527	LDA	69
+7986	University of Pittsburgh Center for Neuroscience	69
+8541	Rutgers University Quantitative Neuroscience Laboratory	69
+12383	University of Pittsburgh Small Molecule Biomarker Core	69
+578	Inner Ear Proteins in Health and Disease	68
+4227	Bangalore Brain Bank	68
+4432	Bone Bank Allografts	68
+6689	EMBRYS	68
+6910	Assay Guidance Manual	68
+7128	Dinucleotide Property Database	68
+8290	New England Primate Research School	68
+10723	Mayo Clinic Biobank	68
+12787	Alzheimer's Disease Education and Referral Center	68
+12872	Biomphalaria glabrata Genomic Initiative	68
+13441	Drosophila melanogaster Exon Database	68
+439	PsychoGenics Inc	67
+1054	University of Colorado at Boulder Labs and Facilities	67
+1961	Center for Integrative Biomedical Computing	67
+3281	Psychoactive Drug Screening Program Ki Database	67
+3583	National Neurological AIDS Bank	67
+4045	NIMH Educational Resources	67
+7470	Rutgers University Robert Wood Johnson Medical School Pharmacology	67
+8352	Peroxisome Database	67
+9586	Homer2	67
+10557	Taiwan Biobank (Chinese)	67
+10647	GenExpress: an intellectual system for analysis of genomic regulatory sequences of humans and higher eukaryotes	67
+10659	Movement Disorders Biobank	67
+10712	CARTA Libraries	67
+12499	Emory University Rodent Behavioral Core	67
+12646	University of Arizona Labs and Facilities	67
+12860	EPAA	67
+13486	Glycosylation Pathways Database	67
+548	Iowa Donor Network	66
+1493	Parkinson's Disease Online Research	66
+3339	Greally Lab	66
+4304	Duke Biobank	66
+4624	Yerkes Collection Non-Human Primate Resource	66
+5710	Computational Biology at ORNL	66
+6289	Chimpanzee Biomedical Research Resource	66
+7124	Duke University Medical Center Neuropsychiatric Imaging Research Laboratory	66
+94	Neuron Registry	65
+1655	Annual Reviews: A Nonprofit Scientific Publisher	65
+2364	Hardin MD	65
+3458	Medical College of Georgia Department of Physiology	65
+3599	EuroBioBank	65
+4203	Hapmix	65
+6226	DAM-Bio	65
+6861	Type 1 Diabetes Preclinical Testing Program	65
+7320	Aging Cell Repository	65
+8047	In-Vivo Cellular and Molecular Imaging Center, Brussels	65
+8923	Los Angeles Family and Neighborhood Survey	65
+10577	Genetic Repositories Australia	65
+10625	Genetic Alliance Biobank	65
+12508	UChicago Flow Cytometry Core Facility	65
+13109	GSA-SNP	65
+2267	NIH Rat Genomics and Genetics	64
+3127	ISPS Data Archive	64
+4760	National Gene Vector Biorepository	64
+5468	Global Neuroscience Initiative Foundation	64
+7498	University of California, Berkeley, Neuroscience Graduate Program	64
+7693	Gene Ontology Partition Database	64
+7830	Olfactory Receptor DataBase	64
+8130	Ancient conserved untranslated sequences	64
+10697	Singapore Tissue Network	64
+13353	Alu Pairs Database	64
+2806	Islet Cell Resource Centers	63
+5857	UT Genome Browser (Medaka)	63
+10545	Autism Genetic Database	63
+822	Repository of neural and cognitive models	62
+939	Korean National Tissue Bank	62
+2735	Genes to Cognition Database	62
+3432	Nature Online Video Streaming Archive	62
+4353	Ancestrymap	62
+6336	Divvy	62
+7624	Mammalian Degradome Database	62
+8182	Integrated Tumor Transcriptome Array and Clinical data Analysis	62
+8712	Exon Array Browser	62
+10588	Sheba Medical Center Tissue Bank	62
+12958	iChip	62
+650	GenomeWeb	61
+1577	Neural Cipher	61
+1890	Axel Database	61
+1968	Center for Imaging of Neurodegenerative Diseases	61
+2769	Peromyscus Genetic Stock Center	61
+4410	Lymphoma Research Foundation	61
+4722	Human DNA Polymerase Gamma Mutation Database	61
+6326	Human Developmental Biology Resource	61
+6624	GWAMA	61
+10925	CNVPartition	61
+12493	University of Toledo Labs and Facilities	61
+13042	Genotype-Tissue Expression	61
+1116	TDT-PC	60
+1618	GTEx eQTL Browser	60
+5025	Joseph and Kathleen Bryan Alzheimer's Disease Research Center	60
+5118	SPROUTS- Structural Prediction for Protein Folding Utility System	60
+5268	Subviral RNA Database	60
+6501	Indiana University, Department of Pharmacology	60
+6787	Peginterferon and Ribavirin for Pediatric Patients with Chronic Hepatitis C	60
+7311	Mouse Transcriptome Project	60
+8752	Signal Detection Software for Receiver Operator Characteristics	60
+8778	Udall Center of Excellence in Parkinson's Disease Research	60
+12629	Duke DNA Microarray Core Facility	60
+388	ILLUMINUS	59
+1098	Proteomics Research Center for Integrative Biology	59
+3415	ASAP: the Alternative Splicing Annotation Project	59
+6771	National Digestive Diseases Information Clearinghouse	59
+8060	Caltech, The Beckman Institute: The Biological Network Modeling Center	59
+9470	Epsilon Radial Networks	59
+10520	Manhattan HIV Brain Bank	59
+13055	IMPUTE2	59
+748	Bio Resource for Array Genes Database	58
+2761	Washington National Primate Research Center	58
+4287	Ochsner Blood Bank	58
+4338	Duke Cancer Institute	58
+5614	Limited Access Datasets From NIMH Clinical Trials	58
+5753	Human Adenovirus Type Classification	58
+7189	MADS+ - discovery of differential splicing events from Affymetrix exon junction array data	58
+8084	University of Pittsburgh Alzheimer Disease Research Center	58
+8965	Zebrafish RNAi Database	58
+9229	HAPLOTTER	58
+10580	Bovine Gene Atlas	58
+13236	Description of MORGAM Cohorts	58
+1956	University of Leeds - Computational Biology Group	57
+2777	CNS Forum	57
+3084	Mammalian Mitochondrial Genomics Database	57
+4141	Massachusetts Human Stem Cell Bank	57
+4417	AIDS Malignancy Bank	57
+4838	Donor Services of Indiana	57
+7313	National Cell Repository for Alzheimer's Disease	57
+8645	BioBank Central.	57
+8771	McKnight Endowment Fund for Neuroscience	57
+8842	Brain's Inner Workings: Activities for Grades 9 through 12	57
+9241	HTR	57
+10541	Creighton University School of Pharmacy and Health Professions	57
+10607	Aged Rodent Tissue Bank	57
+11291	Howard University College of Medicine; Washington D.C.; USA	57
+12412	University of Pittsburgh School of Medicine Tissue Culture and Histology Core	57
+12432	UNC School of Medicine Tissue Culture Facility	57
+13585	Open Clinical Report Repository	57
+1093	PICS	56
+1546	TINSAL-T2D	56
+1671	Ataxia-Telangiectasia Childrens Project	56
+3467	Montana State University, Department of Cell Biology and Neuroscience	56
+3581	RevMan	56
+4539	COHORT Repository	56
+4580	Alabama Head Injury Foundation	56
+4768	Southeastern Brain Tumor Foundation	56
+4927	Tayside Tissue Bank	56
+4943	TDTASP	56
+5237	Polygenic Pathways Jobs	56
+5426	American Society for Investigative Pathology	56
+7602	CoC Central	56
+8091	Mouse Gene Expression at the BC Cancer Agency	56
+8978	GRDR	56
+9115	ALLELIX	56
+10746	LifeNet Health	56
+13029	Center for Disease Control and Prevention: Genetic Testing Reference Materials Coordination Program	56
+4297	St. Louis University Department of Neurology and Psychiatry	55
+4749	PILGRM	55
+5030	Medical University of Vienna Institute of Neurology	55
+6098	TWiM - This Week in Microbiology	55
+7054	Zebrafish Gene Collection	55
+7525	University of Pennsylvania Medical Center Pharmacology	55
+7528	University of Puerto Rico Institute of Neurobiology	55
+8009	Allen Institute Mouse Diversity Study	55
+8921	Early Indicators of Later Work Levels Disease and Death (EI) - Union Army Samples Public Health and Ecological Datasets	55
+10662	Chernobyl Tissue Bank	55
+1776	Living Links: Center for the Advanced Study of Ape and Human Evolution	54
+2850	Sal-Site	54
+5271	UCL Motor Control Group	54
+5855	American Liver Foundation	54
+6372	Ambystoma Genetic Stock Center	54
+6642	Autism Speaks Grants Program	54
+7237	CS2 Vector Resource	54
+7523	University of North Dakota Department of Pharmacology Physiology and Therapeutics	54
+8239	REHABDATA	54
+8379	Bioinformatic: Programs and Courses	54
+8389	ARC Centre of Excellence in Structural and Functional Microbial Genomics	54
+8473	Users Guide to the EH program	54
+13272	Ranking Tables of NIH Funding to US Medical Schools in 2010	54
+199	MetaDE	53
+1709	Depression Alliance	53
+3752	St. John's College of Pharmacy and Allied Health Professions	53
+3938	Greek Association of Alzheimers Disease and Related Disorders	53
+5325	NYS Office for People With Developmental Disabilities	53
+5628	NCBI Resource List	53
+6024	Exploratory Software for Confidence Intervals	53
+10586	International Cognition and Culture Institute	53
+12166	University of Utah Microarray and Genomic Analysis Core Facility	53
+12248	Gene By Gene	53
+12527	Beth Israel Deaconess Medical Center Labs and Facilities	53
+12807	ALS Therapy Development Institute	53
+655	UNSW Embryology	52
+1031	Harvard FAS Bauer Core Laboratory	52
+1429	Southwestern NMR Center for In Vivo Metabolism	52
+2450	NFT	52
+4516	Swiss Biobank	52
+4835	Upstate New York Transplant Services	52
+4993	TMF	52
+5360	Brain-Art Competition	52
+6673	Gastroparesis Clinical Research Consortium	52
+6897	Evaluating Predictors and Interventions in Sphincter of Oddi Dysfunction	52
+7236	Conversion Software Registry	52
+7444	Brandeis University; Neuroscience Graduate Program	52
+7451	Florida State University Program in Neuroscience	52
+7477	FAMOZ	52
+7483	Texas Tech University Department of Pharmacology and Neuroscience	52
+7994	George Washington University Medical Center Pharmacogenomics Program	52
+8310	YouTube Educational Portal	52
+10591	Clinical Psychology and Psychiatry: A Closer Look	52
+580	MUSC Health News	51
+719	Stanford University Psychiatry and Behavioral Sciences	51
+1664	Detecting event-related time-dependent directional couplings	51
+2276	ABS: A Database of Annotated Regulatory Binding Sites From Orthologous Promoters	51
+5800	Donate Life Louisiana	51
+6562	Medical College of Wisconsin Cell Biology Neurobiology and Anatomy	51
+8634	Alford Laboratory	51
+8973	New Immigrant Survey	51
+9081	FESTA	51
+12700	WUSTL Histology Core	51
+208	University of Queensland Labs and Facilities	50
+596	Mini Analysis Guide for Microarrays	50
+759	Collecting Duct Database	50
+1406	Richard M. Lucas Center for Imaging	50
+1657	The Book of GENESIS	50
+1707	Phelan-McDermid Syndrome Foundation	50
+2885	Special Mouse Strains Resource	50
+4372	Rare Diseases Clinical Research Network	50
+4936	Florida Brain Bank	50
+5104	Brain Tumor Funders Collaborative	50
+6137	Federation of International Mouse Resources	50
+7497	University of California Santa Cruz, Department of Molecular, Cell and Developmental Biology	50
+8662	Allscripts	50
+8705	Comprehensive Neuroscience Center	50
+8742	STEPS	50
+9568	E-Prime Extensions for fMRI	50
+105	University of California at San Diego Cognitive Science Graduate Student Fellowship Opportunities	49
+753	Sullivan Lab Evidence Project	49
+946	A.T. Still University; Arizona; USA	49
+1403	Israel Plant Gene Bank	49
+2024	National VA Parkinson's Disease Consortium	49
+2343	Evolutionary Lineage Inferred from Structural Analysis	49
+3397	Louisiana State University Health Sciences Center, Department of Pharmacology, Toxicology and Neuroscience	49
+4916	Quebec Leukemia Cell Bank	49
+7153	MAIA	49
+7491	Tufts University Department of Neuroscience	49
+7506	University of Cincinnati, Neuroscience Graduate Program	49
+8690	International Observatory on Neuro-Information	49
+9278	MAPL	49
+13460	SGS	49
+323	Social Phobia/Social Anxiety Association	48
+609	Craig Mod	48
+1478	Pediatric Acute Liver Failure Study	48
+3337	Drexel University Neurobiology and Anatomy	48
+3437	Massachusetts Institute of Technology; Department of Brain and Cognitive Sciences	48
+4551	SPH Biorepository	48
+4615	Stanford Tissue Bank	48
+7286	Odor Molecules DataBase	48
+8378	Experimental Man Blog	48
+8996	Metalloprotein Ligand Interaction Database	48
+9557	DSI Studio	48
+10633	Tata Memorial Hospital Tissue Bank	48
+12240	UTHSCSA Mass Spectrometry Laboratory	48
+12549	University of Angers Labs and Facilities	48
+13114	DSP	48
+13259	Japanese Collection of Bioresource Materials	48
+690	Consortium for Radiologic Imaging Studies of Polycystic Kidney Disease	47
+1055	UF Molecular Pathology Core	47
+2253	Influential references dataset	47
+4564	Handbook of Genetic Counseling	47
+4721	Alabama Organ Center	47
+5589	WaNPRC Pathology and Tissue Program	47
+7194	CNVVdb - Copy Number Variations across Vertebrate genomes	47
+7716	Homologous Invertebrate Genes Database	47
+8689	Molecular Brain: Transcription Profiles of Mouse and Human Brains	47
+8761	Emory Alzheimer's Disease Research Center	47
+9150	CHIAMO	47
+10514	Seoul Cord Blood Bank	47
+13657	Cure PSP: Society for Progressive Supernuclear Palsy	47
+818	Mexican Health and Aging Study	46
+1416	National Resource for Imaging Mass Spectrometry	46
+1832	Parkinson's Disease Foundation	46
+4193	One Mind Biospecimen Bank Listing	46
+4659	New York Organ Donor Network - NYODN	46
+4910	Wisconsin Tissue Bank	46
+5122	MJ Murdock Charitable Trust	46
+7309	Alzheimers Research Center	46
+8052	Database on Brain Map Transformations in Cerebellar Systems	46
+9245	IMPUTE	46
+10264	Environmental Assessment Reports from the EPA	46
+12580	CRLMM	46
+13199	SIU Center for Alzheimer's Disease and Related Disorders	46
+18	Midwest Transplant Network	45
+133	Genetics of Kidneys in Diabetes	45
+1438	Philips Users Community	45
+3479	Mercer University College of Pharmacy and Health Sciences; Department of Pharmaceutical Sciences	45
+4639	Genethon DNA and Cell Bank	45
+4845	Mount Sinai Biobank	45
+4921	NIMH Chemical Synthesis and Drug Supply Program	45
+6840	Epilepsy Genetic Association Database	45
+6959	MIGen	45
+7982	University of California Los Angeles Department of Neurobiology	45
+10698	Singapore Cord Blood Bank	45
+13447	GenGen	45
+222	Miller Lab at the Penn State Center for Comparative Genomics and Bioinformatics	44
+2059	Washington University Neuromuscular Disease Center	44
+2271	Washington University School of Medicine Neuroscience Tutorial	44
+3303	Albert Einstein College of Medicine of Yeshiva University Department of Neuroscience	44
+3356	George Washington University, Cognitive Neuroscience	44
+4265	Donor Alliance	44
+4966	Chicken Gene Nomenclature Consortium	44
+5201	HIVCD	44
+7526	University of Pittsburgh Department of Pharmacology	44
+7628	DRC - Database of Ribosomal Crosslinks	44
+8150	Parasite genome databases and genome research resources	44
+8455	Continua Health Alliance	44
+8484	Division of Aquaculture	44
+9578	Free-D	44
+10985	USC Flow Cytometry Core	44
+12667	Colorado State University Labs and Facilities	44
+64	Cross Collaboration Initiatives at the NIH	43
+100	BMSR Short Courses	43
+2772	La Jolla Interdisciplinary Neurosciences Center	43
+4501	Institute of Computational Linguistics	43
+6160	Impress	43
+6470	Journal of Comparative Neurology Antibody database	43
+6589	Network of Minority Health Research Investigators	43
+7510	University of Louisville, Department of Pharmacology	43
+8841	NIMH Director's Blog	43
+9247	JLIN	43
+10530	Neuron Culture	43
+11789	Womens health initiative	43
+517	UCL Biobank	42
+2123	Subtilis Protein interaction Database	42
+2679	Cardiovascular Model Repository	42
+4336	Medical College of Georgia Tumor Bank	42
+4602	SI622 Project evaluation service	42
+5028	University of Pittsburgh Brain Tissue Donation Program	42
+5676	CGAP GO Browser	42
+5727	Db for Dummies!	42
+6430	Biobank Ireland Trust	42
+7460	Marshall University Medical Center Neuroscience	42
+7901	Computational Genomics Laboratory	42
+8819	HIV Brain Sequence Database	42
+10569	Australian Brain Bank	42
+12610	Penn Microarray Core Facility	42
+12655	HSPH Bioinformatics Core	42
+13163	Division of Molecular Genome Analysis	42
+13382	HAPSTAT	42
+1498	Alpha-1 Foundation	41
+3403	PReMod	41
+4858	EEG Motor Movement/Imagery Dataset	41
+5243	Scientific American	41
+7349	NIH Clinical Collection	41
+7637	EICO DB - Expression-based Imprint Candidate Organiser	41
+8357	Rhesus Monkey Breeding and Research	41
+8512	FH HUS Mutation Database	41
+10526	Barbara J. King	41
+12548	Dana-Farber Cancer Institute Labs and Facilities	41
+1357	EIGENSOFT/EIGENSTRAT	40
+2785	Centre for Modeling Human Disease Gene Trap Resource	40
+5558	NCATS Probes	40
+6068	959 Nematode Genomes	40
+6155	Law and Neuroscience	40
+6850	National Institute on Drug Abuse Media Guide	40
+7957	The HIV Positive Selection Mutation Database	40
+8344	Human Hereditary Diseases of Proteolysis	40
+12451	University of Nebraska Medical Center Labs and Facilities	40
+12514	NYU Genome Technology Center	40
+2034	World Parkinson Congress	39
+2229	OpenBioinformatics.org	39
+3524	iDASH	39
+4686	Leiomyosarcoma Cell and DNA Repository	39
+6421	Lewy Body Dementia Association	39
+6504	Louisiana State University School of Medicine, Health Sciences Center: Department of Pharmacology and Experimental Therapeutics	39
+7231	CGP LOH and Copy Number Analysis	39
+7461	Mayo Graduate School; Neurobiology of Disease	39
+7936	SNAP	39
+8151	U.S. Pig Genome Project	39
+8706	Nordic Genetic Resource Center	39
+9220	HAPBLOCK	39
+9227	HAPLO.STAT	39
+10650	Edinburgh Brain and Tissue Banks	39
+10728	Rare Breeds Gene Bank	39
+12540	Monash University Labs and Facilities	39
+12818	RAPID- Resource of Asian Primary Immunodeficiency Diseases	39
+525	CARTA	38
+1855	San Diego Psychiatric Society	38
+2749	Stanley Neuropathology Consortium Integrative Database	38
+4875	Northwest Tissue Services	38
+6291	Squirrel Monkey Breeding and Research Resource	38
+6817	National Hematologic Diseases Information Service	38
+7002	Substance Abuse and Mental Health Data Archive	38
+7160	ALS Forum	38
+7404	Institute of Neurosciences Mental Health and Addiction	38
+9587	IIT Human Brain Atlas	38
+12330	UNC School of Medicine Antibody Core Facility	38
+12414	Childrens Hospital Boston Intellectual And Developmental Disabilities Research Center - Molecular Genetics Core	38
+12801	Rare Breed Survival Trust	38
+1752	Sheep Brain Atlas	37
+2538	Rodent Brain Extraction Tool	37
+2887	New England National Primate Research Center	37
+2933	National Ataxia Foundation	37
+3358	George Washington University, Department of Pharmacology and Physiology	37
+4696	Defense Centers of Excellence for Psychological Health and Traumatic Brain Injury	37
+4872	Regional Tissue Bank	37
+5218	Oxford Science Blog	37
+5876	National Archive of Computerized Data on Aging	37
+10660	Mouse ES Stem Cell Bank	37
+12259	UTHealth Laboratory for Developmental Biology	37
+12722	University of Delaware Labs and Facilities	37
+13336	Alcohol and Drug Abuse Institute (ADAI) Library: Alcohol, Drugs and Tobacco Web Links	37
+421	Penn Hippocampus Atlas	36
+737	Infectious Disease Biomarker Database	36
+2770	New Science of Addiction: Genetics and the Brain	36
+2983	Allen Institute for Brain Science Sleep Study	36
+4500	King-Devick Test	36
+5374	University of Georgia College of Pharmacy, Department of Pharmaceutical and Biomedical Sciences	36
+5388	Oil Spill Topic Map	36
+6532	PhenX Toolkit	36
+6599	Acumen Consortium	36
+8044	University of Southern California Brain Project	36
+8133	Alphabetical List of Knockout Genes	36
+8351	Structure modeling of 907 G protein coupled receptors in the human genome	36
+8682	Finite Element Toolkit	36
+9001	Gecko	36
+9221	HAPGEN	36
+13456	National Survey of Self-Care and Aging	36
+13676	International AMD Genomics Consortium	36
+2331	Directory of Health Organizations Online	35
+2688	UMMC Center for Psychiatric Neuroscience Labs and Facilities	35
+3338	Drexel University College of Medicine Pharmacology and Physiology	35
+3376	Allelic Variations of The XP Genes	35
+3558	Cryogenic Laboratories, Inc	35
+4714	Ohio State Biorepository	35
+6197	Data Citation Awareness	35
+12416	National Center for Genome Resources	35
+3860	University of Cincinnati Research and Training in Cardiovascular Biology	34
+4755	Pediatric Brain Tumor Foundation	34
+6180	University of Athens Biophysics and Bioinformatics Laboratory	34
+8230	PRECISE: Predicted and Consensus Interaction Sites in Enzymes	34
+9090	LEA	34
+9378	SELSIM	34
+10658	Global Crop Diversity Trust	34
+13221	Australian Prostate Cancer Tissue Bank	34
+529	Ohio State Leukemia Tissue Bank	33
+1258	Local Ancestry in adMixed Populations	33
+1804	National Institutes of Health Stroke Scale	33
+2101	Pathway Articulator	33
+2828	Primate Resource Referral Service	33
+3230	RIKEN Arabidopsis Transposon mutants	33
+4739	Florida Brain Tumor Association	33
+5029	BrainSpan: RNA-Seq exons summarized to genes	33
+6449	Endocrine Society	33
+6886	Gait in Aging and Disease Database	33
+6894	Summer School in Computational Sensory-Motor Neuroscience	33
+7003	Comparative Sequencing of Plant Small RNAs	33
+11400	Morehouse School of Medicine; Georgia; USA	33
+12635	CNV Workshop	33
+13224	National Marine Mammal Tissue Bank	33
+13466	Epidemiology of Chronic Disease in the Oldest Old	33
+1471	Human Nutrition Research Information Management	32
+2598	TARQUIN	32
+3391	Johns Hopkins University Pharmacology	32
+3564	Cure Alzheimers Fund	32
+4245	Biobank Graz	32
+4912	Indiana Organ Procurement Organization - IOPO	32
+5949	Scholarly Electronic Publishing Bibliography	32
+6251	Baylor College of Medicine; Department of Pharmacology	32
+7507	University of Houston, Department of Psychology	32
+12463	University of Texas Medical Branch at Galveston Labs and Facilities	32
+12603	University of Minnesota Clinical Pharmacology Analytical Services	32
+721	University of Texas Medical Branch- Neuroscience & Cell Biology	31
+723	University of Miami, Department of Neuroscience	31
+4134	Stanford University, Center for Interdisciplinary Brain Sciences Research	31
+4219	BrainSpan: Exon microarray summarized to genes	31
+4678	Brain Research Trust	31
+6806	Efficacy and Mechanisms of Glutamine Dipeptide in the Surgical Intensive Care Unit	31
+8723	Manitoba Breast Tumor Bank	31
+8877	GIA Brain Bank Program	31
+10540	New York University Specialty Tissue Banks	31
+10614	CARTaGENE	31
+10673	ICA (Independent Component Analysis) for dummies	31
+10730	Lifelines Biobank	31
+12716	UA Nuclear Magnetic Resonance Facility	31
+13186	A Catalogue of Illusions	31
+2014	Parkinson Society Canada	30
+3607	Roswell Park Data Bank and BioRepository	30
+4478	CFC International INTERNATIONAL REGISTRY	30
+4877	BrainSpan: Exon microarray summarized to probe sets	30
+8296	Postdoctoral Program for Veterinarians	30
+10537	National Psoriasis BioBank	30
+11131	Cornell University College of Veterinary Medicine	30
+12278	UW Medicine High Throughput Genomics Center	30
+12817	Neuroscience For Kids	30
+387	is-rSNP	29
+1124	Orthologous and Paralogous Transcripts in Clades	29
+3258	Radiotracer Chemistry Instrumentation and Biological Imaging	29
+3494	Fusion ICA Toolbox	29
+4147	Sasakawa Memorial Health Foundation	29
+4344	BrainSpan: RNA-Seq exons	29
+4744	National Brain Tumor Society	29
+5560	Short Course on the Genetics of Addiction	29
+6519	Louisiana State University School of Medicine, Health Sciences Center: Epilepsy Center	29
+6639	Brain Injury Association of America	29
+7539	University of Washington Seattle WA. Pharmacology	29
+8366	Induced Mutant Resource	29
+9465	Diffusion MRI at DKFZ Heidelberg	29
+9656	Generic Exome Analysis Plan	29
+9852	Harvard NeuroDiscovery Center - Cell-based Assays Core	29
+10995	UC Irvine Transgenic Mouse Facility	29
+12505	UVM Cellular and Molecular Biology Core	29
+12609	UNMC Protein Structure Core Facility	29
+13641	Chronic Fatigue Syndrome	29
+976	Loma Linda University; California; USA	28
+1854	San Diego County Medical Society	28
+4174	CFC International	28
+4425	Sage Bionetworks Data Repository	28
+4717	PARENTE	28
+6708	Army STARRS	28
+6904	VU National Research Resource for Imaging Mass Spectrometry	28
+7443	Boston University; School of Medicine; Behavioral Neuroscience	28
+8731	CarePath	28
+10567	Wesley Research Institute Tissue Bank	28
+10599	University of Florida Molecular Tissue Bank	28
+11016	Trudeau Institute Contract Research Organization	28
+12237	UTHSCSA Genome Sequencing Facility	28
+13515	Heart and Calcium Functional Network Database	28
+774	Top 50 Health 2.0 Blogs	27
+1596	PD-DOC	27
+3377	Syracuse University; Institute for Sensory Research	27
+3813	Nephromine	27
+5077	EPA Data Standards	27
+7431	University of Massachusetts, Worcester, MA, Department of Biochemistry and Molecular Pharmacology	27
+8577	Western Australian State Agricultural Biotechnology Centre	27
+8659	SUN Interface Engine	27
+8823	Layton Center NeuroImaging Laboratory	27
+10126	UPR Flow Cytometry Unit	27
+12355	Purdue Bioscience Imaging Facility	27
+12665	Queens Medical Research Institute Labs and Facilities	27
+1023	Translational Research Laboratory	26
+4386	Health.Data.gov	26
+4734	Albert Einstein College of Medicine Department of Pathology	26
+5336	AGNOSIA APHASIA APRAXIA and Related Terms for Cognitive Behavioral and Neurological Disorders	26
+6139	BrainImage Software	26
+6383	FURTHeR	26
+6678	Wake Forest/UCLA Vervet Research Colony	26
+6842	National Kidney and Urologic Diseases Information Clearinghouse	26
+7530	University of Rochester Department of Neuroscience	26
+7951	YHap	26
+8102	American Parkinson's Disease Association National Young Onset Center	26
+8810	Study of Womens Health Across the Nation (SWAN) Repository	26
+1974	World Federation for Culture Collections	25
+2889	Human Gene and Protein Database (HGPD)	25
+3893	NAF Ataxia Tissue Donation	25
+4142	Parkinson's Disease Mouse Model Resource	25
+5999	OCDM - Ontology of Craniofacial Development and Malformation	25
+10562	Coriell Biobank	25
+11020	Indiana University School of Medicine Histology Core Facility	25
+12231	Purdue University Labs and Facilities	25
+12442	University of Mississippi Medical Center Labs and Facilities	25
+12474	University of Texas Southwestern Medical Center at Dallas Labs and Facilities	25
+694	California Academy of Sciences Blogs	24
+1386	ODIN	24
+1430	National ESCA and Surface Analysis Center for Biomedical Problems	24
+4359	John Theurer Cancer Center	24
+4429	Open HHS Blog	24
+4496	Ricopili	24
+5129	Dementia Brain Bank Research Program	24
+7142	New York Brain Bank at Columbia University	24
+7220	Case Western Reserve University; School of Medicine; Department of Pharmacology	24
+7529	University of Rhode Island College of Pharmacy Graduate Programs	24
+7945	SNPSTR	24
+10667	TfSiteScan	24
+12288	CNP Vector Facility	24
+12300	NYU Center for Health Informatics and Bioinformatics	24
+12524	Vancouver Prostate Centre Labs and Facilities	24
+1110	North Dakota State University; North Dakota; USA	23
+1756	MUlti SImulation Coordinator	23
+1894	Alignable Tight Genomic Cluster	23
+2369	HistoWeb: Nervous System	23
+2617	Working Memory Trainer	23
+4534	Regional Biobank of Central Norway	23
+4638	Johns Hopkins University; Undergraduate Neuroscience Program	23
+6270	Article of the Future	23
+8501	Applied Math and Science Education Repository	23
+8566	Wide Tag	23
+8717	Anxiety Insights	23
+9516	UNC Human DTI Brain Atlas	23
+9554	DICCCOL predictor	23
+9599	Mach2dat	23
+11507	Rutgers New Jersey Medical School; New Jersey; USA	23
+12436	UT Arlington Genomics Core	23
+13279	Trinity Biobank	23
+198	Evernote	22
+542	University of Michigan Human Breast Cancer Cell Lines	22
+579	Jefferson Hospital for Neuroscience Alzheimers Disease and Dementia Center	22
+638	Africa Centre Biobank	22
+2258	Kindai University School of Medicine; Osaka; Japan	22
+2667	FrontalCortex.com	22
+4241	American Donor Services	22
+4254	Webvision - The Organization of the Retina and Visual System	22
+4292	Konrad Lorenz Institute for Evolution and Cognition Research	22
+4637	Central England Haemato-Oncology Research Biobank	22
+5004	MD Anderson Gynecologic Cancer Tissue Bank	22
+6845	Life Sciences Discovery Fund	22
+8537	Gene Relationships Across Implicated Loci	22
+9462	DbGaP Cleaner	22
+10643	Harvard Medical School; Department of Neurobiology; Born Lab	22
+12360	URMC Flow Cytometry Core	22
+12546	Cureline	22
+333	National Endowment for the Humanities	21
+1041	Texas A and M University Labs and Facilities	21
+1250	CNVtools	21
+1259	GemTools	21
+1504	Irritable Bowel Syndrome Outcome Study	21
+1733	UKU Neuroscience and Neurology Links	21
+1826	Online Papers on Consciousness	21
+2447	NCANDA: Data Integration Component	21
+2740	International Graduate Program Medical Neurosciences	21
+3130	University of Colorado Colorado Springs; Colorado; USA	21
+4299	Taxonomy	21
+4540	JP McCarthy Cord Stem Cell Bank	21
+4610	UCL/UCLH Biobank for Studying Health and Disease	21
+4682	ILSbio	21
+4956	Hackensack University Tissue Bank	21
+5202	QUEST Community Science Blog	21
+6967	Array Information Library Universal Navigator	21
+8826	MUSC Center on Aging Campbell Neuropathology Laboratory	21
+9006	National Resource for Biomedical Accelerator Mass Spectrometry	21
+10539	Berkeley Advanced Biomaterials Inc.	21
+10717	National University Tissue Repository	21
+11004	LSU Genomics Core Facility	21
+11409	National Centre for Research and Development (Poland)	21
+13442	WEIGHTED FDR	21
+13616	PV-Wave	21
+3831	AtheroRemo	20
+4380	Neuroendocrine Tumors Biobank	20
+5027	Lifeline of Ohio	20
+7426	NUgene Project	20
+8098	Michael Stern Parkinsons Research Foundation	20
+9649	Arnold Arboretum of Harvard University: Weld Hill Growth Facilities	20
+10684	Asia Pacific Association of Tissue Banking	20
+10928	GenoSNP	20
+11301	Institute for Research in Biomedicine; Barcelona; Spain	20
+12286	CU Denver Advanced Histology Services	20
+12434	Stellenbosch University Labs and Facilities	20
+12697	USC Cancer Research Informatics Core	20
+63	Colorado College Department of Psychology	19
+1900	University of California at San Diego, Department of Psychiatry Postdoctoral Positions	19
+3360	MAGI	19
+4357	Emergency Medicine	19
+4384	Maryland Brain Collection	19
+4390	Angioma Alliance DNA/Tissue Bank and Patient Registry	19
+5567	Donate a strain to The Jackson Laboratory Repository	19
+7196	The Jackson Laboratory Hearing Research Program	19
+8391	ATASSIA DI FRIEDREICH - PROGETTI 2006	19
+8708	Patent Data Resources	19
+8718	Israel Plant Gene Bank	19
+11244	Fraunhofer Institute of Molecular Biology and Applied Ecology	19
+12388	RPCI Pathology Resource Network	19
+39	Institute for Magnetic Resonance Safety, Education and Research	18
+927	Latvia Biobank	18
+1785	Mount Sinai School of Medicine: In-Vivo Molecular Imaging Laboratory	18
+2222	System for Earth Sample Registration	18
+2718	CNSforum: Image Bank	18
+2960	Grass Foundation	18
+3483	Michigan State University, Department of Pharmacology and Toxicology	18
+4260	Broadband Forum	18
+4806	Neuroscientists Talk Shop	18
+5086	DCC DIFFUSE Standards Frameworks	18
+6681	National Endocrine and Metabolic Diseases Information Service	18
+7387	Animal Welfare Information Center	18
+8309	Summer Veterinary Student Research Fellows Program	18
+9228	HAPLOT	18
+12256	VIB Compound Screening Facility	18
+12389	Stony Brook Medicine Genomics Core Facility	18
+12455	SUNY at Stony Brook Labs and Facilities	18
+13581	Cerner Millenium	18
+284	National University of Singapore, Computational Bioengineering Laboratory	17
+285	Proteomics and Human Proteome: From Bench to Bedside	17
+696	California National Primate Research Center Analytical and Resource Core	17
+836	FLOSS	17
+2912	University of Florida Labs and Facilities	17
+4211	Integrated Biobank of Luxembourg	17
+4221	Canadian Virtual Brain Tumour Bank	17
+4554	DCI Donor Services	17
+4643	University of Michigan Biorepository	17
+4926	Stanford Research Institute International	17
+4967	LifeLink Foundation	17
+5464	Brain Blogger	17
+6478	Cure PSP: Society for Progressive Supranuclear Palsy	17
+6706	UNAVCO	17
+7166	Brandeis University; Neuroscience Undergraduate Program	17
+9215	GTOOL	17
+10745	Mayo Validation Support Services Biobank	17
+12614	UTHSCSA Nucleic Acids Core Facility	17
+12788	HAPBLOCK 2	17
+1492	Teen-Longitudinal Assessment of Bariatric Surgery	16
+2895	Addiction Research GPCR Assay Bank	16
+4184	Biorepository Alliance of Georgia for Oncology	16
+4306	Duke Biospecimen Repository	16
+4968	Gift of Hope Organ and Tissue Donor Network	16
+6387	ResearchMatch	16
+7305	Neuromuscular Disease Center	16
+8298	Comparative Medicine Program	16
+10683	AlloSource	16
+10706	Svalbard Global Seed Vault	16
+12333	Moffitt Cancer Center Molecular Genomics Core Facility	16
+12373	UAMS Experimental Pathology Core Laboratory	16
+12439	Mayo Clinic Bone Histomorphometry Lab	16
+12563	UA Department of Chemistry and Biochemistry Labs and Facilities	16
+12669	BCM Analyte Center	16
+791	IFPMA Clinical Trials Portal	15
+1039	SUNY at Buffalo Labs and Facilities	15
+1344	FARMS	15
+3559	Partners HealthCare Biorepository	15
+4400	Mid-America Transplant Services	15
+4711	CBLAST	15
+4815	Alaska Brain Injury Network	15
+5701	UCSF Helen Diller Family Comprehensive Cancer Center Biostatistics Core	15
+6051	Research Accelerator	15
+6224	hPATM	15
+8376	Alamogordo Primate Facility	15
+8573	Centre for Automotive Safety Research	15
+12315	University of Massachusetts Amherst Labs and Facilities	15
+12481	Advanced Cell Diagnostics	15
+12573	University of Edinburgh Immunodetection and Imaging	15
+881	Harvard NeuroDiscovery Center - Biomarker Study	14
+944	Macquarie University Labs and Facilities	14
+1396	Ochsner Biobank	14
+4442	Louisiana Organ Procurement Agency - LOPA	14
+4447	UMass Cancer Center Tissue and Tumor Bank	14
+4464	Essential Tremor Centralized Brain Repository	14
+4621	HD Community BioRepository	14
+4832	Conticabase - European Sarcoma Database and Tumour Bank	14
+5022	Duke University Kathleen Price Bryan Brain Bank	14
+7314	NIA Genetics of Alzheimers Disease Data Storage Site	14
+7484	Rosalind Franklin University of Medicine and Science, Department of Cellular and Molecular Pharmacology, North Chicago, IL	14
+7883	RESP ESP charged Database	14
+9307	MULTIPOPTAGSELECT	14
+9571	EMSE Suite	14
+9611	Neuroimaging Made Easy Blog	14
+9671	CHB Cellular Imaging Core	14
+10983	NYU Rodent Behavior Core	14
+12301	MGH Psychiatric and Neurodevelopmental Genetics Unit Core Lab	14
+13087	Westmead Paediatric Tumour Bank	14
+260	University of Wollongong Labs and Facilities	13
+2317	MisterI	13
+3429	MetABEL	13
+4205	Boston University Medical Campus; Massachusetts; USA	13
+5745	SIMBioMS	13
+7342	Tulane Stem Cell Research and Regenerative Medicine Tissue Culture Core	13
+7473	South Dakota State University College of Pharmacy, Department of Pharmaceutical Sciences	13
+8049	Medical College of Georgia Animal Behavior Center	13
+8719	Virgin Health Bank	13
+8721	UM Brain Endowment Bank	13
+9216	GWAPOWER	13
+10619	UK DNA Banking Network	13
+12484	KU Protein Production Group	13
+12521	School of Medicine at Stony Brook University Medical Center Labs and Facilities	13
+12536	LSU AgCenter Biotechnology Laboratory	13
+710	MRI Watcher	12
+921	Babel's Dawn	12
+1636	openSNP	12
+1891	Johns Hopkins NIMH Research Center Novel Therapeutics of HIV-associated Cognitive Disorders	12
+3780	Sciencewise	12
+3872	NEWMEDS	12
+3989	Coordinating office for terrorism preparedness and emergency response	12
+3993	NephCure Kidney International	12
+4541	Michigan Neonatal Biobank	12
+5034	South Carolina Biorepository System	12
+5618	snp-search	12
+6428	BC Cancer Foundation	12
+6885	Confederation of Cancer Banks	12
+8516	Flavornet	12
+8971	National Survey of the Japanese Elderly	12
+9064	WHICHRUN	12
+9418	SWEEP	12
+9850	Harvard NeuroDiscovery Center - Biostatistics Consultation	12
+10551	University of Miami Biorepository	12
+10693	New England Organ Bank - NEOB	12
+10926	CytoSure Interpret Software	12
+12190	Dartmouth Genomics and Microarray Laboratory	12
+12203	Northwestern University Keck Biophysics Facility	12
+12628	USC Stem Cell Core Facility	12
+13611	Stroketool-CT	12
+8	University at Albany SUNY Labs and Facilities	11
+768	Syndicated Universities Preparatory Research Educational Program	11
+1884	New England Regional Office HDSA	11
+2416	Nervous Tissue Color Images	11
+3913	Royal College of Psychiatrists Podcasts	11
+4191	ITOR Biorepository Services	11
+4788	California Transplant Services	11
+5363	Boston University Biospecimen Archive Research Core	11
+6333	Ben and Catherine Ivy Foundation	11
+6348	Society for Neuroscience Membership Directory Search	11
+7893	Rice Gene Thresher	11
+8160	Bibliography on Alternatives to the Use of Live Vertebrates in Biomedical Research and Testing	11
+8476	Harvard FAS Magnetic Resonance Laboratory	11
+9413	TAGSTER	11
+10521	Its Not Rocket Stats	11
+11008	University of Nevada Reno Labs and Facilities	11
+12235	UTHSCSA Core for Advanced Translational Technologies	11
+12274	Princeton University Labs and Facilities	11
+12283	Meharry Molecular Biology Core	11
+12503	DKFZ Genomics and Proteomics Core Facility	11
+12520	SUNY Upstate Medical University Labs and Facilities	11
+326	AxoGen	10
+711	Americans for Medical Progress	10
+1286	SNP and Variation Suite CNV Analysis	10
+4272	South Texas Blood and Tissue Center	10
+4301	Ray Truant Lab	10
+4577	Southern Alberta Organ and Tissue Donation Program	10
+4764	Brain Injury Alliance of Kentucky	10
+5044	Ivy Glioblastoma Atlas Project	10
+5051	Uniformed Services University of the Health Sciences, Department of Pharmacology	10
+5714	TRIPLES- a database of TRansposon-Insertion Phenotypes Localization and Expression in Saccharomyces	10
+6104	Brain Atlas Database of Japanese Monkey for WWW	10
+6427	Clinical Genomic Database	10
+7940	SNP at Ethnos	10
+8010	BIRD - Bio Info R and D	10
+10727	NZ Rare Disease Biobank	10
+10986	Melior Discovery	10
+11693	University of Nebraska College of Medicine; Nebraska; USA	10
+12364	Moffitt Cancer Center Tissue Core Facility	10
+12588	University of North Carolina at Chapel Hill Nutrition and Obesity Research Center Diet and Physical Activity Core	10
+12630	UMass Medical School Flow Cytometry Core Lab	10
+12672	USC Immune Monitoring Core Facility	10
+12724	Pronexus	10
+13277	Loyola University Medical Center / Hines VA Brain Bank	10
+13742	Human Brain Transcriptome	10
+663	Southern California Earthquake Data Center	9
+1029	Sanford-Burnham Medical Research Institute Labs and Facilities	9
+3153	GeneCruiser	9
+3216	Wellcome-CTC Mouse Strain SNP Genotype Set	9
+3498	MultiPhen	9
+3841	BiomarCaRE	9
+4421	Childhood Brain Tumor Foundation	9
+4518	PhenX Phenotypic Terms	9
+7898	RISSC - Ribosomal Internal Spacer Sequence Collection	9
+7998	University of Saskatchewan; Saskatchewan; Canada	9
+9007	National Resource for the Mass Spectrometric Analysis of Biological Macromolecules	9
+9250	J/QTL	9
+12682	Joslin Diabetes Center Genomics Core	9
+13626	Syracuse Biomaterials Institute	9
+83	Adaptively Sampled Particle Fluids	8
+170	Mind Hacks	8
+3802	Alzheimer Europe	8
+4594	Bio-Options	8
+4604	New York Firefighters Skin Bank	8
+4668	PXE International Registry and BioBank	8
+4775	Barth Syndrome Biorepository	8
+4899	Key Driver Analysis	8
+5408	IARC Recommendations and Protocols for Biobanking	8
+5506	MBL Pivot Collection	8
+5952	total impact.org	8
+6477	British Association for Tissue Banking	8
+6558	Prize4Life	8
+6736	Traumatic Brain Injury Model Systems National Data and Statistical Center	8
+7119	Central New York Eye and Tissue Bank	8
+7126	Minimally Invasive Surgical Therapies Treatment Consortium for Benign Prostatic Hyperplasia	8
+7222	Brown University; Alpert Medical School; Department of Molecular Pharmacology Physiology and Biotechnology	8
+7472	Rutgers University, Integrative Neuroscience, Newark, NJ	8
+8678	Stanford/VA Aging Clinical Research Center	8
+9076	MIXSCORE	8
+9399	Suite of Nucleotide Analysis Programs	8
+9588	JIP Analysis Toolkit	8
+9597	MRI Dataset for Hippocampus Segmentation	8
+10175	Vanderbilt DNA Databank	8
+10670	HMMSeg	8
+10677	Victorian Cancer Care Biobank	8
+10992	Stamford Bioprocess Technologies	8
+12228	USC School of Pharmacy Histology Laboratory	8
+12469	University of Minnesota Bionet - Academic Health Center	8
+12729	Rutgers Cell and Cell Products Fermentation Facility	8
+1154	NET-PD (Neuroprotection Exploratory Trials in PD): Futility Study II	7
+1816	CLUSTAG	7
+2033	WebPath - The Internet Pathology Laboratory for Medical Education	7
+2533	RFT FDR	7
+2746	Genes to Cognition Online	7
+3265	Schramm Lab Spinal Cord Atlases	7
+3276	CCHMC Pediatric Brain Templates	7
+3942	Corengi	7
+4651	Gift of Life Donor Program	7
+4973	University of Lincoln; Lincoln; United Kingdom	7
+7556	BETA	7
+8177	Computer-Assisted Information Retrieval Service System for Music	7
+8792	MuSiC	7
+9523	factory t1 dti	7
+9996	Oregon Clinical and Translational Research Institute Core Laboratory	7
+10176	Vanderbilt DNA Resources Core	7
+10611	University Memory and Aging Center	7
+10622	Biobanc USA	7
+11032	UArkansas Stable Isotope Lab	7
+12168	Moffitt Cancer Center Proteomics Core Facility	7
+12396	HNDC NeuroBehavior Laboratory Core	7
+12582	QuantoBio	7
+13339	SNPMSTAT	7
+13417	DomIns: A Web Resource for Domain Insertions in Known Protein Structures	7
+14708	UK Data Archive	7
+355	ParseCNV	6
+1152	CISCRP- The Center for Information and Study on Clinical Research Participation	6
+1929	University of California at San Diego, Center for Medicinal Cannabis Research	6
+4546	LifeLink Tissue Bank	6
+4876	Washington University Tissue Bank	6
+5000	UC Davis Biorepository	6
+5089	RLS Foundation Brain Bank	6
+8695	Genetic and Rare Diseases Information Center	6
+8829	Blueprint Neurotherapeutics Network	6
+9028	DTI Blog	6
+9271	MANTEL-STRUCT	6
+9343	SAS/GENETICS	6
+9422	TREESELECT	6
+9645	Solar Eclipse Imaging Genetics tools	6
+10515	Biopta	6
+10616	AutoCSA (Automatic Comparative Sequence Analysis)	6
+11476	Office of genomics and disease prevention	6
+12179	Meharry Proteomics Core	6
+12710	Barts and The London School of Medicine and Dentistry Labs and Facilities	6
+13003	Material Safety Data Sheets for Infectious Substances of Canada	6
+13301	BEAGLECALL	6
+13309	SNIPPEEP	6
+41	MTOPS Prostate Samples Analysis Consortium	5
+844	QTL CAFE	5
+1580	Rodrigo Quian Quiroga EEG ERP and single cell recordings database	5
+2015	OLORIN	5
+2701	Aging Genes and Interventions Database	5
+4148	OneLegacy	5
+4274	Transplant Services Center	5
+4281	Cincinnati Biobank Core Facility	5
+4457	ScienceCare	5
+4754	NCI Specimen Resource Locator	5
+4885	Andalusian Regional Tumour Bank	5
+4971	St. Gallen Lung Biopsy Biobank	5
+6395	Open Source Science Project	5
+6404	CGARS	5
+7357	Brain Research: Analysis of Images, Networks and Systems	5
+7468	Purdue University School of Pharmacy and Pharmaceutical Sciences Department of Medicinal Chemistry and Molecular Pharmacology	5
+11053	NEUROSERVICE	5
+11080	Macquarie University Automatic Weather Station	5
+12321	CU Boulder Electron Microprobe Laboratory	5
+12471	Meharry Medical College Labs and Facilities	5
+12596	K-INBRE Bioinformatics Core	5
+13178	Northwestern CNADC Tissue Bank / Neuropathology Core	5
+14024	Rank Rank Hypergeometric Overlap	5
+518	LifeLegacy Foundation	4
+2901	CNVassoc	4
+3208	NGSadmix	4
+3725	Medical Diagnostic Categories - Diagnosis Related Groups	4
+4213	Canadian Biosample Repository	4
+4485	Arnold Arboretum of Harvard University: Weld Hill Microscopy Lab	4
+4578	Blood and Tissue Center of Central Texas	4
+4781	Arnold Arboretum of Harvard University: Weld Hill Molecular Lab	4
+5185	SCAN	4
+5652	Geisinger Biobank	4
+5946	DOGSS	4
+6148	Journal Lab	4
+6825	neuropathology blog	4
+6962	Polygenic Signaling Pathways	4
+7439	HAPLOCLUSTERS	4
+8667	STRIDE Virtual Biospecimen Bank	4
+8725	USC Geriatric Studies Center/Alzheimer's Disease Research Center	4
+8774	Michigan Alzheimer's Disease Center Brain Bank	4
+8958	clearScience	4
+9376	R/SNP.PLOTTER	4
+9402	SNPFILE	4
+9655	iAnnotate	4
+9753	DFCI Microarray Core Facility	4
+10592	Marbank - National Marine BioBank	4
+10631	ISTO Technologies, Inc.	4
+11024	University of Missouri Nanotechnology Core Facility	4
+12130	eALPS	4
+12494	UMMC Rodent Behavior Core	4
+12641	UC Davis Real Time PCR Research and Diagnostics Core Facility	4
+12651	University of Pittsburgh Cell Culture and Cytogenetics Facility	4
+12679	BWH Confocal Microscopy Core Facility	4
+13144	GWASrap	4
+329	CryoCord Stem Cell Bank	3
+2040	Thomson Reuters Biology Browser	3
+2393	Visible Mouse Project	3
+4228	Roslin Wellcome Trust Tick Cell Biobank	3
+4411	PROCURE Quebec Prostate Cancer Biobank	3
+4419	UAB SPORE Biorepository Banks	3
+4552	Cardio-Facio-Cutaneous Syndrome International Biobank	3
+4565	LifeNet Health of Florida	3
+4587	Aurora Healthcare Biorepository	3
+4908	da Vinci European Biobank	3
+4941	Pennsylvania State University; Huck Institutes of the Life Sciences; Neuroscience Graduate Program	3
+4994	BBMRI Wiki	3
+5154	jobs.ac.uk	3
+5267	SpliceSeq	3
+5344	Case Western Reserve Tissue Procurement and Histology Core Facility	3
+5353	University of Delaware, Behavioral Neuroscience Graduate Program	3
+6338	Longevity Foundation	3
+6425	Chordoma Foundation Biobank	3
+6629	Physiopedia	3
+7332	Aged Rodent Tissue Arrays	3
+8632	NeuroProSight	3
+9266	LTSOFT	3
+9486	GPU based affine registration	3
+9700	CDU Exercise Physiology Laboratory	3
+9719	CHB Small Animal Imaging Core Laboratory	3
+10790	EMINIM	3
+11384	Mayo Clinic College of Medicine	3
+11856	SNP and Variation Suite	3
+12453	Montclair Microscopy and Microanalysis Research Laboratory	3
+12586	UMass Amherst Laboratory of Medical Zoology	3
+12677	Duke Clinical Research Unit	3
+13303	GWASELECT	3
+13347	R/FEST	3
+13378	VG	3
+426	Vervet Probabilistic Atlas	2
+535	Feinstein Biorepository	2
+924	K Bar Livestock	2
+1597	Neurologychannel	2
+2018	openADAM	2
+3959	Psynova Neurotech	2
+4302	BioStorage Technologies	2
+4555	LifeGift Organ Donation Center	2
+4868	LifeCenter Northwest	2
+5249	PhenoMan	2
+6365	Neuro-Cloud	2
+7411	International Drug Abuse Research Society	2
+8299	Center for Comparative Medicine and Translational Research	2
+8319	CVonline: The Evolving, Distributed, Non-Proprietary Online Compendium of Computer Vision	2
+8436	PEDPEEL	2
+9269	MALDSOFT	2
+9317	PDA	2
+10200	Vanderbilt Transgenic Mouse/Embryonic Stem Cell Shared Resource	2
+10566	Danubian Biobank Consortium	2
+10583	StemSave	2
+10735	StemLife Stem Cell Bank	2
+10953	BioTile	2
+11219	European Union	2
+12225	Scripps Florida Mass Spectrometry and Proteomics Laboratory	2
+12446	PHSA Centre for Translational and Applied Genomics	2
+13826	MSGene	2
+14486	CopyCaller	2
+14530	GUID Tool	2
+265	M(at)CBETH	1
+631	Quantum Lobe Chronicles	1
+642	UC3 Merritt	1
+769	NIH/Merial Veterinary Scholars Program	1
+871	DF/HCC Health Communication Core	1
+1327	Anthony Salvagno Protocols	1
+1593	BigBrain LORIS Database	1
+1841	Published Association Database	1
+1912	BioChemWeb.org - The Virtual Library of Biochemistry Molecular Biology and Cell Biology	1
+3536	SpecimenCentral.com	1
+4188	NGVB SeqMap Database	1
+4322	Ludwig Boltzman Tumour Bank	1
+4350	Doheny Eye and Tissue Transplant Bank	1
+4428	Biostor Ireland	1
+4468	Cureline Biopathology	1
+4598	BioReliance Biorepository	1
+4660	Wistar Institute Collection at Coriell	1
+4666	Beaumont Hospitals Biobank	1
+4735	Brain Tumor Foundation For Children	1
+4763	NGVB Toxicology Database	1
+5043	NDRI Dorsal Root Ganglia Program	1
+5600	TMA-Combiner	1
+6418	MSIsensor	1
+6546	VA Biorepository Brain Bank	1
+6603	BrainLine	1
+7328	NIA Mutant Mouse Aging Colony Handbook	1
+8006	Open Science Summit	1
+8257	National Institute on Aging, Division of Neuroscience	1
+8328	Eric H. Chundlers Links	1
+8766	University of Kentucky's Alzheimer's Disease Center	1
+9060	CHIP2SPELL	1
+9351	QU-GENE	1
+9690	Broad Genetic Analysis Platform	1
+9956	Monell Chemosensory Receptor Signaling Core	1
+10575	Queensland Childrens Tumour Bank	1
+10680	Narayana Hrudayalaya Tissue Bank and Stem Cell Research Center	1
+10789	Diplotyper	1
+11034	UTSA RCMI Proteomics and Protein Biomarkers Cores	1
+11036	USC School of Pharmacy Lentiviral Laboratory	1
+11057	USF Lisa Muma Weitz Laboratory for Advanced Microscopy and Cell Imaging	1
+11071	MQ Ramaciotti Centre for Gene Function Analysis	1
+12068	Fastphylo	1
+12213	Champalimaud Neuroscience Program Labs and Facilities	1
+12583	Waisman Biomanufacturing	1
+12695	Harvard NeuroDiscovery Center Labs and Facilities	1
+12728	Rutgers Waksman Institute of Microbiology Labs and Facilities	1
+12772	Isaac	1
+13040	NGSpeAnalysis	1
+13400	ENIGMA	1
+13435	Ohio U Diabetes Endocrine Biorepository	1
+13502	StemCord Cord Blood Bank	1
+13561	TranscriptionDetector	1
+13754	Multi-Disciplinary Approach to the Study of Chronic Pelvic Pain	1

@@ -1,0 +1,8 @@
+RRID	Resource Name	total mention count
+2259	miso-lims	1085
+3124	MISO	873
+10255	DrugsAtFDA	642
+8463	Cumulative Distribution Function	303
+10257	AnimalDrugsatFDA	40
+9544	CDF-HC PointSetReg	28
+11573	Texas Southern University, College Pharmacy and Health Sciences	14

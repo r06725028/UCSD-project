@@ -1,0 +1,5 @@
+RRID	Resource Name	total mention count
+440	TNO-DECO	895
+11579	TNO	863
+1057	University of Illinois College of Medicine; Illinois; USA	72
+12393	CaresBio Laboratory	3

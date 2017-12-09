@@ -1,0 +1,4 @@
+RRID	Resource Name	total mention count
+4886	IBIS: Inferred Biomolecular Interactions Server	1435
+11865	Ibis	834
+4127	Committee on Coherence at Scale for Higher Education	14

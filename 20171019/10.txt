@@ -1,0 +1,32 @@
+RRID	Resource Name	total mention count
+12780	IMGT - the international ImMunoGeneTics information system	1100
+2971	IMGT/HLA	600
+10342	IMGT-ONTOLOGY	600
+7496	University of Arkansas for Medical Sciences Department of Pharmacology and Toxicology	499
+13182	SYFPEITHI: A Database for MHC Ligands and Peptide Motifs	476
+7981	University of Arkansas for Medical Sciences Department of Neurobiology and Developmental Sciences	356
+7756	ISED- Influenza Sequence and Epitope Database	342
+6604	Immune Epitope Database and Analysis Resource	313
+4982	Anthony Nolan	265
+6931	IMGT/LIGM-DB	247
+9158	DGENE	181
+7259	Allele Frequencies in Worldwide Populations	158
+5475	VDJ	150
+2873	IgBLAST	148
+7784	MHC-Peptide Interaction Database	144
+7694	GPX-Macrophage	75
+7786	MHCPEP	69
+1750	AntiJen	68
+6964	IMGT/GENE-DB	67
+7785	MHCBN: A comprehensive database of MHC binding and non-binding peptides	57
+10749	IMGT/V-QUEST	53
+11094	Anthony Nolan Research Institute	53
+8191	JenPep	39
+9409	SPERM	27
+12172	SCIPAC	21
+7734	IMGT/3Dstructure-DB	19
+2327	Iterative Signature Algorithm	14
+3068	FAS-DPD	8
+842	PEDIGREE-VISUALIZER	6
+5278	SuperHapten Database	2
+12146	HLAforest	2

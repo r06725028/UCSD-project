@@ -1,0 +1,3132 @@
+RRID	Resource Name	total mention count
+6472	NCBI	11324
+2760	GenBank	9069
+8539	QIAGEN	7364
+12820	PDB	6160
+5012	NCBI GEO DataSets	5317
+4870	NCBI BLAST	5076
+5780	UCSC Genome Browser	4047
+8326	Cold Spring Harbor Laboratory	3344
+2338	dbSNP	3239
+4473	European Molecular Biology Laboratory; Heidelberg; Germany	2897
+2344	Ensembl	2698
+8515	FigTree	2556
+12880	ExPASy	2286
+6695	InterPro	2252
+305	PyMOL	2066
+8483	Metagenomes Used in The Statistical Analysis	2057
+6865	HIA	1944
+11823	TBLASTX	1930
+4618	TAIR	1927
+4726	Pfam	1867
+7856	PINT	1828
+3910	ZF-screens	1819
+4801	NCBI BioProject	1815
+5829	InterProScan	1757
+4630	NCBI EST	1744
+4891	NCBI Sequence Read Archive	1719
+7073	Broad Institute	1719
+4933	SGN	1576
+6633	Ribosomal Database Project	1558
+12813	SIFT	1529
+3139	Primer3	1506
+10519	Geneious	1491
+3590	DTU Center for Biological Sequence Analysis	1484
+4377	Velvet-SC	1480
+10270	Phyre	1456
+841	MRH	1452
+4850	MARTA	1416
+6675	GRIN	1410
+3459	Protein Clusters	1390
+3077	MAPPER - Multi-genome Analysis of Positions and Patterns of Elements of Regulation	1377
+6507	Phytozome	1366
+2105	SAMTOOLS	1355
+2630	GitHub	1352
+7854	PIDD	1351
+3496	RefSeq	1335
+3030	JASPAR	1334
+11784	Wellcome Trust Sanger Institute; Hinxton; United Kingdom	1320
+6876	Human Genome Variation Society: Databases and Other Tools	1316
+5917	VectorBase	1312
+14583	FastQC	1307
+5910	Dryad	1302
+667	MEGA Software	1298
+3257	NCBI Protein	1296
+7895	ILR	1286
+37	TADS - Treatment for Adolescents with Depression Study	1282
+2774	GeneDB	1266
+665	Opera	1264
+10236	WEBLOGO	1264
+8420	BLAST Assembled RefSeq Genomes	1262
+12761	NHLBI Exome Sequencing Project (ESP)	1255
+2474	NCBI Genome	1254
+5305	Hmmer	1242
+7569	CIPRO: Ciona intestinalis Protein Database	1238
+5688	TreeBASE	1233
+3045	DOE Joint Genome Institute	1230
+12751	GABI-KAT	1227
+6641	IRD	1217
+11803	GSV	1213
+11475	Oak Ridge National Laboratory	1203
+12803	TGD	1203
+10942	LCB-DWH	1196
+7548	Ashbya Genome Database	1195
+12909	CAZy- Carbohydrate Active Enzyme	1190
+7879	Protein-protein interfaces	1172
+4860	NCBI Nucleotide	1171
+11114	BGI; Shenzhen; China	1161
+5858	DDW - Digestive Disease Week	1159
+11371	Max Planck Institute for Biophysical Chemistry; Gottingen; Germany	1155
+6423	SILVA	1151
+5403	ChEA	1148
+6549	FlyBase	1148
+13189	PolyPhen: Polymorphism Phenotyping	1146
+12837	TASSEL	1142
+8493	EMBOSS	1140
+10228	BEAST	1140
+13035	TopHat	1138
+7891	Rfam	1135
+8979	Clinical Research Resource HUB	1134
+4152	COBALT: Constraint-based Multiple Alignment Tool	1127
+12954	RepeatMasker	1117
+8440	COILS: Prediction of Coiled Coil Regions in Proteins	1106
+7733	IMG	1100
+7855	PIG - Pathogen Interaction Gateway	1099
+3193	The Cancer Genome Atlas	1094
+14597	Cufflinks	1085
+7872	PPDB: Plant Proteomics Database	1081
+3079	Magnaporthe comparative Database	1080
+1591	Clustal Omega	1074
+10836	National Institute of Genetics; Shizuoka; Japan	1074
+622	ProGlycProt	1072
+1010	BLASTP	1072
+2155	SVA	1071
+2917	ATGC: Montpellier bioinformatics platform	1068
+1876	GATK	1064
+6773	Ensembl Genomes	1056
+8036	Genomatix Software: Understanding Gene Regulation	1051
+10243	LIBSVM	1046
+10246	PSIPRED	1046
+2097	Spliceosome Database	1044
+6515	European Nucleotide Archive	1043
+11853	CLC Genomics Workbench	1043
+8534	Gregor Mendel Institute	1034
+6828	1000 Genomes: A Deep Catalog of Human Genetic Variation	1032
+2265	Takifugu rubripes Genome	1031
+8205	DADA	1031
+13238	POLYPHEN	1027
+4262	TFSEARCH: Searching Transcription Factor Binding Sites	1026
+8136	Arabidopsis Biological Resource Center	1026
+2077	Conserved Domain Database	1018
+902	SoftBerry	1017
+7038	Psort	1012
+11931	Glimmer	1012
+10522	PRABI	1007
+6813	ShortRead	1003
+11917	Phrap	1003
+3067	DnaSP	1002
+6729	Consensus CDS	1001
+7140	DMAPS - A Database of Multiple Alignments for Protein Structures	1001
+4455	PASHA	995
+6445	CHASM/SNV-Box	995
+2248	Brain Bee	994
+12852	Mauve	991
+1005	DSRC	990
+8448	Caulobacter Cell Cycle Modeling	989
+2830	Greengenes	987
+11947	mothur	983
+5033	NMDS - New Mexico Donor Services	979
+6814	TaxoAssignement	979
+12996	MEDIPS	977
+10254	UnrealEngine2 Runtime Software	974
+13059	CoNAn-SNV	974
+3454	GCG/SeqWeb	972
+2300	DBD: Transcription factor prediction database	969
+7630	DSD: a database of dehydrogenase stereospecificities	969
+8029	biolab - Bioengineering and Bioimages Laboratory	969
+10988	NURD	966
+8220	Online Macromolecular Museum	965
+462	Genome BioInformatics Research Lab - gff2ps	963
+11932	Glimmer-MG	963
+1192	RDPipeline	958
+1598	BLASTN	957
+12841	United States Department of Energy	957
+9404	SNPP	956
+10946	CEAS	953
+13470	Manipulate and Display a DNA Sequence	947
+9054	SCOUT	946
+10536	Pompep	946
+12848	Michigan State University College of Veterinary Medicine	943
+9095	HAPLOWSER	941
+837	HAP 1	940
+7583	CATH: Protein Structure Classification	940
+5138	VFS	932
+13007	HECTOR	930
+12567	Oligo Factory	927
+4097	UCSF Chimera	926
+5673	Tree of Life Web Project	923
+8924	Roadmap Epigenomics Project	918
+5970	BASH4RfMRI	917
+8425	TB Consortium Bias Removal Server	917
+10973	GenomeStudio	917
+103	Tissue Engineering Resource Center	916
+2989	BioPerl	916
+5485	Maq	916
+3554	SEGS	915
+11899	TopHat-Fusion	915
+8597	Aquatic Habitats	909
+6459	Jalview	905
+12961	University of Queensland; Brisbane; Australia	905
+1701	Chemistry Structures and 3D Molecules at 3Dchem.com	903
+1164	Shimmer	899
+13099	CSA - Catalytic Site Atlas	897
+3387	NormFinder	891
+13446	BGI-RISe - Beijing Genomics Institute Rice Information System	891
+10709	ABySS	884
+7211	Amblyomma Americanum (Lone Star Tick) cDNA Sequencing	880
+7612	CR-EST - Crop ESTs	880
+9194	GENEPOP	879
+12770	HOMD	879
+13429	REDIdb- RNA Editing Database	878
+3591	Phenotree	874
+13246	Evaluation Instruments Bank	872
+13732	EchinoBase	871
+4512	EuPathDB - Eukaryotic Pathogen Database Resources	870
+11968	CELLO	870
+7657	ET-TDT	869
+7706	Horizontal Gene Transfer-DataBase	867
+13094	Berkeley Drosophila Genome Project	863
+11999	AACC	862
+1888	HGMD	861
+10882	kmer-SVM	859
+7807	MOsDB: rice genome database	858
+8617	Eukaryote Genes	858
+13200	PolyPhen-2	857
+6663	Rice Genome Annotation	855
+10980	ABySS-Explorer	854
+5181	Human Splicing Finder	852
+5611	SAMtools Text Alignment Viewer	847
+7217	Swami: The Next Generation Biology Workbench	845
+7188	SDSC Biology Workbench	838
+1800	CAROL	826
+9303	MPDA	824
+154	DESeq	822
+9328	PLABSIM	820
+3395	PPDB: Plant Promoter Database	819
+2359	DDBJ - DNA Data Bank of Japan	815
+11807	SynBrowse	815
+8249	QIIME	811
+8571	Roche NimbleGen	809
+7232	Clusters of Orthologous Groups Analysis Ontology	808
+2434	PROW	804
+7183	ProLysED - Prokaryotic Lysis Enzymes Database	798
+6454	HMS LINCS Database	792
+2261	CPDB - the Circular Permutation Database	787
+12802	edgeR	786
+12938	National Science Foundation	786
+5534	FASTX-Toolkit	784
+12529	Base Pair Biotechnologies	784
+5096	SoyBase	783
+7361	BioEdit	782
+6345	Recon x	780
+6988	BacMap: Bacterial Genome Atlas	772
+7441	SpBase - Strongylocentrotus purpuratus: the Sea Urchin Genome Database	770
+7904	RPG - Ribosomal Protein Gene database	769
+2118	Protein Quaternary Structure database	768
+2120	National Center for Marine Algae and Microbiota	768
+8450	SIMCOAL	765
+4576	NASC	764
+8417	Augustus: Gene Prediction	764
+11839	Quake	763
+1243	ERGO	760
+752	Salk Institute for Biological Studies	757
+1621	Human Gene Mutation Database	756
+1305	MANOR	752
+6109	PoSSuM	752
+6281	Galaxy	752
+9370	R/METASIM	743
+12902	GENSCAN	742
+12956	Human Microbiome Project	742
+5671	BSMAP	740
+5255	CLEVER Toolkit	736
+4483	VAMPS	735
+12746	AutoDock	734
+10765	MISA	731
+13159	BRAT	731
+10818	CnD	728
+5459	NGSQC	727
+10739	TESS: Transcription Element Search System	724
+1561	Distance Mapping	723
+1299	SNM	722
+13381	Phenylalanine Hydroxylase Locus Knowledgebase	721
+5313	SV40 Large T-Antigen Mutant Database	719
+7685	Genome Reviews	712
+13367	Ensembl Genome Browser	712
+11798	Circos	710
+1765	APHIDBASE	701
+3457	PROSITE	700
+8550	Vienna RNA	693
+11290	Hong Kong University; Hong Kong; China	688
+12102	Connecting Overlapped Pair-End reads	680
+12981	EDNA	680
+11936	Prodigal	679
+13083	RDP FrameBot	676
+5982	CSHL - Hannon Lab	674
+1653	BLASTX	673
+8546	Neuron-Restrictive Silencer Factor	670
+3344	Source BioScience LifeSciences	668
+11942	MEGAN	668
+1247	Mutation Surveyor	667
+7206	PROPHECY	665
+726	Perlegen/NIEHS National Toxicology: Mouse Genome Resequencing Project	663
+295	CGH Fusion	662
+1906	Rosetta Bit	662
+11930	GeneMark	659
+354	CLC Main Workbench	658
+9248	JOINMAP	654
+7777	MEROPS	653
+8320	ChroMoS	651
+10533	Genetic Alterations in Cancer	651
+7763	LOCATE: subcellular localization database	649
+1228	QUAST	648
+3788	Foldit	647
+6646	BEDTools	646
+9396	SKAT	646
+3413	GBSA	645
+3417	probeBase	645
+13278	PlantNATsDB - Plant Natural Antisense Transcripts DataBase	644
+5082	IUPAC CPEP Subcommittee on Electronic Data Standards	643
+11971	Euk-mPLoc	643
+4706	JGIDB	640
+2678	FANTOM DB	638
+11095	Argonne National Laboratory	635
+1570	NetNGlyc	634
+9217	HAP 2	630
+8387	Adaptive Poisson-Boltzmann Solver	629
+1783	MEME Suite - Motif-based sequence analysis tools	628
+5476	Bowtie	627
+7202	Family Pairwise Search - Protein Family Classification	627
+3279	deFuse	622
+4223	PerM	622
+10752	SOAPdenovo	622
+10240	Computational Biology and Functional Genomics Laboratory at Harvard	616
+7960	TargetDB: Structural Genomics Target Search	615
+13048	Trinity	615
+2920	Hollywood	613
+11950	vegan	613
+10865	SIPeS	612
+3135	mrCaNaVaR	611
+5371	Invitrogen Clones	611
+1191	ChIPMunk	610
+6244	PHYLIP	609
+1246	DSK	608
+10233	Illumina	608
+1802	CASAVA	602
+7582	CATdb: a Complete Arabidopsis Transcriptome database	598
+13268	SOAPdenovo-Trans	597
+552	ESPRIT	595
+2358	Genevestigator	595
+11010	Vector BioLabs	594
+6206	modENCODE	593
+11269	J. Craig Venter Institute	593
+6317	Agri-environmental Research Data Repository	590
+13599	genomics Workbench	587
+13356	MEDEA	583
+11843	sabre	581
+1843	CCAT	574
+3095	Primer-BLAST	572
+5142	SRPDB	572
+8358	Kyte Doolittle Hydropathy Plots	570
+12182	Molecule Inc.	570
+10903	Piranha	569
+4068	ExAc	567
+10276	HHpred	566
+7440	GEISHA - Gallus Expression in Situ Hybridization Analysis: A Chicken Embryo Gene Expression Database	565
+5685	Manatee	561
+6928	Arabidopsis Gene Regulatory Information Server	561
+2065	Primate Orthologous Exon Database	560
+6766	Pre Ensembl	559
+10646	UniRef	557
+11819	FASTA	557
+11793	Integrative Genomics Viewer	556
+5261	inGAP	555
+8304	Comparative Biomedical Sciences Graduate Program	555
+6995	NAST	554
+3177	GENEWIZ	553
+9395	CPSS	553
+6128	UMD-BRCA1/ BRCA2 databases	551
+7501	University of Maryland, College Park, MD, Department of Neuroscience and Cognitive Sciences	551
+1851	Salk Institute for Medical Research: Laboratory for Cognitive Neuroscience	550
+3301	Cotton EST Database	550
+3352	PIRSF	544
+1363	Integrated DNA Technologies OligoAnalyzer	541
+1360	UNAFold	540
+7173	Biopython	540
+2803	Predictions for Entire Proteomes	534
+3592	Enhancer Trap Line Browser	533
+7165	BOXSHADE 3.21	532
+12989	Human Genome Variation Society	531
+6390	Computational Genomics Analysis Tools	529
+8605	Gene Expression Profile	528
+3935	Sartorius	525
+1604	SeqScape Software	521
+6914	FAOSTAT	521
+11662	University of Maryland; Maryland; USA	518
+2892	Wasserman Lab Online Software Tools	515
+2383	JGI Genome Portal	514
+13459	NoPdb: Nucleolar Proteome Database	512
+7599	Ciliate IES-MDS database	511
+9071	BAMA	511
+5130	sRNAMap: Small Noncoding RNA MAP	510
+12551	Oxford Gene Technology	508
+10936	Asterias	506
+11928	FGENESH	504
+7925	SIEGE- Smoking Induced Epithelial Gene Expression	503
+2172	Genoscope	502
+10777	MutationTaster	502
+4509	SPInDel	500
+4999	CARMA	500
+7707	Kinomer	498
+10883	LASAGNA-Search	497
+3195	Smart Assays	490
+8143	Fungal Genetics Stock Center	489
+12821	ANNOVAR	489
+11822	TBLASTN	487
+7609	ConSurf-DB	486
+3499	RegulonDB	485
+7139	COG	485
+13107	Adenylate Uridylate-rich-Rich Element-Containing mRNA Database	485
+13433	Dali Server	485
+5045	ESPRIT-Tree	483
+3543	MapMan	482
+11809	Infernal	477
+11106	Babraham Institute	476
+3332	PhosPhAt	475
+12955	PubMLST	475
+1810	SPADE	472
+7809	MPIM - Mitochondrial Protein Import Machinery	470
+2449	EDAS - EST-Derived Alternative Splicing Database	468
+8992	GMAP	464
+2150	High Throughput Genomic Sequences Division	463
+2623	DMPTool	463
+2817	Genomes Online Database	460
+8665	Jackal	460
+3380	BestKeeper	459
+5486	MOSAIK	459
+8618	Fluxus Engineering	458
+8558	LAGAN	456
+9273	MAPCHART	454
+13498	Aminoacyl-tRNA synthetase database	453
+3398	BrainTrap: Fly Brain Protein Trap Database	451
+5269	Scripture	451
+4905	VMD	449
+2996	MITOMAP - A human mitochondrial genome database	448
+10278	DataMonkey	448
+4616	BAMS Neuroanatomical Ontology	447
+4559	PGN	446
+11779	CGView	446
+7475	St. Louis University Medical School Pharmacology and Physiology	444
+10910	BWA	443
+1439	BioCARS	441
+8422	Bahler Laboratory: Genome Regulation	437
+6452	NIST Standard Reference Data	435
+2384	Cancer Genomics Consortium	434
+2519	pIRS	433
+9947	MSU X-ray Crystallography Core Laboratory	433
+1975	Center for Computational Medicine and Biology	432
+6465	Kabat Database of Sequences of Proteins of Immunological Interest	431
+11546	Stowers Institute for Medical Research	428
+186	FlexX	424
+10961	OligoArray	424
+2260	COSMIC - Catalogue Of Somatic Mutations In Cancer	423
+253	Polytechnic University of Madrid; Madrid; Spain	422
+3064	PDP++ Software Home Page	422
+4800	Apo and Holo structures DataBase	422
+8560	Regulatory Sequence Analysis Tools	420
+131	SPAdes	419
+7704	Highly Expressed Genes Database (HEG-DB)	418
+12826	NCL Resource - A gateway for Batten disease	418
+9021	CARP	417
+13032	SWISS-MODEL Repository	415
+4605	GSDS - Golden State Donor Services	414
+2664	libmgf	412
+128	DOCK	408
+1647	Cuffdiff	408
+3089	In-Silico PCR	407
+2152	NextGen Sequence Databases	402
+5629	Staden Package	401
+6969	ProDom	398
+13024	MIReNA	398
+10771	HomSI	396
+13453	ApiDB ToxoDB	396
+13331	ApiDB PlasmoDB	395
+1909	Pecan	394
+3108	MethDB	394
+6213	QTL Archive	394
+9362	Quip	394
+9182	GAIA	393
+4154	PATRIC	392
+7757	NECTAR	391
+10835	tRNAscan-SE	388
+4104	WholeCellKB	384
+6105	RIO-DB - Research Information Database	382
+9332	POWERMARKER	378
+9291	Gzip	377
+7329	EVORA	372
+8057	UCHIME	371
+3218	FundRef	370
+7747	IPD-HPA - Human Platelet Antigens	369
+9002	TRAP	369
+4362	VIROME	364
+5651	DiProGB	364
+689	SOAP	363
+6989	agriGO	363
+4961	XP-CLR	362
+7770	Thermodynamic Database for Nucleic Acids	362
+839	LDB/LDB+	357
+1875	TCW	357
+1156	khmer	356
+2214	ARK-Genomics: Centre for Functional Genomics	356
+12079	SlideSort-BPR	356
+4514	Soybean Ontologies	355
+2350	Fungal Databases	354
+810	EMBL - Bork Group	352
+3126	HYDEN	352
+1562	pdb-care	351
+11958	AutoDock Vina	349
+1697	Cold Spring Harbor Protocols: Collected Resources - Behavioral Assays	347
+6566	Leiden Open Variation Database	347
+8423	BiQ Analyzer: A Software Tool for DNA Methylation Analysis	346
+10963	Picky	345
+4814	MG-RAST	344
+4613	GeneDB Lmajor	342
+6590	Pseudomonas Genome Database	342
+4161	MSG	341
+6600	MaizeGDB	341
+5326	Assembly Likelihood Estimator	340
+6765	GASiC	338
+2148	Gene Index Project	336
+6565	GigaScience	333
+1916	Ray	332
+10825	rSW-seq	332
+7731	IARC TP53 Database	331
+12384	LGC Genomics	328
+5315	Plant Genome Resource at JGI	327
+8424	Biacore Life Sciences	327
+5449	MLML	326
+10245	MLST	326
+2277	AceView	325
+5620	TRANSFAC	325
+1711	German Collection of Microorganisms and Cell Cultures	324
+8251	Joint Center for Structural Genomics	324
+5514	HTSeq	323
+733	Drosophila RNAi Screening Center	322
+3204	PHAST	322
+5184	PHAge Search Tool	322
+5742	ESTScan	322
+2956	Amplify	321
+6511	PDBsum	321
+7161	Sol Genomics Network - Bulk download	320
+13295	Swiss-PdbViewerDeepViewv4.0	320
+5569	HiCUP	319
+2389	Honey Bee Brain EST Project	318
+9026	NetOGlyc	318
+3264	Geospiza	317
+11891	IDBA-Tran	316
+9210	GLIDERS	314
+2835	Exonic Splicing Enhancer Finder	313
+9087	GENEPOOL	313
+4383	SNiPer-HD	312
+7024	Mammalian Gene Collection	312
+2036	Candida Genome Database	311
+2472	WoLF PSORT	311
+9190	GENEFINDER	310
+6764	Invertebrate Brain Platform	309
+8055	Salk Institute for Biological Studies: Jude Mitchells Neuron Exchange and Matlab Analysis	309
+8619	Gnuplot	307
+1159	Transposon Insertion Finder	304
+6169	ClinVar	304
+6650	TIGAR	304
+1374	Resource for Biocomputing Visualization and Informatics	302
+11802	Gobe	302
+2790	TherMos	301
+8116	Human Cancer Protein Interaction Network	300
+3041	DIALIGN	298
+6533	Roslin Institute	298
+8434	Critical Assessment of Techniques for Protein Structure Prediction	298
+6668	SUB-cellular location database for Arabidopsis proteins II	297
+6849	VARSCAN	297
+2410	Marine Biological Laboratory	296
+5700	MolGen	296
+8508	ExPASy Aldente Peptide Mass Fingerprinting tool	294
+8522	FoldX	293
+13166	PlantGDB	293
+10982	Hawkeye	291
+11234	Georgia State University; Georgia; USA	291
+2140	Leica TCS SPE	289
+6610	RAP-DB	289
+8602	Zymo Genetics	289
+6302	VICUNA	288
+7787	Gene Regulation Programs	288
+11841	cutadapt	288
+12034	Algal Functional Annotation Tool	288
+563	GERP	287
+952	Australian Research Council	287
+958	Catholic University of the Sacred Heart; Milan; Italy	285
+8365	Secondary Structure Matching	285
+13325	Homologus	284
+12930	CSAR	283
+2161	Protein Structure Initiative	281
+4278	BOLD	281
+2898	CODEHOP	279
+10440	Tribolium Ontology	279
+3255	Nucleic Acid Database	278
+7867	PolyA DB	277
+9051	ARLEQUIN	277
+10266	Phylogeny.fr	276
+11867	htseq-count	276
+4944	European Genome-phenome Archive	275
+13027	RSEM	274
+13157	Sanger: Danio rerio Sequencing Project	274
+3652	RINS	273
+2354	DBTSS: Database of Transcriptional Start Sites	272
+5263	PEMer Package	272
+2874	CBS Prediction Servers	271
+6081	Gordon and Betty Moore Foundation	270
+2937	ATandT Labs Research - Software Tools	269
+7607	COMe - Co-Ordination of Metals etc.	269
+7675	GeneTrees: A Phylogenomics Resource	268
+7827	ODB - Operon database	268
+9349	QTL Cartographer	267
+12342	University of Western Australia; Perth; Australia	267
+2456	eggNOG	264
+4953	HSSP	263
+7665	FATCAT Flexible Structural Neighborhood	263
+7696	GrainGenes	263
+6151	NCBI Epigenomics	262
+11811	MAFFT	262
+12762	Genetic Information Research Institute	262
+10750	Celera assembler	261
+2151	STRUCTURE	260
+7823	Nonribosomal Peptides	259
+7976	Xpro	259
+5095	Cereal Plant Development Ontology	258
+6525	Picard	257
+13321	psRNATarget	257
+6763	GENORM	256
+8234	Proteome Analyst PA-GOSUB	256
+2137	Organelle Genomics	255
+5497	WHAM	255
+10258	SIGnAL Salk Institute Genomic Analysis Laboratory	255
+351	ARACHNE	254
+2303	CGSC	254
+8419	BLAST Similarity Search	254
+2115	Protein families database of alignments and HMMs	253
+3440	Chinese University of Hong Kong; Hong Kong; China	252
+11855	Genomatix Solutions	252
+3506	Human Experimental/FunctionAL MaPper: Providing Functional Maps of the Human Genome	251
+11821	PatMaN	251
+5763	PeptideMapper	249
+13306	Crossbow	249
+1786	CQN	248
+1799	BREAKDANCER	247
+2939	HS3D - Homo Sapiens Splice Sites Dataset	247
+5398	JCVI CMR	247
+7554	Alternate Splicing - induced ALteration of Protein Structure	247
+8192	Anno-J	247
+12008	Bioinformatics Organization	247
+12973	Ringo	247
+5191	SnpEff	246
+6974	Dali database	246
+9000	SSRL Structural Molecular Biology	246
+11911	Genovo	246
+3796	Jmol	245
+4333	Genopole	245
+5622	STAR	245
+6469	Hereditary Hearing Loss Homepage	245
+7088	ESEfinder 3.0	245
+11330	John Innes Centre; Norwich; United Kingdom	245
+151	GISTIC	242
+4210	Online Nucleosomes Position Prediction by Genomic Sequence	242
+4986	Minia	242
+7395	GEB	242
+12766	EXCAVATOR-tool	242
+12941	Replication Domain	242
+7808	MPDB - Molecular Probe Database	241
+7829	OGRe - Organellar Genome Retrieval	241
+1940	BAliBASE	239
+7105	CD-HIT	239
+7902	RNRdb	239
+3267	nematodes.org	237
+8402	Agadir	237
+4490	Transporter Classification Database	236
+5196	Strepto-DB	236
+2580	BioStar	235
+48	Batman-Seq	234
+2337	PolyPhred	234
+3020	ISFinder	234
+5032	FlyAtlas: the Drosophila gene expression atlas	234
+7044	Amino Acid Index Database	234
+7802	BRIG	234
+10498	Bayer CropScience	234
+1370	DDBJ Sequence Read Archive	233
+8517	Fluxus	233
+687	TMAP	232
+7043	TriTrypDB	232
+10783	PMut	232
+262	rsem-simulate-reads	231
+11896	Oases	231
+13368	The Delarue Group	231
+13458	pTARGET	231
+1339	DEDS	229
+10824	readDepth	229
+13025	MIREAP	229
+6402	PhyloBayes	228
+291	DNASTAR: Lasergene Core Suite	227
+7330	Taipan	227
+10271	BIOBASE Corporation	227
+11854	DNASTAR: Lasergene Genomics Suite	227
+13428	PLACE- A Database of Plant Cis-acting Regulatory DNA Elements	227
+242	Galaxy Cistrome	226
+600	NVM	226
+1753	Database for Antisense Oligonucleotides Selection and Design	226
+8186	Extended Alternatively Spliced EST Database	226
+12733	Retinal Information Network	226
+5493	JCVI TIGRFAMS	225
+7245	Next-Gen Sequencing	225
+13374	Kidney Development Database	225
+1946	BarleyBase	224
+7723	Homeobox Genes DataBase	224
+13026	miRDeep-P	224
+8612	dCAPS Finder	222
+10809	WEP	222
+11919	BLAT	220
+6135	mitopred	219
+11813	ProbCons	219
+12960	miRDeep*	219
+9360	RHMAP	218
+12756	Genome Database for Rosaceae	218
+7039	SCOP: Structural Classification of Proteins	217
+8439	CIPRES Science Gateway	217
+10269	The Li Lab at UCSF	217
+2414	VennDiagram	216
+6587	ESPript 2.2	216
+1026	ACGT Inc.	215
+13583	diffusion TENSOR Visualizer	215
+10829	miRDeep	214
+12999	GRASSIUS	214
+3004	IPD - Immuno Polymorphism Database	213
+10248	UCL Bioinformatics Group	213
+11153	CIRAD	213
+12617	Biogazelle	213
+740	PMAP	211
+4341	Schistosoma mansoni Database	211
+9284	MAPQTL	210
+2058	TRIP Database	209
+10890	NPS	209
+4688	SEVENS	208
+5498	SMALT	208
+12735	European ribosomal RNA database	208
+7199	Atlas of Genetics and Cytogenetics in Oncology and Haematology	207
+8680	Ensembl Plants	205
+12560	DNAcopy	204
+5784	SGD Gene Ontology Slim Mapper	203
+6516	SAAP-RRBS	203
+11818	T-Coffee	203
+10716	Boyce Thompson Institute for Plant Research	202
+7250	CAP3 Sequence Assembly Program	201
+5507	MicrobesOnline	200
+5550	CGAT	200
+10602	SOAPsnp	200
+10875	AlignACE	200
+13401	Tree families database	200
+7930	SISYPHUS	199
+8132	Database of expressed sequences or mRNA	199
+3209	QGene	198
+6553	Genome Reference Consortium	198
+7610	CORG - A database for COmparative Regulatory Genomics	198
+7102	Rickettsia Genome Database	197
+10277	Bioinformatics Toolkit	197
+3362	PLANTTFDB	195
+6881	BarraCUDA	195
+7965	TPMD - Taiwan polymorphic microsatellite marker database	195
+8033	Gene Regulation Databases	194
+11812	MUSCLE	193
+12890	Trowel	193
+7230	High Quality SNP Database	192
+1184	VAAL	191
+4642	ModBase	191
+6127	NMR Restraints Grid	191
+7605	coliBase	191
+2808	Batch Oligo Selection Script	190
+4893	Protein Biotechnologies	190
+5099	Alfred P. Sloan Foundation	189
+6756	Cscan	189
+8918	TopFIND	189
+12806	SDAP: Structural Database of Allergenic Proteins	189
+10216	IWT	188
+10967	ROSO	188
+13194	Tuxedo	188
+6318	Amazon Web Services Public Data Sets	187
+7097	DisProt - Database of Protein Disorder	187
+8480	DEGseq	186
+586	drFAST	185
+6606	APD	185
+7931	Variant Effect Predictor	185
+13168	Custom DNA Constructs	185
+4710	UnifiedGenotyper	184
+5604	Bismark	184
+12017	methPrimerDB	184
+336	National Institute for Basic Biology; Okazaki; Japan	183
+196	Surflex-Dock	182
+3140	FastSNP	182
+5583	MethylomeDB	182
+398	Protein-RNA Interaction Database	181
+2437	EcoGene	181
+4002	GigaDB	181
+7861	Plant MPSS	181
+2132	EPD	180
+4919	HMP Data Analysis and Coordination Center	180
+9065	GENECLASS	180
+13362	GENSCAN Web Server at MIT	180
+7917	SDR: Specificity-Determining Residues in Protein Families	179
+3081	Primer3Plus	178
+9496	iMir	178
+11848	Trimmomatic	178
+7839	OrthoMCL DB: Ortholog Groups of Protein Sequences	177
+11810	Kalign	177
+2626	GeneSeer	176
+13076	Japanese Single Nucleotide Polymorphisms	176
+11502	Rothamsted Research; Harpenden; UK	175
+2179	VAAST	174
+2485	Eukaryotic Promoter Database	174
+5741	ZMM	174
+6208	Human Epigenome Browser	174
+7737	Imprinted Gene Catalogue	174
+14555	cBioPortal	174
+3534	FSSP - Families of Structurally Similar Proteins	173
+5056	SSPACE	173
+11552	Swedish Research Council	173
+13089	Mobyle@Pasteur	173
+7822	NONCODE	172
+12948	PhyloTree.org	172
+2945	mtDB - Human Mitochondrial Genome Database	170
+7926	SilkDB	170
+3058	Distant Regulatory Elements	169
+3166	MiST - Microbial Signal Transduction database	169
+3331	PHI-base	169
+7800	Mitome	169
+1982	SGA	168
+3857	Roslin Cells	168
+3934	Mosaic Systems	168
+5145	PANTHER Evolutionary analysis of coding SNPs	168
+2676	Community Cyberinfrastructure for Advanced Marine Microbial Ecology Research and Analysis	167
+2875	COnsensus-DEgenerate Hybride Oligonucleotide Primers	167
+4396	Sulfolobus Database	167
+8283	Alcohol and Drug Abuse Institute, University of Washington	167
+7216	ESTIMA - Expressed Sequence Tag Information Management and Annotation	166
+12276	ContigExpress	165
+229	ChromasPro	164
+8168	BayGenomics	164
+8609	CpG Island Searcher	164
+10261	Nomenclature for the description of sequence variants	164
+13283	ChimeraSlayer	164
+6531	Connexin-deafness	163
+7419	G Protein-Coupled Receptor Data Base	163
+8581	DeRisi Lab	163
+1586	DEAPdataset	162
+5803	UniPROBE	162
+11118	Biotechnology and Biological Sciences Research Council	162
+1442	Macromolecular Crystallography Research Resource	161
+2299	CampyDB: Campylobacter Database	161
+5483	GSNAP	161
+1558	CisGenome	160
+8149	Dictyostelium discoideum genome database	160
+8431	Bork Group's WU-BLAST2 Search Service at EMBL	160
+718	Sequencing Analysis Software	158
+7973	VISTA Enhancer Browser	158
+10742	ALLPATHS-LG	158
+11844	Scythe	158
+459	MAXCHELATOR	157
+12304	BEETL	157
+10904	MeRIP-PF	155
+11309	Institute of Biology and Chemistry of Proteins; Lyon; France	155
+12561	Neuro-Zone	155
+263	RNAmotifs	154
+2841	Sea Urchin Genome Project	154
+6963	PLEXdb - Plant Expression Database	154
+7748	IPD-KIR - Killer-cell Immunoglobulin-like Receptors	154
+5516	Hadoop-BAM	153
+5728	DBD - Slim Gene Ontology	153
+7172	Bioscreen C MBR	153
+7692	GOBASE- The Organelle Genome Database	153
+3492	Human Variome Project	152
+4865	VariationHunter	152
+6939	GtRNAdb - Genomic tRNA Database	152
+7615	CyanoBase	152
+1151	skewer	151
+7606	Colibri	151
+2047	ASPGD	150
+2755	Gabi Primary Database	150
+5912	Universal Numerical Fingerprint	150
+7914	SBASE	150
+8681	Ensembl Fungi	150
+5883	Oomycetes Soybean EST Database	149
+7943	SNP500Cancer	149
+10797	Phylogeny Programs	149
+12810	tRanslatome	149
+5907	Vector Database	148
+7824	NPD - Nuclear Protein Database	148
+8583	Wildlife disease information node	148
+9022	Disaccharide Database	148
+11450	Nencki Institute of Experimental Biology; Warsaw; Poland	147
+11760	VIB; Flanders; Belgium	147
+11908	RobiNA	147
+13352	DSAP	147
+13423	CCDB - The CyberCell Database	147
+2284	AMEDEO: The Medical Literature Guide	146
+3082	e-PCR	146
+5470	TIGR Plant Transcript Assembly database	146
+13313	Francisella tularensis Genome Research	146
+5661	TRED - Transcriptional Regulatory Element Database	145
+6730	HGVS Locus Specific Mutation Databases	144
+8637	Lowe Lab tRNAscan-SE	144
+11859	NextGENe	144
+13409	Pairwise Conservation Scores - An Algorithm to Identify Conserved K-mers	144
+7573	CADB - Conformational Angles DataBase of Proteins	143
+669	SRMA	142
+1365	Australian Digital Futures Institute	142
+2745	Bird Base	142
+7969	VFDB - Virulence Factors of Bacterial Pathogens	142
+11410	National Chiao Tung University; Hsinchu; Taiwan	142
+4092	PENTA-ID	141
+4629	Nonpareil	141
+7683	GenoList genome browser	141
+8620	An Extended and Parallel version of Clustal	141
+11251	Ministry of Agriculture of the Peoples Republic of China	141
+2985	UCSF Spot	140
+7268	BOMP: beta-barrel Outer Membrane protein Predictor	140
+11379	Max Planck Institute for Molecular Genetics; Berlin; Germany	140
+12428	UMD Sequencing Core - Institute of Bioscience and Biotechnology Research	140
+13392	Mobile group II introns database	140
+800	Ensembl Metazoa	139
+6544	HOMSTRAD - Homologous Structure Alignment Database	139
+7578	CATMA - Complete Arabidopsis Transcriptome MicroArray	139
+1235	VCFtools	138
+1269	SNPchip	138
+6720	UMD p53 Mutation Database	138
+13455	ApiDB CryptoDB	138
+1880	Aspergillus Genomes	137
+5593	Sybil	137
+12636	Virginia Bioinformatics Institute	137
+2182	PROVEAN	136
+3047	DaliLite Pairwise comparison of protein structures	136
+7040	Antibiotic Resistance Genes Database	136
+7567	Blocks	136
+10639	GeneDB Spombe	136
+10671	AceDB	136
+11701	University of South Dakota; South Dakota; USA	136
+2345	DBTBS	135
+2965	Integrated Microbial Genomes with Microbial Samples	135
+7551	Animal Genome Size Database	135
+8630	ncRNA Expression Database	135
+11395	Ministry of Science and Technology of China	135
+12825	NASCs International Affymetrix Service	135
+598	Chromas	134
+7322	SEURAT	134
+7651	Evola	134
+5584	FinchTV	133
+8628	Motif Extractor	133
+10535	NCBI GenBank via FTP	133
+662	Wnt homepage	132
+5101	comrad	132
+7106	RTPrimerDB- The Real-Time PCR and Probe Database	132
+8242	Silkworm Genome Database	132
+4412	SCPD - Saccharomyces cerevisiae promoter database	131
+12854	Amazon Web Services	131
+1072	bsseq	130
+7555	Alternative Splicing Database	130
+8137	Human Gut Microbiome Initiative	130
+8148	Daphnia genomics consortium	130
+10907	QUMA	130
+11341	Leibniz Institute of Plant Genetics and Crop Plant Research; Saxony-Anhalt; Germany	130
+386	pdb-data	129
+4044	QuakeML	129
+7678	GeneNet	129
+13434	Plant DNA C-values Database	129
+1815	AStalavista	128
+5762	MutationAssessor	128
+11792	IGB	128
+570	Microbial Genetics Resource at JGI	127
+1694	A Classification of Mobile genetic Elements	127
+3370	qBasePLUS	127
+5643	TransportDB	127
+6800	Sickle	127
+2584	MBASED	126
+3418	LaSSO	126
+7068	Molecular Toolkit	126
+7821	NMPDR	126
+13064	LOCAS	126
+4250	DER Finder	125
+560	Pindel	124
+7959	T1DBase	124
+8285	Washington University Basic Local Alignment Search Tool	124
+7767	Many Microbe Microarrays Database	123
+1147	BodyMap-Xs	122
+3169	Fungal Genome Initiative	122
+4939	Saskatoon Arabidopsis T-DNA mutant population SK Collection	122
+5454	PRINSEQ	122
+6298	LDHAT	122
+11847	Trim Galore!	122
+2428	ABCDE Format	121
+3093	EUROpean Saccharomyces Cerevisiae ARchive for Functional Analysis	121
+4402	Anopheles gambiae (African malaria mosquito) genome view	121
+4650	AFTOL	121
+8679	Ensembl Bacteria	121
+10899	PlnTFDB	121
+13503	TreeView	120
+695	RMAP	119
+1692	Archaeal and Bacterial ABC Transporter Database	119
+1883	The Alternatve Splicing Database	119
+2170	AREX	119
+4812	PRISM - Pair Read Informed Split Mapper	119
+13450	PMDB - Protein Model Database	119
+13462	miRNA viewer	119
+5828	Blast2GO	118
+6091	XSEDE - Extreme Science and Engineering Discovery Environment	118
+8229	MIRROR: Protein Information Resource	118
+460	Sea Urchin Embryology	117
+10664	NEBcutter	117
+10778	MutPred	117
+12501	Tufts University Core Facility	117
+457	sybil - Efficient Constrained Based Modelling in R	116
+2413	Database of Rice Transcription Factors	116
+8120	Invitrogen iPath	116
+10886	RSAT peak-motifs	116
+11858	NARWHAL	116
+5764	Peptide Sequence Database	115
+9451	CANDI Share: Schizophrenia Bulletin 2008	115
+515	ARB project	114
+1886	ASTRAL Compendium for Sequence and Structure Analysis	114
+2890	Honey Bee Genome Project	114
+3426	China Agricultural University; Beijing; China	114
+6619	Tuberculosis Database	114
+7732	X-linked SCID mutation database	114
+8362	A Resource Center For Tetrahymena Thermophila	114
+8443	Calmodulin Target Database	114
+10259	Genome Institue at Wahington University Genomes	114
+12031	DIYABC	114
+3285	Nuclear Receptor Resource	113
+11796	UCSC Cancer Genomics Browser	113
+13393	RosettaDock	113
+1062	University of Kentucky; Kentucky; USA	112
+3003	Coddle-Codons Optimized to Discover Deleterious LEsions	112
+8584	Condel	112
+5641	BS Seeker	111
+5776	FIVA - Functional Information Viewer and Analyzer	111
+7944	ExPASy Biochemical Pathways	111
+5236	Structure Superposition Database	110
+6951	Myrna	110
+7884	RARGE - RIKEN Arabidopsis Genome Encyclopedia	110
+7887	RECODE- The database of the translational recoding events	110
+10843	SICER	110
+12557	Creative Biolabs	110
+2537	Xbase	109
+4450	ProFunc	109
+5006	DNAPlotter	109
+5295	Zyagen	109
+5519	Classifier for Metagenomic Sequences	109
+7968	Unigene MicroSatellite database	109
+12824	MBGD - Microbial Genome Database	109
+4635	SAS - Sequence Annotated by Structure	108
+5227	SAMtools/BCFtools	108
+8126	NASCArrays: The Nottingham Arabidopsis Stock Centre Arrays	108
+9043	MULTIQTL	108
+11826	HiTEC	108
+13203	Genolevures: Genomic Exploration of the Hemiascomycete Yeasts	108
+13465	STRBase	108
+2923	pLabel	107
+5046	SSU rRNA Modification Database	107
+5504	Stampy	107
+7980	Yeast snoRNA Database	107
+13004	SeqPrep	107
+4934	Forsyth Institute	106
+7761	Legume Information System	106
+8244	Transterm	106
+8496	RESCUE-ESE	106
+8734	InVEx	106
+190	Molegro Virtual Docker	105
+7815	Noncoding RNA database	105
+7875	ProRule	105
+11392	Ministry of Higher Education Research and Science of Quebec	105
+12038	PerlPrimer	105
+13649	CSIT	105
+1332	betr	104
+2377	Universal Virus Database	104
+4316	bcbio-nextgen	104
+6757	MyHits	104
+8223	Phylogenetic Clusters of Orthologous Groups Ranking	104
+11940	MetaSim	104
+13269	Wgsim	104
+3578	RNAdb	103
+3756	Oxford Nanopore Technologies	103
+4326	EpiGRAPH	103
+7868	Quadruplex Database	103
+9252	LAMARC	102
+11814	PSAR-Align	102
+2654	GlimmerHMM	101
+12545	Enzymatics	101
+13807	Proteome Analyst	101
+2657	Cancer Genomics Hub	100
+7870	Poxvirus Bioinformatics Resource Center	100
+8444	Program DynaFit	100
+8553	Prediction and Analysis of Nuclear Localization Signals	100
+12971	GBrowse syn	100
+562	rSeq	99
+6028	WorfDB	99
+7242	Cancer Genomics Project	99
+7564	Biodefense Proteomics Resource Center	99
+7794	MIPS Neurospora crassa Genome Database	99
+7962	Taxonomically Broad EST Database	99
+11825	Hammer	99
+6461	SV-M	98
+9164	DPPH	98
+10918	Agilent Genomic Workbench	98
+3133	PredictNLS	97
+5869	TrED	97
+10857	FindPeaks	97
+2320	ConSurf Server Database	96
+3844	Blueprint Epigenome	96
+5650	Consed	96
+8194	Database of Spatially Interacting Motifs in Proteins	96
+9085	R/QTL	96
+123	ENTROPY BLOCKER	95
+1963	SNPper	95
+2048	SHORTY	95
+4267	Artemis: Genome Browser and Annotation Tool	95
+5349	PeakSeq	95
+7560	Bacterial Carbohydrate Structure DataBase	95
+7664	functional RNAdb	95
+8107	Database of oligomerization domains from lambda experiments	95
+10868	ZINBA	95
+13394	PiGenome	95
+1921	University of California at Los Angeles - Department of Energy Institute for Genomics and Proteomics	94
+1955	BeetleBase	94
+5020	UPARSE	94
+7634	ECgene: Gene Modeling with Alternative Splicing	94
+7783	MfunGD - MIPS Mouse Functional Genome Database	94
+8142	BoLA Nomenclature: International Society for Animal Genetics	94
+11808	VISTA Browser	94
+13457	RARTF	94
+472	RefFinder	93
+1009	PREFAB	93
+1017	Phred	93
+3155	FastPCR	93
+7552	ARAMEMNON, a Novel Database for Arabidopsis Integral Membrane Proteins	93
+13481	VirOligo: Virus Oligonucleotide Database	93
+5264	SPLITREAD	92
+6679	DMEAS	92
+2848	Tribolium castaneum Genome Project	91
+4853	siDirect	91
+6186	HMM-TM	91
+7715	Human PAML Browser	91
+7762	Lipase Engineering Database	91
+7907	VEGA	91
+9283	MAPMAKER/QTL	91
+12910	Comparative Fungal Genomics Platform	91
+3609	J-Express	90
+7168	MULTIMAP	90
+7557	Artificial Selected Proteins/Peptides Database	90
+7653	F-SNP: a collection of functional SNPs, specifically prioritized for disease association studies	90
+7905	rRNDB	90
+7966	TRANSCompel	90
+8462	Cryptococcus Neoformans cDNA Sequencing	90
+8966	BeeBase	90
+10994	Georgia Genomics Facility	90
+59	Fusion Analyser	89
+1572	sumo	89
+2776	NIS-Elements Basic Research	89
+3321	PANDIT : Protein and Associated Nucleotide Domains with Inferred Trees	89
+5496	SHRiMP	89
+8472	Pathogen Portal	89
+10885	Pscan-ChIP	89
+11980	OrthoDB	89
+3088	MIPS Arabidopsis thaliana Database	88
+5723	Transcription Regulatory Regions Database	88
+7740	Integr8 : Access to complete genomes and proteomes	88
+10782	PhD-SNP	88
+13437	Sequencing of Candida Albicans	88
+2216	Lamont-Doherty Core Repository	87
+2595	Subject Library	87
+7084	Database of Human Hemoglobin Variants and Thalassemias	87
+1004	JBrowse	86
+1234	Genome Trax	86
+2952	HuRef	86
+3469	qPrimerDepot	86
+6790	REDfly- Regulatory Element Database for Drosophilia	86
+1913	SeqMonk	85
+2128	Rice Metabolic Pathway Database	85
+2341	BEETL-fastq	84
+5460	Plant Repeat Databases	84
+7074	PRODORIC	84
+7101	Database of Arabidopsis Transcription Factors	84
+7837	Organelle DB	84
+8804	Metagenomics Program at JGI	84
+13106	Arabidopsis thaliana Map	84
+1691	Four-dimensional Ascidian Body Atlas	83
+5240	ERANGE	83
+7749	IPD-MHC- Major Histocompatibility Complex	83
+7876	ProSAS	83
+12808	RNA FRABASE - RNA FRAgments search engine and dataBASE	83
+13291	MACS	83
+86	RNA STRAND-The RNA secondary STRucture and statistical ANalysis Database	82
+1443	MacCHESS	82
+1734	AlterORF	82
+12795	baySeq	82
+12932	CSSP	82
+5421	SolexaQA	81
+13172	LIGand Attachment SITE Database	81
+13377	GiardiaDB	81
+2469	EID: Exon-Intron Database	80
+3151	MultiLoc	80
+5068	Bambus	80
+7764	LipOXygenases DataBase	80
+7816	Nematode.net	80
+7934	Schmidtea mediterranea Genome Database	80
+8140	Microbial Genomics Program	80
+10866	SISSRs	80
+11300	INRA Rennes	80
+13511	Kazusa Arabidopsis data opening site	80
+4507	ACT: Artemis Comparison Tool	79
+7814	AmpliconNoise	79
+7846	PANZEA	79
+11884	DNAnexus	79
+1488	NTAP	78
+1827	DINDEL	78
+6723	Subcellular Location Image Finder	78
+8342	Isofinder: Isochore Computational Prediction	78
+11373	Max Planck Institute for Developmental Biology; Tubingen; Germany	78
+66	nFuse	77
+644	Avadis	77
+2726	Fungal C-values Database	77
+6018	wFleaBase	77
+7755	IRIS - International Rice Information System	77
+9034	CMAP	77
+700	Asper Biotech	76
+758	AMPDB: Arabidopsis Mitochondrial Protein Database	76
+1771	DNACLUST	76
+7181	BioInfoBank Meta Server	76
+7190	Genome Center BLAST Server	76
+7620	DataBase of Tunicate Gene Regulation	76
+7841	Plant Protein Phosphorylation Database	76
+8324	Centre for Visual Sciences	76
+13158	Elephant shark genome sequencing	76
+14290	GeneMapper	76
+743	Rice Proteome Database	75
+929	ENA Sequence Version Archive	75
+2157	SYZYGY	75
+2262	Parasite Databases of Clustered ESTs	75
+2550	Gibbs Motif Sampler	75
+5091	SNPeffect	75
+5495	SeqMap	75
+7589	Cereal Small RNA Database	75
+12624	EpigenDx	75
+1950	Patchers Power Tools	74
+7213	WAViS: Alignment Visualization Tools Server	74
+7595	Chicken Variation Database	74
+10568	Alpha Genesis	74
+11920	Mega BLAST	74
+12530	Texas Advanced Computing Center	74
+163	miRanalyzer	73
+2081	ChIPSeq Peak Finder	73
+5178	dbNSFP	73
+7921	SELEX DB	73
+11532	Southwest University; Chongqing; China	73
+13207	RegRNA	73
+1372	Neurospora crassa Database	72
+6680	RNase P Database	72
+7597	ChromDB- the chromatin database	72
+13058	RNA CoMPASS	72
+7593	Database of prOkaryotic OpeRons	71
+7688	Genomic Threading Database	71
+7850	PhylomeDB	71
+11879	Apache Hadoop	71
+11962	PDBTM	71
+13009	SHREC	71
+544	Sequence Search and Alignment by Hashing Algorithm	70
+2705	PANDAseq	70
+6520	Plant Organelles Database	70
+9420	RLZ	70
+12025	Standalone hamming	70
+12046	Antilope	70
+13234	LifeScope	70
+1901	Arabidopsis thaliana Genome Database	69
+3881	InBase	69
+4747	deStruct	69
+6258	DBM-DB	69
+7746	IPD-ESTDAB- The European Searchable Tumour Line Database	69
+13482	HUGE - Human Unidentified Gene-Encoded large proteins	69
+1714	HOMOZYGOSITYMAPPER	68
+1846	Alt Event Finder	68
+2430	EchoBASE	68
+5484	Kraken	68
+7545	5S Ribosomal RNA Database	68
+8403	Aggrescan: The Hot Spot Finder	68
+11051	Babraham Technology Development Laboratory	68
+11563	Telethon Institute of Genetics and Medicine; Naples; Italy	68
+1758	King Abdullah University of Science and Technology; Makkah Province; Saudi Arabia	67
+2620	Commons In A Box	67
+3937	LINCS Information FramEwork	67
+6930	TAED - The Adaptive Evolution Database	67
+7120	Helicobacter Pylori Database of Protein Interactomes	67
+7673	GeneAnnot	67
+7838	Organelle Genome Resources	67
+7882	Rice Mutant Database	67
+8284	PDB Finder	67
+9013	CARTHAGENE	67
+9341	PSAT	67
+11315	Institute of Molecular Biology and Biotechnology; Heraklion; Greece	67
+5141	Project HOPE	66
+7666	Full-Length cDNA Database	66
+10753	SSAKE	66
+11916	Newbler	66
+12704	UChicago Advanced Imaging Core	66
+13412	Fusarium graminearum Genome Database	66
+13477	Essential genes in E. coli	66
+559	MuTect	65
+5035	SOPRA	65
+5610	Tractor db	65
+7669	GenAtlas	65
+7916	SCOPPI: Structural Classification of Protein-Protein Interfaces	65
+8585	Free Statistics and Forecasting Softwre	65
+10844	MapSplice	65
+13254	Oryza Tag Line	65
+566	ViReMa	64
+788	Functional Annotation of the Mammalian Genome	64
+1599	big-PI Predictor	64
+5304	SUPFAM	64
+5540	tmRNA Database	64
+7953	SURFACE: Surface Residues and Functions Annotated, Compared and Evaluated	64
+10761	FreeBayes	64
+11817	SABmark	64
+13081	Homeodomain Resource	64
+1605	YinOYang	63
+5494	Segemehl	63
+6112	ProPortal	63
+8416	Information Technology Applied to Biodiversity Conservation - Atta	63
+9281	MAPMAKER/EXP	63
+10862	NEXT-peak	63
+10895	nucleR	63
+11538	Stanford University; California; United States	63
+11736	University of Tunis El Manar; Tunis; Tunisia	63
+925	60-Second Mind	62
+2124	Target Protein Database	62
+5121	STING Report	62
+5211	ShoRAH	62
+6070	NEMBASE	62
+6111	ProOpDB	62
+6227	SCAR	62
+6463	Monster	62
+7950	SubtiList	62
+8395	MODELLER: Program for Comparative Protein Structure Modelling by Satisfaction of Spatial Restraints	62
+25	GenomicRanges	61
+1583	rMAT	61
+5531	FLASH	61
+5551	Starlab	61
+7633	Proteome Database of Lactococcus lactis	61
+7832	Solanaceae Phenotype Ontology	61
+7939	snoRNABase- a comprehensive database of human H/ACA and C/D box snoRNAs.	61
+8693	Psychology Research Database	61
+13305	Human Transcriptome Database for Alternative Splicing	61
+1820	Visual Molecular Dynamics	60
+3767	OncoTrack	60
+4753	USeq	60
+4915	MetaPhlAn	60
+5461	NGS QC Toolkit	60
+7355	Autoaligner	60
+8128	HOVERGEN: Database of homologous vertebrate genes	60
+9062	G-MENDEL	60
+9151	CHROMOSCAN	60
+10608	MVZ Collections	60
+10700	Meraculous	60
+11601	University at Buffalo; New York; USA	60
+2156	Sequence Tag Alignment and Consensus Knowledgebase Database	59
+2435	object-oriented Transcription Factors Database	59
+3097	3D Ribosomal Modification Maps Database	59
+5192	SNPnexus	59
+5399	Bio-Linux	59
+6834	SVM-fold: Protein Fold Prediction	59
+7072	Malaria Parasite Metabolic Pathways	59
+9274	MIDAS	59
+9276	MAPDRAW	59
+11876	VirtualBox	59
+12828	ChIPpeakAnno	59
+626	PredSL	58
+3002	NOISeq	58
+5300	Skate Genome Project	58
+5312	MycoCosm	58
+6077	YanHuang Project	58
+7955	SYSTERS	58
+8470	DNAWorks at Helix Systems	58
+9936	MSU Animal Resource Center	58
+11929	FragGeneScan	58
+3190	Cortical connectivity data sets	57
+5088	Flux Simulator	57
+5367	T4-like genome database	57
+6651	FLUX CAPACITOR	57
+7710	Hetero-compound Information Centre- Uppsala	57
+2804	GenProtEC	56
+4575	Alien hunter	56
+4737	Pplacer	56
+7801	MolMovDB - Database of Macromolecular Movements	56
+7840	Oryzabase	56
+7852	Phytome	56
+8353	Protein Knots	56
+8636	Transfer RNA database	56
+10930	Genovar	56
+11934	MetaGeneAnnotator	56
+13175	HiTC	56
+141	FastQ Screen	55
+2378	IDbases	55
+7600	CluSTr	55
+8956	DELIMINATE	55
+9078	QTLNETWORK	55
+10860	MICSA	55
+11511	Sabanci University; Istanbul; Turkey	55
+13421	Chloroplast Genome Database	55
+754	DNA-Protein Interaction Database	54
+3251	MutDB	54
+3555	Global Alliance for Genomics and Health	54
+4603	DELLY	54
+6717	AthaMap	54
+6990	Rice Kinase Database	54
+7429	YM500	54
+7727	Human BAC Ends Database	54
+7896	RiceGAAS	54
+8669	DelPhi	54
+8801	1000 Genomes Project and AWS	54
+9277	MAPINSPECT	54
+11837	CANGS	54
+13020	seqMINER	54
+13030	Ascidian Network for InSitu Expression and Embryological Data	54
+224	Zhejiang University; Zhejiang; China	53
+488	sigma-tau	53
+540	PhyloPythia	53
+789	FAS Center For Systems Biology	53
+1237	ChIP-seq	53
+3039	DP-Bind: a web server for sequence-based prediction of DNA-binding residues in DNA-binding proteins	53
+11791	Genomicus	53
+11915	MetaVelvet	53
+14606	RAST Server	53
+1528	Sequencher	52
+2980	BiSearch: Primer Design and Search Tool	52
+4363	MultiFun	52
+4646	LMAT	52
+5490	PASS	52
+6870	Genomes Unzipped	52
+7631	DSMM - a Database of Simulated Molecular Motions	52
+7820	NRESTdb	52
+9262	L-POP	52
+10821	CNVnator	52
+10939	Chipster	52
+13066	Contrail	52
+13344	Rice Pipeline	52
+183	EdgeBio	51
+1297	sRAP	51
+1630	Ensembl Variation	51
+2149	RegPrecise	51
+5441	CpG MPs	51
+6545	National Geothermal Data System	51
+7671	Gene Expression in Tooth Database	51
+8222	Protochlamydia amoebophila UWE25	51
+8451	CESG	51
+8540	Bionformatics Research Center	51
+8770	PASTA	51
+12479	UCSC Genome Browser Group	51
+12911	CleanEx	51
+2125	LSPD	50
+5409	HOCOMOCO	50
+5687	TAIR Keyword Browser	50
+8272	Sub-Volume Thresholding Analysis	50
+9184	GAS	50
+251	Polish Ministry of Science and Higher Education	49
+739	MitoProteome	49
+4206	Segway - a way to segment the genome	49
+8527	VAMP	49
+9212	GMA	49
+10585	Pathema	49
+10787	SNPs3D	49
+11254	Fujian Agriculture and Forestry University; Fujian; China	49
+12830	minfi	49
+13265	H-InvDB	49
+13419	Database of Germline p53 Mutations	49
+3183	GENO3D	48
+5109	Strelka	48
+5282	Super Natural Database	48
+5503	SOAPaligner/soap2	48
+6889	RazerS	48
+11037	Murdoch University; Perth; Australia	48
+11912	IDBA-UD	48
+12595	KU Molecular Graphics and Modeling Laboratory	48
+12831	Methylumi	48
+13169	Easyfig	48
+2782	BioNumbers	47
+3203	Council of Scientific and Industrial Research	47
+3770	sciple.org	47
+5538	TMBETA-GENOME- Annotation of Beta-Barrel Membrane Proteins in Genomic Sequences	47
+8141	Bacterial Genomes	47
+8155	Caenorhabditis Genome Sequencing Projects	47
+10754	SUTTA	47
+10911	CloudBurst	47
+11794	NCBI Genome Workbench	47
+12978	AU-RICH ELEMENT-CONTAINING mRNA DATABASE	47
+13197	euGenes: Eukaryotic Genes	47
+13208	dbCAN	47
+13256	PlantsP	47
+688	BISMA	46
+827	SQTL	46
+1080	Corner Cube Environment	46
+3211	Gemi	46
+4808	SEQanswers	46
+7724	HPID - Human Protein Interaction database	46
+7730	Hyper Cell Line Database	46
+7776	MeRNA	46
+7843	PAIDB - Pathogenicity Island Database	46
+9410	SPIP	46
+12149	World Data Center for Paleoclimatology	46
+13170	ENA Sequence Search	46
+585	DecGPU	45
+649	Wired Science	45
+941	SciRoKo	45
+1270	SMAP	45
+1838	ArkDB - Genomes For The Rest of Us	45
+3128	mrsFAST	45
+5333	SwissRegulon	45
+6086	RAxML	45
+6946	SWISS-2DPAGE	45
+7090	The Diatom EST Database	45
+7205	Professor Anne Chaos Website	45
+7804	Modomics	45
+10813	CEQer	45
+10881	HOMER	45
+556	Scaffold builder	44
+792	ROSTLAB	44
+2904	HIV Resistance Mutation Database	44
+3060	GeneFisher	44
+3759	Stein Institute for Research on Aging	44
+5442	CyMATE	44
+6611	Database of Osteogenesis Imperfecta and Type III Collagen Variants	44
+7849	PhyloFacts	44
+11351	Louisiana State University; Louisiana; USA	44
+12966	OligoWiz	44
+13154	Ensembl Protists	44
+13487	DOLOP: A Database of Bacterial Lipoproteins	44
+1414	Mugsy	43
+2464	YLoc	43
+3956	GABO:mi	43
+9415	SSAHASNP	43
+11880	Windows Azure	43
+11965	BaCelLo	43
+1578	CGHcall	42
+1589	TileMap	42
+2921	Assembly/Alignment/Annotation of 12 Related Drosophila Species	42
+2942	SMRT-Analysis	42
+4078	Pash 3.0	42
+5052	HPC-CLUST	42
+5553	ea-utils	42
+7698	GTOP - Genomes To Protein structures	42
+10855	dPeak	42
+11310	Institute of Cytology and Genetics of the Siberian Branch of the RAS; Novosibirsk; Russia	42
+11368	Max Planck Institute of Molecular Plant Physiology; Golm; Germany	42
+11921	UCLUST algorithm	42
+13050	SNVMix	42
+13624	NEMO Analysis Toolkit	42
+1008	GRS	41
+1260	MinimumDistance	41
+5491	Jellyfish	41
+6020	Wnt Database	41
+7858	piRNABank	41
+9803	Subread	41
+10779	MutSig	41
+11933	HMMgene	41
+772	Computational Cancer Genomics Group	40
+3118	Japanese Genotype-phenotype Archive	40
+3186	SECISearch3 and Seblastian	40
+3776	PEAR	40
+4617	Amino Acid-Nucleotide Interaction Database	40
+5868	UTRdb/UTRsite	40
+7933	SKY/M-FISH/CGH	40
+11881	BaseSpace	40
+12850	Natural Environment Research Council	40
+2279	CTCFBSDB	39
+3880	Pharma-Planta Consortium	39
+4231	Mercury	39
+5108	SomaticSniper	39
+5389	Platypus	39
+7881	SCMD - Saccharomyces cerevisiae Morphological Database	39
+8383	Australian Center For Plant Functional Genomics PTY LTD	39
+9275	MAPDISTO	39
+12019	APPRIS	39
+12823	DEXSeq	39
+12893	Functional Genomics for Drosophila	39
+13068	A5	39
+13101	BTKbase	39
+594	MutPred Splice	38
+727	ButterflyBase	38
+764	BLASR	38
+1208	PARalyzer	38
+3757	PyroBayes	38
+5377	Ergatis	38
+6822	simhtsd	38
+7579	CandidaDB	38
+7869	PolyDoms	38
+8166	AnoBase: An Anopheles database	38
+10785	SAPRED	38
+10815	ExomeCNV	38
+13047	RegTransBase	38
+13514	PromEC	38
+2838	rDock	37
+3495	PoPoolation	37
+5076	NCIR - Non-Canonical Interactions in RNA	37
+6152	Tangram	37
+8340	Xiphophorus Genetic Stock Center	37
+9583	HAMMER Suite	37
+12626	LifeTein	37
+61	GASV	36
+3188	HyperTree	36
+3431	ProNIT	36
+4599	MetaCluster-TA	36
+6029	X:MAP	36
+6420	IRanges	36
+6912	List Of Lists Annotated	36
+7006	DeconSeq	36
+7559	BciPep	36
+7604	COGEME Phytopathogenic Fungi and Oomycete EST Database	36
+9342	NGC	36
+12141	Musite	36
+13060	VCAKE	36
+13323	SeedGenes	36
+1030	WUSTL Genome Technology Access Center	35
+1157	massiR	35
+2725	Database of Secondary Structure Assignments	35
+3535	RNA Modification Database	35
+5444	Kismeth	35
+5482	GNUMAP	35
+10947	CoCo	35
+11365	Nagahama Institute of Bio-Science and Technology; Nagahama; Japan	35
+12918	DiffBind	35
+12984	RLMM	35
+13063	PRICE	35
+13210	dbRIP	35
+13494	ArrayOligoSelector	35
+14565	GROMACS	35
+3372	RefGenes	34
+5659	Tandem Repeats Database	34
+6313	Plant Organelles World	34
+7041	DART - Drug Adverse Reaction Targets	34
+8181	ComBase: A Combined Database For Predictive Microbiology	34
+8961	EASYPOP	34
+9650	SpliceMap	34
+10572	MirAlign	34
+10655	Vector Alignment Search Tool	34
+10955	IMA	34
+11159	Clemson University; South Carolina; USA	34
+13332	Probalign	34
+770	Colour and Vision Research Laboratory	33
+1248	BFCounter	33
+1325	oneChannelGUI	33
+3907	Biomedicum Genomics	33
+4175	TagDust	33
+4952	Pythia	33
+5501	Scalable Nucleotide Alignment Program	33
+7563	MIPS Ustilago maydis Database	33
+7676	GeneLoc	33
+10767	SSR pipeline	33
+12789	PLABQTL	33
+13463	The Soybean GBrowse Database	33
+14627	I-TASSER	33
+1911	Korean Ministry of Science ICT and Future Planning	32
+2342	DWGSIM	32
+4207	BamView	32
+5350	FaBox	32
+5430	SKIPPY	32
+5572	TopoSNP	32
+6859	EagleView	32
+7622	Decoys-R-Us	32
+7682	GenoBase	32
+10922	CGHseg	32
+11294	Indiana University; Indiana; USA	32
+11800	GenomeMatcher	32
+13448	Secreted Protein Database	32
+14629	PhyML	32
+845	RHMAPPER	31
+3931	DataLad	31
+5270	Omicsoft Sequence Aligner	31
+5579	Unipro UGENE	31
+7082	VBASE2	31
+8349	SVM based method for predicting beta hairpin structures in proteins	31
+9234	HAP-SAMPLE	31
+11333	Johannes Kepler University of Linz; Linz; Austria	31
+11806	PipMaker and MultiPipMaker	31
+12351	Purdue Proteomics Facility	31
+13074	NHLBI Division of Lung Diseases	31
+14707	Cambridge Crystallographic Data Centre	31
+684	GEUVADIS	30
+742	Retinoblastoma Genetics	30
+1479	CoGAPS	30
+2236	UD Chick EST Project	30
+3165	WEBMAXC STANDARD	30
+3366	PLPMDB: Pyridoxal-5'-phosphate dependent enzymes Mutants Database	30
+5275	RSeQC	30
+5431	TIGR Maize database	30
+6694	BACTIBASE	30
+6733	FDM	30
+7306	FlexProt: flexible protein alignment	30
+7611	FlyTF	30
+7652	EXProt- database for EXPerimentally verified Protein functions	30
+7659	FLAGdb++	30
+7813	Narcisse	30
+7865	POGs/PlantRBP	30
+8370	Bovine Genome Project	30
+10810	breseq	30
+11734	University of Trento; Trento; Italy	30
+11797	UTGB Toolkit	30
+12067	MrBayes	30
+12625	Intrepid Bioinformatics	30
+12968	GenomeView	30
+12995	MEDME	30
+565	wANNOVAR	29
+747	Genboree Discovery System	29
+1624	AnimalTFDB	29
+1857	BroadPeak	29
+2807	GermOnline	29
+2834	GreenPhylDB	29
+3353	miR-PREFeR	29
+3620	UEA sRNA toolkit	29
+5153	StellaBase: Nematostella vactensis genomics database	29
+5242	FusionMap	29
+7412	Dockground: Benchmarks, Docoys, Templates, and other knowledge resources for DOCKING	29
+10691	MaSuRCA	29
+10798	NHLBI Grand Opportunity Exome Sequencing Project	29
+10859	HPeak	29
+11790	Genome Projector	29
+13011	BayesPeak	29
+13226	OryGenesDB	29
+13284	Mpstruct	29
+14454	Macrogen	29
+736	GOLD.db - Genomics Of Lipid-associated Disorders	28
+1052	ECRbase	28
+2206	Community Structure-Activity Resource	28
+2768	National Gnotobiotic Rodent Resource Center	28
+5230	BioPortfolio	28
+7831	Oncogenomic Database of Hepatocellular Carcinoma	28
+8805	svd	28
+9701	mirTools	28
+10018	Penn Human Immunology Core	28
+10909	Genomic HyperBrowser	28
+12907	Ngs backbone	28
+564	SiPhy	27
+1232	PHACCS	27
+3273	NLSdb: a database of nuclear localization signals	27
+3288	O-GLYCBASE	27
+3884	READNA	27
+4805	Daniel Mietchens demo wiki: What would scholarly communication look like if it were invented today?	27
+4848	MetaPhyler	27
+5755	CLIPZ	27
+5783	Biopieces	27
+7695	RSEG	27
+7878	Protein Mutant Database	27
+7932	SitesBase	27
+8201	Migratory Locust EST Database	27
+8208	MitoRes	27
+8308	Seven Bridges Genomics	27
+8598	Zinc Finger Tools	27
+9270	MAMA	27
+10644	Corn Fungal Resistance Associated Sequences Database	27
+10812	SVDetect	27
+10826	SegSeq	27
+10831	miRExpress	27
+11047	UNISA Laboratory of Molecular Medicine and Genomics	27
+11529	Simon Fraser University; British Columbia; Canada	27
+11836	Btrim	27
+11973	iLoc-Plant	27
+12528	RiNA GmbH	27
+12559	Memorial Sloan-Kettering Cancer Center Labs and Facilities	27
+12744	FINDbase Worldwide	27
+247	Pohang University of Science and Technology; Pohang; South Korea	26
+2102	ASPicDB	26
+2107	DBASS	26
+2167	pfSNP	26
+3011	pFind	26
+3173	iLoc-Animal	26
+3268	NESbase	26
+3420	nSolver Analysis Software	26
+4756	Compass of Pleasure	26
+6960	eDMR	26
+7204	Noble Research Lab	26
+7629	Drosophila polymorphism database	26
+7937	SNAPPI	26
+10111	UPR Animal Resources Center	26
+10780	nsSNPAnalyzer	26
+10912	ERNE	26
+11088	Albany College of Pharmacy and Health Sciences; New York; USA	26
+11964	TMDET	26
+12613	UAlberta Mass Spectrometry Facility - Department of Chemistry	26
+13086	CellBank Australia	26
+13173	Genolevures	26
+458	msbwt	25
+971	International Institute of Molecular and Cell Biology; Warsaw; Poland	25
+1268	VanillaICE	25
+1648	Mammalian Brain Methylomes	25
+2026	SHARCGS	25
+4709	ProViDE	25
+5117	SpodoBase	25
+5591	OXBench	25
+6936	TOPOFIT Database	25
+7806	MolliGen	25
+7918	SEBIDA: Sex Bias Database	25
+7952	SUPERFAMILY	25
+8139	E. coli Genome project	25
+9160	DHSMAP	25
+10776	mCSM	25
+10832	miRspring	25
+10870	POLYPHEMUS	25
+12925	Cybase	25
+13001	Flexbar	25
+13263	KNOTTIN database	25
+1066	RettBASE: IRSF MECP2 Variation Database	24
+1719	sSeq	24
+2147	Cinteny	24
+2763	RNAplex	24
+3091	JETTA	24
+4249	BSRD	24
+5404	ChIPBase	24
+6947	SimSeq	24
+7627	DPInteract	24
+7711	Histone Database	24
+7922	SENTRA: a database of prokaryotic signal transduction proteins	24
+8492	ELDERMET Gut microbiota as an indicator and agent of nutritional health in elderly Irish subjects	24
+8519	Flintbox	24
+8720	OligoPicker	24
+10122	UPR Center for Genomics in Health Disparities and Rare Disorders	24
+10919	Aroma.affymetrix	24
+11663	University of Massachusetts Lowell; Massachusetts; USA	24
+11838	ConDeTri	24
+12078	proTRAC	24
+12775	Institute of Molecular and Cell Biology; Singapore; Singapore	24
+13288	National Institute of Agrobiological Sciences Genebank	24
+964	Franklin and Marshall College; Pennsylvania; USA	23
+1240	mapDamage	23
+2723	Mapix	23
+3031	Jenalib: Jena Library of Biological Macromolecules	23
+3162	rDiff	23
+3526	EBSeq	23
+3949	BioSolveIT	23
+4012	NYU Data Catalog	23
+5625	LookSeq	23
+5634	TranspoGene	23
+7677	GeneNest	23
+7759	KinMutBase: A registry of disease-causing mutations in protein kinase domains	23
+7782	NucleaRDB	23
+8153	Comparative Saccharinae Genomics Resource	23
+8506	Howard Flow Cytometry Core	23
+9326	PEER	23
+12441	WUSTL School of Medicine Embryonic Stem Cell Core	23
+12492	UM Miller School of Medicine Division of Comparative Pathology	23
+12574	William Harvey Research Limited	23
+12611	Otogenetics Corporation	23
+13092	Genetic Codes	23
+13329	FusionSeq	23
+119	Orphelia	22
+452	Sulfinator	22
+756	Abysis Database	22
+1046	Louisiana State University Labs and Facilities	22
+3044	PacBioToCA	22
+4792	MLTreeMap	22
+5411	TFinDIT	22
+5466	Geneious Microsatellite Plugin	22
+6412	CMGRN	22
+6464	LeadDiscovery: Providing Information to the Drug Discovery Sector	22
+7581	CASRDB- Calcium Sensing Receptor Database	22
+7725	HPMR - Human Plasma Membrane Receptome	22
+7946	spliceNest	22
+8172	LPDB: Ligand-Protein DataBase	22
+8253	FLJ Human cDNA Database	22
+10863	PeakRanger	22
+10900	SoyDB	22
+10927	FISH Oracle	22
+11926	METAREP	22
+11951	WebMGA	22
+12776	CRAVAT	22
+12919	featureCounts	22
+12947	snapCGH	22
+13045	SolSNP	22
+13213	CoNIFER	22
+13298	chimerascan	22
+13399	MethyCancer	22
+2339	DBSubLoc - Database of protein Subcellular Localization	21
+2888	Plant Biochemical Pathway Database	21
+3313	ggbio	21
+4086	Factorbook	21
+4716	SOrt-ITEMS	21
+5203	PathSeq	21
+6119	LAST	21
+7568	BPS- Database of RNA Base-pair Structures	21
+7750	L1Base	21
+7864	PLprot	21
+8183	GeneWindow	21
+8579	SEQtools	21
+11834	AdapterRemoval	21
+11846	TagCleaner	21
+11927	RAMMCAP	21
+12742	OncoSNP-SEQ	21
+13080	phyloseq	21
+13232	aCGH	21
+107	TACOA	20
+2061	SNVer	20
+2947	Neal's DNA Mutation Site	20
+4065	Quantitative Enrichment of Sequence Tags	20
+4813	miRNAKey	20
+6182	Songbird Brain Transcriptome Database	20
+7655	FireDB	20
+7825	NPInter	20
+7910	S/MARt DB	20
+7948	StrainInfo.net Bioportal	20
+9088	EPISTACY	20
+10227	Leaf Senescence Database	20
+11861	SeqGene	20
+11875	Rackspace	20
+13097	EzCatDB	20
+97	AutoPrime	19
+259	MochiView	19
+1454	GeneWiz browser	19
+2136	MPromDb	19
+2458	NRDR	19
+2663	ExomeDepth	19
+2869	HERVd - Human Endogenous Retrovirus database	19
+2954	HvrBase++- an mtDNA database	19
+4592	JCVI GenProp	19
+5133	RetroSeq	19
+6307	Synapse	19
+6804	JointSNVMix	19
+8216	CanPredict	19
+10489	Project Tycho	19
+10791	HapCUT	19
+10837	RNAsnp	19
+11824	WU-BLAST	19
+11894	FusionFinder	19
+11923	PhyloPythiaS	19
+11952	PTP	19
+12982	MSAProbs	19
+12985	OncoSNP	19
+13328	OperonDB	19
+14609	LEfSe	19
+167	GemSIM	18
+553	DySC	18
+1194	PeakAnalyzer	18
+1278	CGHregions	18
+1850	Salk Institute for Biological Studies - Slesinger Lab	18
+2113	FlyFactorSurvey	18
+2160	WD repeat Family of Proteins	18
+3658	Linked Neuron Data	18
+4625	Philius	18
+5177	methylKit	18
+5359	Yabi	18
+5432	SAMStat	18
+6356	Zebra Finch Song Learning Consortium	18
+7863	PlantTribes	18
+7900	RNAiDB	18
+7928	siRecords	18
+8226	Protein Databank Fun	18
+9430	Index to Marine and Lacustrine Geologic Samples	18
+9940	MSU Imaging and Chemical Analysis Core Laboratory	18
+10764	MoDIL	18
+10786	SNAP - Effects of Single Amino Acid Substitutions on Protein Function	18
+12284	Globus Online	18
+12993	BiSeq	18
+13176	IsoLasso	18
+13193	PLINK/SEQ	18
+13245	SmashCommunity	18
+13253	SOAPsplice	18
+13432	RNAJunction	18
+13451	BSORF - Bacillus Subtilis Genome Database	18
+15	4Peaks	17
+943	Functional Biosciences	17
+1007	GDC	17
+1244	TALLYMER	17
+1521	Chemistry Add-in for Word	17
+2082	SpliceAid-F	17
+2225	RankAggreg	17
+3150	ngLOC	17
+3310	RCircos	17
+3348	PINdb	17
+3359	PlantProm DB	17
+3446	BMIQ	17
+4005	NHS Quality Indicators	17
+4636	BioPig	17
+4824	Triplet-SVM	17
+5183	Oncotator	17
+5190	SNPdbe	17
+5224	FlowSim	17
+5259	GASVPro	17
+5479	CUSHAW	17
+5788	SNPsandGO	17
+5878	UTRome.org	17
+6199	waveTM	17
+6820	QUASR	17
+8184	MMSEQ	17
+8227	Protein Data Bank Site	17
+8791	QPALMA	17
+10169	Vanderbilt Chemical Synthesis Core Laboratory	17
+10923	CGHweb	17
+10931	Ginkgo	17
+11130	Center for Genomic Regulation; Barcelona; Spain	17
+11185	Davidson College; North Carolina; USA	17
+11960	Potassium Channel Database	17
+11966	Cell-PLoc	17
+12618	University of Canterbury Biomolecular Interaction Centre	17
+12847	NGSmethDB	17
+14514	Genomic Data Commons Data Portal (GDC Data Portal)	17
+153	University of Stuttgart; Stuttgart; Germany	16
+464	POPBAM	16
+1101	SeaGIS	16
+2421	UPR Department of Environmental Health Core Laboratory	16
+5272	SOAPindel	16
+5693	BSmooth	16
+6262	SpliceDB	16
+6728	SpliceTrap	16
+6751	EDASeq	16
+6900	diARK- a resource for eukaryotic genome resources	16
+7644	ERIC	16
+7795	PHEXdb	16
+7826	NUREBASE	16
+7923	Shanghai Rapeseed Database	16
+8038	University of Science and Technology of China; Hefei; China	16
+8479	ESTHER DateBase	16
+9325	PEDVIZAPI	16
+10062	TSU Molecular Biology Core Laboratory	16
+10820	CNVer	16
+11795	ngs.plot	16
+11883	CloudBioLinux	16
+11937	Explicet	16
+12260	USF NMR Laboratory	16
+12865	BEDOPS	16
+13348	PROCOGNATE	16
+13490	MAPPOP	16
+317	MeQA	15
+1106	SynView	15
+1209	QualiMap	15
+1552	Karlsruhe Institute of Technology; Karlsruhe; Germany	15
+3132	Strong Star	15
+3511	Structural Biology Grid	15
+4619	CompostBin	15
+4751	Phymm and PhymmBL	15
+4809	Bio-Mixer	15
+4810	SEQanswers Wiki	15
+5209	QuRe	15
+5302	SkateBase	15
+5648	MagicViewer	15
+5655	Transterm 2008	15
+7071	UniProt Chordata protein annotation program	15
+7811	MtbRegList	15
+7977	YDPM - Yeast Deletion Project	15
+8030	lobSTR	15
+8595	Zebrafish Models for Human Development and Disease	15
+8772	isva	15
+9280	MDBLOCKS	15
+9285	MCQTL	15
+9616	SeqBuster	15
+10921	CGHPRO	15
+10964	ProbeMaker	15
+11367	Max-Planck-Institute for Informatics; Saarbrucken; Germany	15
+12239	UTHSCSA Genomics Core	15
+13054	LoFreq	15
+13290	RDXplorer	15
+13788	Trace Archive	15
+14601	ggplot2	15
+13	BSmooth-align	14
+825	ADEGENET	14
+1012	SplitSeek	14
+1102	BreakFusion	14
+1545	ChIPseeqer	14
+1600	DictyOGlyc	14
+1908	S-MART	14
+1938	PEDIGRAPH	14
+2076	Database of the Human Proteotheque Initiative	14
+2200	Neisseria meningitidis MC58 Genome Page	14
+2209	PetDB	14
+3066	MFEprimer	14
+4310	GeneDB Gmorsitans	14
+4413	GASSST	14
+5228	MiTie	14
+5311	KGGSeq	14
+5423	TOBFAC	14
+5542	modelcrop.org	14
+6005	Voronoia	14
+7705	Hepatitis Virus B Database	14
+7708	BigWig and BigBed	14
+7745	The Intronerator	14
+7961	TAndem Splice Site DataBase	14
+8524	Fungi Sequencing Projects	14
+9098	QUTIE	14
+9993	IsoEM	14
+10299	Crop Ontology	14
+10869	MAnorm	14
+10891	NSeq	14
+11062	Argonne National Laboratory Labs and Facilities	14
+11466	PALMapper	14
+11895	FusionHunter	14
+11986	Bio-IT World	14
+12091	PBJelly	14
+12369	Axeq Technologies	14
+12591	UAlberta Institute for Biomolecular Design	14
+12997	MethylCoder	14
+13019	TraceTuner	14
+13418	DBAli. A Database of Structure Alignments.	14
+13438	DroSpeGe: Drosophila Species Genomes	14
+13474	MitoDrome	14
+109	Treephyler	13
+324	RADtools	13
+584	Pyrocleaner	13
+1011	Google Compute Engine	13
+1020	RPCI Gene Targeting and Transgenic Shared Resource	13
+1273	mBPCR	13
+2021	SeqEM	13
+2116	Protein Interactions by Structural Matching	13
+2322	dbRES: A web-oriented database for annotated RNA Editing Site	13
+2334	Database of Transcribed Sequences	13
+2348	Full-Malaria: Malaria Full-Length cDNA Database	13
+4367	Sterol and Isoprenoid Research Consortium	13
+4648	AbundanceBin	13
+4777	SVMerge	13
+5003	SLIQ	13
+5119	Traph	13
+5289	SeqWare	13
+5474	PRIMEGENS	13
+5702	DMRforPairs	13
+5891	BLASTatlas - Mapping of whole genome homology	13
+6240	pepStat	13
+7159	Rankprop - Protein Ranking by Network Propagation	13
+7661	MIRROR: FlyBrain, An Online Atlas and Database of the Drosophila Nervous System	13
+7718	Hoppsigen	13
+7768	MAMEP - Molecular Anatomy of the Mouse Embryo Project	13
+7797	miROrtho: the catalogue of animal microRNA genes	13
+7987	CropNet	13
+8147	ChickBase	13
+8381	RJaCGH	13
+9082	BOTTLENECK	13
+9251	KING	13
+9308	MULTISIM	13
+10830	miREval	13
+10850	miRNAminer	13
+11763	Argo Genome Browser	13
+11897	Rnnotator	13
+12097	ORCA	13
+12136	PrimerProspector	13
+12927	GeneProf	13
+13017	Rolexa	13
+13037	SAMMate	13
+13095	AutoMap	13
+13364	EPGD	13
+13426	ANTMAP	13
+13479	BAYESFST	13
+13714	Osteoarthritis Biomarkers Project (OABP)	13
+13996	WebPlotDigitizer	13
+14401	Eutherian comparative genomic analysis protocol	13
+14734	SplitsTree	13
+87	rSNP Guide	12
+1513	Jaeb Center for Health Research	12
+1774	ReCount - A multi-experiment resource of analysis-ready RNA-seq gene count datasets	12
+2131	STIFDB	12
+2164	Marine Geoscience Data System	12
+2707	SAFA Footprinting Software	12
+3277	Assembly Based ReAligner	12
+3295	PrimerSeq	12
+4904	POPDIST	12
+5151	Naturejobs	12
+5309	MAKER	12
+5407	hmChIP	12
+6762	Next-gen Sequencing Scaffolding Tool	12
+7697	GRSDB: G-Rich Sequences DataBase	12
+7877	ProtCom	12
+7929	siRNAdb	12
+8375	IsaCGH	12
+9305	MULTIMAPPER	12
+9425	WHAIT	12
+9945	MSU Research Computing Group	12
+10733	QSRA	12
+10828	CoRAL - Classification of RNAs by Analysis of Length	12
+10965	PROBEmer	12
+10974	ComBat	12
+11321	Italian Ministry of Education Universities and Research	12
+11918	Ray Meta	12
+12109	CONDEX	12
+12294	MGH NextGen Sequencing Core	12
+12898	cghMCR	12
+13262	MOLKIN	12
+13315	HMMSplicer	12
+13324	NEUMA	12
+13990	machine learning open source software	12
+1166	GenVision	11
+1874	Stanford Genomic Resourses	11
+1927	autoSNPdb	11
+2138	ProTISA	11
+2669	EyeSite	11
+2941	Type-III-Secretion-System related database	11
+3143	Proteome Analyst Specialized Subcellular Localization Server	11
+3414	Pristionchus.org	11
+4786	GeneDB Tbrucei	11
+4882	SuperCAT	11
+5059	University of Kerala; Kerala; India	11
+5231	GeneTalk	11
+5232	iReckon	11
+5258	Indelocator	11
+5488	NextGenMap	11
+5605	jMHC	11
+6775	Qudaich	11
+7134	Chromosome 7 Annotation Project	11
+7301	EpiExplorer	11
+7775	MegaMotifbase	11
+8145	BovMap Database	11
+8404	AltExtron Database	11
+9046	PLAYPUS	11
+9338	PROC QTL	11
+9964	OHSU Biochemical Genetics Laboratory	11
+10594	Yale School of Medicine Pharmacology	11
+10878	CompleteMOTIFs	11
+10896	LegumeTFDB	11
+10916	ADaCGH	11
+10917	Agilent CytoGenomics software	11
+11050	Babraham Institute Labs and Facilities	11
+11914	MetAMOS	11
+11943	MOCAT	11
+12012	Bits and Bugs	11
+12452	University of Nebraska Lincoln Labs and Facilities	11
+12597	Columbia University Protein Core Facility	11
+12913	Blue Collar Bioinformatics	11
+13052	SNPTools	11
+13242	Repitools	11
+13261	SPREG	11
+13410	U12DB: The U12 Intron Database	11
+13489	VKCDB - Voltage-gated K Channel Database	11
+13789	NCBI Viral Genomes	11
+179	RNAcontext	10
+281	CNTools	10
+763	MAboya Gene Expression Patterns and Sequence Tags	10
+1186	BreakSeq	10
+1892	StatAlign	10
+2880	HemBase	10
+3061	Triplex	10
+3708	Collaborative Chronic Care Network	10
+4309	qvality - Nonparametric estimation of posterior error probabilities	10
+4720	RAIphy	10
+4804	SVseq	10
+5105	qSNP	10
+5186	SeqAnt	10
+5477	CASHX	10
+5632	Maqview	10
+5995	GNUMAP-BS	10
+6567	GeneDB Pfalciparum	10
+7045	CuticleDB	10
+7137	yMGV - Yeast microarray global viewer	10
+7729	HuSiDa - Human siRNA database	10
+8161	Center for Computational Mass Spectrometry	10
+9826	Supersplat	10
+10772	Align-GVGD	10
+10816	CNAnorm	10
+10817	CNAseg	10
+10823	JointSLM	10
+10864	RRBSMAP	10
+10872	DBChIP	10
+10956	Marmal-aid	10
+11000	Indiana University School of Medicine Proteomics Core	10
+11526	Siberian Branch of the Russian Academy of Sciences; Novosibirsk; Russia	10
+11624	University of California at Santa Cruz; California; USA	10
+11904	Oncofuse	10
+11970	CoBaltDB	10
+11972	HSLPred	10
+12024	VisSR	10
+12135	iMSAT	10
+12664	Mayo Clinic Gene Expression Core	10
+12884	Pig Genome Mapping	10
+12965	ProbeSelect	10
+13065	Edena v3	10
+13215	DiffSplice	10
+13357	CNV-seq	10
+13402	VH	10
+14935	TMHMM Server	10
+417	PSCBS	9
+777	AtGenExpess - Weigel World	9
+911	Nursing Interventions Classification	9
+1100	SparseAssembler	9
+1146	GimmeMotifs	9
+1276	exomeCopy	9
+1309	DEXUS	9
+1784	PoissonSeq	9
+2003	TRAMS	9
+3482	JISTIC	9
+5100	SpliceInfo	9
+5150	rQuant	9
+5331	phantompeakqualtools	9
+5417	StSNP	9
+5646	WISECONDOR	9
+5658	TRbase: A Database Of Tandem Repeats In The Human Genome	9
+5718	Hepatitis C Virus Database (HCVdb)	9
+6056	Genome Research Foundation	9
+6162	cafe variome	9
+6662	waviCGH	9
+6791	EBCall	9
+7056	SysZNF - C2H2 Zinc Finger genes	9
+7162	QDMR	9
+7382	TMRPres2D	9
+7670	Genomic Distribution of structural Superfamilies	9
+7674	GeneFarm	9
+7799	MitoDat - Mendelian Inheritance and the Mitochondrion	9
+7812	MulPSSM	9
+8157	Alternative Exon Database	9
+8212	Nh3D: A Reference Dataset of Structures of Non-homologous Proteins	9
+8213	Comparative Vertebrate Sequencing	9
+8671	eXtasy	9
+9141	CCRAVAT	9
+9267	MADMAPPER	9
+9359	RELTYPE	9
+9375	R/QTLBIM	9
+10581	Genetic Resources Core Facility	9
+10833	omiRas	9
+11804	MizBee	9
+11953	GeneTack	9
+11985	CoreGenomics	9
+12736	Exon Domain Database	9
+13102	Genetic Genealogist	9
+13314	FusionDB	9
+14632	IUPRED	9
+121	Parallel-META	8
+376	bzip2	8
+378	GENSENG	8
+1107	ShortFuse	8
+1231	vcflib	8
+1770	TANGO	8
+1773	MSClust	8
+2126	The Protein Interfaceome Database	8
+3136	NovelSeq	8
+3475	Snakemake	8
+3829	Antilope Project	8
+4962	Tumorbank Basel Foundation	8
+5170	AnnTools	8
+5207	PredictHaplo	8
+5294	MiRPara	8
+5524	FreClu	8
+5880	VarySysDB	8
+6078	Yeast Mitochondrial Protein Database	8
+6221	OMPdb	8
+6480	ATRHUNTER	8
+6486	seq crumbs	8
+6613	casper	8
+6614	htSeqTools	8
+7023	Xenopus Gene Collection	8
+7080	Database of Poplar Transcription Factors	8
+7144	Yeast Intron Database	8
+7155	Automatic Primer Design	8
+7668	GELBANK	8
+7703	HCVDB - Hepatitis C Virus Database	8
+7919	SelenoDB	8
+8589	Bioinformatics and Statistical Genetics	8
+9238	HOTSPOTTER	8
+10016	Penn High-performance Computing	8
+10897	PlanTAPDB	8
+11042	Rutgers Genomics Core Facility	8
+11063	UChicago IGSB Next Generation Sequencing Core	8
+11783	Annmap	8
+11864	Genboree Workbench	8
+12509	UAB Center for Biophysical Sciences and Engineering	8
+13174	palfinder	8
+13229	BEADS	8
+13334	CnidBase	8
+13973	LabArchives	8
+14568	CummeRbund	8
+15059	SeaView	8
+188	GOLD	7
+241	VARiD	7
+345	ABrowse	7
+360	riboPicker	7
+557	SNPiR	7
+581	Database Enabled Code for Ideal Probe Hybridization Employing R	7
+734	FUGOID: a Database for Functional Genomics of Organelle Introns	7
+744	SNPlogic	7
+942	HapCompass	7
+998	University of Hawaii; Hawaii; USA	7
+1200	MUMmerGPU	7
+1229	TileQC	7
+1285	SNP and Variation Suite SNP Analysis	7
+1346	genArise	7
+1904	ExpressionPlot	7
+2268	Rice Genome Research Project	7
+2640	Stowers Original Data Repository	7
+2778	BINOCh	7
+2822	Marginalia Web Annotation	7
+3171	Pipeliner	7
+3184	Stacks	7
+4533	tree editor	7
+4862	DiScRIBinATE	7
+4947	ArchSchema	7
+5072	MIP Scaffolder	7
+5107	SomaticIndelDetector	7
+5505	TreQ	7
+5563	Polymorphix	7
+5587	Chromaseq	7
+5637	NGSView	7
+5811	OLego	7
+6198	MCMBB	7
+6327	PredictSNP	7
+6448	HTQC	7
+6573	DrugPort	7
+6657	SpliceGrapher	7
+6815	mutationSeq	7
+6851	Database of Chemical Compounds and Reactions in Biological Pathways	7
+7608	Comparasite: full length cDNA database	7
+7638	EMGlib - Enhanced Microbial Genomes Library	7
+7642	EpoDB - Erythropoiesis Database	7
+7702	HaptenDB	7
+7739	InSatDb	7
+7766	LumbriBASE	7
+7819	NMPdb - Nuclear matrix associated proteins database	7
+7848	PartiGeneDB	7
+7862	HilbertVis	7
+7892	Rice Annotation Database	7
+7938	Sno/scaRNAbase	7
+7967	TrSDB - A Proteome Database of Transcription Factors	7
+8421	CAT	7
+8510	Solver	7
+8543	RNA	7
+8812	QuasiRecomb	7
+9040	ALLASS	7
+9230	TWOLOC	7
+9394	START	7
+9835	TrueSight	7
+9904	BitSeq	7
+10027	Penn Proteomics and Systems Biology Core	7
+10579	Bacterin International, Inc.	7
+10957	MethLAB	7
+10966	ProDesign	7
+11060	Macquarie University Centre for Analytical Biotechnology	7
+11656	University of Houston; Texas; USA	7
+11901	Eoulsan	7
+11925	CoMet	7
+12020	easyRNASeq	7
+12022	ShrinkSeq	7
+12028	CCAT (Combinatorial Code Analysis Tool)	7
+12093	SAM format	7
+12331	Duke IGSP Genome Sequencing and Analysis Core	7
+12358	Centrillion Biosciences	7
+12485	University of Edinburgh GenePool Next Generation Sequencing and Bioinformatics	7
+12819	DNaseR	7
+13082	PhyloPhlAn	7
+13093	Celera Genome Browser	7
+13204	GoGrid	7
+13292	wapRNA	7
+13316	MicroRazerS	7
+13468	ShiBASE	7
+14266	ApE (A plasmid Editor)	7
+14818	NovoAlign	7
+16	CSDeconv	6
+56	metaSeq	6
+74	VariantAnnotation	6
+75	ReQON	6
+78	SOAPfuse	6
+84	pFind Studio: pLink	6
+193	SODOCK	6
+569	VariantMaster	6
+587	MPscan	6
+1181	Genometa	6
+1189	Bionimbus	6
+1198	VirusHunter	6
+1227	Plantagora	6
+1263	ADMIXTURE	6
+1275	GenoSet	6
+1715	QuasiSeq	6
+2165	WebGeSTer DB	6
+2247	QUEST Project	6
+2466	CAMERA - Collection of annotation related methods for mass spectrometry data	6
+2512	PBSIM	6
+2831	Database oDatabase of Predicted Subcellular Localization for Eukaryotic PDB Chainsf Predicted Subcellular Localization for Eukaryotic PDB Chains	6
+2913	Human Mitochondrial Protein Database	6
+2919	Lafora Progressive Myoclonus Epilepsy Mutation and Polymorphism Database	6
+3008	Dpos	6
+3071	SURPI	6
+3341	VisiGene Image Browser	6
+3412	PRINTS	6
+3455	SWAN	6
+4113	Lead Discovery Center	6
+4420	SnoopCGH	6
+4497	Tree and reticulogram REConstruction	6
+4572	SubMito	6
+4669	TaxSOM	6
+5110	aldex	6
+5131	PoPoolation TE	6
+5134	T-lex	6
+5173	CandiSNPer	6
+5204	READSCAN	6
+5206	VirusSeq	6
+5254	Breakpointer	6
+5307	SysCall	6
+5413	DATFAP	6
+5439	Bis-SNP	6
+5465	NextClip	6
+5578	Advanced Sequence Automated Pipeline	6
+6214	deepSNV	6
+6218	orienTM	6
+6518	UNITE	6
+7580	CarpeDB	6
+7613	CREMOFAC: A web-database of Chromatin Remodeling Factors	6
+7909	RTKdb - Receptor Tyrosine Kinase database	6
+8001	MAPCREATOR	6
+8104	ActiveDriver	6
+8105	NIMH/SNIDD Tracer Database Initiative	6
+8162	AltSplice Database of Alternative Spliced Events	6
+8465	Ultrasome	6
+9127	GENOMIZER	6
+9188	GEMS	6
+9871	RNASEQR	6
+9937	MSU Bioinformatics Core Laboratory	6
+10648	Crux tandem mass spectrometry analysis software	6
+10774	LS-SNP/PDB	6
+10803	HugeSeq	6
+10834	ShortStack	6
+10877	ChIPModule	6
+10888	TFFM	6
+10898	PlantTFcat	6
+10958	RnBeads	6
+10981	DNPTrapper	6
+11866	naiveBayesCall	6
+11877	BBSeq	6
+11949	RTG Metagenomics	6
+12005	COALESCE	6
+12026	GenomeJack	6
+12065	Bpredictor	6
+12114	Allim	6
+12140	AMS	6
+12281	MGH CCIB DNA Core	6
+12885	FamilySearch	6
+12920	Comparative Genometrics	6
+12962	CloudAligner	6
+12975	CRAM	6
+12980	SAMZIP	6
+13031	ncPRO-seq	6
+13033	AUTO-MUTE	6
+13121	SCORE-SEQ	6
+13235	RepeatSeq	6
+13250	GPSeq	6
+13350	National Antisense Transcript Database	6
+13733	WormGUIDES	6
+102	MysiRNA-designer	5
+270	RNASeqReadSimulator	5
+272	GramCluster	5
+320	CpGassoc	5
+358	TransView	5
+393	FunctSNP	5
+949	Aberystwyth University; Wales; United Kingdom	5
+1213	Golden Helix GenomeBrowse	5
+1236	NGSUtils	5
+1242	piCALL	5
+1271	quantsmooth	5
+1290	methyAnalysis	5
+1402	WegoLoc	5
+1551	NeuroPedia	5
+1778	ApiDots	5
+1943	TEQC	5
+2068	PurBayes	5
+2493	realSFS	5
+2936	CGHnormaliter	5
+3103	JuncBASE	5
+3134	BreakDB	5
+3249	SplicingCompass	5
+3275	JCVI Primer Designer	5
+3349	Lipid Ontology	5
+3478	NGSANE	5
+4370	Vanator	5
+4535	SeraCare Lifesciences: Sample Storage Management and Processing Services	5
+4544	Genomedata	5
+4573	TETRA	5
+5149	STCDB - Signal Transduction Classification Database	5
+5182	NGS-SNP	5
+5205	VirusFinder	5
+5274	SEECER	5
+5339	GEM	5
+5412	AtProbe	5
+5473	DistMap	5
+5546	TomatEST db	5
+6071	PartiGene ARTHROPODA Database	5
+6648	APOLLOH	5
+7254	EMBOSS CpGPlot/CpGReport/Isochore	5
+7304	ImageBank	5
+7572	BuchneraBase	5
+7660	FLIGHT	5
+7889	REFOLD	5
+7906	RsiteDB- RNA binding sites database	5
+8045	BiQAnalyzer HT	5
+8670	DrGaP	5
+8949	GENOME	5
+9066	MAREYMAP	5
+9149	CHECKMATRIX	5
+9309	MUTAGENESYS	5
+10026	Penn Next-Generation Sequencing Core	5
+10496	ContextMap	5
+10636	PrabiG	5
+10763	glfMultiples	5
+10784	PriVar	5
+10854	PMTED	5
+10858	HMCan	5
+10867	T-PIC	5
+10873	diffReps	5
+10880	F-Seq	5
+10884	oPOSSUM	5
+10906	BatMeth	5
+11835	AlienTrimmer	5
+11845	SeqtrimNEXT	5
+11892	IsoInfer	5
+11941	NeSSM	5
+12280	Dartmouth DartLab	5
+12698	BCM Circulating Tumor Cells Core Facility	5
+13043	IBDLD	5
+13067	AMOS	5
+13160	cnvHiTSeq	5
+13380	MALISAM: Manual ALIgnments of Structurally Analogous Motifs	5
+13407	Greglist	5
+13469	Active Sequence Collection	5
+13509	dbQSNP	5
+13955	Benchling	5
+14402	SortMeRNA	5
+14594	BioWorks	5
+79	SOAPfusion	4
+299	fqzcomp	4
+469	SpeedSeq	4
+480	miRprimer	4
+583	NGSmethPipe	4
+664	NGS tools for the novice	4
+1047	Danforth Center Proteomics and Mass Spectrometry Facility	4
+1076	ExomePeak	4
+1091	rGADEM	4
+1176	Skylign	4
+1182	CATCHprofiles	4
+1203	GenoViewer	4
+1206	Omixon Target HLA Typing	4
+1233	Sequedex	4
+1333	NGSrich	4
+1689	Functional Image Processing software Computational Olio	4
+1787	GLiMMPS	4
+1790	SPP	4
+2051	POLYMUTT	4
+2174	metaRNASeq	4
+2281	Automatic Generated Test-Sets Database for Protein-Protein Docking	4
+2333	RepARK	4
+2508	RUbioSeq	4
+2612	discoSnp	4
+2733	SelectScience	4
+2779	GeneSpeed- A Database of Unigene Domain Organization	4
+2922	StreamingTrim	4
+3078	MachiBase	4
+3471	Bpipe	4
+3512	PheWAS R Package	4
+3834	BetaBat	4
+4394	Segtools	4
+4452	Northern Ireland Virtual Tissue Archive	4
+4938	MapAl	4
+5009	AmphoraNet	4
+5189	FRCbam	4
+5198	ABSOLUTE	4
+5213	NSMAP	4
+5235	IsoformEx	4
+5238	IQSeq	4
+5273	G-Mo.R-Se	4
+5354	Spliceman	4
+5425	MapNext	4
+5438	QC-Chain	4
+5443	GobyWeb	4
+5489	ngsTools	4
+5820	PIPE-CLIP	4
+6188	CW-PRED	4
+6194	ConBBPRED	4
+6211	GeneVito	4
+6419	TSSer	4
+6513	MethylSeekR	4
+6683	SoftSearch	4
+6780	Virmid	4
+6954	MetMap	4
+7058	TM Function Database	4
+7192	Gist	4
+7275	Atlas of the Human Brain Stem	4
+7769	MamPolMammalia Polymorphism Database	4
+7844	PairsDB	4
+7890	RetrOryza.org	4
+7949	HighSSR	4
+8343	G protein receptor interaction feature finding instrument	4
+9148	MATLINK	4
+9174	EXOMEPICKS	4
+9195	GENERECON	4
+9521	isomiRex	4
+9665	Oregon Health and Science University; Oregon; USA	4
+9763	Dartmouth Genomics Shared Resource	4
+9921	MGH Confocal Microscope Core	4
+9941	MSU Large animal BSL-2	4
+9972	CLIIQ	4
+10758	CopySeq	4
+10760	FamSeq	4
+10768	T-REKS	4
+10908	MethMarker	4
+11850	DecGPU	4
+11872	Eucalyptus	4
+11873	HP Public Cloud	4
+11902	FX	4
+11938	MetaSee	4
+11939	SynTView	4
+12069	PhyloTreePruner	4
+12133	REDItools	4
+12148	A5-miseq	4
+12161	Trenzyme	4
+12467	University of Pennsylvania Labs and Facilities	4
+12674	WUSTL NNIN - Nano Research Facility	4
+12928	DROMPA	4
+13016	ChIPseqR	4
+13038	FishingCNV	4
+13075	Reptile	4
+13098	mGOASVM	4
+13171	bisReadMapper	4
+13177	MENDELSOFT	4
+13693	European Management Platform for Emerging and Re-Emerging Infectious Disease Entities (EMPERIE)	4
+13787	RefSeqGene	4
+13850	Residual Variation Intolerance Score (RVIS)	4
+14393	Human Islet Research Network (HIRN)	4
+14630	Composition Profiler	4
+14631	FATCAT	4
+14653	RepeatScout	4
+14963	Agilent Feature Extraction Software	4
+44	Cbrowse	3
+50	dprimer	3
+165	GMATo	3
+168	Grinder	3
+316	MiRdup	3
+352	Kinannote	3
+364	UPR Medical Mycology Laboratory	3
+368	NucleoFinder	3
+660	CorQ	3
+670	DeNovoGear	3
+678	clipcrop	3
+840	LOCUSMAP	3
+945	Macquarie University NMR Facility	3
+1006	fastqz	3
+1065	RIKEN	3
+1094	Jmosaics	3
+1207	Omixon Target Data Analysis	3
+1265	Mutascope	3
+1625	asSeq	3
+1763	PennSeq	3
+2009	Basal Ganglia Model in Action	3
+2012	SNPAAMapper	3
+2106	HEXEvent	3
+2173	CistromeMap	3
+2476	Mason	3
+2567	Wessim	3
+2648	FEATURE	3
+2767	Macaque.org	3
+2867	SharedCopy	3
+3028	Integrated X Chromosome Database	3
+3037	MoSDi	3
+3038	tweeDEseq	3
+3146	GeneScissors	3
+3154	MetaLocGramN	3
+3198	r3Cseq	3
+3308	biobambam	3
+3319	DAFGA	3
+3472	Nestly	3
+3874	Pharmacological Imaging and Pattern Recognition toolbox	3
+3902	FlexGen	3
+4277	Zebrafinch Brain Architecture Project	3
+5090	BEERS	3
+5168	MethPipe	3
+5187	SNPdat	3
+5212	V-Phaser 2	3
+5260	Hydra	3
+5368	footprintDB	3
+5428	BSeQC	3
+5440	Bisulfighter	3
+5446	MethylExtract	3
+5535	Hiclib	3
+5724	SeqGSEA	3
+5842	GraphProt	3
+6217	CoPreTHi	3
+6499	COHCAP	3
+6524	SRAdb	3
+6538	ART	3
+6705	methVisual	3
+6715	Samscope	3
+6781	BIGpre	3
+6810	RIPSeeker	3
+7093	CCHDO	3
+7264	BMAPBUILDER	3
+7335	DCViewer	3
+7430	3D-Genomics Database	3
+7453	peakrots	3
+7873	PPNEMA	3
+7903	ROSPath- Reactive Oxygen Species Related Signaling Pathway	3
+8386	Accurate Recognition of Transcription Starts in Human	3
+8442	CytoSVM statistics	3
+8569	3D Macromolecular Analysis and Kinemage Home Page	3
+8711	Biodoop	3
+8740	YunBe	3
+9032	DNAzip	3
+9093	UMAKE	3
+9135	BOOSTRAPPER	3
+9306	MULTIMAPPER/OUTBRED	3
+9789	Forsyth Imaging Services Core Facility	3
+9845	Harvard FAS Small Molecule Mass Spectrometry Facility	3
+10242	ABMapper	3
+10356	Menelas Project Top-Level Ontology	3
+10565	MethCGI	3
+10751	CloudBrush	3
+10814	CONTRA	3
+10822	Control-FREEC	3
+10839	C-mii	3
+10879	diChIPMunk	3
+10901	TreeTFDB	3
+10902	mCarts	3
+10914	SEAL	3
+10962	OligoFaktory	3
+11565	Temple University School of Medicine; Pennsylvania; USA	3
+11801	GenomeRing	3
+11849	Coral	3
+11851	ECHO	3
+11863	SHORE	3
+11913	Meta-IDBA	3
+11974	KnowPredsite	3
+12059	ADTEx	3
+12092	Variant Call Format	3
+12145	MP-EST	3
+12421	UGA Bioexpression and Fermentation Facility	3
+12649	MotifLab	3
+12692	MMDiff	3
+12901	GEN	3
+12917	NCBI Assembly Archive Viewer	3
+12924	NarrowPeaks	3
+12979	KungFq	3
+13128	GLFSINGLE/GLFTRIO/GLFMULTIPLES	3
+13243	SeqSite	3
+13257	miRSeqNovel	3
+13322	Trans-ABySS	3
+13755	Cancer3D	3
+13790	Virus Variation	3
+14078	SciLifeLab	3
+14265	Vector NTI	3
+14291	SCRATCH	3
+14326	Primer Express	3
+14494	TopScan Lite	3
+14602	FactoMineR	3
+14605	IMG System	3
+14620	HUMAnN	3
+14628	ProtTest	3
+14660	Zero Mode Waveguide Imaging and Analysis package tools	3
+14733	TranslatorX	3
+32	BlackOPs	2
+49	iMethy	2
+54	ChIPmeta	2
+55	FACS	2
+60	FusionCatcher	2
+73	QuadGT	2
+164	Magnolya	2
+187	Glide	2
+194	HEM	2
+217	GENIE3	2
+226	UnSplicer	2
+294	oneClickCGH	2
+420	iASeq	2
+444	SigFuge	2
+463	Reprever	2
+468	SAMBLASTER	2
+588	TAPyR	2
+702	Cross Validation	2
+940	Banco de datos de biodiversidad del Ecuador	2
+972	Iowa State University; Iowa; USA	2
+1014	NPEBseq	2
+1104	DSGseq	2
+1170	WiggleTools	2
+1178	tbvar	2
+1199	seq2HLA	2
+1202	GenoMiner	2
+1205	GenomicTools	2
+1212	BSSim	2
+1222	OmicsOffice for NGS SeqSolve	2
+1241	freeIbis	2
+1280	BlindCall	2
+1293	ChIPsim	2
+1323	KAnalyze	2
+1354	nnNorm	2
+1385	LYSIS	2
+1720	GERMLINE	2
+1777	RSVSim	2
+1780	SAMstrt	2
+1833	ASprofile	2
+1945	rSNPs MAPPER	2
+2032	AffyPipe	2
+2073	PyroHMMvar	2
+2163	Matchprot	2
+2710	leeHom	2
+2730	TelSeq	2
+2780	AliView	2
+3046	DiNuP	2
+3056	SASqPCR	2
+3063	MPprimer	2
+3138	PlantLoc	2
+3174	QDNAseq	2
+3259	Beta Cell Genomics Ontology	2
+3269	ORFprimer	2
+3292	OmicCircos	2
+3325	MIPgen	2
+3347	BlockClust	2
+3978	JATAC	2
+4114	Mercachem	2
+4385	Squeezambler	2
+4626	Hollings Cancer Center Tissue Biorepository and Research Pathology Services Shared Resource	2
+4980	TemplateFilter	2
+5120	RNA-SeQC	2
+5253	AGE	2
+5323	Coremine Medical	2
+5372	MolBioLib	2
+5394	PING	2
+5405	CistromeFinder	2
+5502	SOAP3	2
+5541	cd-hit-454	2
+5771	UCbase & miRfunc: Ultraconserved Sequences and miRNA Funciton Database	2
+6192	estMOI	2
+6195	FCROS	2
+6785	mubiomics	2
+6832	seqbias	2
+6973	BAMStats	2
+6975	MABMIS: Multi-Atlas Based Multi-Image Segmentation	2
+7471	Peakzilla	2
+7503	University of California, San Diego, Department of Pharmacology	2
+7687	polyaPeak	2
+7760	LEGER: the post-genome Database for Listeria Research	2
+7911	S4: Structure-based Sequence Alignments of SCOP Superfamilies	2
+7935	GenoTan	2
+7941	SNP2NMD	2
+8263	OnlineCall	2
+8301	Merial/NIH Veterinary Scholars Program	2
+8348	Webproanalyst	2
+8839	Kawasaki Disease Dataset2	2
+8872	genes2mind	2
+8882	scrible	2
+9113	SIBSIM	2
+9138	DNABASER	2
+9152	CHROMOSEG	2
+9315	PASS PEDIGREE	2
+9636	shortran	2
+9727	CHOP Human Embryonic stem cell/induced pluripotent stem cell Core	2
+9809	isomiRID	2
+9861	Harvard Partners Research Computing Core	2
+10053	AllSeq	2
+10141	UTEP DNA Analysis Core Facility	2
+10316	Enzyme Reaction Ontology for partial chemical perspectives	2
+10474	ACEpepDB	2
+10770	AgileVariantMapper	2
+11019	Panavation	2
+11799	G-compass	2
+11840	QuorUM	2
+11874	Joyent	2
+11890	EBARDenovo	2
+11900	RNAseqViewer	2
+11905	Oqtans	2
+11909	RseqFlow	2
+11990	SIOMICS	2
+11991	HTS Mappers	2
+12476	USC Epigenome Center Data Production Facility	2
+12607	Aptagen	2
+12719	UAlbany Center for Functional Genomics Labs and Facilities	2
+12963	TurboNorm	2
+12998	BSmapper	2
+13012	FishMicrosat	2
+13036	cn.mops	2
+13041	Bamformatics	2
+13056	GENE-counter	2
+13181	CancerMutationAnalysis	2
+13190	CongrPE	2
+13206	Telescoper	2
+13247	eProbalign	2
+13476	Metagrowth	2
+14651	HIPPIE	2
+14657	Genezilla	2
+14731	Pilon	2
+14932	PAML	2
+14986	SOAPdenovo2	2
+15008	BUSCO	2
+15044	MedCalc	2
+15501	FastTree	2
+28	SNPSVM	1
+35	RCBS PDB Software Tools	1
+136	Project Halo	1
+162	BLASTPLOT	1
+185	F2DockClient	1
+243	PSGInfer	1
+348	Jnomics	1
+357	PyroHMMsnp	1
+404	Random findings from the data	1
+449	stsPlots	1
+511	BAIT	1
+516	fourSig	1
+541	MATCHCLIP	1
+659	Bycom	1
+675	TriageTools	1
+682	FastUniq	1
+691	FineSplice	1
+1013	ASC	1
+1087	AutoAssemblyD	1
+1103	ParticleCall	1
+1105	R453Plus1Toolbox	1
+1172	SplicePlot	1
+1177	HMMvar	1
+1179	STRViper	1
+1180	Breakway	1
+1215	HiPipe	1
+1279	CGHbase	1
+1289	methylMnM	1
+1294	Sherman	1
+1322	waveTiling	1
+1489	PDB2MultiGif	1
+1634	Human Gene Trap Mutant Collection	1
+1683	rSeqDiff	1
+1703	rlsim	1
+1722	Arabidopsis GeneNet Supplementary DataBase	1
+1723	CNVrd2	1
+1739	RNASeqBias	1
+1788	TEMP	1
+1809	HSA	1
+1980	CanSNPer	1
+2283	flowMatch	1
+2308	RelocaTE	1
+2330	UPR Analysis Resource Center Confocal Microscopy Core Laboratory	1
+2353	HaploClique	1
+2387	BEAT	1
+2406	GenomeSmasher	1
+2479	QualitySNPng	1
+2685	sapFinder	1
+2766	libCSAM	1
+2791	ANDES	1
+2801	Circleator	1
+2972	MRFSEQ	1
+3035	bwtool	1
+3102	eQtlBma	1
+3489	MetaSKAT	1
+3903	Genewave	1
+3953	Alacris Theranostics	1
+4163	InsertionMapper	1
+4268	PeaKDEck	1
+4282	OHSU Biolibrary	1
+4469	Spanki	1
+4522	Kdetrees	1
+4553	Science in Society Conference	1
+4765	NucPosSimulator	1
+4929	ClaMS	1
+5079	MBCluster.Seq	1
+5097	Cloudbreak	1
+5116	UnoSeq	1
+5174	CHAoS	1
+5193	SPOT - Biological prioritization after a SNP association study	1
+5330	CHANCE	1
+5396	Binding and Expression Target Analysis	1
+5520	MACE	1
+5607	VAGUE	1
+5826	SPLINTER	1
+5867	PASSion	1
+5913	dna-bison	1
+5963	BLESS	1
+6410	DupRecover	1
+6653	ChIPXpress	1
+6880	ArtificialFastqGenerator	1
+6916	CROP	1
+6998	GOblet	1
+7016	neurospy	1
+7042	LINKAGE - general pedigrees	1
+7185	SNPSequer	1
+8144	GoatMap Database	1
+8193	Hybrid Pattern Library	1
+8232	PrimerStudio	1
+8548	SeqPig	1
+9208	GGT	1
+9301	MFCompress	1
+9475	Fiber-tracking based on Finsler distance	1
+9890	JSU Center for Bioinformatics and Computational Biology	1
+9898	JSU Remote Sensing Core Laboratory	1
+9974	OHSU Flow Cytometry Shared Resource	1
+9984	OHSU Massively Parallel Sequencing Shared Resource	1
+10400	Ontology of Homology and Related Concepts in Biology	1
+10485	EULER-SR	1
+10755	Velvet	1
+10759	CRISP	1
+10762	GAMES	1
+10769	TRhist	1
+10804	MutFinder	1
+10807	SIMPLEX	1
+10847	MicroMUMMIE	1
+10887	TFBSGroup	1
+10894	NucHunter	1
+10915	aCGHtool	1
+10978	TAD	1
+10993	HNDC Enhanced NeuroImaging Core	1
+11893	KisSplice	1
+11910	GeneStitch	1
+11969	ClubSub-P	1
+12007	GenoREAD	1
+12027	digitagCT	1
+12032	FamAnn	1
+12063	TE-locate	1
+12090	AHA	1
+12105	miRPlant	1
+12107	Scalpel	1
+12116	VirVarSeq	1
+12126	cnvCapSeq	1
+12129	PoolHap	1
+12138	NESmapper	1
+12194	SeqMatic	1
+12244	WaveCNV	1
+12497	Expression Analysis	1
+12533	BioinfoTools	1
+13002	QcReads	1
+13018	Swift	1
+13212	HeurAA	1
+13217	DynamicProg	1
+13241	CEM	1
+13366	JAIL- Just Another Interface Library	1
+13403	MED	1
+13737	KAVIER	1
+13844	ProteoGenex	1
+13992	StatCrunch	1
+14186	Functional Real-time Interactive Endogenous Neuromodulation and Decoding (FRIEND)	1
+14323	nanoprobes.com	1
+14405	CollecTF	1
+14533	Type 2 Diabetes Knowledge Portal	1
+14575	Desmond	1
+14584	QmRLFS-finder	1
+14618	SitePainter	1
+14626	clValid	1
+14654	REPCLASS	1
+14655	Taxonomer	1
+14656	PASA	1
+14658	Analysis and Annotation Tool (AAT) Package	1
+14659	EVidenceModeler	1
+14666	Birmingham Metabolite Library	1
+14676	Principal Components Analysis	1
+14695	bio.tools	1
+14732	Prokka	1
+14740	PePPER Prokaryote Promoter Prediction	1
+14744	Simulink	1
+14808	Sage Science	1
+14931	PAUP	1
+14933	Hypermut	1
+14934	Seq-Gen	1
+14936	ProP Server	1
+14964	Genome Aggregation Database	1
+14988	Japanese Lamprey Genome Project	1
+14989	Online Resource for Community Annotation of Eukaryotes	1
+15009	Reefgenomics	1
+15026	GapCloser	1
+15027	RepeatModeler	1
+15482	Encode	1
+15491	lncRNAdb	1

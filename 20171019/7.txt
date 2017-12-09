@@ -1,0 +1,102 @@
+RRID	Resource Name	total mention count
+6460	Mouse Genome Informatics	2190
+12953	MGD	2129
+6447	Mouse Genome Informatics: The Gene Ontology Project	1965
+1791	MouseCyc	1917
+6517	Mouse Tumor Biology Database	1881
+8217	Efficient Mixed-Model Association	1441
+6136	European Mouse Mutant Archive	1358
+13527	DSHB	1267
+6568	Adult Mouse Anatomy Ontology	1208
+13499	Extensible MATLAB Medical image Analysis	1029
+6630	Mouse Genome Informatics: The Mouse Gene Expression Information Resource Project	1013
+7333	JAX Mice: Neural Tube Defects	876
+4519	Eye mutant resource - The Jackson Laboratory	838
+9354	REAPER	756
+6457	Bloomington Drosophila Stock Center	743
+3021	JAX Neuroscience Mutagenesis Facility Protocols	582
+1144	Reaper - Demultiplexing trimming and filtering sequencing data	556
+6970	PhenoM - Phenomics of yeast Mutants	512
+6158	IMPC	506
+11295	Indiana University Bloomington; Indiana; USA	477
+6144	CMMR - Canadian Mouse Mutant Repository	475
+3212	MPD - Mouse Phenome Database	458
+7147	Mouse Genome Databases	449
+6157	Phenomizer	407
+6585	Recombinase (cre) Activity	403
+2388	GeneNetwork	388
+3075	flytrap	386
+2845	Drosophila Genomics Resource Center	377
+13354	FlyTrap- GFP Protein Trap Database	326
+1415	Diabetic Complications Consortium	284
+8469	Kyoto Stock Center	249
+2953	Mutant Mouse Regional Resource Centers	248
+12605	BestGene	243
+8013	Medical Research Council Harwell: An International Centre for Mouse Genetics	213
+12950	MGI strains	203
+6978	PBmice	202
+7318	Knockout Mouse Project Repository	201
+3087	European Mouse Phenotyping Resource of Standardised Screens	200
+3104	European Conditional Mouse Mutagenesis Program	199
+8034	GeneNetWorks	173
+676	EUCOMMTOOLS	169
+1748	Animal QTLdb	166
+2305	International Gene Trap Consortium	162
+13645	Mouse Genome Project	155
+9072	WEBQTL	152
+5574	International Knockout Mouse Consortium	142
+8556	Recombineering Information	141
+1506	EuMMCR	140
+5566	JAX Cre Repository	140
+10553	Riken BRC Cell Bank	120
+1554	GenitoUrinary Development Molecular Anatomy Project	116
+12723	Advanced Analytical Testing Service	107
+6143	Toronto Centre for Phenogenomics	81
+785	Understanding Human Disease Through Mouse Genetics	71
+6141	Pathbase	71
+6149	NHMRC Australian PhenomeBank	68
+9061	MAP MANAGER QTX	65
+13372	International Gene Trap Consortium Pathways	60
+6935	Europhenome Mouse Phenotyping Resource	56
+3468	Mouse Genome Informatics Transgenes	53
+7437	JAX Neuroscience Mutagenesis Facility	52
+5136	Beta Cell Biology Consortium	47
+1614	North American Conditional Mouse Mutagenesis Project	45
+7744	Human Intermediate Filament Database	43
+6150	Australian Phenomics Network	39
+8101	MAP MANAGER QT	39
+1526	International Mouse Strain Resource	36
+6133	CREATE	35
+11127	Butler University; Indiana; USA	28
+1615	Texas A and M Institute for Genomic Medicine	21
+6489	MGI GO Browser	20
+3282	Pleiades Promoter Project: Genomic Resources Advancing Therapies for Brain Disorders	18
+1211	mlgt	16
+3243	MUGEN Mouse Database	16
+112	Google Sites	14
+7046	UniTrap	14
+33	Mouse Single Nucleotide Polymorphism Database	13
+1899	MLRN	13
+3710	Center for Integration of Medicine and Innovative Technology	11
+12538	Roslin Institute Labs and Facilities	11
+2993	neuromice	9
+729	Cre-X-Mice: A Database of Cre Transgenic Lines	8
+6132	CreZOO	8
+8919	CreZoo	8
+384	Trans-Institute Angiogenesis Research Program	7
+13827	Statistics Calculator	7
+7312	Deltagen and Lexicon Knockout Mice and Phenotypic Data Resource	5
+14310	InfoStat	5
+2637	GUDMAP Ontology	4
+12711	Blizard Institute of Cell and Molecular Science Labs and Facilities	4
+4159	CanEuCre	3
+4784	mouseMAP	3
+6355	WebScope	3
+11630	University of Denver; Colorado; USA	3
+4438	dkCOIN	2
+8065	Voxelation Map of Gene Expression in a Coronal Section of the Mouse Brain	2
+14513	Serial Cloner	2
+14610	Metastats	2
+623	e-mouse.org	1
+11903	Guide	1
+13845	Sera Laboratories International	1

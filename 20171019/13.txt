@@ -1,0 +1,13 @@
+RRID	Resource Name	total mention count
+797	ECARUCA Project	494
+602	OnEx - Ontology Evolution Explorer	443
+7596	ChimerDB	364
+9392	SIMUPOP	345
+2096	Protein interaction and molecular information database	335
+6130	SpliceDisease	335
+6015	GWASdb	333
+5321	WebApollo: A Web-Based Sequence Annotation Editor for Community Annotation	323
+3532	MSMS	116
+10544	Alfresco - FRont-End for Sequence COmparison	35
+7798	Mitochondriome	16
+8596	Zinc	11

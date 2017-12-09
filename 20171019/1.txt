@@ -1,0 +1,2540 @@
+RRID	Resource Name	total mention count
+2309	ClinicalTrials.gov	9081
+8505	World Health Organization	3519
+11215	European Medicines Agency	2148
+5522	Texas A and M Health Science Center MSC Distribution	1946
+8673	Scion Image	1923
+8592	World Medical Association	1856
+4025	Big Ten Cancer Research Consortium	1811
+11503	RTI International	1768
+7210	American Heart Association	1750
+11482	Paris-Sud University; Paris; France	1745
+3792	Charles River Laboratories	1743
+1326	Roche	1729
+1620	ADInstruments - Data Acquisition Systems for Life Science	1720
+4699	University of Texas MD Anderson Cancer Center	1666
+4672	USIDNET: US Immunodeficiency Network	1645
+10267	Centre for Reviews and Dissemination	1642
+7400	Association for Research in Vision and Ophthalmology	1628
+12420	German Research Foundation	1585
+590	LORIS - Longitudinal Online Research and Imaging System	1567
+10621	ORION	1566
+4880	NCI-Frederick	1538
+8158	AGRICOLA	1531
+8738	UCL-RFH BioBank	1483
+10692	Boston University Alzheimer's Disease Center	1475
+2325	Current Controlled Trials	1461
+6907	UCSD-Nature Signaling Gateway Molecule Pages	1444
+11417	National Institutes of Health	1436
+3837	Big Data Public Private Forum	1418
+11497	National Health and Medical Research Council	1397
+11525	Shanghai Jiao Tong University; Shanghai; China	1393
+1650	EMBASE	1374
+3632	NIH Toolbox 4-Meter Walk Gait Speed Test	1373
+5549	HC2: Human-Computer Confluence	1371
+2863	HCV Databases	1355
+2967	Australian New Zealand Clinical Trials Registry	1345
+11535	St. James Hospital; Dublin; Ireland	1325
+11245	Frederick National Laboratory for Cancer Research	1324
+7317	NIA Aged Rodent Colonies	1322
+8070	CHARTER - CNS HIV Antiretroviral Therapy Effects Research	1312
+959	Curie Institute; Paris; France	1308
+531	Donate Life America	1297
+4475	WHO International Clinical Trials Registry Platform	1290
+12945	U.S. Food and Drug Administration	1276
+1145	Magnetic Resonance Microscopy of Mouse Embryo Specimens	1274
+11500	Robert Koch Institute; Berlin; Germany	1273
+2191	BCO-DMO	1272
+11770	VU University; Amsterdam; Netherlands	1272
+11199	East Carolina University; Carolina; USA	1268
+4180	NIH Topic Maps - A Topic Database of NIH Funded Grants	1261
+3685	Edinburgh Postnatal Depression Scale	1252
+3040	Dana-Farber Cancer Institute	1247
+2852	SMART Video-tracking	1233
+11151	Charite - Universitatsmedizin Berlin; Berlin; Germany	1222
+1037	PNA Bio	1220
+4039	Quintiles	1218
+8578	SABiosciences	1212
+3702	CAGE Questionnaire	1206
+8507	Evidence Based Toxicology	1205
+11266	Hannover Medical School; Lower Saxony; Germany	1200
+3517	Colorado Assessment Tests: n-Back	1197
+8832	MNT - Medical News Today	1195
+13116	National Institute of Neurological Disorders and Stroke	1193
+8447	Pfizer Animal Genetics	1191
+12713	University of California at Davis; California; USA	1187
+11358	Ludwig-Maximilians-University; Bavaria; Germany	1186
+1131	IBL-America	1182
+3842	European Lung Foundation	1177
+12846	USAID	1177
+1685	Brain Dynamics Centre	1171
+11485	Pasteur Institute	1169
+11592	Ulm University; Baden-Wurttemberg; Germany	1168
+11209	Erasmus University Rotterdam; Rotterdam; Netherlands	1167
+159	South African Medical Research Council	1164
+1866	Stony Brook University Medical Center: Neuropathology Primer	1162
+6310	Congress of Neurological Surgeons Online Image Database	1161
+4201	BC Cancer Agency	1152
+5956	EU Clinical Trials Register	1144
+8853	Tissue Access for Patient Benefit	1144
+2660	NBRC	1142
+513	Boston University Alzheimer's Disease Center - Neuropathology	1138
+4723	TRACK TBI Network	1132
+10652	CRAC	1129
+6280	Childrens Tumor Foundation	1126
+2588	Monte Carlo Simulation Software: tMCimg	1114
+11489	Radboud University Nijmegen; Nijmegen; Netherlands	1113
+11619	University of California at Irvine; California; USA	1109
+1496	BARI 2D	1107
+5642	MRI Research Safety and Ethics	1106
+11293	Imperial College London; London; United Kingdom	1104
+12757	ICMJE	1103
+7466	Ohio State University Neuroscience	1102
+6037	ChiCTR - Chinese Clinical Trial Registry	1097
+3671	Panic Disorder Severity Scale - Self-Report	1096
+11549	SUNY Upstate Medical University; New York; USA	1093
+12606	American Peptide Company	1093
+1761	Brainstorm	1091
+6346	Bill and Melinda Gates Foundation	1089
+6948	Minnesota Center for Twin and Family Research	1089
+7532	University of South Alabama Department of Pharmacology	1088
+10661	Surgical Biologics - a MiMedx Group Company	1072
+1451	Kawasaki Disease Dataset	1071
+11550	Sun Yat-sen University; Guangdong; China	1070
+722	University of California, Irvine, Department of Anatomy and Neurobiology	1068
+8775	Alzheimer's Association International Research Grant Program	1067
+2017	National Parkinson Foundation	1066
+3396	ddCt	1065
+12158	Openlab	1065
+11332	Johannes Gutenberg University Mainz; Rhineland-Palatinate; Germany	1058
+3677	Abbreviated Mental Test Score	1054
+11214	George Washington University; Washington D.C.; USA	1053
+2382	Clinical and Laboratory Standards Institute	1040
+8916	Puerto Rican Elderly: Health Conditions	1040
+4416	DigiMorph	1039
+12449	Trevigen Cell Assays	1037
+1907	The Scripps Research Institute	1035
+11786	West Virginia University; West Virginia; USA	1035
+3758	TI Pharma	1034
+11109	Bradley University; Illinois; USA	1033
+7175	Biopolymers Facility at Harvard Medical School	1031
+8405	AmaZonia: Explore the Jungle of Microarrays Results	1028
+11581	Translational Genomics Research Institute	1028
+13140	German Socio-Economic Panel	1026
+787	Epson	1025
+5904	GBIF - Global Biodiversity Information Facility	1016
+11588	U.S. Consumer Product Safety Commission	1014
+8307	Visionary: A Dictionary for the Study of Vision	1012
+13373	Alta-Cyclic	1012
+11227	Florida Agricultural and Mechanical University; Florida; USA	1011
+6374	University of Padua; Padua; Italy	1008
+6471	Jobs(at)NIH	1007
+11411	National Eye Institute	1007
+1355	plgem	1004
+1446	Healthy People	1004
+7141	Bayesian Output Analysis Program	1003
+11329	Jewish General Hospital; Quebec; Canada	1003
+12650	Columbia Genome Center	1003
+13745	WinMDI Software	1002
+8454	Consumer Reports	999
+3653	International Stem Cell Registry	998
+72	Patchwork	997
+11505	Ruhr University Bochum; North Rhine-Westphalia; Germany	997
+12379	HB Custom Media	997
+10740	Vaccine damage reports database	995
+3666	Generalized Anxiety Disorder 7	993
+814	NBDC - National Bioscience Database Center	991
+6279	PatientCrossroads	991
+7531	University of South Alabama Department of Cell Biology and Neuroscience	991
+3042	Brain Pharmacological Database	990
+4088	OnTarget Chemistry	990
+686	H2SO4Hurts	989
+13251	Antibody Links	989
+13039	ABACUS	986
+3510	CIL - Cell Image Library	985
+12675	Bio Basic Inc	982
+10279	Adobe Illustrator CC	980
+4601	Neuroscience News: Neuroscience Jobs	978
+12275	Applied Biosciences	978
+3073	NIH Image	973
+2905	British Heart Foundation	971
+12407	Ohio Peptide	971
+433	NINDS Disorder Index	969
+4404	Neuroscience News: Neuroscience Lab Equipment	969
+11123	Brookhaven National Laboratories; New York; USA	968
+9074	CASPAR	965
+3936	Eisai	962
+8007	Gemma	961
+1754	Dynamic Brain Platform	960
+6093	ProQuest	960
+7641	Epitome	959
+8818	RUM	959
+817	Longitudinal Employer-Household Dynamics	957
+5392	Brown Brain Tissue Resource Center	957
+948	Aarhus University; Aarhus; Denmark	956
+11574	Texas Tech University; Texas; USA	953
+6884	Integrated Service Technology	952
+5707	Hunter College; New York; USA	951
+808	Open Biosystems	947
+8021	Cal-IT2: Immersive Visualization Laboratory	945
+3663	Adult ADHD Self-Report Scale	943
+3676	Yale-Brown Obsessive Compulsive Scale	943
+2274	Nonhuman Primate HIV/SIV Vaccine Trials Database	942
+3673	Social Phobia Inventory	942
+4077	IDBS	942
+5127	University of Kiel; Schleswig-Holstein; Germany	942
+1887	Harvey Project: Open Course Collaboratories	941
+3624	NIH Toolbox Oral Symbol Digit Test	940
+12062	RASP	940
+3905	Public Health England; London; United Kingdom	938
+12879	Netherlands Bioinformatics Centre	935
+11335	Laval University; Quebec; Canada	934
+8762	Global Neuroscience Funding Resources	933
+1522	JDRF	932
+4981	UCSF AIDS Specimen Bank	932
+1501	Diabetes Prevention Program	930
+11059	Flow Contract Site Laboratory	927
+12709	Washington Biotechnology Inc.	926
+3805	NeuroStars	925
+2693	Wolfram Alpha Computational Knowledge Engine	924
+5626	Humboldt University of Berlin; Berlin; Germany	921
+6358	MouseBook	920
+1515	Clinical Islet Transplantation Study	919
+9126	ARIEL	918
+2826	American Physiological Society	917
+7505	University of Chicago Department of Neuroscience	914
+11622	University of California at Riverside; California; USA	914
+866	NeuroVigil: Revolutionizing Brain Analysis	913
+12405	ProGen - Protein and Gene Engineering	913
+2824	Viper Resource Center	910
+11488	Queen Mary University of London; London; United Kingdom	910
+337	rtd	907
+1381	Sumatra	907
+3984	Shire	907
+5523	Fulcrum	907
+12957	National Institute for Health and Care Excellence	904
+11233	Georgia Regents University; Georgia; USA	902
+2706	ToRNADo	901
+3250	RIKEN BioResource Center	900
+5962	Edgerton Digital Collections	899
+5699	TSRI-Yates Lab	896
+6707	University of Puerto Rico; Puerto Rico; USA	895
+11709	University of Tampere; Tampere; Finland	894
+483	Gene Bridges	880
+5888	ICT Centre	879
+11207	EPA	879
+11545	Stony Brook University; New York; USA	877
+4561	Oscar3	874
+4079	MEDINA Foundation	871
+3747	California Integrated Data Exchange	870
+2608	VR Worlds 2	869
+897	Vanderbilt X-Ray Photoelectron Spectroscopy Lab	866
+1473	NRF Contacts	864
+3986	Mallinckrodt Pharmaceuticals	862
+8528	GAVI	862
+530	Neuroscience News: Neuroscience Videos	861
+11771	Wageningen University and Research Centre; Gelderland; Netherlands	861
+11240	Goethe University Frankfurt am Main; Hessen; Germany	859
+6669	Yonsei University; Seoul; South Korea	853
+7334	Current Population Survey	853
+3911	Orion	852
+11605	University Lille 1 - Sciences and Technologies; Lille; France	851
+4811	Human Brain and Spinal Fluid Resource Center	850
+10168	U.S. Geological Survey	849
+6061	Atlantic Canada Conservation Data Centre	846
+11438	National Institute on Aging	846
+812	DIAN - Dominantly Inherited Alzheimer Network	841
+12189	Frontier Scientific Services	841
+7474	University of Texas Southwestern Medical Center Neuroscience	837
+11281	Howard Hughes Medical Institute	836
+8764	Massachusetts Alzheimer's Disease Research Center	830
+6017	HFV Database	829
+8032	Electroencephalogram Database: Prediction of Epileptic Seizures	829
+11816	PiMS	829
+3654	Seattle Longitudinal Study	827
+10244	WorldClim	827
+8399	ActiGraph Activity Monitor Devices	826
+11767	Virginia Commonwealth University; Virginia; USA	823
+1245	KMC	822
+5639	Hunan Normal University; Changsha; China	819
+11399	Montpellier 2 University; Montpellier; France	817
+11391	Medical Products Agency; Uppsala; Sweden	815
+6314	Johns Hopkins Point of Care Guides	814
+3683	Beck Hopelessness Scale	812
+344	Yunnan University; Yunnan; China	809
+11595	United Kingdom Department of Health	809
+11499	Roskilde University; Roskilde; Denmark	808
+3700	Young Mania Rating Scale	804
+11272	Harvard Stem Cell Institute	803
+2288	CMEList.com	802
+11531	Southwestern University; Texas; USA	802
+1716	Duke University Medical Center: Duke Image Analysis Laboratory	799
+5571	NIH Knockout Mouse Project (KOMP)	799
+5508	Stroke Patient Recovery Research Database (SPReD)	798
+9874	San Diego State University; California; USA	797
+7408	Queens University Canadian Institutes of Health Research Group in Sensory-Motor Integration	794
+1535	Immune Tolerance Network	792
+4984	Fred Hutchinson Cancer Research Center	789
+9157	CROSSFIND	789
+12891	ChAMP	785
+5447	Music and Neuroimaging Laboratory	783
+6581	University of Florida DNA and Tissue Bank	782
+6138	TED-Ed	781
+8176	British National Formulary	780
+5054	Canada Foundation for Innovation	779
+3769	Astellas Pharma Inc.	778
+8860	Edwards Lab	777
+537	This Week In Science	775
+614	HIV Databases	774
+7650	EVEREST - EVolutionary Ensembles of REcurrent SegmenTs	773
+3753	Global Health Innovative Technology Fund	771
+11183	Danish National Research Foundation	765
+2946	Pennington Biomedical Research Center	763
+11113	Baylor Research Institute; Texas; USA	763
+7383	Neurotree: Academic Family Tree	762
+8773	Michigan Alzheimer's Disease Center	761
+2955	Celgene	759
+3253	LUMPY	759
+3724	Observational Medical Outcomes Partnership	759
+7963	TDR Targets Database	759
+4346	Cellular Technology Ltd Cryopreserved PBMC	756
+10234	Netherlands Trial Register	755
+1839	Psychology Training - VA Fellowships and Internships	754
+7445	Columbia University Medical Center; Department of Neuroscience	750
+11081	ArcGIS for Desktop Basic	750
+12873	Southern Illinois University; Illinois; USA	750
+2621	ESTHER	744
+4596	Cancer Center Tissue Bank - Fudan University	744
+6386	ePRISM	744
+11576	Texas Tech University System; Texas; USA	744
+11603	University College London; London; United Kingdom	744
+3743	Accelerating Medicines Partnership - Diabetes	739
+11082	ImmunoSpot Software for Analyzing ELISPOT Assays	739
+1399	Retinal Topography Maps Database	731
+2	monarch-ontologies	730
+3832	Breast Cancer Somatic Genetics Study	730
+9279	MARGARITA	729
+11273	Harvard University; Massachusetts; USA	729
+11401	Moscow State University; Moscow; Russia	729
+3731	Accelerating Medicines Partnership Autoimmune Diseases of Rheumatoid Arthritis and Lupus	724
+6373	CUSP	724
+11167	CSIRO	724
+11785	Wenzhou Medical University; Zhejiang; China	724
+3477	Meharry Medical College Pharmacology	722
+11578	Thomas Jefferson University; Pennsylvania; USA	722
+2569	UNC Infant 0-1-2 Atlases	721
+984	National University of Singapore; Singapore; Singapore	719
+11239	French National Cancer Institute	718
+3179	EPILEPSIE database	717
+11625	University of California at San Diego; California; USA	716
+2016	OSA	715
+3695	Eating Attitudes Test	714
+11748	University of Warwick; Coventry; United Kingdom	714
+2517	Parkinson's Disease Biomarkers Program	713
+11349	Los Alamos National Laboratory	710
+3692	Zung Self-Rating Depression Scale	709
+8413	Aquatic Animal Health Code - 2008	705
+11484	Pennsylvania State University; Pennsylvania; USA	705
+12440	Irvine Scientific	701
+11174	CSIR-Central Food Technological Research Institute; Karnataka; India	700
+2070	Cell Signaling Pathways	699
+6867	qrqc	699
+2690	Synchronized Histological Image Viewing Architecture	697
+5761	ALCHEMY	696
+3858	European Lead Factory	694
+554	Purves Lab See For Yourself	693
+5080	NASA Science	692
+245	Philipps-University Marburg; Marburg; Germany	689
+12410	Independent Contractor - Computational and Mathematical Modeling	689
+936	Medscape Education - Medscape CME/CE	687
+786	Eppendorf	686
+5175	COVA	686
+11298	Innovation Norway	685
+11644	University of Giessen; Hesse; Germany	685
+13739	National Institute of Health Data Book	684
+849	SIMM	682
+12370	Bay Materials	682
+4743	Accelerated Cure Project for Multiple Sclerosis	681
+9019	Joslin Diabetes Center	680
+11054	UC Davis Mouse Biology Program	679
+277	Pusan National University; Busan; South Korea	678
+4132	IMHRO: International Mental Health Research Organization	676
+4196	DCTD	676
+3322	Childhood Autism Spectrum Test	672
+9299	MLR-TAGGING	671
+1670	Association of American Medical Colleges	666
+11602	University College Dublin; Dublin; Ireland	666
+12946	Heinz Maier-Leibnitz Prizes	664
+3985	Hospira	661
+5112	Human Frontier Science Program	661
+3786	Avid Radiopharmaceuticals	660
+12064	FIGG	659
+11464	NIH Clinical Center	658
+8999	Northeastern Collaborative Access Team	655
+7255	Collaborative Computational Project No. 4: Software for Macromolecular X-Ray Crystallography	654
+12356	Purdue X-Ray Crystallography Facility	654
+2089	Glomerular Activity Response Archive	653
+12842	Pacific Northwest National Laboratory	651
+536	Neurology and Neurosurgery	647
+11111	Bar-Ilan University; Ramat Gan; Isreal	644
+12592	CSUCI Alliance Protein Laboratories	642
+6647	PROGENY	637
+10874	DIME	637
+3742	Accelerating Medicines Partnership - Alzheimers	636
+11229	Fogarty International Center	636
+209	PKD Foundation	632
+534	SPHINX	632
+1502	Diabetes Prevention Program Outcomes Study	632
+549	American Tissue Services Foundation - ATSF	631
+3703	Standardized Mini-Mental State Examination	629
+4772	NBC	628
+184	MIMOSA	627
+9206	GEST	627
+3790	Biogen Idec	625
+11048	Spiral Genetics	622
+89	Danish Multiple Sclerosis Biobank	620
+731	Domain Interaction MAp	619
+11124	Brown Alpert Medical School; Rhode Island; USA	616
+11326	Japanese Ministry of Health Labor and Welfare	615
+12302	HMS Research Imaging Solutions	614
+11097	Arthritis research campaign	613
+4825	University of Freiburg; Baden-Wurttemberg; Germany	612
+12555	Custom Biologics	612
+979	Montana State University; Montana; USA	611
+2292	Deja Vu: a Database of Highly Similar and Duplicate Citations	611
+10726	Cystic Fibrosis Foundation	610
+3513	Colorado Assessment Tests - Visual Span	607
+11520	Seattle Childrens Research Institute; Washington; USA	606
+261	Trinity College Dublin; Dublin; Ireland	605
+11070	Beaumont Hospital; Dublin; Ireland	605
+11231	Fraunhofer-Gesellschaft	605
+10411	Portfolio Management Application	604
+4153	Multiple Sclerosis Society	601
+4074	Noldus	598
+6087	ISRCTN Registry	598
+901	ZooBank	597
+8600	DARIO	595
+11361	Mario Negri Institute for Pharmacological Research; Milan; Italy	594
+6902	Surveillance Epidemiology and End Results	588
+11434	National Science Council - Taiwan	587
+1467	Diabetes Prevention Type 1	586
+4295	US Biomax	585
+11247	French National Center for Scientific Research	581
+7956	INVERTER	580
+8905	SHEEP - Stockholm Heart Epidemiology Program	580
+1436	YPED	579
+12750	GLOBOCAN	578
+4041	Cancer Research UK	577
+2624	eScholarship	573
+5256	Clippers	573
+8531	GERON	572
+13656	Center for Cell Analysis and Modeling	571
+6041	SCALE - Scandinavian lymphoma etiology	569
+1291	les	567
+1564	The Biomedical Research Foundation - Current Research	564
+4940	Florida Alzheimer's Disease Research Center	564
+11575	Texas Tech University Health Sciences Center; Texas; USA	563
+3979	ClinMet	562
+11249	Friedrich Schiller University Jena; Thuringia; Germany	562
+8485	EpiData Software	561
+3598	Integrated Ocean Observing System	560
+1440	BioCAT	558
+3962	Centers for Medicare and Medicaid Services	558
+7146	HIV and its Coreceptors	558
+2979	EONS	557
+8757	Johns Hopkins Alzheimer's Disease Research Center	557
+2603	Triangle BioSystems	556
+9739	Paul Sabatier University - Toulouse III; Toulouse; France	556
+3604	Agency for Healthcare Research and Quality	554
+6294	crowdLabs	554
+11752	USDA Agricultural Research Service	554
+7287	Olfactory Bulb Odor Map DataBase (OdorMapDB)	553
+2423	NIH Toolbox - Assessment of Neurological and Behavioral Function	552
+6189	Cohere	552
+11542	Stockholm County Council	552
+10015	Penn High-Throughput Sequencing Facility	551
+11264	Harbin Medical University; Heilongjiang; China	549
+11593	Umea University; Umea; Sweden	546
+12706	NCSU Plant Transformation Laboratory	546
+12010	BioSpace	544
+8332	Mammal Networked Information System	543
+1516	Nebula	536
+11447	National Medicines Institute; Warsaw; Poland	534
+12153	Mimics	534
+8997	National Mouse Metabolic Phenotyping Centers	532
+11336	Lawrence Berkeley National Laboratory	531
+11150	Chang Gung University College of Medicine; Taoyuan; Taiwan	528
+8565	Wheaton Industry Inc	527
+4974	Fox Chase Cancer Center	525
+3626	NIH Toolbox List Sorting Working Memory Test	524
+11554	Swiss National Science Foundation	524
+1542	SISTEr	520
+4054	Boston University; Massachusetts; USA	520
+13724	ProteinSimple: FluorChem™ E System	520
+8753	Mayo Clinic Jacksonville: Neuropathology and Microscopy	518
+12812	Inside NIA: A Blog for Researchers	518
+9493	HD Neuro-Informatics	517
+4950	MycoBank	514
+4454	National Psoriasis Foundation	512
+1867	South African National Bioinformatics Institute: Resources	511
+1972	VideoLectures.NET	510
+11571	Texas A and M University-Kingsville; Texas; USA	510
+5415	University of Lisbon; Lisbon; Portugal	508
+10811	Lille 2 University of Health and Law; Lille; France	508
+8106	NEI (neuro-endocrine-immune) Network Database	507
+10241	ICZN	507
+11228	Florida State University; Florida; USA	507
+3701	Narcissistic Personality Inventory	505
+1507	Beijing: Eyes Open Eyes Closed Study	504
+3810	BioResource Impact Factor	503
+13147	Tripod	503
+2698	FFT Library	502
+8603	Medicines for Maleria Venture	500
+9527	ALVIN	499
+7908	RTCGD - Retroviral Tagged Cancer Gene Database	498
+160	Colin 3T/7T High-resolution Atlas	497
+3726	Project Data Sphere	497
+10484	AbbVie	494
+3838	BIOHYBRID	493
+8050	MDVU - Movement Disorder Virtual University	491
+11178	Curtin University; Western Australia; Australia	489
+1695	PELICAN	487
+3445	REDCap	487
+8547	REGENERON	487
+1919	United Kingdom National Health Service: National Genetics Education and Development Centre	486
+4537	AIDS and HIV Research Lab Registry	485
+150	Louisiana State University Health Sciences Center New Orleans; Louisiana; USA	484
+11724	University of Texas Southwestern Medical Center; Texas; USA	484
+11731	University of Tokyo; Tokyo; Japan	484
+6572	Naturally Selected	483
+12904	National Institute of Dental and Craniofacial Research	483
+3715	Hungarian Neurological-Psychiatric Biobank	482
+1530	HEALTHY study	480
+2906	HIV Sequence Database	480
+7086	HCV Immunology Database	480
+9983	U.S. Department of Health and Human Services	480
+2451	A modular structure for scientific articles in an electronic environment	478
+4057	National Cancer Research Institute	477
+6179	BioMedBridges	477
+11350	Loughborough University; Loughborough; United Kingdom	477
+783	FileMaker	476
+1548	Karolinska Institutet; Stockholm; Sweden	476
+7790	Health Research Funding	476
+3142	BrainInfo	472
+7845	PALI- Phylogeny and Alignment of homologous protein str	471
+7543	Washington State University Pullman WA. Pharmacology and Toxicology	468
+829	EDAC	466
+11091	All India Institute of Medical Sciences; New Delhi; India	465
+1420	James Cook University; Townsville; Australia	464
+8014	Academic Psychiatry: Psychiatry Online	464
+11385	Mayo Clinic Florida; Florida; USA	463
+5007	Medical University of Vienna; Vienna; Austria	462
+7535	University of Texas Medical Branch at Galveston Department of Pharmacology and Toxicology	461
+8458	DNA Direct	460
+8559	ARIAD	460
+11271	Idaho State University; Idaho; USA	460
+3631	NIH Toolbox 2-Minute Walk Endurance Test	459
+11534	Spanish National Research Council; Madrid; Spain	458
+10280	DaTo	456
+10582	NeuroLOG	456
+5865	DSpace	455
+335	National Health Research Institutes; Taipei; Taiwan	454
+11541	Stellenbosch University; Western Cape; South Africa	452
+3509	MF-GE	450
+1781	Aptamer Database - The Ellington Lab	449
+2295	BioAfrica HIV Informatics in Africa	448
+4985	The Nervous System in Action	448
+2932	American FactFinder	447
+169	Educational Resources in Neuroscience	446
+3639	Autism-Spectrum Quotient	444
+3919	Quartz Bio	444
+3463	Solstice	441
+5287	Oklahoma Medical Research Foundation	441
+7294	NEIBank	441
+11248	French National Research Agency	440
+11177	CSIR - Indian Institute of Chemical Biology; Kolkata; India	438
+11408	National Center for Research Resources	438
+12418	AAA Service Laboratory	438
+5862	SIMILE	437
+11009	DDC Medical	437
+2809	Computational Neurobiology Laboratory at the Salk Institute	436
+2844	National Academies Press	436
+5144	RLS Foundation	436
+7228	REGARDS - REasons for Geographic and Racial Differences in Stroke	436
+8322	University of Wollongong; New South Wales; Australia	436
+4364	WiCell Research Institute	435
+7331	Colorado Assessment Tests - Card Sort	435
+4415	Stem Cell Commons	434
+6574	UCL Institute of Neurology	433
+3974	Baxter	432
+5239	Now at NEJM	431
+6684	Musculoskeletal Transplant Foundation - MTF	431
+144	University of Texas Medical Branch at Galveston	430
+3036	DGAP	430
+8727	Mayo Alzheimer's Disease Research Center	428
+11007	ARQ Genetics	428
+13748	Biotechnology Culture Collection Institution Pusat Penelitian dan Pengembangan Bioteknologi-LIPI	428
+11282	Helmholtz Center Munich	427
+1930	University of California at San Diego, Computational Neuroscience	426
+11412	National Genotyping Center; Ile-de-France; France	426
+6838	BTRIS: NIH Biomedical Translational Research Information System	425
+4108	Kyoto University; Kyoto; Japan	424
+12124	Ministry of Health and Family Welfare - Government of India	424
+6320	Australian Antarctic Data Centre	423
+3351	Emory University, Molecular and Systems Pharmacology	422
+6704	Berkeley Bioinformatics Open-Source Projects	422
+8563	Research Randomizer	422
+11517	Science Foundation Ireland	422
+3516	Colorado Assessment Tests - Reaction Time	421
+6277	NF Registry	421
+9689	BWH-BRI Antibody Core Facility	421
+5378	MRC Mammalian Genetics Unit	419
+6296	Multi-Dimensional Human Embryo	419
+13497	DINO	419
+438	Molecular Imaging Probes	418
+1086	Australian National University; Acton; Australia	418
+2509	ORS Visual SI	417
+3727	Predictive Safety Testing Consortium	417
+905	DHS Program	416
+4143	Liverpool Tissue Bank	415
+2931	Charles University; Prague; Czech Republic	414
+4536	NEI-AREDS Genetic Repository	414
+1549	TOMUS	412
+11087	Aix-Marseille University; Provence-Alpes-Cote d'Azur; France	412
+965	Fudan University; Shanghai; China	410
+13293	Diogenes	409
+7481	SUNY Upstate Medical University, Pharmacology	408
+8763	Rush Alzheimer's Disease Center	407
+4360	National Autonomous University of Mexico; Mexico City; Mexico	405
+7030	Parkinsons UK Brain Bank	405
+12790	NIH Common Fund	405
+12936	Flinders University; Adelaide; Australia	405
+4021	DanStem	404
+10263	VassarStats	404
+4790	OSUCCC-James	403
+5345	University of Cincinnati Neuroscience Institute	403
+12187	Yale DNA Analysis Facility	402
+3621	NIH Toolbox 9-Hole Pegboard Dexterity Test	400
+988	Netherlands Organization for Scientific Research	399
+3787	BASF Corporation	397
+11121	Bordeaux Segalen University; Bordeaux; France	397
+394	Micro-Analyzer	395
+4061	European ScreeningPort	395
+4119	Taros	395
+1491	Human Immunology Project Consortium	394
+11357	Loyola University Chicago Stritch School of Medicine; Illinois; USA	394
+11297	Inha University; Incheon; South Korea	393
+11768	Virginia Polytechnic Institute and State University; Virginia; USA	393
+7197	neuroConstruct	392
+8250	World Health Organization Statistical Information System	392
+3300	Audiology - Arizona School of Health Sciences	391
+5370	HIV Neurobehavioral Research Center	391
+9196	GENESPRING GT	391
+4422	Childrens Brain Tumor Foundation	390
+10157	U.S. Department of Labor	390
+10260	ProMed-Mail	389
+10528	Fisher BioServices	389
+11594	Uniformed Services University of the Health Sciences; Maryland; USA	389
+11833	MT-Toolbox	389
+7828	OGD - Oomycete Genomics Database	388
+11217	Gifu University; Gifu; Japan	388
+2914	Kendrick Labs - Proteomic Services Including 2D Gel Electrophoresis Western Blotting and Mass Spectrometry	387
+11366	Max-Planck-Gesellschaft	387
+13633	Neurology Image Library from The Internet Stroke Center	387
+11509	RWTH Aachen University; Aachen; Germany	386
+11583	Tsinghua University; Beijing; China	384
+4014	Asia Training Consortium	381
+11720	University of Texas at Tyler; Texas; USA	381
+2825	Brigham Young University; Utah; USA	380
+6161	ZMP	379
+11587	U.S. Census Bureau	378
+11664	University of Massachusetts Medical School; Massachusetts; USA	378
+6424	ASN Kidney Tube	377
+2575	University of Barcelona; Barcelona; Spain	376
+12783	SUNY Downstate Medical Center School of Graduate Studies	375
+962	ETH Zurich; Zurich; Switzerland	374
+8256	University of Freiburg Bioinformatics Group: Servers and Web-Applications	374
+11304	Jacobs University Bremen; Bremen; Germany	374
+11220	Ewha Womans University; Seoul; South Korea	373
+11256	Gachon University of Medicine and Science; Incheon; South Korea	373
+6918	SIU CADRD Dementia Brain Autopsy Program	371
+4011	EORTC Clinical Trials	370
+11478	Osaka University; Osaka; Japan	369
+12767	Data World Bank	369
+77	timecourse	368
+3901	Comprehensive Biomarker Center	367
+11314	Institute of Microbial Technology; Chandigarh; India	367
+12638	Veterinary Bioscience Institute	367
+279	Queen's University Belfast; Ireland; United Kingdom	366
+4732	Ontario Tumour Bank	366
+6411	Socrates	366
+6882	It Takes 30	366
+11274	Health Canada	365
+12868	University of North Texas Health Science Center Department of Pharmacology & Neuroscience	365
+405	Opal Research	364
+4192	Canadian Tumour Repository Network	364
+6740	University of Quebec Hospital Centre; Quebec; Canada	364
+12771	SWIPE	364
+2412	MUMA	363
+5772	Burroughs Wellcome Fund	363
+4225	Cancer Research Network of the FRSQ	362
+6640	Yong Loo Lin School of Medicine; Singapore; Singapore	362
+13165	Traumatic Brain Injury Clinical Trials Network	362
+3520	Colorado Assessment Tests - Symptom Validity	361
+4059	Vasculitis Foundation	360
+6660	Brain Innovation: Home of the BrainVoyager Product Family	360
+7924	Stress Induced (DNA) Duplex Destabilization	360
+11388	McGill University; Montreal; Canada	359
+10447	WHO Adverse Reaction Terminology	358
+3612	ABIDE	356
+11322	Italian National Research Council	356
+12758	IUCN	356
+3714	Drug Development Tools Qualification Programs	355
+11190	Drexel University; Pennsylvania; USA	355
+3922	WU-Minn HCP 500 Subjects MR and MEG Release	354
+11510	Saarland University; Saarbrucken; Germany	354
+11149	Chang Gung University; Taoyuan; Taiwan	353
+359	pvac	348
+3570	Chungbuk National University; Cheongju; South Korea	347
+773	UNAIDS	346
+8449	Flow Cytometers Facility	346
+12845	University of Edinburgh Royal (Dick) School of Veterinary Studies; Scotland; United Kingdom	346
+12874	National Institutes of Neurological Disorders and Stroke: Research Funding	345
+5188	ORMAN	344
+3240	Laura and John Arnold Foundation	343
+10476	ALADDIN	342
+11369	Max Delbruck Center for Molecular Medicine; Berlin; Germany	342
+11403	National Cancer Institute	342
+903	Spike2 Software	341
+5319	Aptamer Base	341
+12974	Behavioral Risk Factor Surveillance System	341
+8554	SAFC	340
+9526	ADJUST	339
+7218	Boston University; Neuroscience	338
+11741	University of Vienna; Vienna; Austria	337
+636	National Addiction and HIV Data Archive Program	336
+130	Neuroscience Link List	335
+3706	Academic Drug Discovery Consortium	335
+3723	Myelin Repair Foundation	335
+8400	AfCS	334
+11120	Blaise Pascal University; Clermont-Ferrand; France	334
+12959	NCCN	333
+177	Buss-Perry Aggression Questionnaire	332
+8433	LexisNexis	332
+12785	Krona	331
+3861	EU-AIMS	330
+8306	Summer Fellowships - Comparative Medicine	329
+6855	National Swine Resource and Research Center	328
+7587	Cleansed EST Database	328
+7741	Inter-Chain Beta-Sheets	328
+7203	AGI	326
+13005	Integrated Risk Information System	326
+3775	Lhasa Limited	325
+8041	Institute of Experimental Medicine of the Hungarian Academy of Sciences: Laboratory of Cerebral Cortext Reserach	325
+12131	LDx	325
+12526	Dao Laboratories	324
+5756	American Cancer Society	320
+11192	Dublin City University; Dublin; Ireland	320
+4137	CCLG	319
+4922	Cliniques Universitaires Saint-Luc Cancer Centre	319
+10207	Wistar Imaging Facility	318
+10605	University of California at San Francisco; California; USA	318
+1397	Online Neuroscience Lectures - Maintained by the Kilgard Lab	317
+6547	Office of Extramural Research NIH	317
+3527	MRC Laboratory of Molecular Biology	316
+3368	Harvard University Neurobiology	315
+3804	WebCite	315
+4179	Friedrich Miescher Institute	315
+11645	University of Glamorgan; South Wales; United Kingdom	315
+522	Evidence-Based Medicine Librarian	314
+12923	Newcastle University; Newcastle upon Tyne; United Kingdom	314
+11116	Bielefeld University; North Rhine-Westphalia; Germany	313
+2743	Emotion Mining Company, Inc.	312
+1015	FUSIM	311
+3803	Telethon Foundation	311
+7070	American Journal of Psychiatry Podcasts	311
+11104	Autonomous University of Barcelona; Barcelona; Spain	311
+12796	Macquarie University; Sydney; Australia	311
+3929	ENEA	309
+11430	National Institute of Environmental Health Sciences	309
+8016	Archives of General Psychiatry	308
+1118	FluView: A Weekly Influenza Surveillance Report	307
+3972	Arbor Research Collaborative for Health	307
+11175	CSIR-Institute of Genomics and Integrative Biology; Delhi; India	307
+12386	Penn State Materials Characterization Lab	307
+1814	Kindai University; Osaka; Japan	306
+10301	Current Procedural Terminology	305
+11413	National Heart Lung and Blood Institute	305
+13351	MAOS	304
+1456	BD FACSDiva Software	303
+1942	University of California at San Diego, School of Medicine: Graduate Opportunities & Dual Degree Programs	303
+3736	Charles Stark Draper Laboratory	303
+10720	Donor Sibling Registry	302
+12156	MED-PC	302
+13220	genCAT	302
+2775	Scanalytics IPLab	301
+7338	Vascular Therapies	301
+11337	Lawrence Livermore National Laboratory	301
+6259	BenchFly	299
+11102	ATR; Kyoto; Japan	299
+6403	MEGA-MD	298
+1742	Hanchuan Peng Shared Software	297
+6375	Flycircuit	297
+11661	University of Illinois at Urbana-Champaign; Illinois; USA	297
+3484	Morehouse School of Medicine Neuroscience Institute	296
+5747	Hvidovre Hospital; Hvidovre; Denmark	296
+10487	Public Use Microdata Sample for the Older Population	296
+11634	University of Dundee School of Medicine; Scotland; United Kingdom	296
+12905	U.S. Social Security Administration	295
+11261	Hadassah Medical Center; Jerusalem; Israel	294
+342	University of Zurich; Zurich; Switzerland	293
+4031	Ben-Gurion University of the Negev; Beer-Sheva; Israel	293
+6661	Cooperative Human Tissue Network Western Division at Vanderbilt University Medical Center	293
+6671	British Columbia Breast Cancer Tumour Bank	293
+12731	Emerald Bio	293
+5463	sfnvideo - YouTube	292
+12861	EQUATOR Network	292
+7240	California Institute for Regenerative Medicine	291
+11141	Catholic University of Louvain; Louvain-la-Neuve; Belgium	291
+11325	Japanese Ministry of Education Culture Sports Science and Technology (MEXT)	291
+2185	MEDLINE	290
+4080	Neurophysiology Imaging Facility	290
+11339	La Trobe University; Victoria; Australia	289
+900	CDC Toxprofiles	287
+2361	Relevance Voxel Machine	287
+3981	Dialysis Patient Citizens	287
+6248	Human Life-Table Database	287
+1417	BioMEMS Resource Center	286
+4774	Division of cancer treatment	286
+7352	Activ 2000	286
+8760	DWD	285
+5703	Research at Cincinnati Childrens	284
+5873	Terry Fox Foundation	284
+11211	European Commission	284
+11327	Japan Science and Technology Agency	284
+6812	Thompson Center for Autism and Neurodevelopmental Disorders	283
+11382	Max Planck Institute of Molecular Physiology; Dortmund; Germany	283
+1036	AZ Core Labs	282
+6052	University of Massachusetts Amherst; Massachusetts; USA	282
+8067	Department of Psychiatry, Turner Laboratory	282
+3175	MAUDS	281
+4444	Penn Alzheimer's Disease Center	281
+4526	American Diabetes Association	279
+5649	Bambino	279
+956	Biomedical University Campus of Rome; Rome; Italy	275
+11155	Clarkson University; New York; USA	275
+9011	CARDS Database	274
+5355	National AIDS Research Institute	273
+11093	Angelo State University; Texas; USA	273
+1744	King's College London; London; United Kingdom	270
+5698	Stanford Center for Biomedical Informatics Research	270
+11407	National center for injury prevention and control	270
+4871	International Histocompatibility Cell and DNA Bank	269
+8214	ABX Guide	268
+8218	Table of Nuclides	268
+3794	Chevron Corporation	267
+6911	University of Tennessee Memphis School of Medicine Department of Pharmacology	267
+11418	National Institute for Health and Welfare; Helsinki; Finland	267
+11751	Uppsala University; Uppsala; Sweden	266
+11225	Georgia Institute of Technology; Georgia; USA	265
+867	Net Station API	264
+6019	HCV Sequence Database	264
+8840	SMA Foundation	264
+5695	Indonesia Family Life Survey	263
+27	Multiple Sclerosis Discovery Forum	262
+104	National MS Society	262
+1979	MADELINE	262
+4955	Cover Pages	262
+11138	Carnegie Mellon University; Pennsylvania; USA	262
+11166	Complutense University of Madrid; Madrid; Spain	262
+3641	NIH Toolbox Visual Acuity Test	260
+4942	State of Florida Alzheimer's Disease Initiative	259
+11184	Dartmouth Medical School; New Hampshire; USA	259
+7115	Boston Area Community Health Survey	258
+7221	California Institute of Technology; Division of Biology	258
+11758	Vassar College; New York; USA	258
+12851	NEALS: The Northeast ALS Consortium	258
+11312	Institute of Health Carlos III	257
+5383	International Society for Biological and Environmental Repositories	256
+4149	Kyushu University; Fukuoka; Japan	255
+4827	Kings College London Infectious Diseases BioBank	255
+6094	University of New South Wales; New South Wales; Australia	255
+11722	University of Texas Health Science Center at San Antonio; Texas; USA	255
+13698	BEI Resource Repository	255
+3637	NIH Toolbox Regional Taste Intensity Test	254
+1424	RESBIO	253
+4258	START Tumor Bank	253
+980	National Cheng Kung University; Tainan; Taiwan	252
+1836	Koc University; Istanbul; Turkey	252
+3751	Medical Dictionary for Regulatory Activities	252
+4707	Blood Borne Pathogens Laboratory	252
+8248	Scripps Florida - The Scripps Research Institute	252
+11582	Trudeau Institute; New York; USA	251
+913	Alaska Climate Research Center	250
+1099	Catholic University of Leuven; Flemish Brabant; Belgium	250
+4317	Center for Organ Recovery and Education - CORE	250
+8889	Alameda County Health and Ways of Living Study	250
+11355	Lund University; Lund; Sweden	250
+619	ProQuest Dissertations and Theses Global	249
+3168	Solas	248
+5860	AmerUrological's channel - YouTube	248
+10000	ieeg.org	248
+11117	Bioinformatics Institute; Singapore; Singapore	248
+207	Multiple Myeloma Research Foundation	247
+4156	Linkoping University; Linkoping; Sweden	247
+5793	Icahn School of Medicine at Mount Sinai; New York; USA	247
+8779	Washington University Knight Alzheimer's Disease Research Center	247
+12173	NCSU Analytical Instrumentation Facility	246
+1533	Kansas State University; Kansas; USA	245
+3690	Montgomery-Asberg Depression Rating Scale	245
+3991	National Renal Administrators Association	245
+441	EthoVision XT	243
+5656	Neuromorphometrics	243
+11479	OTKA Foundation	242
+6612	Treat-NMD	241
+7913	SUNY Upstate Neuroscience	241
+1514	Diabetic Retinopathy Clinical Research Network	240
+8780	Mount Sinai Alzheimer's Disease Research Center	239
+833	CHAPLIN	238
+983	National Taiwan University; Taipei; Taiwan	238
+7920	ResearchCrossroads Funding Opportunities Database	238
+8112	University of Sherbrooke Hospital Centre; Quebec; Canada	238
+10552	Nature Podcast	238
+12183	Richman Chemical	238
+373	Tuskegee University; Alabama; USA	237
+491	Digital Asset Management System	237
+10805	RTG Variant	237
+12437	Millis Scientific	237
+12897	UK DH	237
+990	Pasteur Institute of Lille; Lille; France	236
+6711	One Mind for Research	236
+11773	Walter and Eliza Hall Institute of Medical Research; Victoria; Australia	236
+1132	IBA GmbH	235
+5156	Science Careers	235
+10856	E-RANGE	235
+4026	Hoosier Cancer Research Network	234
+12242	UTHSCSA X-ray Crystallography Core Laboratory	234
+3947	Almirall	233
+4667	Central Biomaterial Bank - German Heart Failure Network	233
+7536	University of Toronto Toronto Ontario Canada Pharmacology and Toxicology	233
+9606	MazeSuite	233
+3163	Phoenix	232
+3416	Childrens Hospital of Philadelphia - Research Institute; Pennsylvania; USA	232
+3899	Olink Bioscience	232
+4214	Canadian Breast Cancer Foundation Tumor Bank	232
+8017	Bioinformatic Harvester IV (beta) at Karlsruhe Institute of Technology	232
+10445	Veterans Health Administration National Drug File	232
+11360	Maisonneuve-Rosemont Hospital; Quebec; Canada	232
+2535	RT Image	231
+11451	Netherlands Genomics Initiative	231
+432	RStudio	230
+3149	NIH Human Pluripotent Stem Cell Registry	230
+3229	Mobile Assay	230
+8004	Biological Expression Language Framework	230
+10482	COBRE	230
+10600	American Society for Cell Biology	230
+12334	UC Davis Host-Microbe Systems Biology Core	230
+950	Academia Sinica; Taipei; Taiwan	229
+5759	PePr	229
+7209	National Institutes of Neurological Disorders and Stroke Research Programs	229
+11378	Max Planck Institute for Medical Research; Heidelberg; Germany	229
+803	CPCTR: Cooperative Prostate Cancer Tissue Resource	228
+2400	University of Angers; Angers; France	228
+5487	mrFAST	228
+10641	Brain Observatory	228
+11518	Scripps College; California; USA	228
+8163	Atlas of Medical Parasitology	227
+11727	University of the Pacific School of Pharmacy and Health Sciences	227
+13184	RIKEN Tsukuba Institute; Kansai; Japan	227
+11648	University of Granada; Granada; Spain	226
+6854	Millenium cohort study	225
+12577	Meridian Life Science Inc.	225
+2362	COGNISION	224
+2699	University of Basel; Basel; Switzerland	224
+6233	Rosalind	223
+9764	Dartmouth Institute for Health Policy and Clinical Practice: Data and Analytic Core	223
+8471	DNDi	222
+8652	Scientific Review Committee	222
+10550	National High Magnetic Field Laboratory	221
+11386	Mayo Clinic Minnesota; Minnesota; USA	221
+6453	Science Podcast	220
+11427	National Polytechnic Institute; Mexico City; Mexico	220
+2893	HIV Molecular Immunology Database	219
+3782	Onyx Pharmaceuticals	218
+11788	Witten/Herdecke University; North Rhine-Westphalia; Germany	218
+3160	International Symposium on Objective Measures in Auditory Implants	217
+5078	NASA: Earth Science Data	217
+8751	GENOGRAM-MAKER	217
+10314	Eligibility Feature Hierarchy	217
+11168	CONICET	217
+12426	MGH Microscopy Core	217
+9483	GAMBIT	216
+11769	Vrije Universiteit Brussel; Brussels; Belgium	215
+9009	NIH / NCRR Mass Spectrometry Resource Washington University in St. Louis	213
+11723	University of Texas Health Science Center Graduate School of Biomedical Sciences at Houston	212
+381	University of Sydney; Sydney; Australia	211
+2385	University of Amsterdam; Amsterdam; Netherlands	211
+4466	Iowa State University Neuroscience Program	211
+11299	INRA - French National Institute for Agricultural Research; Paris; France	211
+11596	United States Department of Health and Human Services granting agency	211
+13671	Care Connectivity Consortium	211
+8946	National Longitudinal Mortality Study	210
+11435	National Institute of Nursing Research	210
+947	Aalto University; Espoo; Finland	209
+1051	Duke Model System Genomics	209
+4728	Bioreclamation	209
+652	CENtral Science	208
+8245	Toxics Release Inventory	208
+11115	BHSAI; Maryland; USA	208
+2876	Brazilian Ministry of Science Technology and Innovation	207
+3925	BC Childrens Hospital Foundation	207
+8575	Rules Based Medicine	207
+8641	Transgenic Hydra Facility	207
+6456	Congressionally Directed Medical Research Program	206
+7148	B Braun Sharing Expertise	206
+13137	HBP: Healthy Brain Project	206
+1741	George Mason University: Krasnow Institute for Advanced Study	205
+3887	University of Sherbrooke; Quebec; Canada	204
+7719	HORDE - Human Olfactory Receptor Data Exploratorium	204
+10554	UC San Diego School of Medicine / WebMD - Medscape Videoblogs	204
+12886	USDA National Institute of Food and Agriculture	204
+3898	ALTA	203
+12419	BIOTREND Chemicals LLC	203
+1702	nondetects	202
+11638	University of Edinburgh College of Medicine and Veterinary Medicine; Scotland; United Kingdom	202
+3293	SEER Datasets and Software	201
+4548	Samaritan Health Services	201
+8364	McConnell Brain Imaging Center	201
+11018	Medical Research Council	201
+683	Canadian Online CME Sites	200
+4008	Lions Eye Institute for Transplant and Research	200
+9004	National Bio-Organic Biomedical Mass Spectrometry Resource Center	200
+679	Clinical Trials Registry - India	199
+3324	Cornell University Neuroscience	199
+1407	BraVa	198
+7233	CEREP: In Vitro Pharmacology	198
+7585	Combinatorial Extension (CE)	196
+12155	LightCycler Software	196
+10253	CORDIS	195
+11142	Cayetano Heredia University; Lima; Peru	195
+1623	Ancora	194
+3107	Pliny	194
+5050	Open PHACTS	194
+12232	Vala Sciences	194
+12350	NYU Anti-Infectives Screening and Insectary Core Facilities	194
+3514	brainfacts.org	193
+7450	Queens University at Kingston, Department of Pharmacology and Toxicology	193
+11098	Aston University; Birmingham; United Kingdom	193
+11480	Otto-von-Guericke University Magdeburg; Saxony-Anhalt; Germany	193
+1061	Virginia Commonwealth University School of Medicine; Virginia; USA	192
+1168	DiMO	192
+6458	University of Perugia; Perugia; Italy	192
+3924	TIDE BC	191
+4171	British Columbia Gynaecologic Tissue Bank	191
+11620	University of California at Los Angeles; California; USA	191
+11660	University of Illinois at Chicago; Illinois; USA	191
+3795	University of Geneva; Geneva; Switzerland	190
+11196	Duquesne University; Pennsylvania; USA	190
+11352	Louisiana State University Health Sciences Center Shreveport; Louisiana; USA	190
+8943	National Long Term Care Survey	189
+2856	mzR	188
+3419	NAPPA	188
+4050	Rockwell Medical	188
+6431	Parkinson's Progression Markers Initiative	188
+4060	W. L. Gore and Associates	187
+11551	Swansea University; Swansea; United Kingdom	187
+4076	Assembled Chaos	186
+6551	American Society for Microbiology	184
+7143	Lyngby	184
+8754	NYU Alzheimer's Disease Center	184
+3686	Hamilton Rating Scale for Depression	183
+4324	Russia 2045: Brain Reverse Engineering Lab	183
+5066	German Federal Ministry of Education and Research	182
+11129	California State University Channel Islands; California; USA	182
+11404	National Institute of Health and Medical Research; Rennes; France	182
+12009	ISCB	182
+12429	University of Arizona Genetics Core	182
+6417	ALEA	181
+11105	Autonomous University of Madrid; Madrid; Spain	181
+11134	Canada Foundation for Innovation	180
+11627	University of Copenhagen; Copenhagen; Denmark	180
+12154	SMART JUNIOR	180
+647	UCSF Brain Tumor Research Center Tissue Bank	179
+1486	Multiple-Path Particle Dosimetry Model	179
+12164	Lonza Viral Based Therapeutics	179
+12684	WUSTL School of Medicine Center for Clinical Imaging Research	179
+2453	Net Station EEG Software	178
+5729	HOLLOW	178
+6909	NCGC Pharmaceutical Collection	178
+794	Community Health Sciences	177
+3944	Simcyp	177
+5418	BrainImmune	176
+6564	NAGRP Bioinformatics Coordination Program	176
+11398	Montclair State University; New Jersey; USA	176
+2634	Memento	175
+9596	Lumina LP- 400 Response System	175
+3909	HipSci	174
+4758	Pediatric Low Grade Astrocytoma Foundation	174
+11158	Claude Bernard University Lyon 1; Lyon; France	173
+5603	NIH Office of Science Education	172
+12152	IITC Life Sciences Plantar Test Apparatus	172
+1576	Benaroya Research Institute: Neurological Diseases	171
+2988	ProRata	171
+4308	Neuroscience News: Neuroscience Books	171
+11202	East Tennessee State University Quillen College of Medicine	171
+13744	Beijing Natural History Museum	171
+7524	University of Oklahoma Health Sciences Center College of Pharmacy Graduate Programs	170
+256	Pompeu Fabra University; Barcelona; Spain	169
+11626	University of Connecticut School of Pharmacy	169
+2636	OME-TIFF Format	167
+4977	DermAtlas.	167
+6183	Michael J. Fox Foundation for Parkinsons Research	167
+7008	University of Wurzburg; Bavaria; Germany	166
+12265	McGill SPR Facility	166
+375	University of Texas at Dallas; Texas; USA	165
+8904	Chinese Longitudinal Healthy Longevity Survey (CLHLS)	165
+11038	Myongji University; Gyeonggi-do; South Korea	165
+372	Tianjin University; Tianjin; China	164
+2213	Antarctic Marine Geology Research Facility	164
+2973	BMAP cDNA Resources	164
+3781	PatientsLikeMe	164
+11176	Division of cancer epidemiology and genetics	164
+1064	University at Buffalo School of Medicine and Biomedical Sciences; New York; USA	163
+10773	CUPSAT	163
+3667	Panic and Agoraphobia Scale	162
+4036	Otsuka America Pharmaceutical Inc.	162
+6202	Bentham OPEN	162
+12967	Critical Path Initiative	162
+4661	USIDNET DNA and Cell Repository	161
+11253	FRQS	161
+246	Pierre and Marie Curie University; Paris; France	160
+7100	University at Buffalo, Department of Behavioral Neuroscience	160
+11564	Temple University School of Pharmacy	160
+11753	Utrecht University; Utrecht; Netherlands	160
+12043	CPFP	160
+2370	Human Mortality Database	159
+3137	Stereology Resource Center	159
+4960	University of Leipzig; Saxony; Germany	159
+12313	Superfund basic research program	159
+3859	European Gram Negative AntiBacterial Engine	158
+7458	Kent State University, Neuroscience	158
+6509	Xiamen University; Xiamen; China	157
+673	Southampton Tumour Bank	156
+3798	Paleobiology Database	156
+3808	Inserm Transfert	156
+11122	BSRC Al. Fleming; East Attica; Greece	156
+9390	SIMULA	155
+11160	Cleveland Clinic Lerner College of Medicine; Ohio; USA	155
+9929	MSM DNA Sequencing Laboratory	154
+11742	University of Vigo; Galicia; Spain	154
+12071	MOABS	154
+12163	PerkinElmer Discovery Services	154
+236	Neurotic Physiology	153
+2587	FedBizOpps.gov: Federal Business Opportunities	153
+12622	UHN Advanced Optical Microscopy Facility	153
+11277	Hebrew University Hadassah Medical School; Jerusalem; Israel	152
+11643	University of Georgia College of Pharmacy; Georgia; USA	152
+645	Wake Forest Primate Center	151
+1958	Virtual Genetics Education Centre	151
+7062	Stanley Brain Collection	151
+11608	University of Bern; Bern; Switzerland	151
+11685	University of Montreal; Quebec; Canada	151
+3664	Hamilton Anxiety Rating Scale	150
+4089	Brighton Collaboration	150
+4600	Neuroscience News	150
+6114	University of Nice Sophia Antipolis; Nice; France	150
+10497	Alkermes	150
+11483	Paris Diderot University; Paris; France	150
+6276	University of Otago; Dunedin; New Zealand	149
+657	Lab Times	148
+11402	Mount Allison University; New Brunswick; Canada	148
+11717	University of Texas at Austin College of Pharmacy	148
+12202	UCLA Clinical and Translational Research Laboratory	148
+3749	Coca-Cola Company	147
+11516	Sanford-Burnham Medical Research Institute	147
+4581	MD Anderson Clone Bank	146
+5067	SINA	146
+8380	Chem Service, Inc.	146
+8574	Royal Ontario Museum	146
+11289	Hong Kong Polytechnic University; Hong Kong; China	146
+996	University of Cambridge; Cambridge; United Kingdom	145
+5451	German Rheumatism Research Centre Berlin; Berlin; Germany	145
+8621	Single Nucleotide Polymorphism Spectral Decomposition (SNPSpD)	145
+8788	Brain Facts	145
+9123	BARS	145
+12797	Chinese Academy of Sciences; Beijing; China	145
+6616	University of Pisa; Pisa; Italy	144
+13187	Akiyoshis illusion pages	144
+1404	Resource Center for Medical Ultrasonic Transducer Technology	143
+2613	WFU Biological Parametric Mapping Toolbox	143
+3691	Cubist Pharmaceuticals	143
+4375	FACIL	143
+5997	ASL data processing tool box	143
+12216	KSU AFM Imaging Group	143
+13139	International Data Base	143
+699	De Humani Corporis Fabrica	142
+870	Children's Hospital Informatics Program	142
+1320	affylmGUI	142
+4062	Sierra Sensors	142
+11165	Columbia University College of Physicians and Surgeons	142
+11262	Hagedorn Research Institute; Gentofte; Denmark	141
+11397	MKE - Ministry of Knowledge Economy	141
+11611	University of Bonn; Bonn; Germany	141
+12415	UD Animal and Food Sciences Department	141
+3693	Anorectic Behavior Observation Scale	140
+9268	Marker And Gene Interpolation and Correlation	140
+11133	California Environmental Protection Agency	140
+12167	UNC School of Medicine Animal Models Core	139
+12325	UAlberta Cell Imaging Centre	139
+5715	Biotechnology Center of the TU Dresden	138
+11459	New York University School of Medicine; New York; USA	138
+11762	Vienna University of Technology; Vienna; Austria	138
+13104	U.S. Public Health Service Commissioned Corps	138
+546	NEI Clinical Studies	137
+3980	DaVita	137
+4826	National Yang-Ming University; Taipei; Taiwan	137
+5172	AVIA	137
+10634	University of California San Diego School of Medicine; California; USA	137
+11328	Jawaharlal Nehru University; New Delhi; India	137
+11580	Tongji University; Shanghai; China	137
+244	Pharmaceuticals and Medical Devices Agency	136
+11586	U.S. Army Medical Research and Materiel Command	136
+6075	ProQuest Dissertation Publishing	135
+11376	Nanyang Technological University; Singapore; Singapore	135
+6275	University of Oslo; Oslo; Norway	133
+9776	Rotterdam Ophthalmic Institute; Rotterdam; Netherlands	133
+3655	Speech Language Disorders Database	132
+4504	Cryo-Save	132
+6426	California National Primate Research Center	132
+6540	University of Picardie Jules Verne; Amiens; France	132
+12495	CU Boulder Institute for Behavioral Genetics	132
+3720	European Multicenter Study about Spinal Cord Injury	131
+7394	Academy of Finland	131
+9651	GTRACT	131
+9676	BIDMC Real-Time PCR Core	131
+9857	Howard Imaging Core Facility: Molecular Imaging Laboratory	131
+3120	ShARM	130
+1864	Konrad Lorenz Institute for Evolution and Cognition Research; Altenberg; Austria	129
+2683	OpenSim	129
+11013	Precision Targeting Lab LLC	129
+11	Leica DMRE Fluorescence Microscope	128
+3114	University of Colorado Boulder; Colorado; USA	128
+4146	International Anesthesia Research Society	128
+6261	VisTrails	128
+9853	Royal Netherlands Academy of Arts and Sciences; Amsterdam; Netherlands	128
+10601	Fight SMA	128
+795	Ronald M. Davis Tobacco Deposition and Trial Testimony Archive	127
+1193	Peking University; Beijing; China	127
+3617	NIH Toolbox Flanker Inhibitory Control and Attention Test	127
+11623	University of California at Santa Barbara; California; USA	127
+12247	Columbia Chemical Probe Synthesis Facility	127
+12678	MGH Flow Cytometry Core	127
+6702	National Diabetes Information Clearinghouse	126
+605	USP Molecular Genetics and Bioinformatics Laboratory	125
+4305	UAB Alzheimer's Disease Center	125
+4387	Case Comprehensive Cancer Center	125
+8544	Random.org	125
+8975	Index Fungorum	125
+11313	Jackson State University; Mississippi; USA	125
+12942	German Cancer Research Center	125
+13501	Drug ADME Associated Protein Database	125
+4787	Division of clinical sciences	124
+11745	University of Waikato; Hamilton; New Zealand	123
+2448	UNC Joint Vector Laboratories	122
+3696	Eating Disorder Inventory	122
+11213	George Mason University; Virginia; USA	122
+11422	National Institute of Biomedical Imaging and Bioengineering	122
+11642	University of Florence; Florence; Italy	122
+341	University of Zaragoza; Zaragoza; Spain	121
+5037	CryoLife, Inc.	121
+8714	Saint-Luc Tumour Bank	121
+11026	Medical University Innsbruck; Innsbruck; Austria	121
+11198	Ealing Hospital; London; United Kingdom	121
+4937	Protocol Online - Your labs reference book	120
+11164	Columbia University; New York; USA	120
+11610	University of Bologna; Bologna; Italy	120
+2346	Familial Hypertrophic Cardiomyopathy DNA Mutation Database	119
+4863	University of Leeds; West Yorkshire; United Kingdom	119
+6361	University of Oxford; Oxford; United Kingdom	119
+11444	Ontario Ministry of Agriculture Food and Rural Affairs	119
+12572	HMS Electron Microscopy Core Facility	119
+174	NIH Toolbox Words-in Noise Test	118
+1262	ipPCA	118
+5458	Free University of Brussels; Brussels; Belgium	118
+6576	Cochrane Central Register of Controlled Trials	118
+6592	BoDD	118
+11455	New Energy and Industrial Technology Development Organization	118
+12794	Samuel Roberts Noble Foundation	118
+3926	POLYMUN Scientific	117
+8638	Tropical Disease Initiative	117
+11687	University of Munster; North Rhine-Westphalia; Germany	117
+11882	BioVLAB	117
+1472	NIA Mouse cDNA Project Home Page	116
+4622	CHDI Foundation	116
+4773	University of Lausanne; Lausanne; Switzerland	116
+1477	National Diabetes Education Program	115
+2607	University of Athens; Athens; Greece	115
+4799	Dresden University of Technology; Saxony; Germany	115
+11649	University of Greifswald; Mecklenburg-Vorpommern; Germany	115
+633	Phosphor Antibody Array Data Analysis	114
+4043	IADRP	114
+5070	AGORA	114
+5627	e-Source: Behavioral and Social Sciences Research	114
+5794	MetaGeneProfiler	114
+6301	University of Oulu; Oulu; Finland	114
+776	Transgenic Animal Model Core	113
+1926	UCSD Cognitive Science: The Future of Cognitive Science	113
+4195	Wright Medical Technology, Inc.	113
+4424	Danish Multiple Sclerosis Center	113
+4590	National Tsing Hua University; Hsinchu; Taiwan	113
+4665	Living Legacy Foundation of Maryland	113
+11128	California Polytechnic State University; California; USA	113
+456	RegenBase	112
+11519	Scripps Translational Science Institute	112
+7261	American Thoracic Society	111
+11002	OHSU Transgenic Mouse Models	111
+12290	Yale Pathology Tissue Services	111
+12359	UR Genomics Research Center	111
+12531	Baker Mountain Research Corporation	111
+4246	Kickstarter	110
+3754	Innovative Medicines Initiative	109
+6503	F1000 Posters	109
+11621	University of California at Merced; California; USA	109
+3973	Association for the Advancement of Medical Instrumentation	108
+13593	LifeCell Corporation	108
+4006	Towards novel translational safety biomarkers for adverse drug toxicity	107
+11067	MQ Animal Behaviour Laboratory	107
+12382	Tsinghua University Center of Biomedical Analysis	107
+2240	edX	106
+3530	Physico-Chemical Process	106
+6667	Blox	106
+11280	Heidelberg University; Baden-Wurttemberg; Germany	106
+11639	University of Erlangen-Nuremberg; Bavaria; Germany	106
+11761	Victor Chang Cardiac Research Institute; New South Wales; Australia	106
+301	Penn Clinical Research Computing Unit	105
+10678	SVF Foundation	105
+11069	Beaumont Health System; Michigan; USA	105
+11156	Clark Atlanta University; Georgia; USA	105
+13312	WoRMS	105
+2583	Brain lesion segmentation tool using SVM	104
+3945	Sirius Analytical	104
+9863	Howard Biostatistics Core	104
+1158	CenterWatch	103
+3774	Consortium for Reliability and Reproducibility	103
+4395	Biomedical Research Program UCA	102
+5285	SuperScent	102
+8614	DISABKIDS	102
+8962	Gazel Database	102
+11481	Oxford Brookes University; Oxford; United Kingdom	102
+12151	EA15: EasyView Dual Input Temperature Datalogger	102
+10653	JCM	101
+11017	Aldevron	101
+11283	Illinois Institute of Technology; Illinois; USA	101
+11441	National Institute on Minority Health and Health Disparities	101
+11607	University of Bergen; Bergen; Norway	101
+13495	Engineering and Physical Sciences Research Council	101
+3394	NIH MRI Study of Normal Brain Development	100
+3680	Informant Questionnaire on Cognitive Decline in the Elderly	100
+3917	Bellvitge Biomedical Research Institute	100
+4366	Office of Naval Research	100
+8564	Public Health Resources Unit	100
+10543	Royal Botanic Gardens Kew	100
+13115	University of Wisconsin School of Pharmacy	100
+1508	Type 1 Diabetes TrialNet	99
+5214	University of Kuopio; Kuopio; Finland	99
+9678	BIDMC X-ray Crystallography Core	99
+11765	VINNOVA	99
+3164	Allele Biotechnology	98
+3633	NIH Toolbox Grip Strength Test	98
+5457	VolumeRover	98
+5509	Latin American Brain Mapping Network (LABMAN)	98
+7833	University of Salamanca; Salamanca; Spain	98
+11504	Rudjer Boskovic Institute; Zagreb; Croatia	98
+12371	Microtech Lab	98
+963	European Food Safety Authority	97
+10313	Electrocardiography Ontology	96
+12113	ReviSTER	96
+1088	Monash University; Melbourne; Australia	95
+2615	University of Auckland; Auckland; New Zealand	95
+3407	NanoStriDE	94
+6315	Woods Hole Oceanographic Institution; Massachusetts; USA	94
+11288	Hong Kong Baptist University; Hong Kong; China	94
+11420	National Institute of Agrobiological Sciences; Ibaraki; Japan	94
+11647	University of Gothenburg; Gothenburg; Sweden	94
+11889	Scotty	94
+961	Ecole Polytechnique Federale de Lausanne; Lausanne; Switzerland	93
+3687	Kutcher Adolescent Depression Scale	93
+4465	South Dakota Lions Eye Bank	93
+4995	M-pick	93
+8707	Spanish National Tumour Bank Network	93
+11096	Aristotle University of Thessaloniki; Thessaloniki; Greece	93
+11515	Saint Petersburg Academic University; Saint Petersburg; Russia	93
+852	CIFTI Connectivity File Format	92
+1466	Collaborative Islet Transplant Registry	92
+5691	Principe Felipe Research Centre; Valencia; Spain	92
+11414	National Heart Lung and Blood Institute Office of the Director	92
+960	Ecole Normale Superieure; Paris; France	91
+1272	Benaroya Research Institute	91
+3404	Marquette University, Neuroscience	91
+5356	AIDS.gov	91
+6088	Hereditary Disease Foundation	91
+6816	University of Rostock; Mecklenburg-Vorpommern; Germany	91
+7193	Belgian Co-Ordinated Collections Of Micro-Organisms: LMBP Plasmid and DNA Library Collection	91
+9385	SIMLA	91
+11739	University of Veterinary Medicine Vienna; Vienna; Austria	91
+3	Sarah Cannon Research Institute; Tennessee; USA	90
+717	Scripps Women's College, Neuroscience Department	90
+4087	MPS Hamburg	90
+4574	Southwest France Tumour Bank	90
+4746	Fox Chase Biosample Repository Core Facility	90
+9673	BIDMC Multi-Gene Transcriptional Profiling Core	90
+11003	NETZSCH Thermal Analysis Applications Laboratory	90
+11695	University of Southern California School of Pharmacy Graduate Programs	90
+13728	ExtrAvidin FITC, Sigma-Aldrich	90
+1391	PNEUMA	89
+1860	THetA	89
+4091	Synapse Research Management Partners	89
+4183	Guthy-Jackson Repository for Neuromyelitis Optica	89
+8910	FGDP	89
+9632	NordicNeuroLab	89
+12291	Chiral Polyamines	89
+3623	NIH Toolbox Pattern Comparison Processing Speed Test	88
+5585	DNA Chromatogram Explorer	88
+7772	Mutation Database for Parkinsons Disease	88
+10620	Science Exchange	88
+11246	Free University of Berlin; Berlin; Germany	88
+12792	University of California, San Francisco School of Pharmacy	88
+202	GPS-Calpain Cleavage Detector	87
+3890	SGC	87
+5210	QUEST	87
+8080	University of Siena; Tuscany; Italy	87
+8266	Interventions Testing Program	87
+10731	MIRA	87
+11690	University of Natural Resources and Life Sciences; Vienna; Austria	87
+17	Tablet	86
+7649	University of Rennes 1; Rennes; France	86
+10481	Alaska Ocean Observing System	86
+11431	National Institute of Mental Health	86
+12217	Brown Genomics Core Facility	86
+12558	Genetica DNA Laboratories	86
+1338	CALIB	85
+3345	Duke University Trinity College of Arts and Sciences Undergraduate Neuroscience	85
+4611	Tumorbank Bern	85
+7241	Center for Biological and Compulational Learning Face Database	85
+7249	CASPLab: Comet Assay Software Project Laboratory	85
+10640	Microbiology Blog: The weblog for microbiologists	85
+11085	Agency for Science Technology and Research	85
+999	University of Melbourne; Victoria; Australia	84
+2556	Bamboo DiRT	84
+4035	OPKO	84
+4675	Southeast Tissue Alliance, Inc. - SETA	84
+4851	AntWeb	84
+6330	University of Neurosurgery Video Theatre	84
+9577	Fiber Optic Button Response System	84
+11377	Max Planck Institute for Infection Biology; Berlin; Germany	84
+13237	MIMIC II	84
+9383	SILCLOD	83
+10436	Traditional Medicine Meridian Value Sets	83
+11182	Danish Agency for Science Technology and Innovation	83
+11189	Division of cancer control and population science	83
+12858	National Institute on Disability and Rehabilitation Research	83
+3450	metaphor	82
+4095	Korea University; Seoul; South Korea	82
+11061	Penn DNA Sequencing Facility	82
+11241	Miami University; Ohio; USA	82
+12562	David H Murdock Research Institute	82
+13750	National Bank for Industrial Microorganisms and Cell Cultures	82
+258	Pondicherry University; Puducherry; India	81
+501	ECNP	81
+2461	HIBAL	81
+3289	Michigan State University Brain Biodiversity Bank	81
+4105	PHARMO Institute	81
+5047	Huazhong University of Science and Technology; Wuhan; China	81
+8580	Tronolab	81
+9729	CHOP Pathology Core Laboratories	81
+1084	Howard University; Washington D.C.; USA	80
+4441	Guthy-Jackson Charitable Foundation	80
+4700	Hema-Quebec	80
+5171	University of Konstanz; Baden-Wurttemberg; Germany	80
+6440	NIST - National Institute of Standards and Technology	80
+10129	UPR Macromolecular X-ray Crystallography Core Facility	80
+10154	UTSA X-ray Crystallography Laboratory	80
+11292	Health and Environmental Sciences Institute (HESI)	80
+11696	University of Southern Denmark; Odense; Denmark	80
+5424	University of Liverpool; Liverpool; United Kingdom	79
+6502	University of Perpignan Via Domitia; Perpignan; France	79
+6514	Neurophilosophy	79
+4874	MLA-HLS	78
+10377	Neural Motor Recovery Ontology	78
+975	Liverpool John Moores University; Liverpool; United Kingdom	77
+1588	The Cromwell Workshop	77
+2940	Ablynx	77
+6349	Piedmont Health Survey of the Elderly	77
+9749	DFCI Clinical Research Laboratory	77
+9824	HSPH Exposure and Environmental Analysis Service	77
+10699	UC Davis Alzheimers Disease Center - Resources	77
+11372	Max Planck Institute for Demographic Research; Mecklenburg-Vorpommern; Germany	77
+11527	Sichuan University; Sichuan; China	77
+3611	Current German Weather Stations	76
+6388	SPARC	76
+7234	Canadian Microelectronics Corporation Microsystems	76
+11157	Clark University; Massachusetts; USA	76
+11631	University of Duisburg-Essen; North Rhine-Westphalia; Germany	76
+356	TAPS	75
+1882	EPMBA.ORG: Electronic Prenatal Mouse Brain Atlas	75
+1990	Cognitive Neuroscience Society	75
+2842	University of Coimbra; Coimbra; Portugal	75
+3704	Social Environment and Biomarkers of Aging Study in Taiwan	75
+3915	Systematized Nomenclature of Medicine - Clinical Terms	75
+6718	University of Quebec; Quebec; Canada	75
+11200	East Tennessee State University; Tennessee; USA	75
+11613	University of Bristol; Bristol; United Kingdom	75
+967	Greek General Secretariat of Research and Technology	74
+5557	NIH Chemical Genomics Center	74
+5561	University of London; London; United Kingdom	74
+9725	CHOP Clinical Trials Office	74
+3967	American Society for Apheresis	73
+4628	Washington Regional Transplant Community - WRTC	73
+11406	National center for immunization and respiratory diseases	73
+11432	National Institute of Mental Health and Neuro Sciences; Bangalore; India	73
+12159	MQ Research Centre in Quantum Science and Technology	73
+12169	University of Toledo Instrumentation Center	73
+12292	Xeno Diagnostics LLC	73
+13467	National Cell Culture Center	73
+4354	Rocky Mountain MS Center	72
+4738	UK Stem Cell Bank	72
+11559	Technical University of Denmark; Lyngby; Denmark	72
+11568	Terry Fox Research Institute	72
+13520	Congressionally Directed Medical Research Program Grants Database	72
+2719	Movement Disorder Virtual University (MDVU): Resource Library	71
+3988	Medtronic	71
+5879	North Texas Traumatic Brain Injury Model System	71
+6243	InterSpecies Analysing Application using Containers	71
+9773	Dartmouth SYNERGY: Biostatistics Consultation Core	71
+11719	University of Texas at San Antonio; Texas; USA	71
+12264	Douglas Brain Imaging Centre	71
+12306	McGill Experimental Therapeutics Program	71
+12519	WSU Applied Genomics Technology Center	71
+4975	University of Malaga; Andalusia; Spain	70
+5005	Alamo Tissue Service, Ltd.	70
+7423	University of Regensburg; Bavaria; Germany	70
+10038	University of Pennsylvania Center for Molecular Therapy for Cystic Fibrosis Vector Core	70
+10064	Tuskegee Center for Biomedical Research - Shared Instrumentation Core	70
+10827	Nagoya University; Nagoya; Japan	70
+11250	Fritz Lipmann Institute; Jena; Germany	70
+11342	Leiden University; Leiden; Netherlands	70
+11604	University Hospital Erlangen; Bavaria; Germany	70
+12600	Cleveland Clinic Molecular Biotechnology Core	70
+374	University of Southern Queensland; Queensland; Australia	69
+824	MONARCH Disease Models View	69
+2647	University of Bari; Bari; Italy	69
+5500	University of Lleida; Lleida; Spain	69
+9469	A sample size calculation method	69
+10199	Vanderbilt Tissue Core Laboratory	69
+1619	Expression Patterns for C. elegans promoter GFP fusions	68
+1656	Sample of Science	68
+9489	Generalized PPI Toolbox	68
+10121	UPR Center for Drug Information and Research	68
+11145	Central University of the Caribbean; Puerto Rico; USA	68
+11374	Max Planck Institute for Heart and Lung Research; Bad Nauheim; Germany	68
+914	Frontier Scientific	67
+4102	Kumamoto University; Kumamoto; Japan	67
+4391	Office of the NCI Director	67
+6166	University of Waterloo; Ontario; Canada	67
+10321	Flora Phenotype Ontology	67
+10531	Dangerous Ideas	67
+11460	NHLBI Division of Blood Diseases and Resources	67
+11651	University of Guelph; Ontario; Canada	67
+12510	KU Nuclear Magnetic Resonance Laboratory	67
+189	Google Tech Talks - YouTube	66
+955	Austrian Agency for Health and Food Safety	66
+11103	Australian National Fabrication Facility	66
+11119	Birkbeck University of London; London; United Kingdom	66
+11125	Buck Institute; California; USA	66
+966	Genome Canada	65
+4458	St. James Hospital Cryobiology Laboratory Stem Cell Facility	65
+4538	Arnaud Delormes Programs Overview	65
+9913	MGH Biostatistics Center	65
+11112	Battelle Memorial Institute; Ohio; USA	65
+11501	Rockefeller University; New York; USA	65
+11523	Shandong University; Shandong; China	65
+12430	UNC School of Medicine Center for Structural Biology	65
+12445	Duke University Labs and Facilities	65
+12454	University of Rochester Labs and Facilities	65
+2220	National Snow and Ice Data Center	64
+3968	American Society of Diagnostic and Interventional Nephrology	64
+4244	University of North Carolina at Charlotte; North Carolina; USA	64
+5162	Tropical Botanic Garden and Research Institute	64
+5708	GUMC Department of Biostatistics Bioinformatics and Biomathematics - Liu Lab	64
+10195	Wistar Flow Cytometry Facility	64
+11491	Rene Rachou Research Center - FIOCRUZ; Belo Horizonte; Brazil	64
+11560	Technical University of Munich; Bavaria; Germany	64
+12616	Ontario Cancer Biomarker Network	64
+12926	American Neurological Association	64
+3746	Be The Cure	63
+9369	R/LUCA	63
+10361	Microbial Culture Collection Vocabulary	63
+11533	Spanish Ministry of Science and Innovation	63
+6	University of Algarve; Faro; Portugal	62
+271	iFad	62
+3675	Trauma Screening Questionaire	62
+4071	Korea Research Institute of Bioscience and Biotechnology; Daejeon; South Korea	62
+4748	Oklahoma Brain Tumor Foundation	62
+5216	Science 3.0	62
+7323	National NeuroAIDS Tissue Consortium	62
+11670	University of Michigan Rackham Graduate School; Michigan; USA	62
+214	Council for Scientific and Industrial Research; Gauteng; South Africa	61
+297	Screensaver	61
+3196	ARC Centre of Excellence in Vision Science	61
+3976	ChemoCentryx	61
+4289	Rhode Island Biobank	61
+10013	Penn Gene Targeting Service	61
+11344	Life Science Foundation; Santiago; Chile	61
+211	Images of the Drosophila Nervous System	60
+3638	Resources for Enhancing Alzheimers Caregiver Health	60
+4725	National Stem Cell Bank	60
+8489	Drew Scientific Group	60
+9767	Dartmouth Multi-Photon Imaging	60
+11084	Adam Mickiewicz University in Poznan; Poznan; Poland	60
+1075	University of Adelaide; Adelaide; Australia	59
+2444	University of Antwerp; Antwerp; Belgium	59
+3669	Brandeis University; Massachusetts; USA	59
+6999	Carbon Dioxide Information Analysis Center	59
+10293	University of Alabama at Birmingham School of Medicine; Alabama; USA	59
+11143	Center for Information Technology	59
+11609	University of Birmingham; Birmingham; United Kingdom	59
+11776	Wayne State University; Michigan; USA	59
+12326	Georgia Tech Magnetic Resonance Laboratory	59
+12640	Columbia Transgenic Mouse Shared Resource	59
+1512	Diabetes Research in Children Network	58
+2162	University of Cantabria; Cantabria; Spain	58
+3354	Eindhoven University of Technology; North Brabant; Netherlands	58
+8732	Luxembourg Income Study	58
+8744	Neuroanatomy at UBC	58
+12696	HMS Systems Biology Flow Cytometry Facility	58
+1016	Geoffs Bio-Directories	57
+3634	NIH Toolbox Odor Identification Test	57
+5575	Georgetown University; Washington D.C.; USA	57
+5654	Hungarian Academy of Sciences; Budapest; Hungary	57
+6413	Global-Multi Resolution Topography Grid Service	57
+10198	Vanderbilt Survey Research Shared Resource	57
+12504	DFCI Monoclonal Antibody Core Facility	57
+12666	UC Davis Proteomics Core Facility	57
+12892	Ghent University; Ghent; Belgium	57
+13632	Stroke Trials Registry	57
+1366	Jadavpur University; West Bengal; India	56
+4010	JDRF Artificial Pancreas Project Consortium	56
+4115	Pivot Park Screening Centre	56
+4491	Brain Science Podcast	56
+4906	UCSD Experimental Neuropath Laboratory	56
+8099	Parkinson's Disease Research, Education and Clinical Center	56
+11268	Harvard School of Public Health; Massachusetts; USA	56
+11556	Szent Istvan University Faculty of Veterinary Science; Budapest; Hungary	56
+11755	Vall d'Hebron Institute of Oncology; Barcelona; Spain	56
+12648	University of Pittsburgh Research Histology Services	56
+250	Polish Academy of Sciences Warsaw; Warsaw; Poland	55
+991	Pontifical Catholic University of Argentina; Buenos Aires; Argentina	55
+1437	Laboratory for Fluorescence Dynamics	55
+3672	PTSD Symptom Scale - Self-Report	55
+4208	Accelerated Cure Project MS Repository	55
+11735	University of Tubingen; Baden-Wurttemberg; Germany	55
+8783	COS Funding News	54
+10172	Vanderbilt Clinical Trials Shared Resource	54
+10288	African Traditional Medicine Ontology	54
+11633	University of Dundee College of Life Sciences; Scotland; United Kingdom	54
+12000	APHA	54
+12544	Massachusetts General Hospital Labs and Facilities	54
+12922	University of Hamburg; Hamburg; Germany	54
+254	Polytechnic University of Milan; Milan; Italy	53
+377	Lonza	53
+492	AlzProtect	53
+1056	University of Minnesota Histology and Immunohistochemistry Laboratory	53
+2190	Neotoma Paleoecology Database	53
+2674	e-Driver	53
+4280	OECI - Tubafrost: The European Human Frozen Tissue Bank	53
+4878	University of Genoa; Genoa; Italy	53
+6100	University of North Carolina at Chapel Hill; North Carolina; USA	53
+10722	Cognitive Daily	53
+11677	University of Missouri, Kansas City School of Pharmacy	53
+2419	MCML and CONV	52
+4007	Alzheimers Association Research Roundtable	52
+7751	University of Rome Tor Vergata; Rome; Italy	52
+9364	R/GAP	52
+10612	Gossamer	52
+11027	Medical University of Graz; Graz; Austria	52
+11389	McMaster University; Ontario; Canada	52
+12198	Peter Mac Translational Research Laboratory	52
+12643	OSU Nucleic Acid Shared Resource	52
+2728	CASBAH	51
+3835	Swiss Institute of Allergy and Asthma Research	51
+6210	University of Nottingham; Nottingham; United Kingdom	51
+10208	Wistar Molecular Screening Facility	51
+10237	HOL	51
+10555	Organogenesis, Inc.	51
+11311	Institute of Experimental Biology and Technology; Oeiras; Portugal	51
+11688	University of Murcia; Murcia; Spain	51
+12226	WUSTL Hybridoma Center	51
+12523	Imperial College London Labs and Facilities	51
+762	Histology World: Nervous System Histology	50
+985	Nihon University; Tokyo; Japan	50
+1040	Miami University Labs and Facilities	50
+1125	Marshall University; West Virginia; USA	50
+1649	UW-Madison Neuroscience Resources	50
+3400	Loyola University Department of Molecular Pharmacology and Experimental Therapeutics	50
+3698	Critical Path to TB Drug Regimens	50
+3791	BioReliance	50
+11021	Mouse Clinical Institute; Alsace; France	50
+11737	University of Twente; Overijssel; Netherlands	50
+12721	NYU Immunohistochemistry Core	50
+668	Tennenbaum Center for the Biology of Creativity	49
+3466	University of Toledo Health Sciences Campus; Neurosciences	49
+5819	FSST - Functional Similarity Search Tool	49
+6534	Yeshiva University; New York; USA	49
+8095	Cure Parkinson's Trust	49
+8715	Magellan Bioscience Group	49
+9774	Dartmouth SYNERGY: Clinical Trials Office	49
+9925	MGH Mouse Imaging Program	49
+10205	Wistar Genomics Facility	49
+11243	Milken Institute; California; USA	49
+12385	Alamo Laboratories Inc	49
+989	Ontario Ministry of Research and Innovation; Ontario; Canada	48
+2217	Smithsonian Mineral Sciences Collections	48
+3713	I-SPY 2 TRIAL	48
+3716	ILSI HESI Drug-induced Nephrotoxicity Biomarkers	48
+5602	X-Tile	48
+6191	University of Notre Dame; Indiana; USA	48
+9838	Harvard FAS Center for Brain Science - Electron Microscopy Core Facility	48
+11467	Northeastern University, Bouve College of Health Sciences	48
+11543	Stockholm University; Stockholm; Sweden	48
+13747	Bombay Natural History Museum	48
+223	AusBiotech: Australia's Biotechnology Organization	47
+1304	OLIN	47
+1871	Korean Ministry of Education Science and Technology	47
+2661	Grants.gov	47
+4016	Weston Brain Institute	47
+4895	RTI Donor Services	47
+7537	University of Utah Salt Lake City Utah. Pharmacology & Toxicology	47
+10431	Taxonomy for Rehabilitation of Knee Conditions	47
+10876	Arpeggio	47
+11208	Eotvos Lorand University; Budapest; Hungary	47
+11381	Max Planck Institute of Molecular Cell Biology and Genetics; Dresden; Germany	47
+11463	NHLBI Division of Prevention and Population Sciences	47
+11496	RIKEN Yokohama Institute; Kanagawa; Japan	47
+13195	SAPAS	47
+3815	Asthma UK	46
+4498	University of Ljubljana; Ljubljana; Slovenia	46
+4506	National Surgical Adjuvant Breast and Bowel Project Tissue Bank	46
+10008	Penn Community Engagement and Research Core	46
+11278	Hebrew University of Jerusalem; Jerusalem; Israel	46
+11471	North Carolina State University; North Carolina; USA	46
+12219	Brown Proteomics Shared Resource Facility	46
+12553	Kinexus Bioinformatics Corporation	46
+1135	BioCytex	45
+2896	ORNIS	45
+3539	Christopher Newport University; Virginia; USA	45
+5621	All About Grants Podcast	45
+8415	Biolog Inc. Bacterial Identification Microbial Identification Phenotype MicroArray	45
+8509	Foundation for Informed Medical Decision Making	45
+11591	UC Davis School of Veterinary Medicine; California; USA	45
+12627	Tubingen Ageing and Tumour Immunology Group	45
+12747	Northwestern University Cognitive Neurology and Alzheimers Disease Center	45
+627	IRIS DMC Web Services	44
+3157	Hyperphagia	44
+3283	Yale Rudd Center for Food Policy and Obesity	44
+3610	Alaska Satellite Facility	44
+3640	NIH Toolbox Dynamic Visual Acuity Test	44
+3894	Fondazione Centro San Raffaele; Milan; Italy	44
+6788	TWiP - This Week in Parasitism	44
+7617	Cypriot National Genetic Database	44
+11710	University of Tartu; Tartu; Estonia	44
+12482	MSU Mass Spectrometry Facility	44
+977	Massachusetts Institute of Technology; Massachusetts; USA	43
+3628	NIH Toolbox Standing Balance Test	43
+5018	Living Bank	43
+9169	EHAP	43
+11173	Critical Path Institute; Arizona; USA	43
+3895	Electro Scientific Industries	42
+4093	Bremen Cancer Registry	42
+4138	Sunnybrook Tumour Bank	42
+6347	Global-Multi Resolution Topography Image Service	42
+6582	Ultrafast Optical Processes Laboratory	42
+9505	MASI Label Fusion	42
+10283	Neuropsychological testing ontology	42
+10381	Nursing Care Coordination Ontology	42
+10560	Tokyo Cord Blood Bank (Japanese)	42
+11101	Auburn University; Harrison School of Pharmacy	42
+11152	Charles III University of Madrid; Madrid; Spain	42
+12210	University of Utah Flow Cytometry Core Facility	42
+12431	UT Southwestern Genomics Core	42
+12663	University of Alberta Labs and Facilities	42
+13665	massIVE	42
+13753	DH Writer	42
+1261	Synthetic Biology Open Language Visual Ontology	41
+2565	University of Aveiro; Aveiro; Portugal	41
+3187	SALT	41
+3961	CXR Biosciences	41
+7538	Wayne State University, Pharmacology	41
+9075	GC/GCF	41
+9731	Oregon State University; Oregon; USA	41
+11089	Albany Medical College; Albany; New York	41
+11628	University of Debrecen; Debrecen; Hungary	41
+11766	Virginia-Maryland Regional College of Veterinary Medicine; Virginia; USA	41
+12299	Joslin Diabetes Center Islet Isolation Core	41
+12522	Newcastle University Labs and Facilities	41
+1654	First Nerve	40
+2375	Neighbourhood Approximation Forest	40
+2950	AllerHunter: Cross-reactive Allergen Prediction Home	40
+3402	Alberta Geological Survey	40
+6483	Xavier University of Louisiana; Louisiana; USA	40
+7479	SUNY Stony Brook Department of Neurology Stony Brook NY	40
+12309	Harvard SERI Graphic Services Core	40
+12401	Moffitt Cancer Center Small Animal Imaging Laboratory	40
+12423	BIOTREND Chemikalien GmbH	40
+2644	PLoS Impact Explorer	39
+3722	Multiple Myeloma Genomics Portal	39
+3732	Karma	39
+3963	KaLy-Cell	39
+3997	Genentech	39
+9948	McLean Translational Imaging Laboratory	39
+10305	Dermatology Lexicon	39
+10999	UNC School of Medicine Flow Cytometry Core Facility	39
+11218	European Science Foundation	39
+12408	UT Southwestern Electron Microscopy Core	39
+12676	DF/HCC DNA Resource Core	39
+2335	DPDx: Laboratory Identification of Parasites of Public Health Concern	38
+3575	Corpus Callosum Thickness Profile Analysis Pipeline	38
+3688	Major Depression Inventory	38
+4674	Immune Deficiency Foundation	38
+9834	Harvard Center for Biological Imaging	38
+11222	Federal University of Rio Grande do Sul; Rio Grande do Sul; Brazil	38
+573	AdaptiveCrawler	37
+3904	Janssen Research and Development	37
+4032	Alzheimer's Plan Foundation	37
+10165	Vanderbilt Diabetes Research and Training Center Cell Imaging Shared Resource	37
+10462	Retinal wave repository	37
+10721	RTI Biologics	37
+11548	Tulane University; Louisiana; USA	37
+11650	University of Groningen; Groningen; Netherlands	37
+257	Ponce School of Medicine and Health Sciences; Puerto Rico; USA	36
+283	Lasergene's SeqMan Pro	36
+2199	Critical Zone Observatories	36
+2336	Drug-Interactions	36
+3309	Dictyostelium Discoideum Anatomy Ontology	36
+4397	MPI Research	36
+4614	IPBIR - Integrated Primate Biomaterials and Information Resource	36
+11284	Kirksville College of Osteopathic Medicine	36
+12175	University of Colorado Denver Labs and Facilities	36
+12310	HMS Biopolymers Facility	36
+12447	University of North Carolina at Chapel Hill Labs and Facilities	36
+1045	Ottawa Hospital Research Institute Labs and Facilities	35
+3305	Allegheny College; Neuroscience Program	35
+3699	Altman Self-Rating Mania Scale	35
+4242	Life Alaska Donor Services, Inc.	35
+4476	Stem-Health Hellas Stem Cell Bank	35
+5846	Cell Podcasts	35
+8513	Familybuilder	35
+8931	Coursera	35
+9153	COPE	35
+10395	Pediatric Terminology	35
+12201	UCLA Translational Pathology Core Laboratory	35
+12312	BIDMC Confocal Imaging Core	35
+12487	Ohio University Genomics Facility	35
+12642	Penn Electron Microscopy Core Laboratory	35
+264	Pontifical Catholic University of Argentina School of Medical Sciences; Buenos Aires; Argentina	34
+2239	MAIA (Microarray Image Analysis)	34
+2251	University of Alaska Fairbanks; Alaska; USA	34
+3618	NIH Toolbox Picture Sequence Memory Test	34
+6950	Mesh-based Monte Carlo (MMC)	34
+7853	University of Salerno; Salerno; Italy	34
+8330	Visual Illusions Gallery	34
+9652	Wisconsin White Matter Hyperintensities Segmentation Toolbox	34
+9771	Dartmouth SYNERGY: Biomedical Informatics Core	34
+10136	UPR Virology Laboratory	34
+11039	Sanford-Burnham Stem Cell Research Center	34
+11040	MQ Australian Proteome Analysis Facility	34
+11237	Fraunhofer Institute for Toxicology and Experimental Medicine	34
+11671	University of Milan; Milan; Italy	34
+11935	MGC	34
+12661	McGill University Labs and Facilities	34
+12680	HNDC Drug Discovery in Neurodegeneration	34
+2201	IRIS	33
+2864	National Resource Center for Cephalopods	33
+4040	Reata Pharmaceuticals	33
+4881	Lawson Brain Tumour Tissue Bank	33
+4887	Neurology Podcast	33
+8475	De Rerum Natura	33
+9495	IDeA Lab brain image processing suite	33
+11203	National Institute for Research in Computer Science and Control; Brittany; France	33
+11704	University of Strasbourg; Strasbourg; France	33
+13385	Renin Angiotensin System Study	33
+255	Polytechnic University of Valencia; Valencia; Spain	32
+890	Penn Small Animal Imaging Facility: PET/SPECT/CT Sub-Core	32
+3994	Nephrology Nursing Certification Commission	32
+4702	LifeSource	32
+9772	Dartmouth SYNERGY: Bioregistry	32
+11468	Northeastern University; Massachusetts; USA	32
+12261	USF Mass Spectrometry Biological Applications and High-Throughput Proteomics Facility	32
+12976	Centers for Disease Control and Prevention	32
+992	Royal Institute of Technology; Stockholm; Sweden	31
+1085	Japan Society for the Promotion of Science	31
+4276	Nevada Donor Network, Inc.	31
+5882	University of Nevada at Reno; Nevada; USA	31
+6222	LepChorionDB	31
+7417	NEI Research Funding	31
+8086	University of Southampton; Southampton; United Kingdom	31
+9775	Dartmouth SYNERGY: Ethics Consultation Core	31
+9935	MSM Center of Laboratory Animal Resources	31
+10294	Coding Symbols for a Thesaurus of Adverse Reaction Terms	31
+11031	Emory University Labs and Facilities	31
+11689	University of Nantes; Nantes; France	31
+12656	University of California Santa Cruz Labs and Facilities	31
+12671	UA Infectious Disease Resource Core	31
+12908	Wright State University Dayton OH. Pharmacology and Toxicology	31
+252	Polytechnic University of Catalonia; Barcelona; Spain	30
+3540	Open Rotterdam Glaucoma Imaging Data Sets	30
+3930	Diamyd Medical	30
+8252	HIV Guide	30
+8374	HerpNET	30
+10002	Penn Cell Center Services Facility	30
+12220	University of Connecticut Labs and Facilities	30
+12327	UNC School of Medicine Macromolecular X-Ray Crystallography Core Facility	30
+12380	ProMab Biotechnologies Inc.	30
+338	PaintShop Pro	29
+671	VarB	29
+1445	National Center for Macromolecular Imaging	29
+1917	Tropical Diseases Research to Foster Innovation & Knowledge Application	29
+2211	UCL Medical School; London; United Kingdom	29
+3995	Nephropath	29
+3998	Cornell University; New York; USA	29
+5777	ASH Video Library	29
+6232	University of Western Brittany; Brest; France	29
+9122	APE	29
+10074	UCC Data Management and Statistical Research Support Unit	29
+11187	Delft University of Technology; South Holland; Netherlands	29
+11356	Loyola University Chicago; Illinois; USA	29
+11590	UC Davis School of Medicine; California; USA	29
+11975	University of Pittsburgh Health Sciences Library System	29
+12298	Harvard Tumor Imaging Metrics Core	29
+1659	Kasetsart University; Bangkok; Thailand	28
+1764	Intute: The Best Web Resources For Education and Research	28
+4124	Data Scientist Training for Librarians	28
+5346	Charles R. Drew University of Medicine and Science; California; USA	28
+7256	CONGU	28
+8437	Disaster Resource	28
+9726	CHOP Flow Cytometry Core Laboratory	28
+9882	JDC Media Core	28
+10663	Action for Autism	28
+11832	discovering-cse	28
+12282	University of Oklahoma Labs and Facilities	28
+12525	Provincial Health Services Authority Labs and Facilities	28
+1092	qips	27
+2219	Antarctic Glaciological Data Center	27
+2751	Community Epidemiology Work Group	27
+4315	Charge Czar: Peptide charge state determination for low-resolution tandem mass spectra	27
+6761	NeuroNetwork	27
+7187	COPE: Cytokines and Cells Online Pathfinder Encyclopaedia	27
+8850	Herzon Lab	27
+10998	UGA Comparative Pathology Laboratory	27
+11781	Weill Cornell Medical College; New York; USA	27
+12305	BIDMC Flow Cytometry Core	27
+206	Coalition For Accelerating Standards and Therapies	26
+545	Science Talk	26
+957	Brown University; Rhode Island; USA	26
+1937	RAVEN	26
+3946	Simulations Plus	26
+4752	LREC Conferences	26
+6821	MatOFF	26
+8295	Open Library	26
+8756	Brain Research Institute Biobank Resources	26
+10084	Swiss Commission for Technology and Innovation	26
+10630	Advanced Biohealing, Inc.	26
+11387	Mayo Graduate School; Minnesota; USA	26
+12192	University of Louisville Labs and Facilities	26
+12361	URMC Proteomics Core	26
+12425	Penn State Organic Synthesis Core Facility - Hershey Cancer Center	26
+12594	UMD BioAnalytical Service Laboratory	26
+12691	ANFF Bio Fabrication	26
+12832	National Environmental Public Health Tracking Program	26
+3586	Mount Sinai Allograft Technologies	25
+3761	Stein Institute for Research on Aging Video Archive	25
+3785	Minimal Standard Terminology of Digestive Endoscopy	25
+3789	BioClinica	25
+4167	SeWeR - SEquence analysis using WEb Resources	25
+9768	Dartmouth SYNERGY: Recruitment and Retention Core	25
+9769	Dartmouth SYNERGY: Research Design and Epidemiology Core	25
+10124	UPR Central Electron Microscopy Unit	25
+11090	Albert Einstein College of Medicine; New York; USA	25
+11747	University of Warsaw; Warsaw; Poland	25
+176	University of Vermont Labs and Facilities; Center of Biomedical Research Excellence (COBRE) in Neuroscience	24
+2215	National Lacustrine Core Facility	24
+3721	MMRF CoMMpass Study	24
+4000	NxStage Medical	24
+6328	Worcester Polytechnic Institute; Massachusetts; USA	24
+8903	Cross-Sectional and Longitudinal Aging Study	24
+8950	National Social Life Health and Aging Project (NSHAP)	24
+9901	Sapienza University of Rome; Rome; Italy	24
+11521	Seoul National University; Seoul; South Korea	24
+11946	ARTIVA	24
+12254	UT Southwestern Protein Chemistry Technology Core	24
+12349	Purdue Biophysical Analysis Lab	24
+12409	NYU Histopathology Core	24
+493	Exonhit Therapeutics	23
+2460	PST MRI Simulator	23
+3820	European Federation of Pharmaceutical Industries and Associations	23
+4003	ACTTION	23
+6492	Unique	23
+9623	fNIR Devices	23
+9799	HMS Image and Data Analysis Core	23
+9829	Harvard CNS Imaging and Analysis Facility	23
+10127	UPR Infectious and Global Diseases Program	23
+10131	UPR Pharmaceutical Science Research Support Unit	23
+11108	Bowling Green State University; Ohio; USA	23
+11263	Harbin Institute of Technology; Harbin; China	23
+11346	London School of Hygiene and Tropical Medicine; London; United Kingdom	23
+11469	Northeast Forest University; Harbin; China	23
+11672	University of Minho; Braga; Portugal	23
+12316	BWH Specimen Bank	23
+12395	Marin Analytics	23
+12473	University of Texas at San Antonio Labs and Facilities	23
+12645	University of Arkansas Labs and Facilities	23
+953	Austrian Academy of Sciences; Vienna; Austria	22
+3855	European Federation of Allergy and Airways Diseases Patients Associations	22
+3964	SOLVO Biotechnology	22
+5373	Moa	22
+8998	Neuroimage Analysis Center	22
+11044	WVU Genomics Core Facility	22
+11137	Carnegie Institution for Science	22
+11612	University of Bremen; Bremen; Germany	22
+12366	URMC Electron Microscopy Core	22
+12578	Vivalis	22
+1693	Enriched Domain Detector	21
+1885	NIH VideoCasting	21
+3161	American Association for the History of Medicine	21
+4524	Ask Dr Wiki	21
+7246	Candrive	21
+8758	ITERA Life - Sciences	21
+9877	JDC Computer Resource	21
+10174	Vanderbilt Cooperative Human Tissue Network	21
+11787	Windber Research Institute	21
+363	University of Wroclaw; Wroclaw; Poland	20
+539	IMPACT: International Mission for Prognosis and Analysis of Clinical Trials in TBI	20
+2195	National Center for Earth-Surface Dynamics	20
+3867	University of Manitoba; Manitoba; Canada	20
+3954	Experimental Pharmacology and Oncology Berlin-Buch	20
+3971	Anthera Pharmaceuticals	20
+4155	BioPharma Storage Facility - Masy Systems	20
+8622	The Decision Tree	20
+11135	Cardiff University; Wales; United Kingdom	20
+11235	German Federal Ministry of Economics and Technology	20
+11750	University of Wyoming School of Pharmacy	20
+248	Polish Academy of Sciences Poznan; Poznan; Poland	19
+883	Hunter NMR Spectroscopy Facility	19
+3958	Coordinating center for infectious diseases	19
+6352	Yale University; Connecticut; USA	19
+7888	University of Santiago de Compostela; Santiago de Compostela; Spain	19
+8215	NSDL: The National Science Digital Library	19
+9145	EVOKER	19
+9680	BWH Biostatistics Center	19
+10158	Vanderbilt Antibody and Protein Resource	19
+10211	Wistar Proteomics Facility	19
+10477	Abbott	19
+11394	Ministry of Information and Communication of Korea	19
+11512	Sacred Heart Hospital of Montreal; Quebec; Canada	19
+12621	Yale University Labs and Facilities	19
+1966	Visible Human Transverse Section Through the Head	18
+2269	flowMap	18
+3766	Predict-TB	18
+4037	Proteon Therapeutics	18
+5696	Clemson Computational Biophysics and Bioinformatics	18
+7758	Islander	18
+8407	American Well	18
+9658	SCALCE	18
+10163	Vanderbilt Biostatistics Collaboration Center	18
+10341	Logical Observation Identifier Names and Codes	18
+10459	Virginia Tech Carilion Research Institute Sample	18
+10610	Medscape App for iPhone and iPod touch	18
+11359	Maastricht University; Maastricht; Netherlands	18
+11698	University of South Australia; Adelaide; Australia	18
+12014	DBCAT	18
+12076	kruX	18
+12251	Shipley Consulting LLC	18
+3619	NIH Toolbox Auditory Verbal Learning Test (Rey)	17
+3856	EBiSC	17
+5555	MIT OpenCourseWare	17
+10187	Vanderbilt Institute of Nanoscale Science and Engineering	17
+10197	Vanderbilt Sleep Research Core	17
+11287	Hessian Ministry for Science and Art	17
+11982	NGS Leaders	17
+12157	Template Based Rotation	17
+12171	UTHSCSA Optical Imaging Facility	17
+12687	ANFF Characterisation	17
+14948	Archer Farms	17
+1412	MIT/ Harvard Center for Magnetic Resonance	16
+2080	CASY Cell Counter and Analyser System Model TT	16
+3906	Microsens	16
+4118	Syncom	16
+5010	University of Ioannina; Ioannina; Greece	16
+5124	National Academy of Sciences Podcasts	16
+6400	Wigwams	16
+10987	KSF Labs	16
+11041	UTMB Mass Spectrometry Core	16
+11079	Beijing Normal University; Beijing; China	16
+11107	Banner Alzheimer's Institute; Arizona; USA	16
+11558	Technical University of Braunschweig; Braunschweig; Germany	16
+11567	U.S. Environmental Protection Agency	16
+12208	Sanford-Burnham Applied Bioinformatics Core	16
+12444	Montana State University Labs and Facilities	16
+12517	Oregon Health and Science University Labs and Facilities	16
+166	NIH Toolbox Picture Vocabulary Test	15
+280	University of Illinois College of Pharmacy	15
+520	Quality of Medical Data	15
+538	Ishtar	15
+1296	wateRmelon	15
+2463	Public Health Image Library	15
+3635	NIH Toolbox Pain Interference Survey	15
+4318	UVA Center for Research in Reproduction Ligand Assay and Analysis Core	15
+5234	Science Navigation Group	15
+7427	aneurIST	15
+8611	Georgie Project	15
+8666	Quadramed - Medicus, Quantim	15
+9817	HSPH Biological Analysis Service Facility	15
+10051	Proteomics Center at Childrens Hospital Boston	15
+11043	Nevada Proteomics Center	15
+11279	Heidelberg Institute for Theoretical Studies; Heidelberg; Germany	15
+12221	Penn State Drug Discovery Development and Delivery Core	15
+12367	URMC Gene Targeting and Transgenic Core	15
+12598	ISU Molecular Research Core Facility	15
+12943	Oregon Health and Science University School of Medicine; Oregon; USA	15
+278	Queen's University; Ontario; Canada	14
+402	Polar Geospatial Center	14
+875	Dartmouth Optical Cellular Imaging	14
+5533	BrainEthics Podcast	14
+6747	Everything Added to Food in the United States	14
+7135	University of Reading; Reading; United Kingdom	14
+8836	University of Texas Southwestern Medical Center - Alzheimer's Disease Center	14
+9849	Harvard Genome Modification Facility Harvard University	14
+10182	Vanderbilt Human Immunology Core Laboratory	14
+11641	University of Exeter; Exeter; United Kingdom	14
+11995	Antibody Portal	14
+12552	Trudeau Institute Labs and Facilities	14
+12658	University of California Irvine Labs and Facilities	14
+13500	Aging Status and Sense of Control (ASOC)	14
+418	Open Colleges	13
+2212	United States Polar Rock Repository	13
+2491	NIRx NIRS Neuroimaging	13
+3824	reMYND	13
+4290	KLI Theory Lab	13
+6398	University of Paris; Paris; France	13
+6760	NeuroNEXT	13
+8561	Rensselaer Mathematical Sciences Faculty Member	13
+9770	Dartmouth Pathology Translational Research	13
+9927	MGH PET Core	13
+10170	Vanderbilt Clinical Research Center	13
+11223	Finnish Ministry of Employment and the Economy	13
+11226	Florida Agricultural and Mechanical University, School of Pharmacy	13
+11255	Gachon University; Seongnam; South Korea	13
+11296	Indian Institute of Technology Kanpur; Uttar Pradesh; India	13
+11324	James Hutton Institute; Scotland; United Kingdom	13
+11428	Ohio Northern University College of Pharmacy	13
+12486	UC Davis Crocker Nuclear Laboratory	13
+12633	UMass Medical School Machine Shop	13
+13211	Center for Scientific Review	13
+13694	European Network for Genetic and Genomic Epidemiology (ENGAGE)	13
+71	Brazilian National Laboratory of Scientific Computation	12
+628	CAST	12
+2228	GRBio	12
+2408	UPR Confocal Microscope Facility	12
+3733	Lyonbiopole	12
+4017	W. Garfield Weston Foundation	12
+4398	Wisconsin International Stem Cell Bank	12
+5013	Competence Network on Parkinson's Disease	12
+10072	UCC Behavioral Testing Facility	12
+10166	Vanderbilt Center for Molecular Neuroscience Cores	12
+10606	Evidence-Based Health Care Search Strategies	12
+11270	Idaho State University, College of Pharmacy	12
+11285	Helmholtz Center Munich Institute of Epidemiology	12
+11738	University of Verona; Verona; Italy	12
+12513	QFAB Bioinformatics	12
+1002	University of Ulster; Ulster; Northern Ireland	11
+2049	National Eye Health Education Program	11
+2306	Chemistry Molecular Models	11
+3573	RAREMETAL	11
+3588	ALLBUS - German General Social Survey	11
+4361	Rocky Mountain MS Center Tissue Bank	11
+4779	BrainPod	11
+5537	AIDS.org	11
+8280	HSPH Organic Chemistry Laboratory	11
+8955	Dataset of dendritic spine neck lengths and head sizes	11
+9015	ACCORD	11
+9541	Vanderbilt Free Radicals in Medicine Core	11
+9705	CHB Advanced Fetal Care Center	11
+9720	CHOP Biostatistics and Data Management Core	11
+11163	Colorado State University; Colorado; USA	11
+11193	Duke University; North Carolina; USA	11
+11205	Emory University; Georgia; USA	11
+12314	DFCI Confocal and Light Microscopy Core Facility	11
+12354	Purdue Translational Pharmacology Facility	11
+12654	The Scripps Research Institute Labs and Facilities	11
+12673	WUSTL Mouse Cardiovascular Phenotyping Core	11
+12725	UC Irvine High Throughput Screening Service	11
+15574	Duolink ImageTool	11
+389	QUALIFIER	10
+509	Windber Tissue Bank	10
+2738	AGing Integrated Database	10
+3622	NIH Toolbox Oral Reading Recognition Test	10
+3709	PSTC Nephrotoxicity Biomarkers	10
+4047	Relypsa	10
+6906	MORGAN	10
+8354	Expression Patterns for C. elegans promoter: GFP fusions	10
+8781	Hays	10
+9757	DartMouse - Speed Congenics	10
+9761	Dartmouth Cigarette Smoke Exposure Analysis Laboratory	10
+9785	Forsyth Flow Cytometry Core Facility	10
+9997	Oregon Stem Cell Center Monoclonal Antibody Core	10
+10014	Penn Molecular Profiling Facility	10
+10021	Penn Mass Spectrometry Facility	10
+10256	Search Orphan Drug Designations and Approvals	10
+10478	ASTER	10
+11197	Duquesne University Mylan, School of Pharmacy	10
+11599	University of Alabama at Birmingham; Alabama; USA	10
+11615	University of Calabria; Cosenza; Italy	10
+12089	QuteMol	10
+12177	CU Denver Transgenic and Gene Targeting Core	10
+12694	Georgetown University Labs and Facilities	10
+13191	FishNet2	10
+13280	Kyushu University Definitive Haplotype Database	10
+13639	SimulConsult Neurological Syndromes	10
+14258	Scilab	10
+14352	SPINA Thyr	10
+191	Sanjeevini	9
+3862	GetReal	9
+3948	ESTEVE	9
+4990	Kentucky Organ Donor Affiliates (KODA)	9
+5472	Beautiful Brain	9
+6665	Vanderbilt Energy Balance Core Laboratory	9
+7598	Healthcare Common Procedure Coding System	9
+9737	LSID Web Resolver	9
+9836	Harvard Digestive Diseases Center Biomedical CORE B: Microscopy and Histopathology	9
+9876	Joslin Diabetes Center Animal Physiology Core	9
+12516	Tulane University School of Medicine Labs and Facilities	9
+12693	ANFF Photonics	9
+13615	iiV (internet image Viewer)	9
+203	Type 1 Diabetes - Rapid Access to Intervention Development	8
+1034	Universite de Sherbrooke Labs and Facilities	8
+1111	NIH Worker Training Program	8
+1687	Conrad Prebys Center for Chemical Genomics	8
+2395	R Tutorial	8
+2440	flowBeads	8
+4048	Renal Physicians Association	8
+5342	(at)Note	8
+5419	American Institute of Stress	8
+6282	LDGROUP	8
+7337	University of Quebec in Montreal; Quebec; Canada	8
+8000	EyeBrowse	8
+8502	Emphron	8
+9682	BWH DNA Sequencing Core	8
+9762	Dartmouth Electron Microscope Facility	8
+10433	Tick Gross Anatomy Ontology	8
+10675	Conversant Biologics Inc.	8
+11465	NIH roadmap initiative office of the director	8
+11707	University of Sussex; Brighton; United Kingdom	8
+12170	Monash University Micromon	8
+12195	IBT Bioservices	8
+12245	UTHSCSA Metabolomics Core Laboratory Mass Spectrometry	8
+639	University of Neurosurgery Webinar Series	7
+1089	Viral Immunology Center	7
+2221	U.S. Antarctic Program Data Coordination Center	7
+3504	eCAT electronic lab notebook	7
+3616	NIH Toolbox Dimensional Change Card Sort Test	7
+3783	Amorfix	7
+3849	Systematized Nomenclature of Medicine - International Version	7
+3883	PREDECT	7
+4342	HHS.gov/Open: Tools	7
+4803	HemaCare Corp.	7
+8076	Psychology Post-doctoral Training Program, US Department of Veterans affairs, Salt Lake City, UT	7
+8273	HSPH Molecular Analysis Facility	7
+8591	World Lab	7
+9736	DF/HCC High-Throughput Polymorphism Detection Core	7
+9745	DFCI Animal Resources Facility	7
+10012	Penn Investigational Drug Service	7
+10077	UCC Immunocytochemistry Laboratory	7
+10574	Life Extension Foundation	7
+10694	Tumour Bank of Provence	7
+10997	Survey Research Institute	7
+11068	Macquarie University Photonics Research Centre	7
+11303	Institute for Scientific and Technical Information	7
+11597	University Medicine Berlin; Berlin; Germany	7
+11756	Vanderbilt University; Tennessee; USA	7
+12176	CU Denver iPSC Core	7
+12604	DKP Genomics	7
+12727	Scripps Florida Macromolecular X-ray Crystallography Core Facility	7
+12888	McGill University Faculty of Medicine; Montreal; Canada	7
+14351	SimThyr	7
+917	BC Fisheries Living Gene Bank	6
+1035	Renovo Neural	6
+1217	WuXi AppTec Laboratory Services	6
+1475	Type 1 Diabetes Resource	6
+2833	University of Cincinnati; Ohio; USA	6
+3439	Ontology of Medically Related Social Entities	6
+3768	Alcohol and Alcohol Problems Science Database	6
+3863	Vitiligo Biobank	6
+4202	Medical Education and Research Institute - MERI	6
+4348	onCore UK	6
+6265	Moss Aphasia Psycholinguistics Project Database	6
+7779	Molecular Modeling section INC	6
+7899	RNA Virus Database	6
+9744	DF/HCC Tumor Imaging Metrics Core Facility	6
+11086	Agricultural University of Athens; Athens; Greece	6
+11453	Netherlands Ministry of Education Culture and Science	6
+11614	University of British Columbia; British Columbia; Canada	6
+11759	Vestische Children and Youth Clinic Dates; North Rhine-Westphalia; Germany	6
+12243	DIYgenomics	6
+13103	Mean Machine	6
+13320	New Beneficiary Data System	6
+13722	Open Colleges Group	6
+366	Epoch Clinical Trial Ontology	5
+430	Hypothes.is	5
+496	Aging Portal	5
+809	House of Mind	5
+1027	WCMC Optical Microscopy Core Facility	5
+3131	NIH NeuroBioBank	5
+3197	TheDataWeb and DataFerrett	5
+3336	eDoctoring	5
+3771	EpiTarget	5
+3846	Canadian Consortium on Neurodegeneration in Aging	5
+4243	AIDS and HIV Research	5
+5023	Fairfax Cryobank	5
+5123	National Academy of Sciences	5
+5781	OMGN	5
+6097	TWiV - This Week in Virology	5
+7184	Bath Information and Data Services	5
+7340	Vision Public Information Network	5
+7396	Advanced Platform Technology Center	5
+8482	Dialog	5
+9025	Mind Lab	5
+9205	GENTOOLS	5
+9457	DIAMOND	5
+9750	DFCI Survey and Data Management Core	5
+9823	Royal Liverpool University; Liverpool; United Kingdom	5
+9837	Harvard FAS Bauer Core: Mass Spectrometry and Proteomics Core Laboratory	5
+10079	UCC Optical Imaging Facility	5
+10164	Vanderbilt Cardiovascular Translational and Clinical Research Core	5
+10179	Vanderbilt Genetic Studies Ascertainment Core	5
+10201	Vanderbilt Translational Pathology Shared Resource	5
+10708	DataSift	5
+10724	webhealth.com	5
+11011	UNL Spectroscopy and Biophysics Core	5
+11318	International Life Sciences Institute	5
+11470	Northwestern University; Illinois; USA	5
+11547	St Georges University of London; London; United Kingdom	5
+11572	Texas A and M University; Texas; USA	5
+12340	UConn Analytical Ultracentrifugation Facility	5
+12375	Johns Hopkins University Labs and Facilities	5
+12550	ACRObiosystems	5
+12564	Maccine	5
+12579	Australian National Fabrication Facility Labs and Facilities	5
+12608	NanoRacks	5
+13710	Inflammatory Bowel Disease Biomarkers Consortium (IBD BIOM)	5
+53	CorMut	4
+234	Queen Mary University of London Labs and Facilities	4
+451	CAGE Basic Viewer for Mus musculus	4
+873	Dartmouth Clinical Pharmacology Shared Resource	4
+1428	Center for Magnetic Resonance and Optical Imaging	4
+1918	tbrowse	4
+2365	Haz-Map: Occupational Exposure to Hazardous Agents	4
+2611	Etherpad	4
+3845	CALLIOPE Network	4
+4072	PhenoSys	4
+4100	concentris research management	4
+4543	SepNet Central Sample Bank	4
+4731	Biobanque de Picardie	4
+5348	Human Tissue Resource Network	4
+5848	iBioSeminars	4
+7156	AIDS.gov Blog	4
+8180	ChemBioFinder	4
+8674	PATHONET	4
+8677	BrainU: The Neuroscience Teacher Institute	4
+9337	PROBMAX	4
+9777	Dartmouth Trace Element Analysis Core Laboratory	4
+9784	Forsyth Biostatistics Core Facility	4
+9825	HSPH Flow Cytometry Facility	4
+9965	OHSU Biomedical Informatics Program	4
+10005	Penn Chemistry NMR Facility	4
+10048	Ponce School of Medicine and Health Sciences Behavioral Core Facility	4
+10348	International Classification of External Causes of Injuries	4
+10480	AidData	4
+10576	Advanced NuMed Technologies, Ltd.	4
+10838	BCmicrO	4
+11092	American University; Washington D.C.; USA	4
+11415	National Historical Publications and Records Commission	4
+12238	UTHSCSA Flow Cytometry Core Facility	4
+12289	uBiome	4
+12623	McGill Cell Imaging and Analysis Network	4
+12632	UMass Medical School Small Molecule Screening Facility	4
+12647	UC Davis Respiratory Disease Immunology Core Laboratory	4
+13692	European Clinical Research Infrastructures Network (ERCRIN)	4
+14361	monoclonal antibody-based chemiluminescence immunoassay for 3,5-diiodothyronine (3,5-T2)	4
+14569	VolView	4
+46	flowCL	3
+504	Brain Mysteries	3
+874	Dartmouth Geospatial Shared Resource	3
+1223	categoryCompare	3
+1700	Cerebellar Platform	3
+2035	World Parkinson Disease Association	3
+2662	The Brain from Top to Bottom	3
+3382	NanoStringNorm	3
+3500	CNS NeuroWIki	3
+3556	WikiSurgery - The Free Surgical Encyclopedia	3
+3636	NIH Toolbox Pain Intensity Survey	3
+3729	Alsace BioValley	3
+3760	Stein Institute for Research on Aging News	3
+3812	PeerLibrary	3
+4701	MIGHEALTHNET (Migrant Health)	3
+4898	Inflammatory Breast Cancer Research Foundation	3
+5215	Daring Nucleic Adventures - genegeek	3
+5288	Computer Assisted Brain Injury Rehabilitation Ontology	3
+5328	ABS filter	3
+5448	MethylViewer	3
+6305	StemCellDB	3
+7639	RVTESTS	3
+8077	Mid-Atlantic (VISN 6) Mental Illness Research, Education and Clinical Center	3
+8196	International Toxicity Estimates for Risk	3
+8701	Ask A Biologist	3
+9318	PDPSYS	3
+9816	HSCI and BIDMC Flow Cytometry Core Facility	3
+9887	MGH Flow Cytometry Core Facility	3
+9912	Layton Alzheimers Disease Center Clinical Core	3
+9943	MSU Microscopy Core Facility	3
+9959	OHSU Advanced Computing Center Core Facility	3
+10033	Penn Small Animal Imaging Facility: Optical/Bioluminescence Sub-Core	3
+10173	Vanderbilt Computational Genomics Core	3
+10206	Wistar Histotechnology Facility	3
+11072	MQ BioFocus Research Centre	3
+11074	Macquarie University Seawater Facility	3
+11139	Case Western Reserve University; Ohio; USA	3
+11364	Marshall University Joan C. Edwards School of Medicine; West Virginia; USA	3
+11508	Rutgers University; New Jersey; USA	3
+12011	My Biomedical Informatics Blog	3
+12162	VCU Nanomaterials Characterization Center	3
+12215	Microbe Inotech Laboratories Inc.	3
+12258	Kansas State University Labs and Facilities	3
+12400	Medros	3
+12406	MSU RTSF Genomics Core	3
+12556	Arista Solutions LLC	3
+12933	TargetScore	3
+12951	Neuropathology of CTE and Delayed Effects of TBI: Toward In-Vivo Diagnostics	3
+13069	VDJFasta	3
+21	MNI Podcasts	2
+90	AbMining ToolBox	2
+339	University of Utah School of Medicine; Utah; USA	2
+1544	Study of Nutrition in Acute Pancreatitis	2
+1652	Melvin Yahr International Parkinson's Disease Foundation	2
+1977	Immundiagnostik	2
+2467	cortex	2
+2747	Arthur Prochazka Laboratory, University of Alberta	2
+2897	Neuroscience Education Resources Virtual Encycloportal	2
+4046	CADRO	2
+4064	DrugDev	2
+4066	NeuroWiki	2
+4770	GENEtics Video	2
+4918	LifeBanc	2
+5042	Allen Institute Neurowiki	2
+5365	TGen Podcasts	2
+5925	aLFQ	2
+6102	MicrobeWorld	2
+6269	University of Oregon; Oregon; USA	2
+7558	BANMOKI: Searchable database of BActerial Nucleoside MOnophosphate KInases	2
+8460	Criterion Ventures	2
+8827	MUSC Health Podcast Library	2
+9751	DFCI Flow Cytometry Core Facility	2
+9754	DFCI Molecular Biology Core Facilities	2
+9840	Harvard FAS Center for Brain Science - Imaging Core Facility	2
+9869	Hunter Bio-Imaging Facility	2
+10007	Penn Clinical Cell and Vaccine Production Facility	2
+10189	Vanderbilt Mass Spectrometry Core Lab	2
+10274	Artificial Intelligence Rheumatology Consultant System Ontology	2
+10464	Biodatomics	2
+10517	Medtronic	2
+10628	Molecular Biology Gateway	2
+10800	SNP and indel Imputability	2
+11022	BIDMC Transcranial Magnetic Stimulation Core	2
+11334	Latvian Institute of Organic Synthesis; Riga; Latvia	2
+11437	Ohio University; Ohio; USA	2
+12185	DNASU Core Facility	2
+12236	OyaGen	2
+12253	USC School of Pharmacy Translational Research Laboratory	2
+12255	CSU Proteomics and Metabolomics Facility	2
+12352	Bindley Bioscience Metabolite Profiling Facility	2
+12362	URMC Multiphoton Microscopy Core	2
+12480	UC Davis Genome Center Labs and Facilities	2
+12498	Georgetown Genomics and Epigenomics Shared Resource	2
+12537	LSU Pennington Biomedical Research Center Labs and Facilities	2
+12689	ANFF Specialist Device Fabrication	2
+12720	UM Sylvester Comprehensive Cancer Center Labs and Facilities	2
+13591	btrack	2
+13712	Multiple Sclerosis Outcome Assessments Consortium (MSOAC)	2
+14490	ProbeFinder	2
+15489	Marshall BioResources	2
+429	Epistemio	1
+551	Emory ADRC Tissue and Biospecimen Banking Facility	1
+798	Keyose	1
+896	Vanderbilt Diabetes Research and Training Center Islet Procurement and Analysis Core	1
+1000	University of San Diego; California; USA	1
+1167	icyou Health Videos	1
+1169	MetaPhyl	1
+1334	SCAN.UPC	1
+1457	CytoSPADE	1
+1511	PyLOH	1
+1696	IDRISI	1
+1729	Adobe FormsCentral	1
+1869	SPRUSTON / KATH LAB: Neuraling Modeling Database NEURAL MODELING DATABASE	1
+2062	Amorphium	1
+2114	AnaSpec	1
+2563	Spatial Analysis 3D	1
+2659	MethylAid	1
+2796	PacmonSTR	1
+4339	BioVault	1
+4527	Immunology	1
+5137	SLIDE	1
+5147	WU Knight ADRC Multimedia Presentations	1
+5406	pyDNase	1
+6055	Read Codes Clinical Terms Version 3	1
+6396	Yamaguchi University; Yamaguchi; Japan	1
+6536	NGS-QC Generator	1
+6758	neuroade	1
+8114	Computed Ligand Binding Energy	1
+8390	Australian ResearCH Enabling enviRonment	1
+8521	FlowingData	1
+8542	Quasi Opportunistic Supercomputing for Complex Systems	1
+9697	CCNY Microscopy Facility	1
+9728	CHOP Nucleic Acid/Protein Core	1
+9841	Harvard FAS Center for Brain Science - Neuroengineering Core Facility	1
+9842	Harvard FAS Center for Brain Science - Neuroimaging Core Facility	1
+9884	JDC Specialized Assay Core	1
+9982	OHSU In Vivo Optical Imaging Center	1
+9998	Penn BioMechanics Core Facility	1
+10139	UTEP Biomolecule Analysis Core Facility	1
+10359	Metagenome and Microbes Environmental Ontology	1
+10424	Santa Barbara Coastal Observation Ontology	1
+10744	Dhruv Dental Stem Cell Bank	1
+10889	NOrMAL	1
+10954	FastDMA	1
+11302	Instituto Superior de Psicologia Aplicada; Lisbon; Portugal	1
+12023	Syapse	1
+12088	Viewmol	1
+12119	GenoSIGHT	1
+12193	University of Louisville Micro/Nano Technology Center	1
+12207	Affina Biotechnologies	1
+12227	Penn State Center of Excellence in Nutrigenomics	1
+12233	UTHSCSA Biomolecular NMR Core Facility	1
+12279	Center for Public Health Research Labs and Facilities	1
+12295	HMS East Quad NMR Facility	1
+12303	HSPH NIEHS Center for Environmental Health Flow Cytometry Facility	1
+12317	Fountainbridge	1
+12411	UCLA GenoSeq Core Facility	1
+12512	OSHU Gene Microarray Shared Resource	1
+12717	UVM Center of Biomedical Research Excellence in Neuroscience Labs and Facilities	1
+13683	Centre for Commercialization of Regenerative Medicine (CCRM)	1
+14283	Definiens Developer XD	1
+14770	PCSIM	1
+14826	SEARCHBreast	1

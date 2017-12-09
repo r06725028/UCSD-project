@@ -1,0 +1,45 @@
+RRID	Resource Name	total mention count
+10845	TargetScan	1842
+3152	miRBase	1324
+3343	PicTar	1086
+6997	microRNA.org	830
+13023	ComiR	633
+3252	RNAhybrid	598
+505	IFTI-Mirage	576
+12738	MiRaGE	552
+10841	DIANA-Tarbase	460
+10840	DIANA-LncBase	445
+10848	miRDB	395
+577	TarBase	386
+10952	miRCURY LNA microRNA Array Analysis Software	314
+2596	TAPIR	266
+13021	miRecords	259
+237	TAPIR: target prediction for plant microRNAs	243
+10846	MicroCosm Targets	233
+7796	miRGen	149
+3156	miRNAMap	135
+3389	PolymiRTS	124
+7792	miR2Disease	89
+1629	MirSNP	79
+10851	miRTar	75
+10853	PITA	65
+7793	miRGator	55
+7971	Vir-Mir	45
+140	LC Sciences	43
+5955	ViTa- Virus microRNA Target	34
+10573	TargetMiner	30
+1341	MiChip	26
+5055	mirWIP	23
+1282	SSCprofiler	21
+10842	HOCTAR	20
+9880	MicroSNiPer	18
+5303	miRdSNP	14
+10486	PrecisionMed	11
+1726	TaLasso	9
+1923	AutoPSI database of predicted SCOP classifications	8
+12620	UMass Medical School Small Animal Imaging Core	8
+12833	miRNApath	6
+4456	miRDeepFinder	2
+9889	JSU Cellomics and Toxicogenomics Research Core Laboratory	1
+10849	miRNA	1
+13836	Cancer Cell Line Encyclopedia	1

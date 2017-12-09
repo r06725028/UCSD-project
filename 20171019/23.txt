@@ -1,0 +1,3 @@
+RRID	Resource Name	total mention count
+5615	CATIE - Clinical Antipsychotic Trials in Intervention Effectiveness	1826
+3444	caTIES - Cancer Text Information Extraction System	950
