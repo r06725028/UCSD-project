@@ -9,7 +9,7 @@ from process_duplicate import mention_tsv_filter, relationship_tsv_filter, meta_
 ######################################
 #連結資料庫
 conn = sqlite3.connect('newdb.db')
-
+"""
 #新增table
 conn.execute('''CREATE TABLE MENTION (
 	ID INT PRIMARY KEY NOT NULL, 
@@ -24,7 +24,7 @@ conn.execute('''CREATE TABLE RELATIONSHIP (
 	TARGET INT , 
 	VALUE REAL );''')
 print("create relationship ok")
-
+"""
 
 
 ######################################mention!!!!!!!!!!!
