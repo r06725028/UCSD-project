@@ -26,9 +26,11 @@ $ python3 src/extract/men_rel.py src/extract/node.py # 產生db
 | src/extract/20171019/ | 分成30群的txt檔 |
 | src/extract/node.py | 新增node table的程式  |
 | src/extract/men_rel.py | 新增mention、relationship table的程式 |
+| src/extract/check_db.py| 檢查db格式是否正確
 | src/extract/process_duplicate.py | 移除duplicate及exclusion的module |
 | utils/exclusion_append.py | 將輸入檔案append至exclusion.tsv |
 | utils/exclusion_choice.py | 將輸入檔案轉化為方便人工篩選的csv格式 |
+
 
 ### 遠端ftp與google drive連結(若install.sh失效，供手動下載)
 1. FTP: ftp://140.112.107.150/UCSD/

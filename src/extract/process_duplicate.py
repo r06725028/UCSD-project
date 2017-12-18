@@ -2,6 +2,7 @@ import pandas as pd
 from tqdm import tqdm
 
 arr = []
+num_list = ['0','1','2','3','4','5','6','7','8','9']
 # path = '../original_data/'
 path = 'CoMen/tsvdata/'
 
@@ -63,7 +64,11 @@ def mention_tsv_filter(source):
   steps += 1
   tqdm.pandas(desc='[' + str(steps) + '] Remove Exclude values')
 
-  target = source[source.progress_apply(lambda x: x['rid'] not in all_exclude_rid, axis=1)]
+  target = source[source.progress_apply(lambda x: (x['rid'] not in all_exclude_rid) and (str(x['id'])[0] in num_list), axis=1)]
+
+  #target = source[source.progress_apply(lambda x: str(x['id'])[0] in num_list, axis=1)]
+
+
   # target = source.loc[~source['rid'].isin(all_exclude_rid)]
   return target
 
