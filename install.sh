@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE_PATH='ftp://140.112.107.148/UCSD/'
+FILE_PATH='ftp://140.112.107.150/UCSD/'
 
 mkdir src/extract/CoMen/
 mkdir src/extract/CoMen/tsvdata/

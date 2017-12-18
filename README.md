@@ -31,5 +31,5 @@ $ python3 src/extract/men_rel.py src/extract/node.py # 產生db
 | utils/exclusion_choice.py | 將輸入檔案轉化為方便人工篩選的csv格式 |
 
 ### 遠端ftp與google drive連結(若install.sh失效，供手動下載)
-1. FTP: ftp://140.112.107.148/UCSD/
+1. FTP: ftp://140.112.107.150/UCSD/
 2. Google Drive: http://goo.gl/3TYLnq
