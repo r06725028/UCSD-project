@@ -21,7 +21,7 @@ def generateGraphById(id, path, linkValueLimit, numberOfNodes, totalMention):
     graph_part1 = infile_graph_part1.read()
     graph_part2 = infile_graph_part2.read()
 
-    print "Generate graph. id = " + str(id)
+    # print "Generate graph. id = " + str(id)
     links = "\"links\":[\n"
     nodes = "\"nodes\":[\n"
 
