@@ -27,7 +27,7 @@ if __name__ == '__main__':
         for pid in tqdm(target_list):
             graph_generator.generateGraphById(pid, path, linkValueLimit, numberOfNodes, totalMention)
     except:
-        print('error')
+        print(str(pid) + ' is error.')
 
     # All graphs
 
