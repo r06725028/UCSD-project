@@ -1,5 +1,6 @@
 import sqlite3
 import graph_generator
+from tqdm import tqdm
 
 if __name__ == '__main__':
 
@@ -23,7 +24,7 @@ if __name__ == '__main__':
 
     # Single graph
     try:
-        for pid in target_list:
+        for pid in tqdm(target_list):
             graph_generator.generateGraphById(pid, path, linkValueLimit, numberOfNodes, totalMention)
     except:
         print('error')
