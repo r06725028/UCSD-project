@@ -23,7 +23,7 @@ $ python3 src/extract/men_rel.py src/extract/node.py # 產生db
 ### 程式碼與相依檔案
 | 路徑 | 說明 |
 | ------ | ------ |
-| src/extract/20171019/ | 分成30群的txt檔 |
+| src/extract/171224/ | 各群包含的rid的txt檔 |
 | src/extract/tsv_to_db.py | 新增mention、relationship、tablenode table的程式  |
 | src/extract/process_duplicate.py | 移除duplicate及exclusion的module |
 | utils/check_db.py| 檢查db格式是否正確 |
