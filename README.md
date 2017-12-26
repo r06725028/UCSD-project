@@ -33,10 +33,12 @@ $ python3 src/extract/men_rel.py src/extract/node.py # 產生db
 | utils/cluster_process.py | 處理分群的output，和rid做對應，並整理出各群包含的rid，輸出為txt檔 |
 
 ### docs檔案
+| 路徑 | 說明 |
+| ------ | ------ |
 | docs/emi_check.xlsx | 輸入et、ec、t&c三欄即可自動計算出調整後的EMI值 |
 | docs/input.csv | 用來分群的input |
 | docs/output.txt | 原始的分群結果 |
-| docs/only_one_cluster.csv | 列出被分為自己一群的rid及其原因 |
+| docs/cluster_error.csv | 列出EMI值為零、自己一群的rid及其原因 |
 | docs/cluster_num.txt | 紀錄各群包含的rid個數 |
 
 
