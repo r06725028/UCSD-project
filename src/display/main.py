@@ -16,9 +16,17 @@ if __name__ == '__main__':
     path = 'graph/'
 
 
-    # Single graph
+    cursor = conn.execute('''SELECT ID FROM NODE''')
+    # i = (id)
+    # i[0] = id
+    target_list = [i[0] for i in cursor]
 
-    graph_generator.generateGraphById(1847, path, linkValueLimit, numberOfNodes, totalMention)
+    # Single graph
+    try:
+        for pid in target_list:
+            graph_generator.generateGraphById(pid, path, linkValueLimit, numberOfNodes, totalMention)
+    except:
+        print('error')
 
     # All graphs
 

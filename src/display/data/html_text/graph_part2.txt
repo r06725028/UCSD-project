@@ -20,13 +20,26 @@
   var node = gnodes.append("circle")
       .attr("class", "node")
       .attr("r", function(d) { return d.value*8; } )
-      .style("fill", function(d) { return color(d.group); })
-      .call(force.drag);
+      .style("fill", function(d) { return color[d.group]; })
+      .call(force.drag)
+      // .on('click', function(e){
+      //  pid=e.name.split(' ')[0].replace(/SCR_0*/g, '')
+      //  window.location=pid+'_main.html';
+      // })
 
   var labels = gnodes.append("text")
-      .text(function(d) { return d.name; });
-
-  console.log(labels);
+      .attr("text-anchor", "middle")
+      .style('font-weight', function(e){return 'bolder'})
+      .style('z-index', function(e){return 99999})
+      .text(function(d) { return d.name.split(' ').slice(0, 1) })
+      .on('click', function(e){
+        pid=e.name.split(' ')[0].replace(/SCR_0*/g, '')
+        window.location=pid+'_main.html';
+      })
+  labels.append("tspan")
+    .attr("dy", "1.1em") // offest by 1.2 em
+    .attr("x",0)
+    .text(function(d) {return d.name.split(' ').slice(1);});
       
 
   force.on("tick", function() {

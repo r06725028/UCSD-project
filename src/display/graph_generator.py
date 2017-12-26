@@ -1,14 +1,15 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import math
 import sqlite3
 import time
 
 def generateGraphById(id, path, linkValueLimit, numberOfNodes, totalMention):
     
-    #連結資料庫
+    # 連結資料庫
     conn = sqlite3.connect('data/CoMentions.db')
-    #控制對於TEXT數據類型，何種對象將會返回
-    #預設為unicode
-    #想要返回bytestrings，設置為str
+    # 控制對於TEXT數據類型，何種對象將會返回
+    # 預設為unicode，若想要返回bytestrings，設置為str
     conn.text_factory = str
 
     # ===========================================#
@@ -24,22 +25,21 @@ def generateGraphById(id, path, linkValueLimit, numberOfNodes, totalMention):
     links = "\"links\":[\n"
     nodes = "\"nodes\":[\n"
 
-    tempNodeList = []
-    linkNodeList = []
-    # list of nodes that linked to node (id)
 
+    # list of nodes that linked to node (id)
+    linkNodeList = set()
     # Find all nodes linked by node(id) in linkNodeList
     cursor = conn.execute('''SELECT TARGET FROM RELATIONSHIP WHERE SOURCE = ?;''', (int(id),))
     for row in cursor:
-        tempNodeList.append(row[0])
+        linkNodeList.add(row[0])
 
     cursor = conn.execute('''SELECT SOURCE FROM RELATIONSHIP WHERE TARGET = ?;''', (int(id),))
     for row in cursor:
-        tempNodeList.append(row[0])
+        linkNodeList.add(row[0])
 
-    for node_id in tempNodeList:
-        if node_id not in linkNodeList:
-            linkNodeList.append(node_id)
+    linkNodeList = list(linkNodeList)
+
+
 
     # Need to split to chunks since list limit in SQL is 1000
     tempNodeList = []
@@ -48,18 +48,10 @@ def generateGraphById(id, path, linkValueLimit, numberOfNodes, totalMention):
     max_sql = 998
 
     for i in range(0, (len(linkNodeList) / max_sql + 1)):
-        check = [False, False]
         tempNodeForSingleSqlList = []
         max = max_sql * (i + 1)
         if max > len(linkNodeList):
             max = len(linkNodeList)
-
-        # Find top-k mention nodes in linkNodeList
-        # sql = "SELECT * FROM    NODE    WHERE   ID  IN  ({seq})".format(
-        #     seq=','.join(['?'] * len(linkNodeList[999 * i:max])))
-        # cursor.execute(sql, linkNodeList[999 * i:max])
-        # tempNodeForSingleSqlList = cursor.fetchall()
-        # tempNodeList.extend(tempNodeForSingleSqlList)
 
         # Find top-k co-mention nodes in linkNodeList
         AboveNodeList = []
@@ -84,16 +76,6 @@ def generateGraphById(id, path, linkValueLimit, numberOfNodes, totalMention):
         for row in cursor:
             tempRelationshipList.append([row[1], row[0], row[2]])
 
-    # Find top-k mention nodes
-    # tempRelationshipList.sort(key=lambda tup: (tup[2]), reverse=True)
-    # for i in range(0, numberOfNodes):
-    #     if len(tempRelationshipList) > i:
-    #         cursor.execute("SELECT * FROM NODE WHERE ID = ?;", (int(tempRelationshipList[i][1]),))
-    #         for row in cursor:
-    #             nodeList.append([row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], tempRelationshipList[i][2]])
-    #             break
-
-
     # Find top-k co-mention nodes
     tempRelationshipList.sort(key=lambda tup: (tup[2]), reverse=True)
 
@@ -104,8 +86,10 @@ def generateGraphById(id, path, linkValueLimit, numberOfNodes, totalMention):
                 nodeList.append([row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], tempRelationshipList[i][2], row[9]])
                 break
 
+    # 優先序： 在這段關係中的COUNT數 > 在資料庫裡的MENTION次數
     nodeList.sort(key=lambda tup: (tup[1]), reverse=True)
     nodeList.sort(key=lambda tup: (tup[8]), reverse=True)
+
     tempNodeList = []
     for i in range(0, numberOfNodes):
         if len(nodeList) > i:
@@ -114,6 +98,20 @@ def generateGraphById(id, path, linkValueLimit, numberOfNodes, totalMention):
 
     nodeList = tempNodeList
 
+    '''
+        NODE: { 
+            Id, #[0]
+            Mention, #[1]
+            1_mention, #[2]
+            0.95_mention, #[3]
+            0.8_mention, #[4]
+            0.2_mention, #[5]
+            Name, #[6]
+            Abbr, #[7]
+            Url, #[8]
+            Community #[9]
+        }
+    '''
     cursor = conn.execute('''SELECT * FROM NODE WHERE ID = ?;''', (int(id),))
     for row in cursor:
         nodes = nodes + toJSNodes(row[0], row[1], row[6], row[9])
@@ -123,6 +121,7 @@ def generateGraphById(id, path, linkValueLimit, numberOfNodes, totalMention):
     for node in nodeList:
         nodeIdList.append(node[0])
 
+    # RELATIONSHIP: { Source, Target, Value }
     sql = "SELECT * FROM RELATIONSHIP WHERE SOURCE IN ({seq})".format(
         seq=','.join(['?'] * len(nodeIdList)))
     cursor.execute(sql, nodeIdList)
@@ -224,25 +223,6 @@ def generateGraphById(id, path, linkValueLimit, numberOfNodes, totalMention):
                 table_output = table_output + toMentionIdHtmlFormat(nodeList[i][0], nodeList[i][7], nodeList[i][6], coMention, EMI, nodeList[i][1])
                 break
 
-        # if int(tempNodeList[i][0] > id):
-        #     cursor = conn.execute('''SELECT * FROM RELATIONSHIP WHERE TARGET = ? AND SOURCE = ?;''', (id, int(tempNodeList[i][0])))
-        #     for row in cursor:
-        #         coMention = row[2]
-        #         EMI = getEMIValue(coMention, mention, valueA, totalMention)
-        #         break
-        # else:
-        #     cursor = conn.execute('''SELECT * FROM RELATIONSHIP WHERE TARGET = ? AND SOURCE = ?;''', (int(tempNodeList[i][0]), id))
-        #     for row in cursor:
-        #         coMention = row[2]
-        #         EMI = getEMIValue(coMention, mention, valueA, totalMention)
-        #         break
-        #
-        # if EMI == 0:
-        #     raise ValueError('Error: EMI Calculation, ID:' + str(id) + ', ' + str(tempNodeList[i][0]))
-        # else:
-        #     table_output = table_output + toMentionIdHtmlFormat(tempNodeList[i][0], tempNodeList[i][7],
-        #                                                         tempNodeList[i][6], coMention, EMI,
-        #                                                         tempNodeList[i][1])
 
     table_output += table_part3
     table_outfile.write(table_output)
@@ -272,7 +252,7 @@ def generateGraphById(id, path, linkValueLimit, numberOfNodes, totalMention):
         mention_id = row[2]
         input_source = row[3]
         confidence = row[4]
-        snippet = unicode(row[5], "utf-8")
+        snippet = unicode(str(row[5]), "utf-8")
 
         pmids_output += toPMIDFormat(rid, mention_id, input_source, confidence, snippet)
 
@@ -309,8 +289,9 @@ def toScrTitle(id):
 def toTargetIdHtmlFormat(id, url, name, numCoMentionPartners, mention, point_one_mention, point_nine_five_mention, point_eight_mention, point_two_mention):
     html = '\t<tr>\n\t\t<td><a class=\"external\" target=\"_blank\"\n\thref=\"https://scicrunch.org/browse/resources/'
     html = html + toScrTitle(id) + '\">' + toScrTitle(id) + '</td>'
-
-    if(len(url) < 5):
+    
+    len_url = 0 if url is None else len(url)
+    if(len_url < 5):
         html = html + '\n\t\t<td><a class=\"external\" target=\"_blank\"\n\thref=\"' + 'https://www.fake_url_' + str(id) + '.com\">' + name + '</a></td>'
     else:
         html = html + '\n\t\t<td><a class=\"external\" target=\"_blank\"\n\thref=\"' + url + '\">' + name + '</a></td>'
@@ -333,7 +314,7 @@ def toTargetIdHtmlFormat(id, url, name, numCoMentionPartners, mention, point_one
 def toMentionIdHtmlFormat(id, url, name, coMention, EMI, mention):
     html = '\t<tr>\n\t\t<td><a class=\"external\" target=\"_blank\"\n\thref=\"https://scicrunch.org/browse/resources/'
     html = html + toScrTitle(id) + '\">' + toScrTitle(id) + '</td>'
-    html = html + '\n\t\t<td><a class=\"external\" target=\"_blank\"\n\thref=\"' + url + '\">' + name + '</a></td>'
+    html = html + '\n\t\t<td><a class=\"external\" target=\"_blank\"\n\thref=\"' + str(url) + '\">' + str(name) + '</a></td>'
     html = html + '\n\t\t<td align="center">' + '<a class=\"external\" target=\"_blank\" href=\"' + str(
         id) + '_main.html\">Go</a>' + '</td>'
     html = html + '\n\t\t<td align="right">' + str(int(coMention)) + '</td>'
@@ -344,7 +325,7 @@ def toMentionIdHtmlFormat(id, url, name, coMention, EMI, mention):
 
 def toJSLinks(source, target, value):
     return "\t{\"source\": " + str(source) + ", \"target\": " + str(target) + ", \"value\": " + str(value) + "},\n"
-    # return "\t{\"source\": " + str(source) + ", \"target\": " + str(target) + ", \"value\": " + str(linkValueAdjust(value)) + "},\n"
+
 
 
 def toJSNodes(name, value, abbr, group):
@@ -412,6 +393,7 @@ def toPMIDFormat(rid, mention_id, input_source, confidence, snippet):
     content += '</td>\n\t\t<td colspan=92 style=\'mso-ignore:colspan\'>'
 
     snippet = unicode.encode(snippet, 'utf-8')
+
     if str(snippet).strip('\n') == 'NULL':
         content += ' '
     else:
