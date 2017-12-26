@@ -1,6 +1,10 @@
 import sqlite3
 import graph_generator
+from joblib import Parallel, delayed
+import multiprocessing
 from tqdm import tqdm
+from time import time
+import datetime
 
 if __name__ == '__main__':
 
@@ -18,16 +22,23 @@ if __name__ == '__main__':
 
 
     cursor = conn.execute('''SELECT ID FROM NODE''')
-    # i = (id)
-    # i[0] = id
-    target_list = [i[0] for i in cursor]
+    target_list = [row[0] for row in cursor]
 
-    # Single graph
     try:
-        for pid in tqdm(target_list):
-            graph_generator.generateGraphById(pid, path, linkValueLimit, numberOfNodes, totalMention)
+        # 13886 [#15702]
+        startT = time()
+
+        num_cores = multiprocessing.cpu_count()
+        Parallel(n_jobs=num_cores)(delayed(graph_generator.generateGraphById)\
+            (pid, path, linkValueLimit, numberOfNodes, totalMention) for pid in target_list) # 0 ~ 688
+
+        endT = time()
+
+        print('Total time cost: {}'.format(datetime.datetime.fromtimestamp(endT - startT).strftime('%M:%S')))
+            
     except:
-        print(str(pid) + ' is error.')
+        with open('logs.txt', 'a') as f:
+            f.write('[Error] pid: {}\n'.format(idx, pid))
 
     # All graphs
 

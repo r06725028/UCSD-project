@@ -6,6 +6,7 @@ import time
 
 def generateGraphById(id, path, linkValueLimit, numberOfNodes, totalMention):
     
+    print(id)
     # 連結資料庫
     conn = sqlite3.connect('data/CoMentions.db')
     # 控制對於TEXT數據類型，何種對象將會返回
@@ -134,31 +135,20 @@ def generateGraphById(id, path, linkValueLimit, numberOfNodes, totalMention):
                 # ========= Original value =========
                 # links = links + toJSLinks(toLinkPosition(link[0], nodeIdList), toLinkPosition(link[1], nodeIdList), link[2])
                 # =========== EMI value ============
-                cursor = conn.execute('''SELECT * FROM NODE WHERE ID = ?;''', (int(link[0]),))
-                for row in cursor:
-                    valueA = row[1]
-                    break
-                cursor = conn.execute('''SELECT * FROM NODE WHERE ID = ?;''', (int(link[1]),))
-                for row in cursor:
-                    valueB = row[1]
-                    break
-
-                EMI = EMIValueAdjust(getEMIValue(link[2], valueA, valueB, totalMention))
-                if EMI != 0:
-                    EMI_list.append([link[0], link[1], link[2], EMI])
-                    links = links + toJSLinks(toLinkPosition(link[0], nodeIdList), toLinkPosition(link[1], nodeIdList), EMI)
-                else:
-                    print link[0], valueA, link[1], valueB, link[2]
-                    raise EnvironmentError('Error: EMI value calculation.')
+                # SOURCE, TARGET, VALUE, EMI
+                EMI = link[3]
+                EMI_list.append([link[0], link[1], link[2], EMI])
+                links = links + toJSLinks(toLinkPosition(link[0], nodeIdList), toLinkPosition(link[1], nodeIdList), EMI)
 
     nodes = nodes[:-2]
     links = links[:-2]
     nodes += "\n],\n"
-    links += "\n]"
+    links += "\n]}\n"
 
     # print "Generate graph. id = " + str(id) + " finished."
+    declare_var = 'var master_id = {};'.format(id)
     graph_outfile = open(path + str(id) + '_graph.html', 'w+')
-    graph_outfile.write(graph_part1 + nodes + links + graph_part2)
+    graph_outfile.write(graph_part1 + nodes + links + declare_var + graph_part2)
     graph_outfile.close()
     infile_graph_part1.close()
     infile_graph_part2.close()
