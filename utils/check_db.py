@@ -6,9 +6,10 @@ import pandas as pd
 import csv
 from tqdm import tqdm
 
+t1 = time.time()
 ###############################global variable: 用來檢查用的##################################
 num_list = ['0','1','2','3','4','5','6','7','8','9']
-conf_list = ["0.2","0.8","0.95","1.0","NULL"]
+conf_list = [0.2,0.8,0.95,1.0]
 steps = 0
 
 path = 'CoMen/tsvdata/'
@@ -63,7 +64,7 @@ for a, b in zip(df[0], df[1]):
   if tmp not in all_exclude_rid: all_exclude_rid.append(tmp)
 
 ###############################################連結資料庫#########################################
-conn = sqlite3.connect('newdb_check.db')
+conn = sqlite3.connect('1226.db')
 cur = conn.cursor()
 
 ####################################從資料庫中取出要檢查的data#####################################
@@ -78,16 +79,16 @@ node_df = pd.DataFrame(node_list_of_tuple, columns=['ID', 'MENTION', 'ONE_MENTIO
 
 #relationship
 rel_list_of_tuple = cur.execute("select * from RELATIONSHIP ").fetchall()
-rel_df = pd.DataFrame(rel_list_of_tuple, columns=['SOURCE', 'TARGET', 'VALUE'])
+rel_df = pd.DataFrame(rel_list_of_tuple, columns=['SOURCE', 'TARGET', 'VALUE','EMI'])
 
 ######################################檢查MENTION######################################
 
 print('\n====================[ mention ]===================\n')#跑約五分鐘
 
-steps += 1
-tqdm.pandas(desc='[' + str(steps) + '] mention check')
+#steps += 1
+#tqdm.pandas(desc='[' + str(steps) + '] mention check')
 
-for index, row in tqdm(enumerate(men_df.iterrows())):#Iterate over DataFrame rows as (index, Series) pairs
+for index, row in tqdm(enumerate(men_df.iterrows()),total=len(men_df),desc='mention check'):#Iterate over DataFrame rows as (index, Series) pairs
 	if row[1]['RID'] in all_slave_rid:#檢查duplicate
 		with open("men_duplicate_error.txt",'a') as f:
 			print("duplicate error in index : ",str(index)," / ID = ", str(row[1]['ID']))
@@ -114,10 +115,11 @@ print("men check ok")
 
 ######################################檢查relationship######################################
 print('\n====================[ relationship ]===================\n')#跑約22分鐘
-steps += 1
-tqdm.pandas(desc='[' + str(steps) + '] relationship check')
+#steps += 1
+#tqdm.pandas(desc='[' + str(steps) + '] relationship check')
 
-for index, row in tqdm(enumerate(rel_df.iterrows())):#Iterate over DataFrame rows as (index, Series) pairs
+for index, row in tqdm(enumerate(rel_df.iterrows()),total=len(rel_df),desc='relationship check'):
+#Iterate over DataFrame rows as (index, Series) pairs:row[1]即是單列的series
 	if row[1]['SOURCE']  in all_slave_rid:#檢查duplicate
 		with open("rel_duplicate_error.txt",'a') as f:
 			print("duplicate 'source' error in index : ",str(index)," / SOURCE = ", str(row[1]['SOURCE']))
@@ -140,10 +142,10 @@ print("rel check ok")
 
 ###############################################檢查node#######################################
 print('\n====================[ node ]===================\n')#跑約1分鐘
-steps += 1
-tqdm.pandas(desc='[' + str(steps) + '] node check')
+#steps += 1
+#tqdm.pandas(desc='[' + str(steps) + '] node check')
 
-for index, row in tqdm(enumerate(node_df.iterrows())):#Iterate over DataFrame rows as (index, Series) pairs
+for index, row in tqdm(enumerate(node_df.iterrows()),total=len(node_df),desc='node check'):#Iterate over DataFrame rows as (index, Series) pairs
 	if row[1]['ID']  in all_slave_rid:#檢查duplicate
 		with open("node_duplicate_error.txt",'a') as f:
 			print("duplicate error in index : ",str(index)," / ID = ", str(row[1]['ID']))
@@ -153,9 +155,6 @@ for index, row in tqdm(enumerate(node_df.iterrows())):#Iterate over DataFrame ro
 			print("exclude error in index : ",str(index)," / ID = ", str(row[1]['ID']))
 			f.write("index : "+str(index)+" / ID = "+str(row[1]['ID'])+'\n')
 	else:
-		temp_df = men_df[men_df['RID'] == row[1]['ID']]#用來算confidence為null的次數
-		confid_list = temp_df['CONFIDENCE'].tolist()
-
 		#信心指數1的次數
 		num_1 = row[1]['ONE_MENTION']#confid_list.count('1.0')
 		#信心指數0.95的次數
@@ -164,10 +163,8 @@ for index, row in tqdm(enumerate(node_df.iterrows())):#Iterate over DataFrame ro
 		num_8 = row[1]['POINT_EIGHT_MENTION']#confid_list.count('0.8')
 		#信心指數0.2的次數
 		num_2 = row[1]['POINT_TWO_MENTION']#confid_list.count('0.2')
-		#信心指數NULL的次數
-		num_null = confid_list.count('NULL')
 
-		sum_mention = num_1+num_95+num_8+num_2+num_null
+		sum_mention = num_1+num_95+num_8+num_2#+num_null
 
 		if row[1]['MENTION'] != sum_mention:#檢查menttion次數是否有算錯
 			with open("node_count_mention_error.txt",'a') as f:
@@ -184,7 +181,9 @@ print("node check ok")
 cur.close()
 conn.close()	
 
+t2 = time.time()
 
+print("check db 時間 = ", t2-t1)#927.8324720859528
 
 
 
