@@ -24,12 +24,14 @@ $ python3 src/extract/men_rel.py src/extract/node.py # 產生db
 | 路徑 | 說明 |
 | ------ | ------ |
 | src/extract/20171019/ | 分成30群的txt檔 |
-| src/extract/node.py | 新增node table的程式  |
-| src/extract/men_rel.py | 新增mention、relationship table的程式 |
-| src/extract/check_db.py| 檢查db格式是否正確
+| src/extract/tsv_to_db.py | 新增mention、relationship、tablenode table的程式  |
 | src/extract/process_duplicate.py | 移除duplicate及exclusion的module |
+| utils/check_db.py| 檢查db格式是否正確 |
 | utils/exclusion_append.py | 將輸入檔案append至exclusion.tsv |
 | utils/exclusion_choice.py | 將輸入檔案轉化為方便人工篩選的csv格式 |
+| utils/to_csv.py | 從資料庫中取出relationship table資料轉為csv檔做為分群的input |
+| utils/cluster_process.py | 處理分群的output，和rid做對應，並整理出各群包含的rid，輸出為txt檔 |
+
 
 
 ### 遠端ftp與google drive連結(若install.sh失效，供手動下載)
