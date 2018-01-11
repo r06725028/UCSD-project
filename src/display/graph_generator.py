@@ -1,404 +1,220 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-import math
 import sqlite3
-import time
+import collections
+# from time import time
+import numpy as np
+from formatter import toJSNodes, toJSLinks, toScrTitle, toTargetIdHtmlFormat, toMentionIdHtmlFormat, toPMIDFormat, EMIValueAdjust
 
-def generateGraphById(id, path, linkValueLimit, numberOfNodes, totalMention):
-    
-    print(id)
-    # 連結資料庫
-    conn = sqlite3.connect('data/CoMentions.db')
-    # 控制對於TEXT數據類型，何種對象將會返回
-    # 預設為unicode，若想要返回bytestrings，設置為str
-    conn.text_factory = str
+conn = sqlite3.connect('data/CoMentions.db')
+conn.text_factory = str
 
-    # ===========================================#
-    # generate id_graph.html
-    # ===========================================#
+class TestFailed(Exception):
+  def __init__(self, m):
+    self.message = m
+  def __str__(self):
+    return self.message
 
-    infile_graph_part1 = open('data/html_text/graph_part1.txt', 'r')
-    infile_graph_part2 = open('data/html_text/graph_part2.txt', 'r')
-    graph_part1 = infile_graph_part1.read()
-    graph_part2 = infile_graph_part2.read()
+class generator:
+  def __init__(self, CoMentionThreshold=10.0, numberOfNodes=20, PATH='graph/'):
+    self.PATH = PATH
+    self.CoMentionThreshold = CoMentionThreshold
+    self.numberOfNodes = numberOfNodes
+    self.top20RelationRid = []
 
-    # print "Generate graph. id = " + str(id)
+  def getLinkedRelation(self):
+    emiDict = dict()
+    coMentionDict = dict()
+    cursor = conn.execute('''SELECT * FROM RELATIONSHIP WHERE SOURCE = ? OR TARGET = ? ORDER BY VALUE DESC LIMIT 30''', (int(self.pmid), int(self.pmid),))
+
+    for src, desc, v, emi in cursor:
+      rid = src if desc == self.pmid else desc
+      emiDict[rid] = emi
+      coMentionDict[rid] = v
+
+    return emiDict, coMentionDict
+
+  def getTop20RID(self, coMentionDict):
+    totalSortedVal = sorted(coMentionDict.items(), key=lambda kv: kv[1], reverse=True)
+    res = []
+    for rid, val in totalSortedVal:
+      res.append(rid)
+    res = res[:self.numberOfNodes]
+
+    return res
+
+  def constructNodeInfo(self):
+    nodeInfo = {}
+    rids = [str(rid) for rid in self.top20RelationRid]
+    sql = "SELECT * FROM NODE WHERE ID IN ({});".format(','.join(rids))
+    cursor = conn.execute(sql)
+    for rid, total_mention, one_mention, nine_five_mention, eight_mention, two_mention, name, abbr, url, group in cursor:
+      nodeInfo[rid] = {
+        'total_mention': total_mention,
+        'one_mention': one_mention,
+        'nine_five_mention': nine_five_mention,
+        'eight_mention': eight_mention,
+        'two_mention': two_mention,
+        'name': name,
+        'abbr': abbr,
+        'url': url,
+        'group': group
+      }
+
+    if(len(rids) != len(nodeInfo.keys())):
+      diff = set([int(x) for x in rids]) - set(nodeInfo.keys())
+      for rid in diff:
+        raise(TestFailed('{} no data in nodeInfo(links)'.format(rid)))
+    return nodeInfo
+
+  def appendMutualRelation(self, nodeInfo):
+    rids = [str(rid) for rid in self.top20RelationRid]
+    cursor = conn.execute("SELECT * FROM RELATIONSHIP WHERE SOURCE IN ({})".format(','.join(rids)))
+    res = set( (src, desc, emi) for src, desc, coMentionCount, emi in cursor \
+      if (src in nodeInfo) and (desc in nodeInfo) and (coMentionCount > self.CoMentionThreshold or src == self.pmid or desc == self.pmid))
+
+    return res
+
+  def WriteGraphHTML(self, nodeInfo, relationSet):
+    graph_part1 = open('data/html_text/graph_part1.txt', 'r').read()
+    graph_part2 = open('data/html_text/graph_part2.txt', 'r').read()
     links = "\"links\":[\n"
     nodes = "\"nodes\":[\n"
 
 
-    # list of nodes that linked to node (id)
-    linkNodeList = set()
-    # Find all nodes linked by node(id) in linkNodeList
-    cursor = conn.execute('''SELECT TARGET FROM RELATIONSHIP WHERE SOURCE = ?;''', (int(id),))
-    for row in cursor:
-        linkNodeList.add(row[0])
+    rids = list(nodeInfo.keys())
 
-    cursor = conn.execute('''SELECT SOURCE FROM RELATIONSHIP WHERE TARGET = ?;''', (int(id),))
-    for row in cursor:
-        linkNodeList.add(row[0])
+    for rid in rids:
+      nodes += toJSNodes(rid=rid, value=nodeInfo[rid]['total_mention'], name=nodeInfo[rid]['name'], group=nodeInfo[rid]['group'])
+    
+    for src, desc, emi in relationSet:
+      links += toJSLinks(source=rids.index(src), target=rids.index(desc), value=EMIValueAdjust(emi))
+      
+    nodes = nodes[:-2] + "\n],\n"
+    links = links[:-2] + "\n]}\n"
 
-    linkNodeList = list(linkNodeList)
-
-
-
-    # Need to split to chunks since list limit in SQL is 1000
-    tempNodeList = []
-    tempRelationshipList = []
-    nodeList = []
-    max_sql = 998
-
-    for i in range(0, (len(linkNodeList) / max_sql + 1)):
-        tempNodeForSingleSqlList = []
-        max = max_sql * (i + 1)
-        if max > len(linkNodeList):
-            max = len(linkNodeList)
-
-        # Find top-k co-mention nodes in linkNodeList
-        AboveNodeList = []
-        BelowNodeList = []
-        for node_id in linkNodeList[i*max_sql:max]:
-            if int(node_id) > id:
-                AboveNodeList.append(node_id)
-            elif int(node_id) < id:
-                BelowNodeList.append(node_id)
-
-        AboveNodeList.append(id)
-        sql = "SELECT * FROM    RELATIONSHIP    WHERE   TARGET  IN  ({seq}) AND SOURCE = {id}".format(
-            seq=','.join(['?'] * (len(AboveNodeList)-1)), id='?')
-        cursor.execute(sql, AboveNodeList)
-        for row in cursor:
-            tempRelationshipList.append(row)
-
-        BelowNodeList.append(id)
-        sql = "SELECT * FROM    RELATIONSHIP    WHERE   SOURCE  IN  ({seq}) AND TARGET = {id}".format(
-            seq=','.join(['?'] * (len(BelowNodeList) - 1)), id='?')
-        cursor.execute(sql, BelowNodeList)
-        for row in cursor:
-            tempRelationshipList.append([row[1], row[0], row[2]])
-
-    # Find top-k co-mention nodes
-    tempRelationshipList.sort(key=lambda tup: (tup[2]), reverse=True)
-
-    for i in range(0, numberOfNodes * 2):
-        if len(tempRelationshipList) > i:
-            cursor.execute("SELECT * FROM NODE WHERE ID = ?;", (int(tempRelationshipList[i][1]),))
-            for row in cursor:
-                nodeList.append([row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], tempRelationshipList[i][2], row[9]])
-                break
-
-    # 優先序： 在這段關係中的COUNT數 > 在資料庫裡的MENTION次數
-    nodeList.sort(key=lambda tup: (tup[1]), reverse=True)
-    nodeList.sort(key=lambda tup: (tup[8]), reverse=True)
-
-    tempNodeList = []
-    for i in range(0, numberOfNodes):
-        if len(nodeList) > i:
-            tempNodeList.append(nodeList[i])
-            nodes = nodes + toJSNodes(nodeList[i][0], nodeList[i][1], nodeList[i][6], nodeList[i][9])
-
-    nodeList = tempNodeList
-
-    '''
-        NODE: { 
-            Id, #[0]
-            Mention, #[1]
-            1_mention, #[2]
-            0.95_mention, #[3]
-            0.8_mention, #[4]
-            0.2_mention, #[5]
-            Name, #[6]
-            Abbr, #[7]
-            Url, #[8]
-            Community #[9]
-        }
-    '''
-    cursor = conn.execute('''SELECT * FROM NODE WHERE ID = ?;''', (int(id),))
-    for row in cursor:
-        nodes = nodes + toJSNodes(row[0], row[1], row[6], row[9])
-        nodeList.append([row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[1]])
-
-    nodeIdList = []
-    for node in nodeList:
-        nodeIdList.append(node[0])
-
-    # RELATIONSHIP: { Source, Target, Value }
-    sql = "SELECT * FROM RELATIONSHIP WHERE SOURCE IN ({seq})".format(
-        seq=','.join(['?'] * len(nodeIdList)))
-    cursor.execute(sql, nodeIdList)
-    tempLinkList = cursor.fetchall()
-
-    EMI_list = []
-    for link in tempLinkList:
-        if link[0] in nodeIdList and link[1] in nodeIdList:
-            if (int(link[2]) >= linkValueLimit) or (str(link[0]) == str(id) or str(link[1]) == str(id)):
-                # ========= Original value =========
-                # links = links + toJSLinks(toLinkPosition(link[0], nodeIdList), toLinkPosition(link[1], nodeIdList), link[2])
-                # =========== EMI value ============
-                # SOURCE, TARGET, VALUE, EMI
-                EMI = link[3]
-                EMI_list.append([link[0], link[1], link[2], EMI])
-                links = links + toJSLinks(toLinkPosition(link[0], nodeIdList), toLinkPosition(link[1], nodeIdList), EMI)
-
-    nodes = nodes[:-2]
-    links = links[:-2]
-    nodes += "\n],\n"
-    links += "\n]}\n"
-
-    # print "Generate graph. id = " + str(id) + " finished."
-    declare_var = 'var master_id = {};'.format(id)
-    graph_outfile = open(path + str(id) + '_graph.html', 'w+')
+    declare_var = 'var master_id = {};'.format(self.pmid)
+    graph_outfile = open(self.PATH + str(self.pmid) + '_graph.html', 'w+')
     graph_outfile.write(graph_part1 + nodes + links + declare_var + graph_part2)
-    graph_outfile.close()
-    infile_graph_part1.close()
-    infile_graph_part2.close()
 
-    # ===========================================#
-    # generate id_table.html
-    # ===========================================#
-
-    infile_table_part1 = open('data/html_text/table_part1.txt', 'r')
-    infile_table_part2 = open('data/html_text/table_part2.txt', 'r')
-    infile_table_part3 = open('data/html_text/table_part3.txt', 'r')
-    table_part1 = infile_table_part1.read()
-    table_part2 = infile_table_part2.read()
-    table_part3 = infile_table_part3.read()
-    table_outfile = open(path + str(id) + '_table.html', 'w+')
-
-    table_output = '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">\n<html>\t<head>\n<title>'
-    table_output = table_output + toScrTitle(id) + ' Table</title>'
-    table_output += table_part1
-    table_output += toScrTitle(id)
-    table_output += '</h1>\n<h2>'
-
-    cursor = conn.execute('''SELECT * FROM NODE WHERE ID = ?;''', (int(id),))
-    for row in cursor:
-        mention = row[1]
-        one_mention = row[2]
-        point_nine_five_mention = row[3]
-        point_eight_mention = row[4]
-        point_two_mention = row[5]
-        name = row[6]
-        url = row[7]
-        numOfCoMention = len(tempRelationshipList)
-        table_output += name
-        table_output += table_part2
-        table_output += toTargetIdHtmlFormat(id, url, name, numOfCoMention, mention, one_mention, point_nine_five_mention, point_eight_mention, point_two_mention)
-        break
-
-    sql = "SELECT * FROM NODE WHERE ID IN ({seq})".format(
-        seq=','.join(['?'] * len(nodeIdList)))
-    cursor.execute(sql, nodeIdList)
-    tableNodeList = cursor.fetchall()
-
-    table_output = table_output + '<div><table>\n\t<tr>\n\t\t<th>RRID</th>'
-    table_output = table_output + '\n\t\t<th>Resource name</th>\n\t\t<th>Co-mention network</th>\n\t\t<th>Co-mention count</th>'
-    table_output = table_output + '\n\t\t<th>Mutual Info</th>\n\t\t<th>Total mentions</th>\n\t</tr>\n'
-
-    if len(nodeList) < numberOfNodes:
-        max = len(nodeList)
-    else:
-        max = numberOfNodes
-    for i in range(0, max):
-        cursor = conn.execute('''SELECT * FROM NODE WHERE ID = ?;''', (int(nodeList[i][0]),))
-        for row in cursor:
-            valueA = row[1]
-            break
-
-        # =========== EMI value ============
-        for item in EMI_list:
-            if (str(item[0]) == str(nodeList[i][0]) and str(item[1]) == str(id)) or (str(item[0]) == str(id) and str(item[1]) == str(nodeList[i][0])):
-                coMention = item[2]
-                EMI = "{0:.4f}".format(item[3])
-                table_output = table_output + toMentionIdHtmlFormat(nodeList[i][0], nodeList[i][7], nodeList[i][6], coMention, EMI, nodeList[i][1])
-                break
-
-
-    table_output += table_part3
-    table_outfile.write(table_output)
-    table_outfile.close()
-
+  def WritePMIDHTML(self):
     # ===========================================#
     # generate id_pmids.html
     # ===========================================#
+    pmids_part1 = open('data/html_text/pmids_part1.txt', 'r').read()
+    pmids_part2 = open('data/html_text/pmids_part2.txt', 'r').read()
+    pmids_part3 = open('data/html_text/pmids_part3.txt', 'r').read()
 
-    infile_pmids_part1 = open('data/html_text/pmids_part1.txt', 'r')
-    infile_pmids_part2 = open('data/html_text/pmids_part2.txt', 'r')
-    infile_pmids_part3 = open('data/html_text/pmids_part3.txt', 'r')
-    pmids_part1 = infile_pmids_part1.read()
-    pmids_part2 = infile_pmids_part2.read()
-    pmids_part3 = infile_pmids_part3.read()
-
-    pmids_outfile = open(path + str(id) + '_pmids.html', 'w+')
+    pmids_outfile = open(self.PATH + str(self.pmid) + '_pmids.html', 'w+')
     pmids_output = '<!DOCTYPE html>\n<html>\n<head>\n<title>PubMed IDs '
-    pmids_output += toScrTitle(id)
+    pmids_output += toScrTitle(self.pmid)
     pmids_output += pmids_part1
-    pmids_output += toScrTitle(id)
+    pmids_output += toScrTitle(self.pmid)
     pmids_output += pmids_part2
 
-    cursor = conn.execute('''SELECT * FROM MENTION WHERE RID = ?;''', (int(id),))
-    for row in cursor:
-        rid = row[1]
-        mention_id = row[2]
-        input_source = row[3]
-        confidence = row[4]
-        snippet = unicode(str(row[5]), "utf-8")
+    cursor = conn.execute('''SELECT * FROM MENTION WHERE RID = ?;''', (str(self.pmid),))
 
-        pmids_output += toPMIDFormat(rid, mention_id, input_source, confidence, snippet)
+    _, rid, mention_id, input_source, confidence, snippet = next(cursor)
+    pmids_output += toPMIDFormat(rid, mention_id, input_source, confidence, snippet)
 
     pmids_output += pmids_part3
 
     pmids_outfile.write(pmids_output)
     pmids_outfile.close()
 
+  def WriteTableHTML(self, nodeInfo, pmidTotalCoMention, emiDict, coMentionDict):
+    # ===========================================#
+    # generate id_table.html
+    # ===========================================#
+    infile_table_part1 = open('data/html_text/table_part1.txt', 'r')
+    infile_table_part2 = open('data/html_text/table_part2.txt', 'r')
+    infile_table_part3 = open('data/html_text/table_part3.txt', 'r')
+    table_part1 = infile_table_part1.read()
+    table_part2 = infile_table_part2.read()
+    table_part3 = infile_table_part3.read()
+    table_outfile = open(self.PATH + str(self.pmid) + '_table.html', 'w+')
+
+    table_output = '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">\n<html>\t<head>\n<title>'
+    table_output = table_output + toScrTitle(self.pmid) + ' Table</title>'
+    table_output += table_part1
+    table_output += toScrTitle(self.pmid)
+    table_output += '</h1>\n<h2>'
+
+    try:
+      mention = nodeInfo[self.pmid]['total_mention']
+      one_mention = nodeInfo[self.pmid]['one_mention']
+      point_nine_five_mention = nodeInfo[self.pmid]['nine_five_mention']
+      point_eight_mention = nodeInfo[self.pmid]['eight_mention']
+      point_two_mention = nodeInfo[self.pmid]['two_mention']
+      name = nodeInfo[self.pmid]['name']
+      abbr = nodeInfo[self.pmid]['abbr']
+      url = nodeInfo[self.pmid]['url']
+    except:
+      raise(TestFailed('{} no data in nodeInfo(pmid)'.format(self.pmid)))
+    table_output += name
+    table_output += table_part2
+    table_output += toTargetIdHtmlFormat(self.pmid, url, name, pmidTotalCoMention, mention, one_mention, point_nine_five_mention, point_eight_mention, point_two_mention)
+
+    table_output = table_output + '<div><table>\n\t<tr>\n\t\t<th>RRID</th>'
+    table_output = table_output + '\n\t\t<th>Resource name</th>\n\t\t<th>Co-mention network</th>\n\t\t<th>Co-mention count</th>'
+    table_output = table_output + '\n\t\t<th>Mutual Info</th>\n\t\t<th>Total mentions</th>\n\t</tr>\n'
+
+    for rid in nodeInfo:
+      if (rid == self.pmid): continue
+      mention = nodeInfo[rid]['total_mention']
+      name = nodeInfo[rid]['name']
+      url = nodeInfo[rid]['url']
+      emi = emiDict[rid]
+      numOfCoMention = coMentionDict[rid]
+      
+      # (id, url, name, coMention, EMI, mention)
+      table_output += toMentionIdHtmlFormat(rid, url, name, numOfCoMention, emi, mention)
+    table_output += table_part3
+    table_outfile.write(table_output)
+    table_outfile.close()
+
+  def WriteMainHTML(self):
     # ===========================================#
     # generate id_main.html
     # ===========================================#
 
-    main_outfile = open(path + str(id) + '_main.html', 'w+')
+    main_outfile = open(self.PATH + str(self.pmid) + '_main.html', 'w+')
     main_output = '<!DOCTYPE html>\n<html>\n<head>\n<title>'
-    main_output += toScrTitle(id)
+    main_output += toScrTitle(self.pmid)
     main_output += '</title>\n</head>\n<frameset cols=\"65%,35%\">\n\t\t<frame src=\"'
-    main_output = main_output + str(id) + '_graph.html\">\n\t\t<frame src=\"'
-    main_output = main_output + str(id) + '_table.html\">\n'
+    main_output = main_output + str(self.pmid) + '_graph.html\">\n\t\t<frame src=\"'
+    main_output = main_output + str(self.pmid) + '_table.html\">\n'
     main_output = main_output + '</frameset>\n</html>'
 
     main_outfile.write(main_output)
     main_outfile.close()
 
-    conn.commit()
-    conn.close()
 
-def toScrTitle(id):
-    name = 'SCR_'
-    for i in range(0, 6 - len(str(id))):
-        name += '0'
-    return name + str(id)
+  def generateGraphById(self, pmid):
+    self.pmid = pmid
+    # tmpT = time()
+    emiDict, coMentionDict = self.getLinkedRelation()
+    # print('1st', len(coMentionDict))
+    if len(coMentionDict) < 20:
+      with open('less20.txt', 'a') as f:
+        f.write('{} less than 20 relations(pmid\'s coMention): {}\n'.format(pmid, len(coMentionDict)))
+    self.top20RelationRid = self.getTop20RID(coMentionDict) # 20個
+    # print(len(top20RelationRid))
 
+    pmidTotalCoMention = np.sum([coMentionDict[rid] for rid in self.top20RelationRid])
 
-def toTargetIdHtmlFormat(id, url, name, numCoMentionPartners, mention, point_one_mention, point_nine_five_mention, point_eight_mention, point_two_mention):
-    html = '\t<tr>\n\t\t<td><a class=\"external\" target=\"_blank\"\n\thref=\"https://scicrunch.org/browse/resources/'
-    html = html + toScrTitle(id) + '\">' + toScrTitle(id) + '</td>'
-    
-    len_url = 0 if url is None else len(url)
-    if(len_url < 5):
-        html = html + '\n\t\t<td><a class=\"external\" target=\"_blank\"\n\thref=\"' + 'https://www.fake_url_' + str(id) + '.com\">' + name + '</a></td>'
-    else:
-        html = html + '\n\t\t<td><a class=\"external\" target=\"_blank\"\n\thref=\"' + url + '\">' + name + '</a></td>'
+    self.top20RelationRid.insert(0, str(self.pmid))# 21個
 
-    html = html + '\n\t\t<td align="right">' + str(numCoMentionPartners) + '</td>'
-    html = html + '\n\t\t<td align="right">' + str(mention) + '</td>'
-    html = html + '\n\t\t<td align="right">' + str(point_one_mention) + '</td>'
-    html = html + '\n\t\t<td align="right">' + str(point_nine_five_mention) + '</td>'
-    html = html + '\n\t\t<td align="right">' + str(point_eight_mention) + '</td>'
-    html = html + '\n\t\t<td align="right">' + str(point_two_mention) + '</td>'
-    html = html + '\n\t</tr>\n</table>'
+    nodeInfo = self.constructNodeInfo() # 19個!!! 有些出現在relationship，但沒有出現在Node中
+    # tmpT = time()
+    relationSet = self.appendMutualRelation(nodeInfo) # nodeInfo是為了篩掉那些出現在relationship，但沒有出現在Node中
+    # print('appendMutualRelation', time() - tmpT)
 
-    html = html + '<p>Click <a class=\"external\" target=\"_blank\" href=\"' + str(id) + '_pmids.html\"><b>here</b></a>'
-    html = html + ' for a list of PubMed IDs where the mentions were identified.</p>'
-    # html = html + '<h3>Top 20 co-mention partners:</h3>'
-    html = html + '<h3>Top 20 co-mention partners: <a class="external" target="_blank" href="help.html"><font color="red">[Help]</font></a></h3>'
-    return html
+    self.WriteGraphHTML(nodeInfo=nodeInfo, relationSet=relationSet)
 
+    self.WriteTableHTML(nodeInfo=nodeInfo, pmidTotalCoMention=pmidTotalCoMention, emiDict=emiDict, coMentionDict=coMentionDict)
 
-def toMentionIdHtmlFormat(id, url, name, coMention, EMI, mention):
-    html = '\t<tr>\n\t\t<td><a class=\"external\" target=\"_blank\"\n\thref=\"https://scicrunch.org/browse/resources/'
-    html = html + toScrTitle(id) + '\">' + toScrTitle(id) + '</td>'
-    html = html + '\n\t\t<td><a class=\"external\" target=\"_blank\"\n\thref=\"' + str(url) + '\">' + str(name) + '</a></td>'
-    html = html + '\n\t\t<td align="center">' + '<a class=\"external\" target=\"_blank\" href=\"' + str(
-        id) + '_main.html\">Go</a>' + '</td>'
-    html = html + '\n\t\t<td align="right">' + str(int(coMention)) + '</td>'
-    html = html + '\n\t\t<td align="right">' + str(EMI) + '</td>'
-    html = html + '\n\t\t<td align="right">' + str(mention) + '</td>'
-    return html
+    self.WritePMIDHTML()
+    self.WriteMainHTML()
+    # print(pmid)
 
-
-def toJSLinks(source, target, value):
-    return "\t{\"source\": " + str(source) + ", \"target\": " + str(target) + ", \"value\": " + str(value) + "},\n"
-
-
-
-def toJSNodes(name, value, abbr, group):
-    return "\t{\"name\": \"" + str(toScrTitle(name)) + " " + str(abbr) + "\", \"group\": " + str(group) + ", \"value\": " + str(
-        nodeValueAdjust(value)) + "},\n"
-
-
-def getEMIValue(a, b, c, total):
-    #                        Resource A
-    #            |          | Cited   | Not Cited  |
-    #  Resource B| Cited    | a       | b-a        | b
-    #            | Not Cited| c-a     | Total-b-c+a|
-    #            |          | c       | Total      |
-
-    if int(a) > int(b) or int(a) > int(c):
-        return 0
-    else:
-        a = float(a)
-        b = float(b)
-        c = float(c)
-        total = float(total)
-
-        pA = float(c / total)
-        pnA = float(1 - pA)
-        pB = float(b / total)
-        pnB = float(1 - pB)
-        pAB = float(a / total)
-        pnAB = float((b - a) / total)
-        pAnB = float((c - a) / total)
-        pnAnB = float((total - b - c + a) / total)
-
-
-        part1 = float(pAB * math.log(float(pAB / float(pA * pB)), 2))
-
-        if(a != c):
-            part2 = float(pAnB * math.log(float(pAnB / float(pA * pnB)), 2))
-        else:
-            part2 = 0
-
-        part3 = float(pnAnB * math.log(float(pnAnB / float(pnA * pnB)), 2))
-
-        if(a != b):
-            part4 = float(pnAB * math.log(float(pnAB / float(pnA * pB)), 2))
-        else:
-            part4 = 0
-
-        return (part1 + part2 + part3 + part4)
-
-def EMIValueAdjust(value):
-
-    return 5 * value * math.pow(10, 5)
-
-def toPMIDFormat(rid, mention_id, input_source, confidence, snippet):
-
-    content = '\t<tr height=21 style=\'height:16.0pt\'>\n\t\t<td height=21 align=right style=\'height:16.0pt\'>'
-    content += str(rid)
-    content += '\t</td>\n\t\t<td><a class=\"external\" target=\"_blank\"href=\"https://www.ncbi.nlm.nih.gov/pubmed/'
-    content += str(mention_id)[5:]
-    content += '\">'
-    content += str(mention_id)
-    content += '</a></td>\n\t\t<td>'
-    content += str(input_source)
-    content += '</td>\n\t\t<td align=right>'
-    content += str(confidence)
-    content += '</td>\n\t\t<td colspan=92 style=\'mso-ignore:colspan\'>'
-
-    snippet = unicode.encode(snippet, 'utf-8')
-
-    if str(snippet).strip('\n') == 'NULL':
-        content += ' '
-    else:
-        content += str(snippet)
-    content += '</td>\n\t</tr>'
-    return content
-
-
-def nodeValueAdjust(value):
-
-    return str(math.sqrt(float(value)) / 10)
-    # return str((1 + math.log(int(value)))/10)
-
-def toLinkPosition(id, linkPositionList):
-    for i in range(0, len(linkPositionList)):
-        if int(linkPositionList[i]) == int(id):
-            return i
-    raise ValueError('Error: Link Position.')
+if __name__ == '__main__':
+  generator().generateGraphById(12745)

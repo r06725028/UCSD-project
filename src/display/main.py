@@ -1,5 +1,5 @@
 import sqlite3
-import graph_generator
+from graph_generator import generator
 from joblib import Parallel, delayed
 import multiprocessing
 from tqdm import tqdm
@@ -11,34 +11,32 @@ if __name__ == '__main__':
     conn = sqlite3.connect('data/CoMentions.db')
     conn.text_factory = str
 
-    linkValueLimit = 10
-    numberOfNodes = 20
+    cursor = conn.execute('''SELECT DISTINCT RID FROM MENTION''')
+    target_list = list([row[0] for row in cursor])
 
-    cursor = conn.execute('''SELECT COUNT(*) FROM MENTION''')
-    for row in cursor:
-        totalMention = int(row[0])
+    # generator(numberOfNodes=20).generateGraphById(14)
 
-    path = 'graph/'
+    
+    # 13886 [#15702]
+    startT = time()
+    # err = [7247, 14216]
+    err = []
+    for pid in tqdm([x for x in target_list if x not in err]):
+        try:
+            generator(numberOfNodes=20).generateGraphById(pid)
+        except Exception as e:
+            print(str(e))
+            with open('logs.txt', 'a') as f:
+                f.write('{}\n'.format(str(e)))
+# num_cores = multiprocessing.cpu_count()
+# Parallel(n_jobs=num_cores)(delayed(\
+#     generator(numberOfNodes=20).generateGraphById)(pid)
+#         for pid in target_list) # 0 ~ 688
 
+    endT = time()
 
-    cursor = conn.execute('''SELECT ID FROM NODE''')
-    target_list = [row[0] for row in cursor]
-
-    try:
-        # 13886 [#15702]
-        startT = time()
-
-        num_cores = multiprocessing.cpu_count()
-        Parallel(n_jobs=num_cores)(delayed(graph_generator.generateGraphById)\
-            (pid, path, linkValueLimit, numberOfNodes, totalMention) for pid in target_list) # 0 ~ 688
-
-        endT = time()
-
-        print('Total time cost: {}'.format(datetime.datetime.fromtimestamp(endT - startT).strftime('%M:%S')))
+    print('Total time cost: {}'.format(datetime.datetime.fromtimestamp(endT - startT).strftime('%M:%S')))
             
-    except:
-        with open('logs.txt', 'a') as f:
-            f.write('[Error] pid: {}\n'.format(idx, pid))
 
     # All graphs
 

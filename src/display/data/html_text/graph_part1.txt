@@ -24,8 +24,8 @@ text {
 
 </style>
 <body>
-<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-<script src="https://rawgithub.com/d3/d3-plugins/master/fisheye/fisheye.js"></script>
+<script src="d3.v3.min.js" charset="utf-8"></script>
+<script src="fisheye.js"></script>
 <script>
 
 var width = 1440 ,

@@ -20,13 +20,14 @@ for a,b in zip(df['id1'], df['id2']):
 
 new_arr = [sorted(list(int(y.replace('SCR_', '')) for y in x), reverse=True) for x in arr]
 
-all_rid = pd.read_csv(path + 'resource-metadata.tsv', sep='\t', encoding="ISO-8859-1")['e_uid']
-obj = {}
+metaData = pd.read_csv(path + 'resource-metadata.tsv', sep='\t', encoding="ISO-8859-1")
+all_rid2name = { rid: name for rid, name in zip(metaData['e_uid'], metaData['resource_name']) }
 
+obj = {}
 for dup in new_arr:
   nonexist_in_meta = True
   for v in dup:
-    if(v in all_rid):
+    if(v in all_rid2name):
       nonexist_in_meta = False
       dup.remove(v)
       obj[v] = dup
@@ -39,6 +40,8 @@ slave2master = {}
 for master in obj.keys():
   for slave in obj[master]:
     slave2master[slave] = master
+
+print(slave2master)
 # print(len(obj), len(slave2master))
 
 df = pd.read_csv(path + 'exclusion.tsv', sep='\t', header=None)

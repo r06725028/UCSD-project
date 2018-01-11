@@ -59,7 +59,7 @@
   labels.append("tspan")
     .attr("dy", "1.1em") // offest by 1.2 em
     .attr("x",0)
-    .text(function(d) {return d.name.split(' ').slice(1);})
+    .text(function(d) {return d.name.split(' ').slice(1).join(' ');})
     .style('stroke', function(d){
       if(d.name.split(' ')[0].replace(/SCR_0*/g, '') == master_id) {
         return 'red'
