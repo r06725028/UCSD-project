@@ -11,7 +11,8 @@ $ sh install.sh # (非必要)下載產生db之檔案 & 產生圖表之db
 ### Usage
 
 ```sh
-$ python3 src/extract/men_rel.py src/extract/node.py # 產生db
+$ python3 src/extract/tsv_to_db.py slm 325 # 產生ucsd_slm325.db
+  [依slm(可替換為lda)，且r=3.25(325可替換為050,075,...350)的分群結果建立db檔]
 ```
 
 ### 目錄
@@ -23,8 +24,8 @@ $ python3 src/extract/men_rel.py src/extract/node.py # 產生db
 ### 程式碼與相依檔案
 | 路徑 | 說明 |
 | ------ | ------ |
-| src/extract/171224/ | 各群包含的rid的txt檔 |
-| src/extract/tsv_to_db.py | 新增mention、relationship、tablenode table的程式  |
+| src/extract/180130/slm325/ |slm分群結果(slm可替換為lda)，且r=3.25(ˇ325可替換為050,075,...350) |
+| src/extract/tsv_to_db.py | 新增有mention、relationship、node三個table的db |
 | src/extract/process_duplicate.py | 移除duplicate及exclusion的module |
 | utils/check_db.py| 檢查db格式是否正確 |
 | utils/exclusion_append.py | 將輸入檔案append至exclusion.tsv |
