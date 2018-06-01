@@ -1,10 +1,13 @@
 import sqlite3
 import collections
-# from time import time
+from time import time
+import datetime
+import math
 import numpy as np
 from formatter import toJSNodes, toJSLinks, toScrTitle, toTargetIdHtmlFormat, toMentionIdHtmlFormat, toPMIDFormat, EMIValueAdjust
 
-conn = sqlite3.connect('data/CoMentions.db')
+# conn = sqlite3.connect('data/CoMentions.db')
+conn = sqlite3.connect('data/ucsd_slm250.db')
 conn.text_factory = str
 
 class TestFailed(Exception):
@@ -23,7 +26,7 @@ class generator:
   def getLinkedRelation(self):
     emiDict = dict()
     coMentionDict = dict()
-    cursor = conn.execute('''SELECT * FROM RELATIONSHIP WHERE SOURCE = ? OR TARGET = ? ORDER BY VALUE DESC LIMIT 30''', (int(self.pmid), int(self.pmid),))
+    cursor = conn.execute('''SELECT SOURCE, TARGET, VALUE, EMI FROM RELATIONSHIP WHERE SOURCE = ? OR TARGET = ? ORDER BY VALUE DESC LIMIT 30''', (int(self.pmid), int(self.pmid),))
 
     for src, desc, v, emi in cursor:
       rid = src if desc == self.pmid else desc
@@ -34,10 +37,12 @@ class generator:
 
   def getTop20RID(self, coMentionDict):
     totalSortedVal = sorted(coMentionDict.items(), key=lambda kv: kv[1], reverse=True)
+
     res = []
     for rid, val in totalSortedVal:
       res.append(rid)
     res = res[:self.numberOfNodes]
+
 
     return res
 
@@ -63,15 +68,45 @@ class generator:
       diff = set([int(x) for x in rids]) - set(nodeInfo.keys())
       for rid in diff:
         raise(TestFailed('{} no data in nodeInfo(links)'.format(rid)))
+
     return nodeInfo
 
   def appendMutualRelation(self, nodeInfo):
     rids = [str(rid) for rid in self.top20RelationRid]
-    cursor = conn.execute("SELECT * FROM RELATIONSHIP WHERE SOURCE IN ({})".format(','.join(rids)))
+    cursor = conn.execute("SELECT SOURCE, TARGET, VALUE, EMI FROM RELATIONSHIP WHERE SOURCE IN ({})".format(','.join(rids)))
     res = set( (src, desc, emi) for src, desc, coMentionCount, emi in cursor \
       if (src in nodeInfo) and (desc in nodeInfo) and (coMentionCount > self.CoMentionThreshold or src == self.pmid or desc == self.pmid))
 
     return res
+
+  def getDiversity(self, rid):
+    def calDiversity(community):
+      # total of com
+      total = len(community);
+      # print ( # of mentions of resource + tab );munity(i), for all i
+      entropy = 0
+      for count in community.values():
+        if count != 0:
+          entropy -= (count / total) * math.log(count / total);
+      return entropy;
+    
+    sql = 'SELECT TARGET, VALUE AS res FROM RELATIONSHIP WHERE SOURCE={}\
+          UNION\
+         SELECT SOURCE, VALUE AS res FROM RELATIONSHIP WHERE TARGET={}\
+         ORDER BY VALUE DESC LIMIT 40'.format(rid, rid)
+    cursor = conn.execute(sql)
+    comention_rids = [str(pair[0]) for pair in cursor]
+
+    sql = 'SELECT COMMUNITIES, COUNT(*) FROM NODE WHERE ID IN ({}) AND COMMUNITIES != \'nan\' GROUP BY COMMUNITIES'.format(','.join(comention_rids))
+    cursor = conn.execute(sql)
+    countRes = { str(x[0]): x[1] for x in cursor }
+
+    community = { str(i): 0 for i in range(82) }
+    for key in countRes.keys():
+      community[key] += countRes[key]
+    entropy = calDiversity(community)
+
+    return entropy
 
   def WriteGraphHTML(self, nodeInfo, relationSet):
     graph_part1 = open('data/html_text/graph_part1.txt', 'r').read()
@@ -95,7 +130,7 @@ class generator:
     graph_outfile = open(self.PATH + str(self.pmid) + '_graph.html', 'w+')
     graph_outfile.write(graph_part1 + nodes + links + declare_var + graph_part2)
 
-  def WritePMIDHTML(self):
+  def WritePMIDHTML(self, nodeInfo):
     # ===========================================#
     # generate id_pmids.html
     # ===========================================#
@@ -108,19 +143,21 @@ class generator:
     pmids_output += toScrTitle(self.pmid)
     pmids_output += pmids_part1
     pmids_output += toScrTitle(self.pmid)
+    pmids_output += ' ' + nodeInfo[self.pmid]['name']
     pmids_output += pmids_part2
 
     cursor = conn.execute('''SELECT * FROM MENTION WHERE RID = ?;''', (str(self.pmid),))
 
-    _, rid, mention_id, input_source, confidence, snippet = next(cursor)
-    pmids_output += toPMIDFormat(rid, mention_id, input_source, confidence, snippet)
+    for pmidInfo in cursor:
+      _, rid, mention_id, input_source, confidence, snippet, year = pmidInfo
+      pmids_output += toPMIDFormat(rid, mention_id, input_source, confidence, snippet)
 
     pmids_output += pmids_part3
 
     pmids_outfile.write(pmids_output)
     pmids_outfile.close()
 
-  def WriteTableHTML(self, nodeInfo, pmidTotalCoMention, emiDict, coMentionDict):
+  def WriteTableHTML(self, nodeInfo, pmidTotalCoMention, diversity, emiDict, coMentionDict):
     # ===========================================#
     # generate id_table.html
     # ===========================================#
@@ -134,9 +171,6 @@ class generator:
 
     table_output = '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">\n<html>\t<head>\n<title>'
     table_output = table_output + toScrTitle(self.pmid) + ' Table</title>'
-    table_output += table_part1
-    table_output += toScrTitle(self.pmid)
-    table_output += '</h1>\n<h2>'
 
     try:
       mention = nodeInfo[self.pmid]['total_mention']
@@ -148,15 +182,23 @@ class generator:
       abbr = nodeInfo[self.pmid]['abbr']
       url = nodeInfo[self.pmid]['url']
     except:
-      raise(TestFailed('{} no data in nodeInfo(pmid)'.format(self.pmid)))
+      raise (TestFailed('{} no data in nodeInfo(pmid)'.format(self.pmid)))
+
+    table_output += table_part1
     table_output += name
+    table_output += '</font></h3>\n<h2>'
+    table_output += 'RRID:' + toScrTitle(self.pmid)
     table_output += table_part2
-    table_output += toTargetIdHtmlFormat(self.pmid, url, name, pmidTotalCoMention, mention, one_mention, point_nine_five_mention, point_eight_mention, point_two_mention)
+    table_output += toTargetIdHtmlFormat(self.pmid, url, name, pmidTotalCoMention, diversity ,mention)
+
+    img_icon = '<a href="#legend"><img src="question-mark-icon.png" alt="?" style="width:24px;height:24px;"></a>'
 
     table_output = table_output + '<div><table>\n\t<tr>\n\t\t<th>RRID</th>'
-    table_output = table_output + '\n\t\t<th>Resource name</th>\n\t\t<th>Co-mention network</th>\n\t\t<th>Co-mention count</th>'
-    table_output = table_output + '\n\t\t<th>Mutual Info</th>\n\t\t<th>Total mentions</th>\n\t</tr>\n'
+    table_output = table_output + '\n\t\t<th>Resource name</th>\n\t\t<th>Top 20 partners'+img_icon+'</th>\n\t\t<th>Co-mention strength'+img_icon+'</th>'
+    table_output = table_output + '\n\t\t<th>Co-mention count'+img_icon+'</th>\n\t\t<th>Total mentions'+img_icon+'</th>\n\t</tr>\n'
 
+    tableRows = []
+    # nodeInfo = { rid: { resource information } }
     for rid in nodeInfo:
       if (rid == self.pmid): continue
       mention = nodeInfo[rid]['total_mention']
@@ -164,9 +206,16 @@ class generator:
       url = nodeInfo[rid]['url']
       emi = emiDict[rid]
       numOfCoMention = coMentionDict[rid]
-      
-      # (id, url, name, coMention, EMI, mention)
-      table_output += toMentionIdHtmlFormat(rid, url, name, numOfCoMention, emi, mention)
+
+      tableRows.append((rid, url, name, emi, numOfCoMention, mention))
+
+    # sorted by emi value
+    for row in sorted(tableRows, key=lambda row: row[3], reverse=True):
+      (id, url, name, coMention, EMI, mention) = row
+      cursor = conn.execute('''SELECT MENTION_ID FROM MENTION WHERE RID = ? OR RID = ? GROUP BY MENTION_ID HAVING COUNT(*) > 1;''', (str(id), str(self.pmid)))
+      mids = [mid[0].replace('PMID:', '') for mid in cursor]
+      table_output += toMentionIdHtmlFormat(id, url, name, coMention, EMI, mention, mids)
+
     table_output += table_part3
     table_outfile.write(table_output)
     table_outfile.close()
@@ -190,31 +239,24 @@ class generator:
 
   def generateGraphById(self, pmid):
     self.pmid = pmid
-    # tmpT = time()
+
+    startT = time()
     emiDict, coMentionDict = self.getLinkedRelation()
-    # print('1st', len(coMentionDict))
+
     if len(coMentionDict) < 20:
       with open('less20.txt', 'a') as f:
         f.write('{} less than 20 relations(pmid\'s coMention): {}\n'.format(pmid, len(coMentionDict)))
     self.top20RelationRid = self.getTop20RID(coMentionDict) # 20個
-    # print(len(top20RelationRid))
-
     pmidTotalCoMention = np.sum([coMentionDict[rid] for rid in self.top20RelationRid])
-
     self.top20RelationRid.insert(0, str(self.pmid))# 21個
-
     nodeInfo = self.constructNodeInfo() # 19個!!! 有些出現在relationship，但沒有出現在Node中
-    # tmpT = time()
     relationSet = self.appendMutualRelation(nodeInfo) # nodeInfo是為了篩掉那些出現在relationship，但沒有出現在Node中
-    # print('appendMutualRelation', time() - tmpT)
-
     self.WriteGraphHTML(nodeInfo=nodeInfo, relationSet=relationSet)
+    self.WriteTableHTML(nodeInfo=nodeInfo, pmidTotalCoMention=pmidTotalCoMention, diversity=self.getDiversity(self.pmid), emiDict=emiDict, coMentionDict=coMentionDict)
 
-    self.WriteTableHTML(nodeInfo=nodeInfo, pmidTotalCoMention=pmidTotalCoMention, emiDict=emiDict, coMentionDict=coMentionDict)
+    print(datetime.datetime.fromtimestamp(time() - startT).strftime('%M:%S'))
 
-    self.WritePMIDHTML()
+    self.WritePMIDHTML(nodeInfo=nodeInfo)
     self.WriteMainHTML()
-    # print(pmid)
-
 if __name__ == '__main__':
-  generator().generateGraphById(12745)
+  generator().generateGraphById(66)

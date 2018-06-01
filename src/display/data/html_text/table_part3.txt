@@ -1,21 +1,19 @@
 </table>
 </div>
-<p>Legend:</p>
+<p id="legend"><img src="question-mark-icon.png" alt="?" style="width:24px;height:24px;" />Legend:</p>
 <ul>
-  <li> RRID - Resource ID</li>
-  <li> Resource - Name of the resource</li>
-  <li> Co-mention partners - Count of resources co-mentioned</li>
-  <li> Co-mentions - Count of identified co-mentions</li>
-  <li> Mutual Info - Expected mutual information * 5 * 10e5, btw resource and co-mentioned partner</li>
-  <li> Total mentions - Total mentions</li>
-  <li> Confirmed mentions - Confirmed URL or user added mention</li>
-  <li> Curated mentions - Curated by reliable sources</li>
-  <li> Probable mentions - Identified automatically by a text mining computer program</li>
-  <li> Possible mentions - Found through publisher search engines</li>
-  <li> Co-mention network - Go to a co-mention network like this</li>
+  <li> RRID - Research Resource ID</li>
+  <li> Resource name - Name of the resource</li>
+  <li> Total mentions - Total unique papers with identified mentions</li>
+  <li> Top 20 partners - Link goes to a co-mention network like this</li>
+  <li> Co-mention strength - Expected mutual information * 5 * 10e5, btw resource and co-mentioned partner</li>
+  <li> Co-mention count - Count of identified co-mentions</li>
+  <li> Partner diversity - Diversity of the communities that the partners belong to</li>
 </ul>
+
+<a href="#top">Back to top</a>
 
 <hr>
 <address>UC San Diego, La Jolla, CA</address>
-<!-- hhmts start -->Last modified: Wed Sep 20 10:19:46 PDT 2017 <!-- hhmts end -->
+<!-- hhmts start -->Last modified: Sat Mar 3 22:14:18 PST 2018 <!-- hhmts end -->
 </body> </html>

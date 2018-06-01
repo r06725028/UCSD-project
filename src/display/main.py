@@ -8,45 +8,46 @@ import datetime
 
 if __name__ == '__main__':
 
-    conn = sqlite3.connect('data/CoMentions.db')
-    conn.text_factory = str
+  # conn = sqlite3.connect('data/CoMentions.db')
+  conn = sqlite3.connect('data/ucsd_slm250.db')
+  conn.text_factory = str
 
-    cursor = conn.execute('''SELECT DISTINCT RID FROM MENTION''')
-    target_list = list([row[0] for row in cursor])
+  cursor = conn.execute('''SELECT DISTINCT ID FROM NODE''')
+  target_list = list([row[0] for row in cursor])
+  # target_list = [210]
 
-    # generator(numberOfNodes=20).generateGraphById(14)
+  # generator(numberOfNodes=20).generateGraphById(15)
 
-    
-    # 13886 [#15702]
-    startT = time()
-    # err = [7247, 14216]
-    err = []
-    for pid in tqdm([x for x in target_list if x not in err]):
-        try:
-            generator(numberOfNodes=20).generateGraphById(pid)
-        except Exception as e:
-            print(str(e))
-            with open('logs.txt', 'a') as f:
-                f.write('{}\n'.format(str(e)))
-# num_cores = multiprocessing.cpu_count()
-# Parallel(n_jobs=num_cores)(delayed(\
-#     generator(numberOfNodes=20).generateGraphById)(pid)
-#         for pid in target_list) # 0 ~ 688
+  # 13886 [#15702]
+  startT = time()
+  # err = [7247, 14216]
+  err = []
+  for pid in tqdm([x for x in target_list if x not in err]):
+    try:
+      generator(numberOfNodes=20).generateGraphById(pid)
+    except Exception as e:
+      print(pid)
+      with open('logs.txt', 'a') as f:
+        f.write('[{}]{}\n'.format(pid, str(e)))
+  # num_cores = multiprocessing.cpu_count()
+  # Parallel(n_jobs=num_cores)(delayed(\
+  #   generator(numberOfNodes=20).generateGraphById)(pid)
+  #     for pid in target_list) # 0 ~ 688
 
-    endT = time()
+  endT = time()
 
-    print('Total time cost: {}'.format(datetime.datetime.fromtimestamp(endT - startT).strftime('%M:%S')))
-            
+  print('Total time cost: {}'.format(datetime.datetime.fromtimestamp(endT - startT).strftime('%M:%S')))
+      
 
-    # All graphs
+  # All graphs
 
-    # id_list = []
-    # cursor = conn.execute('''SELECT ID FROM NODE''')
-    # for row in cursor:
-    #     id_list.append(row[0])
+  # id_list = []
+  # cursor = conn.execute('''SELECT ID FROM NODE''')
+  # for row in cursor:
+  #   id_list.append(row[0])
 
-    # for id in id_list:
-    #     try:
-    #         graph_generator.generateGraphById(int(id), path, linkValueLimit, numberOfNodes, totalMention)
-    #     except:
-    #         print 'id error:' + str(id)
+  # for id in id_list:
+  #   try:
+  #     graph_generator.generateGraphById(int(id), path, linkValueLimit, numberOfNodes, totalMention)
+  #   except:
+  #     print 'id error:' + str(id)
