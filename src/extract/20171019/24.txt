@@ -1,3 +1,0 @@
-RRID	Resource Name	total mention count
-8204	Marine Ecological Genomics	456
-738	MeGX	410
