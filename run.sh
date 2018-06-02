@@ -1,43 +1,20 @@
 #!/bin/sh
-echo "Please enter FTP [IP](ex: 140.112.107.150): "
-read HOST
-echo "Please enter FTP [USER NAME](ex: weal222c): "
-read USER
-echo "Please enter FTP [PASSWORD]: "
-read PASSWD
+echo '[-] .tsv files downloading'
+curl -o src/extract/raw_tsv/resource-duplicates.tsv ftp://140.112.107.150/UCSD/resource-duplicates.tsv
+curl -o src/extract/raw_tsv/resource-mentions-relationships.tsv ftp://140.112.107.150/UCSD/resource-mentions-relationships.tsv
+curl -o src/extract/raw_tsv/resource-mentions.tsv ftp://140.112.107.150/UCSD/resource-mentions.tsv
+curl -o src/extract/raw_tsv/resource-metadata.tsv ftp://140.112.107.150/UCSD/resource-metadata.tsv
+curl -o src/extract/raw_tsv/exclusion.tsv ftp://140.112.107.150/UCSD/exclusion.tsv
+echo '[v] done.'
 
-cd src/display/
-echo 'remove old files...'
-rm graph/*.html
+echo '[-] generating slm.db'
+python3 src/extract/tsv_to_db.py
+echo '[v] done'
 
-echo 'start generating files...'
-python main.py
+echo '[-] generating dunn.db'
+python3 src/extract/dunn.py
+echo '[v] done.'
 
-
-echo 'Please enter Compressed [File NAME](ex: graph.zip): '
-read FILE
-echo ''
-echo 'zip & compress files...'
-echo ''
-
-zip -r $FILE graph
-
-echo ''
-echo 'transfer file to ftp(local/'$FILE')...'
-echo ''
-
-ftp -n $HOST <<END_SCRIPT
-quote USER $USER
-quote PASS $PASSWD
-cd local
-binary
-put $FILE
-quit
-END_SCRIPT
-rm $FILE
-
-echo ''
-echo 'done.'
-echo ''
-
-exit 0
+echo '[-] generating graphs'
+python3 src/display/main.py
+echo '[v] done.'
