@@ -1,3 +1,0 @@
-RRID	Resource Name	total mention count
-13084	SASGENE	1
-13122	SASQUANT	1

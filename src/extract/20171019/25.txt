@@ -1,3 +1,0 @@
-RRID	Resource Name	total mention count
-1638	Camino	815
-9450	CAMINO-TRACKVIS	815
