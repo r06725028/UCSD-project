@@ -11,7 +11,6 @@ Python version: 3.6.3
 | termcolor | 1.1.0 |
 | tqdm | 4.19.4 |
 | sqlalchemy | 1.1.9 |
-| pickle | 4.0 |
 | numpy | 1.13.3 |
 | requests | 2.18.4 |
 | lda | 1.0.5 |
@@ -22,7 +21,7 @@ Python version: 3.6.3
 ```sh 
 # Step 0:
 # 安裝packages
-pip3 install argparse==1.1 termcolor==1.1.0 tqdm==4.19.4 sqlalchemy==1.1.9 pickle==4.0 numpy==1.13.3 requests==2.18.4 lda==1.0.5 nltk==3.0.3
+sudo pip3 install argparse==1.1 termcolor==1.1.0 tqdm==4.19.4 sqlalchemy==1.1.9 numpy==1.13.3 requests==2.18.4 lda==1.0.5 nltk==3.0.3
 
 # Step 1:
 # 下載原始檔案(.tsv)
@@ -47,6 +46,7 @@ $ python3 src/display/main.py --slm_db=[slm_db路徑] --dunn_db=[dunn_db路徑]
 
 #### (法2) 直接執行我們包好的script
 ```sh
+# 執行前已安裝好pre-install packages
 bash run.sh
 ```
 
