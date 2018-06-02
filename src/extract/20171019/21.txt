@@ -1,3 +1,0 @@
-RRID	Resource Name	total mention count
-894	UTSA Engineering Core	5
-454	pbcore	1
