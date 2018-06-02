@@ -1,12 +1,15 @@
 # UCSD-project
 
+### Environment
+OS: Ubuntu 16.04.4
+Python version: 3.6.3
+
 ### Pre-install package
 | package | version |
 | ------ | ------ |
 | argparse | 1.1 |
 | termcolor | 1.1.0 |
 | tqdm | 4.19.4 |
-| sqlite3 | 3.15.2 |
 | sqlalchemy | 1.1.9 |
 | pickle | 4.0 |
 | numpy | 1.13.3 |
@@ -17,6 +20,10 @@
 ### Usage
 #### (法1) 分別執行指令
 ```sh 
+# Step 0:
+# 安裝packages
+pip3 install argparse==1.1 termcolor==1.1.0 tqdm==4.19.4 sqlalchemy==1.1.9 pickle==4.0 numpy==1.13.3 requests==2.18.4 lda==1.0.5 nltk==3.0.3
+
 # Step 1:
 # 下載原始檔案(.tsv)
 curl -o src/extract/raw_tsv/resource-duplicates.tsv ftp://140.112.107.150/UCSD/resource-duplicates.tsv
