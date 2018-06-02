@@ -1,4 +1,0 @@
-RRID	Resource Name	total mention count
-10461	NKI-RS Enhanced Sample	632
-10460	NKI-RS Multiband Imaging Test-Retest Pilot Dataset	561
-11714	University of Tennessee Knoxville; Tennessee; USA	32
