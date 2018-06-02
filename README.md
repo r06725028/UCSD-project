@@ -1,8 +1,8 @@
 # UCSD-project
 
 ### Environment
-OS: Ubuntu 16.04.4
-Python version: 3.6.3
+* OS: Ubuntu 16.04.4
+* Python version: 3.6.3
 
 ### Pre-install package
 | package | version |
