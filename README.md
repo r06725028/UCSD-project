@@ -47,7 +47,7 @@ $ python3 src/display/main.py --slm_db=[slm_db路徑] --dunn_db=[dunn_db路徑]
 #### (法2) 直接執行我們包好的script
 ```sh
 # 執行前已安裝好pre-install packages
-bash run.sh
+sudo bash run.sh
 ```
 
 ### 目錄說明
