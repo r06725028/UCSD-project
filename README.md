@@ -1,10 +1,10 @@
 # UCSD-project
 
-### Environment
-OS: Ubuntu 16.04.4
-Python version: 3.6.3
+## 1. Environment
+* OS: Ubuntu 16.04.4
+* Python version: 3.6.3
 
-### Pre-install package
+## 2. Pre-install package
 | package | version |
 | ------ | ------ |
 | argparse | 1.1 |
@@ -16,7 +16,7 @@ Python version: 3.6.3
 | lda | 1.0.5 |
 | nltk | 3.0.3 |
 
-### Usage
+## 3. Usage
 #### (法1) 分別執行指令
 ```sh 
 # Step 0:
@@ -46,11 +46,11 @@ $ python3 src/display/main.py --slm_db=[slm_db路徑] --dunn_db=[dunn_db路徑]
 
 #### (法2) 直接執行我們包好的script ```sudo bash run.sh```
 
-### 目錄說明
+## 4. 目錄說明
 * src/ : 圖表、資料庫生成的原始碼
 * utils/ : 臨時需求的原始碼
 
-### src程式碼,相依檔案與說明
+## 5. src程式碼,相依檔案與說明
 | 路徑 | 說明 |
 | ------ | ------ |
 | src/display/main.py | 統合[first|second|third]_graph_generator.py的入口執行檔，輸出三種圖表於src/graph |
