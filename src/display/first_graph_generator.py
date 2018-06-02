@@ -58,13 +58,13 @@ def generateAllCommunityGraph(conn_dunn, conn_ucsd_slm):
 
 
   # 新增專屬'類別交互圖.html'的javascript檔及html文字
-  graph_part1 = open('data/html_text/graph_part1.txt', 'r').read()
+  graph_part1 = open('src/display/data/html_text/graph_part1.txt', 'r').read()
   graph_part2 = "</script>\
   \n\
   \n<script src=\"communityGraph.js\" charset=\"UTF-8\"></script>\
   \n</body>\
   \n</html>"
-  open('data/html_text/graph_part2.txt', 'r').read()
+  open('src/display/data/html_text/graph_part2.txt', 'r').read()
 
   # 宣告d3.js的nodes和links
   links = "\"links\":[\n"
@@ -91,6 +91,6 @@ def generateAllCommunityGraph(conn_dunn, conn_ucsd_slm):
 
 
   # 輸出html
-  graph_outfile = open('graph/all_community_graph.html', 'w+')
+  graph_outfile = open('src/display/graph/all_community_graph.html', 'w+')
   graph_outfile.write(graph_part1 + nodes + links + declare_var + graph_part2)
 

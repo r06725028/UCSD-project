@@ -99,22 +99,22 @@ def generateCommunityInsideGraph(conn_dunn, conn_ucsd_slm, gid):
   
   # 新增專屬'類別圖_table.html'的javascript檔及html文字
   table_output += '</table></body></html>'
-  with open('graph/group_{}_table.html'.format(gid), 'w') as f:
+  with open('src/display/graph/group_{}_table.html'.format(gid), 'w') as f:
     f.write(table_output)
 
   # 新增'類別圖_main.html'，其中包含'類別圖_table.html'與'類別圖_graph.html'
-  with open('graph/group_{}_main.html'.format(gid), 'w') as f:
+  with open('src/display/graph/group_{}_main.html'.format(gid), 'w') as f:
     f.write(getMainHTML(gid))
 
 
   # 新增專屬'類別圖_graph.html'的javascript檔及html文字
-  graph_part1 = open('data/html_text/graph_part1.txt', 'r').read()
+  graph_part1 = open('src/display/data/html_text/graph_part1.txt', 'r').read()
   graph_part2 = "</script>\
   \n\
   \n<script src=\"secondGroupGraph.js\" charset=\"UTF-8\"></script>\
   \n</body>\
   \n</html>"
-  open('data/html_text/graph_part2.txt', 'r').read()
+  open('src/display/data/html_text/graph_part2.txt', 'r').read()
   links = "\"links\":[\n"
   nodes = "\"nodes\":[\n"
   
@@ -155,5 +155,5 @@ def generateCommunityInsideGraph(conn_dunn, conn_ucsd_slm, gid):
   declare_var = 'var master_id = {};'.format(12907490812908412094)
 
   # 輸出html
-  graph_outfile = open('graph/group_{}_graph.html'.format(gid), 'w+')
+  graph_outfile = open('src/display/graph/group_{}_graph.html'.format(gid), 'w+')
   graph_outfile.write(graph_part1 + nodes + links + declare_var + graph_part2)

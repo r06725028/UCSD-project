@@ -5,16 +5,14 @@ curl -o src/extract/raw_tsv/resource-mentions-relationships.tsv ftp://140.112.10
 curl -o src/extract/raw_tsv/resource-mentions.tsv ftp://140.112.107.150/UCSD/resource-mentions.tsv
 curl -o src/extract/raw_tsv/resource-metadata.tsv ftp://140.112.107.150/UCSD/resource-metadata.tsv
 curl -o src/extract/raw_tsv/exclusion.tsv ftp://140.112.107.150/UCSD/exclusion.tsv
-echo '[v] done.'
+echo '[v] downloaded.'
 
-echo '[-] generating slm.db'
+echo '[-] generating slm db'
 python3 src/extract/tsv_to_db.py
-echo '[v] done'
+echo '[v] slm db generated'
 
-echo '[-] generating dunn.db'
+echo '[-] generating dunn db'
 python3 src/extract/dunn.py
-echo '[v] done.'
+echo '[v] dunn db generated.'
 
-echo '[-] generating graphs'
 python3 src/display/main.py
-echo '[v] done.'

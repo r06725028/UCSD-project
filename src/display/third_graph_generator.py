@@ -14,7 +14,7 @@ class TestFailed(Exception):
     return self.message
 
 class generator:
-  def __init__(self, conn_ucsd_slm, CoMentionThreshold=10.0, numberOfNodes=20, PATH='graph/'):
+  def __init__(self, conn_ucsd_slm, CoMentionThreshold=10.0, numberOfNodes=20, PATH='src/display/graph/'):
     self.PATH = PATH
     self.CoMentionThreshold = CoMentionThreshold
     self.numberOfNodes = numberOfNodes
@@ -136,8 +136,8 @@ class generator:
   # 'resource_graph.html'的html格式(已固定)
   def WriteGraphHTML(self, nodeInfo, relationSet):
     # graph.html加上html的元素
-    graph_part1 = open('data/html_text/graph_part1.txt', 'r').read()
-    graph_part2 = open('data/html_text/graph_part2.txt', 'r').read()
+    graph_part1 = open('src/display/data/html_text/graph_part1.txt', 'r').read()
+    graph_part2 = open('src/display/data/html_text/graph_part2.txt', 'r').read()
     links = "\"links\":[\n"
     nodes = "\"nodes\":[\n"
 
@@ -163,9 +163,9 @@ class generator:
 
   # 'resource_pmid.html'的html格式(已固定)
   def WritePMIDHTML(self, nodeInfo):
-    pmids_part1 = open('data/html_text/pmids_part1.txt', 'r').read()
-    pmids_part2 = open('data/html_text/pmids_part2.txt', 'r').read()
-    pmids_part3 = open('data/html_text/pmids_part3.txt', 'r').read()
+    pmids_part1 = open('src/display/data/html_text/pmids_part1.txt', 'r').read()
+    pmids_part2 = open('src/display/data/html_text/pmids_part2.txt', 'r').read()
+    pmids_part3 = open('src/display/data/html_text/pmids_part3.txt', 'r').read()
 
     pmids_outfile = open(self.PATH + str(self.master_rid) + '_pmids.html', 'w+')
     pmids_output = '<!DOCTYPE html>\n<html>\n<head>\n<title>PubMed IDs '
@@ -192,9 +192,9 @@ class generator:
   # 'resource_table.html'的html格式(已固定)
   def WriteTableHTML(self, nodeInfo, pmidTotalCoMention, diversity, emiDict, coMentionDict):
     # 將table.html共同會出現的html內容寫入
-    infile_table_part1 = open('data/html_text/table_part1.txt', 'r')
-    infile_table_part2 = open('data/html_text/table_part2.txt', 'r')
-    infile_table_part3 = open('data/html_text/table_part3.txt', 'r')
+    infile_table_part1 = open('src/display/data/html_text/table_part1.txt', 'r')
+    infile_table_part2 = open('src/display/data/html_text/table_part2.txt', 'r')
+    infile_table_part3 = open('src/display/data/html_text/table_part3.txt', 'r')
     table_part1 = infile_table_part1.read()
     table_part2 = infile_table_part2.read()
     table_part3 = infile_table_part3.read()
