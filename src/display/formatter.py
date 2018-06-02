@@ -1,10 +1,11 @@
 import math
 
-def EMIValueAdjust(value):
-    return value ** .75
+def EMIValueAdjust(value, multi_num=1.0, pow_num=.75):
+    return (value * multi_num) ** pow_num
 
-def nodeValueAdjust(value):
-    return str(math.sqrt(float(value)) / 10)
+def nodeValueAdjust(value, divide_num=10):
+  # second graph: str(float(value) ** .3 / 3)
+  return str(math.sqrt(float(value)) / divide_num)
 
 def toScrTitle(id):
   name = 'SCR_'
@@ -12,9 +13,9 @@ def toScrTitle(id):
     name += '0'
   return name + str(id)
 
-def toJSNodes(rid, value, name, group):
-  if (group == 'nan'): group = 30 # nan shows same color with 30(other: gray)
-  return "\t{\"name\": \"" + str(toScrTitle(rid)) + " " + str(name) + "\", \"group\": " + str(group) + ", \"value\": " + str(nodeValueAdjust(value)) + "},\n"
+def toJSNodes(rid, value, name, group, separator=' '):
+  if (group == 'nan'): group = 30 # NaN shows same color with 30 (other: gray)
+  return "\t{\"name\": \"" + str(toScrTitle(rid)) + separator + str(name) + "\", \"group\": " + str(group) + ", \"value\": " + str(nodeValueAdjust(value)) + "},\n"
 
 def toJSLinks(source, target, value):
   return "\t{\"source\": " + str(source) + ", \"target\": " + str(target) + ", \"value\": " + str(value) + "},\n"
@@ -26,7 +27,6 @@ def toTargetIdHtmlFormat(id, url, name, numCoMentionPartners, diversity, mention
   
   len_url = 0 if url is None else len(url)
   if(len_url < 5):
-      # html = html + '\n\t\t<td><a class=\"external\" target=\"_blank\"\n\thref=\"' + 'https://www.fake_url_' + str(id) + '.com\">' + name + '</a></td>'
       html = html + '\n\t\t<td> '+ name + '</td>'
   else:
       html = html + '\n\t\t<td><a class=\"external\" target=\"_blank\"\n\thref=\"' + url + '\">' + name + '</a></td>'
@@ -35,9 +35,6 @@ def toTargetIdHtmlFormat(id, url, name, numCoMentionPartners, diversity, mention
   html = html + '\n\t\t<td align="right">' + str(mention) + '</td>'
   html = html + '\n\t</tr>\n</table>'
 
-  # html = html + '<p>Click <a class=\"external\" target=\"_blank\" href=\"' + str(id) + '_pmids.html\"><b>here</b></a>'
-  # html = html + ' for a list of PubMed IDs where the mentions were identified.</p>'
-  # html = html + '<h3>Top 20 co-mention partners:</h3>'
   html = html + '<h3>Top 20 co-mention partners: <a class="external" target="_blank" href="help.html"><font color="red">[Help]</font></a></h3>'
   return html
 
@@ -46,7 +43,7 @@ def toMentionIdHtmlFormat(id, url, name, EMI, coMention, mention, mids):
   
   html = html + toScrTitle(id) + '\">' + toScrTitle(id) + '</td>'
   len_url = len(url)
-  # len_url = 0 if !isinstance(s, str) else len(url)
+
   if(len_url < 5):
       html = html + '\n\t\t<td> '+ name + '</td>'
   else:

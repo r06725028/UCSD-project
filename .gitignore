@@ -3,3 +3,10 @@
 *.pyc
 *.txt
 src/display/graph/*.html
+src/display/_graph_generator.py
+
+# keep below
+!src/display/graph/*.jpg
+!src/display/graph/*.png
+!src/display/graph/*.js
+!src/display/graph/*.css

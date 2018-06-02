@@ -1,28 +1,9 @@
-import sqlite3
 import math
 from tqdm import tqdm
 from collections import OrderedDict
+from formatter import toScrTitle, EMIValueAdjust, toJSLinks
 
-conn = sqlite3.connect('data/dunn.db')
-conn.text_factory = str
-
-group_name = {
-  0: 'Disease',
-  1: 'Omics',
-  2: 'Pathway',
-  3: 'Neuroimg',
-  4: 'Ontology',
-  5: 'Institutes',
-  6: 'Mouse',
-  7: 'Mouse'
-}
-
-def toScrTitle(id):
-  name = 'SCR_'
-  for i in range(0, 6 - len(str(id))):
-    name += '0'
-  return name + str(id)  
-
+# 輸出table中每個row的資料的html
 def toMentionIdHtmlFormat(rid, name, mention):
   html = '\t<tr>\n\t\t<td><a class=\"external\" target=\"_blank\"\n\thref=\"https://scicrunch.org/browse/resources/'
   
@@ -33,8 +14,8 @@ def toMentionIdHtmlFormat(rid, name, mention):
 
   return html
 
+# '類別圖_main.html'的html格式(已固定)
 def getMainHTML(gid):
-
   main_output = '<!DOCTYPE html>\n<html>\n<head>\n<title>'
   main_output += 'group_' + str(gid)
   main_output += '</title>\n</head>\n<frameset cols=\"65%,35%\">\n\t\t<frame src=\"'
@@ -44,40 +25,37 @@ def getMainHTML(gid):
 
   return main_output
 
+# 調整d3.js的node大小
 def nodeValueAdjust(value):
   return str(float(value) ** .3 / 3)
 
-def EMIValueAdjust(value):
-  return (value * 50) ** .75
+# 輸出符合d3.js node格式的javascript code
+def toJSNodes(rid, value, name, group, separator=' '):
+  if (group == 'nan'): group = 30 # NaN shows same color with 30 (other: gray)
+  return "\t{\"name\": \"" + str(toScrTitle(rid)) + separator + str(name) + "\", \"group\": " + str(group) + ", \"value\": " + str(nodeValueAdjust(value)) + "},\n"
 
-def toJSNodes(rid, name, value, group):
-  if (group == 'nan'): group = 30 # nan shows same color with 30(other: gray)
-  name = name.replace("\"", "\\\"")
-  return "\t{\"name\": \"" + str(toScrTitle(rid)) + '@#$' + name + "\", \"group\": " + str(group) + ", \"value\": " + str(nodeValueAdjust(value)) + "},\n"
-
-def toJSLinks(source, target, value):
-  return "\t{\"source\": " + str(source) + ", \"target\": " + str(target) + ", \"value\": " + str(value) + "},\n"
-
-def generateCommunityInsideGraph(gid):
+def generateCommunityInsideGraph(conn_dunn, conn_ucsd_slm, gid):
   nodeInfo = {}
   raw_rids = []
 
+  # 選取在這個group內部有互相連結的resource
   sql = "SELECT r1, r2 AS res FROM IN_GROUP WHERE GID={} AND EMI > 0.0".format(gid)
-  cursor = conn.execute(sql)
+  cursor = conn_dunn.execute(sql)
 
+  # 得到此group的unique resource
   for r1, r2 in cursor:
-    raw_rids += [r1, r2]
-  
+    raw_rids += [r1, r2]  
   rids = list(set(raw_rids))
 
-  conn2 = sqlite3.connect('data/ucsd_slm250.db')
-  conn2.text_factory = str
+  # 得到這些unique resource各自被mention的次數
+  tmp = ','.join([str(rid) for rid in rids])
+  mention_counts = list(conn_ucsd_slm.execute('SELECT RID, COUNT(1) FROM MENTION WHERE RID IN ({}) GROUP BY RID'.format(tmp)))
 
-  kkk = ','.join([str(rid) for rid in rids])
-  mention_counts = list(conn2.execute('SELECT RID, COUNT(1) FROM MENTION WHERE RID IN ({}) GROUP BY RID'.format(kkk)))
+  # 新增這些unique resource的資料：mention次數、name、group id
   for rid, count in mention_counts:
+    # 取得resource的name
     sql = "SELECT NAME FROM NODE WHERE ID = ({})".format(rid)
-    cursor = conn2.execute(sql) 
+    cursor = conn_ucsd_slm.execute(sql) 
 
     name_ls = list(cursor)
     name = name_ls[0][0] if(len(name_ls) > 0) else 'UNKNOWN'
@@ -88,6 +66,7 @@ def generateCommunityInsideGraph(gid):
       'group': gid
     }
 
+  # 新增專屬'類別圖_table.html'的css樣式
   table_output = '<style>\
     table {\
         font-family: arial, sans-serif;\
@@ -108,22 +87,27 @@ def generateCommunityInsideGraph(gid):
   </style>\
   </head>\
   <body>'
+  # 新增專屬'類別圖_table.html'
   table_output += '<table>\n\t<tr>\n\t\t<th>RRID</th>'
   table_output += '\n\t\t<th>Resource name</th>\n\t\t<th>Mention count</th>\n\t</tr>\n'
 
+  # 根據被mention次數來排序此group的resource
   sorted_rids = sorted(nodeInfo.keys(), key=lambda x: (nodeInfo[x]['count']), reverse=True)
-
+  # 根據mention次數排序的resource來輸出表格
   for rid in sorted_rids:
     table_output += toMentionIdHtmlFormat(rid=rid, name=nodeInfo[rid]['name'], mention=nodeInfo[rid]['count'])
   
+  # 新增專屬'類別圖_table.html'的javascript檔及html文字
   table_output += '</table></body></html>'
   with open('graph/group_{}_table.html'.format(gid), 'w') as f:
     f.write(table_output)
 
+  # 新增'類別圖_main.html'，其中包含'類別圖_table.html'與'類別圖_graph.html'
   with open('graph/group_{}_main.html'.format(gid), 'w') as f:
     f.write(getMainHTML(gid))
 
 
+  # 新增專屬'類別圖_graph.html'的javascript檔及html文字
   graph_part1 = open('data/html_text/graph_part1.txt', 'r').read()
   graph_part2 = "</script>\
   \n\
@@ -135,40 +119,41 @@ def generateCommunityInsideGraph(gid):
   nodes = "\"nodes\":[\n"
   
 
-  conn2 = sqlite3.connect('data/ucsd_slm250.db')
-  conn2.text_factory = str
-
+  # 選取在這個group內部有互相連結的resource及其emi值
   sql = "SELECT r1, r2, EMI FROM IN_GROUP WHERE GID={} AND EMI > 0.0".format(gid)
-  cursor = conn.execute(sql)
+  cursor = conn_dunn.execute(sql)
 
+  # 根據mention次數排序的前40個resource來輸出graph
   filtered_rids = sorted_rids[:40]
+  
+  # 篩選根據mention次數排序的前40個resource的連結及其emi值
   raw_links = []
   for r1, r2, emi in cursor:
     if (r1 in filtered_rids) and (r2 in filtered_rids):
       raw_links.append((r1, r2, emi))
 
+  # 降低連結數量：只取emi值由大至小排序的前40個連結
   filtered_links = sorted(raw_links, key=lambda x: x[2])[:40]
+  # 根據這些去蕪存菁的連結，取得被連結的resource id
   filtered_rids = list(set(tup[0] for tup in filtered_links).union(set(tup[1] for tup in filtered_links)))
 
   for rid in filtered_rids:
+    # 根據resource id選取name
     sql = "SELECT NAME FROM NODE WHERE ID = {}".format(rid)
-    cursor = conn2.execute(sql)
-    nodes += toJSNodes(rid=rid, name=next(cursor)[0],value=nodeInfo[rid]['count'], group=nodeInfo[rid]['group'])
-
+    cursor = conn_ucsd_slm.execute(sql)
+    # 將node加入nodes
+    nodes += toJSNodes(rid=rid, name=next(cursor)[0],value=nodeInfo[rid]['count'], group=nodeInfo[rid]['group'], separator='@#$')
+  # 將link加入links
   for src, desc, emi in filtered_links:
-    links += toJSLinks(source=filtered_rids.index(src), target=filtered_rids.index(desc), value=EMIValueAdjust(emi))
-    
+    links += toJSLinks(source=filtered_rids.index(src), target=filtered_rids.index(desc), value=EMIValueAdjust(value=emi, multi_num=50, pow_num=.75))
+  
+  # 補全javescript格式
   nodes = nodes[:-2] + "\n],\n"
   links = links[:-2] + "\n]}\n"
 
+  # 這裏的宣告只是為了避免HTML有引用到master_id的報錯
   declare_var = 'var master_id = {};'.format(12907490812908412094)
 
+  # 輸出html
   graph_outfile = open('graph/group_{}_graph.html'.format(gid), 'w+')
   graph_outfile.write(graph_part1 + nodes + links + declare_var + graph_part2)
-
-if __name__ == '__main__':
-  sql = "SELECT DISTINCT(GID) FROM IN_GROUP"
-  cursor = conn.execute(sql)
-  for gids in tqdm(list(cursor)):
-    generateCommunityInsideGraph(gids[0])
-
