@@ -16,7 +16,6 @@ def parse():
   parser = argparse.ArgumentParser(description="UCSD GRAPH GENERATOR")
   parser.add_argument('--slm_db', default='data/ucsd_slm250.db', help='please input ucsd_slm path')
   parser.add_argument('--dunn_db', default='data/dunn.db', help='please input dunn path')
-  parser.add_argument('--train_pg', action='store_true', help='whether train policy gradient')
   try:
     from argument import add_arguments
     parser = add_arguments(parser)
