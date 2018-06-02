@@ -1,7 +1,0 @@
-RRID	Resource Name	total mention count
-4823	Life Extension	797
-7167	Life Extension: Laboratory and Blood Testing Services	789
-1425	Radiological Research Accelerator Facility	111
-12639	Columbia Radiological Research Accelerator Facility	20
-8265	Penn Diabetes Research Center Pancreatic Islet Cell Biology Core	11
-10226	AgingDB	7
