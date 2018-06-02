@@ -1,3 +1,0 @@
-RRID	Resource Name	total mention count
-5580	SeqTrace	1
-13294	SeqTRACS	1
