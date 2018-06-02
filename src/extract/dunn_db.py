@@ -67,13 +67,14 @@ def two_clu_dis(i,j,clui_list,cluj_list,rel_test_df,conn):
 	pair_num = (len(clui_list)*len(cluj_list))/float(2)
 	
 	emi_sum = 0
-	#找出和第一群的rid有co-mention的所有rid
+	#找出和第一群的rid有co-mention的所有rid們
 	for ridi in tqdm(clui_list,desc='for two_clu_dis ridiiii...'):
 		ridi_df_t = rel_test_df[rel_test_df['TARGET'] == int(ridi)]
 		ridi_df_s = rel_test_df[rel_test_df['SOURCE'] == int(ridi)]
-		
+		#看第二群的rid是否有在前面找出的rid們中
 		for ridj in tqdm(cluj_list,desc='for two_clu_dis ridjjj...'):
 			emi = 0
+			#有的話就把emi加起來
 			if int(ridj) in ridi_df_t['SOURCE'].tolist():
 				emi = ridi_df_t[ridi_df_t['SOURCE'] == int(ridj)]['EMI'].tolist()[0]
 			elif int(ridj) in ridi_df_s['TARGET'].tolist():
@@ -82,8 +83,10 @@ def two_clu_dis(i,j,clui_list,cluj_list,rel_test_df,conn):
 				None
 
 			emi_sum += emi
-	emi_avg = float(emi_sum)/ pair_num
 
+	#計算平均
+	emi_avg = float(emi_sum)/ pair_num
+	#寫入資料庫
 	cur.execute("INSERT INTO TWO_GROUP VALUES (?,?,?) ",(i,j,emi_avg))
 
 
@@ -91,10 +94,11 @@ def two_clu_dis(i,j,clui_list,cluj_list,rel_test_df,conn):
 def in_clu_dis(k,rid_list,rel_test_df,conn):
 	m = len(rid_list)
 	
-	for i in tqdm(range(m),desc='for in_clu_dis iii...'): 
+	for i in tqdm(range(m),desc='for in_clu_dis iii...'):
+		#找出和群中每個rid有co-mention的所有rid們
 		rid_df_t = rel_test_df[rel_test_df['TARGET'] == int(rid_list[i])]
 		rid_df_s = rel_test_df[rel_test_df['SOURCE'] == int(rid_list[i])]
-		
+		#看群中的其他rid是否有在前面找出的rid們中
 		for j in tqdm(range(m),desc='for in_clu_dis jjj...'):
 			emi = 0
 
@@ -105,26 +109,27 @@ def in_clu_dis(k,rid_list,rel_test_df,conn):
 					emi = rid_df_s[rid_df_s['TARGET'] == int(rid_list[j])]['EMI'].tolist()[0]
 				else:
 					None
+				#寫入資料庫
 				cur.execute("INSERT INTO IN_GROUP VALUES (?,?,?,?)",(k,rid_list[i],rid_list[j],emi))
 
 ###################################################################################
-t1 = time.time()
-
 #讀csv檔，轉為df
-men_df = pkl.load(open('men_df.pkl', 'rb'))
+men_df = pkl.load(open(args.save_path+'men_df.pkl', 'rb'))
+rel_df = pkl.load(open(args.save_path+'rel_df.pkl','rb'))
 
 #取出有用到的rid
 men_id = men_df['RID'].tolist()
 uni_id = sorted(list(set(men_id)))
 rid_num_t = len(uni_id)
 
-rel_df = pkl.load(open('rel_df.pkl','rb'))
-
+#讀分群結果
 comm = read_comm(mode,r)
 
+#計算分成幾群
 clu_list = list(comm.keys())
 m = len(clu_list)
 
+#計算dunn
 for j in tqdm(range(m),desc='count in_clu_dis...'):
 	ridj_list = comm[clu_list[j]]
 	in_clu_dis(j,ridj_list,rel_df,conn)
@@ -138,8 +143,6 @@ for j in tqdm(range(m),desc='count in_clu_dis...'):
 conn.commit()
 conn.close()
 			
-t2 = time.time()
 
-print("時間 ＝ ",t2-t1)
 
 
