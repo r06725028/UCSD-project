@@ -23,8 +23,8 @@ Python version: 3.6.3
 # 安裝packages
 sudo pip3 install argparse==1.1 termcolor==1.1.0 tqdm==4.19.4 sqlalchemy==1.1.9 numpy==1.13.3 requests==2.18.4 lda==1.0.5 nltk==3.0.3
 
-# Step 1:
-# 下載原始檔案(.tsv)
+# Step 1: 取得raw data: .tsv檔，放至src/extract/raw_tsv/
+# 如果src/extract/raw_tsv/已經存在所需的.tsv檔案，則可以跳過此步驟
 curl -o src/extract/raw_tsv/resource-duplicates.tsv ftp://140.112.107.150/UCSD/resource-duplicates.tsv
 curl -o src/extract/raw_tsv/resource-mentions-relationships.tsv ftp://140.112.107.150/UCSD/resource-mentions-relationships.tsv
 curl -o src/extract/raw_tsv/resource-mentions.tsv ftp://140.112.107.150/UCSD/resource-mentions.tsv
@@ -32,23 +32,19 @@ curl -o src/extract/raw_tsv/resource-metadata.tsv ftp://140.112.107.150/UCSD/res
 curl -o src/extract/raw_tsv/exclusion.tsv ftp://140.112.107.150/UCSD/exclusion.tsv
 
 # Step 2:
-# 產生slm DB(.db)，預設output_path為：
-#   [1] src/extract/ucsd_slm250.db
-#   [2] src/display/data/ucsd_slm250.db
+# (a) 產生slm DB(.db)，預設output_path為：
+#     [1] src/extract/ucsd_slm250.db
+#     [2] src/display/data/ucsd_slm250.db
 $ python3 src/extract/tsv_to_db.py --output_path=[slm_db路徑]
-# 產生dunn DB(.db)，預設output_path為：src/display/data/dunn.db
+# (b) 產生dunn DB(.db)，預設output_path為：src/display/data/dunn.db
 $ python3 src/extract/dunn.py --output_path=[dunn_db路徑]
 
 # Step 3:
-# 產生圖表(.html)，預設output路徑為：src/display/graph/[*.html]
+#   產生圖表(.html)，預設output路徑為：src/display/graph/[*.html]
 $ python3 src/display/main.py --slm_db=[slm_db路徑] --dunn_db=[dunn_db路徑]
 ```
 
-#### (法2) 直接執行我們包好的script
-```sh
-# 執行前已安裝好pre-install packages
-sudo bash run.sh
-```
+#### (法2) 直接執行我們包好的script ```sudo bash run.sh```
 
 ### 目錄說明
 * src/ : 圖表、資料庫生成的原始碼

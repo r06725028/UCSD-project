@@ -1,12 +1,38 @@
 #!/bin/sh
 pip3 install argparse==1.1 termcolor==1.1.0 tqdm==4.19.4 sqlalchemy==1.1.9 numpy==1.13.3 requests==2.18.4 lda==1.0.5 nltk==3.0.3
-echo '[-] .tsv files downloading'
-curl -o src/extract/raw_tsv/resource-duplicates.tsv ftp://140.112.107.150/UCSD/resource-duplicates.tsv
-curl -o src/extract/raw_tsv/resource-mentions-relationships.tsv ftp://140.112.107.150/UCSD/resource-mentions-relationships.tsv
-curl -o src/extract/raw_tsv/resource-mentions.tsv ftp://140.112.107.150/UCSD/resource-mentions.tsv
-curl -o src/extract/raw_tsv/resource-metadata.tsv ftp://140.112.107.150/UCSD/resource-metadata.tsv
-curl -o src/extract/raw_tsv/exclusion.tsv ftp://140.112.107.150/UCSD/exclusion.tsv
-echo '[v] downloaded.'
+
+PS3='Choose a way to get raw data(.tsv files): '
+options=("Download From NTU server" "From somewhere(need to input url)" "No worries")
+select opt in "${options[@]}"
+do
+	case $opt in
+		"Download From NTU server")
+			echo '[-] .tsv files downloading'
+			curl -o src/extract/raw_tsv/resource-duplicates.tsv ftp://140.112.107.150/UCSD/resource-duplicates.tsv
+			curl -o src/extract/raw_tsv/resource-mentions-relationships.tsv ftp://140.112.107.150/UCSD/resource-mentions-relationships.tsv
+			curl -o src/extract/raw_tsv/resource-mentions.tsv ftp://140.112.107.150/UCSD/resource-mentions.tsv
+			curl -o src/extract/raw_tsv/resource-metadata.tsv ftp://140.112.107.150/UCSD/resource-metadata.tsv
+			curl -o src/extract/raw_tsv/exclusion.tsv ftp://140.112.107.150/UCSD/exclusion.tsv
+			echo '[v] downloaded.'
+			break
+			;;
+		"From somewhere(need to input ip)")
+			read -p "Enter url location containing all .tsv files (Ex: ftp://140.112.107.150/UCSD): " SOMEWHERE
+			echo '[-] .tsv files downloading'
+			curl -o src/extract/raw_tsv/resource-duplicates.tsv $SOMEWHERE/resource-duplicates.tsv
+			curl -o src/extract/raw_tsv/resource-mentions-relationships.tsv $SOMEWHERE/resource-mentions-relationships.tsv
+			curl -o src/extract/raw_tsv/resource-mentions.tsv $SOMEWHERE/resource-mentions.tsv
+			curl -o src/extract/raw_tsv/resource-metadata.tsv $SOMEWHERE/resource-metadata.tsv
+			curl -o src/extract/raw_tsv/exclusion.tsv $SOMEWHERE/exclusion.tsv
+			echo '[v] downloaded.'
+			break
+			;;
+		"None")
+			break
+			;;
+		*) echo invalid option;;
+	esac
+done
 
 echo '[-] generating slm db'
 python3 src/extract/tsv_to_db.py
