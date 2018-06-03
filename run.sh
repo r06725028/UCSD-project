@@ -1,8 +1,9 @@
 #!/bin/sh
 pip3 install argparse==1.1 termcolor==1.1.0 tqdm==4.19.4 sqlalchemy==1.1.9 numpy==1.13.3 requests==2.18.4 lda==1.0.5 nltk==3.0.3
 
-PS3='Choose a way to get raw data(.tsv files): '
-options=("Download From NTU server" "From somewhere(need to input url)" "No worries")
+printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' -
+PS3=$'\n''Choose a way(1/2/3) to get all raw files below: '$'\n''  * resource-duplicates.tsv'$'\n''  * esource-mentions-relationships.tsv'$'\n''  * resource-mentions.tsv'$'\n''  * resource-metadata.tsv'$'\n''  * exclusion.tsv'$'\n''> '
+options=("Download From NTU server" "From an url (should be valid url address)" "No worries (already have)")
 select opt in "${options[@]}"
 do
 	case $opt in
@@ -16,7 +17,7 @@ do
 			echo '[v] downloaded.'
 			break
 			;;
-		"From somewhere(need to input ip)")
+		"From an url (valid url address)")
 			read -p "Enter url location containing all .tsv files (Ex: ftp://140.112.107.150/UCSD): " SOMEWHERE
 			echo '[-] .tsv files downloading'
 			curl -o src/extract/raw_tsv/resource-duplicates.tsv $SOMEWHERE/resource-duplicates.tsv
@@ -27,7 +28,7 @@ do
 			echo '[v] downloaded.'
 			break
 			;;
-		"None")
+		"No worries (already have)")
 			break
 			;;
 		*) echo invalid option;;
