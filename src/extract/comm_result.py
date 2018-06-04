@@ -12,7 +12,7 @@ parser = argparse.ArgumentParser(description='community_result')
 parser.add_argument('--mode',choices=['slm','lda'],default='slm')
 parser.add_argument('--r',default='250')
 
-parser.add_argument('--db_path', default = 'src/display/slm250.db')
+parser.add_argument('--db_path', default = 'src/display/data/slm250.db')
 parser.add_argument('--data_path', default = 'src/extract/raw_tsv/')
 parser.add_argument('--save_path', default = 'src/extract/process_data/')
 parser.add_argument('--community_path', default = 'src/extract/180306/')
