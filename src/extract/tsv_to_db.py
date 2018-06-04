@@ -130,7 +130,7 @@ print("write mention ok!")
 #============================================
 print("write relationship start......")
 
-men_df = pkl.load(open(args.save_path+'rel_df.pkl','rb')) 
+new_rel_df = pkl.load(open(args.save_path+'rel_df.pkl','rb')) 
 
 
 #寫入資料庫:加入原本的mention table/不把dataframe的id作為一欄（原本資料中即有）
