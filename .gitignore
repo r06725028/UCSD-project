@@ -14,3 +14,4 @@ src/display/_graph_generator.py
 !src/display/graph/*.js
 !src/display/graph/*.css
 !src/extract/process_data/pmid_to_year.pkl
+!src/extract/process_data/slm_input.csv
