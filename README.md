@@ -64,7 +64,6 @@ sudo bash run.sh
 | src/display/data/html_text/ | 存放固定且相依的html內容 |
 | src/extract/tsv_to_db.py | 新增有mention、relationship、node的db，需輸入兩個參數指定要採用的分群結果|
 | src/extract/process_duplicate.py | 移除duplicate及exclusion的module |
-| src/extract/slm_clu_all.py | 處理slm分群的output，和rid做對應，並整理出各群包含的rid，輸出為txt檔 |
-| src/extract/lda_clu_all.py | 跑lda分群，並整理出各群包含的rid，輸出為txt檔 |
-| src/extract/auc_all.py | 計算auc，需輸入三個參數指定計算方式，輸出為txt檔 |
-| src/extract/count_lm_all.py | 計算lm，需輸入兩個參數指定計算方式，輸出為txt檔 |
+| src/extract/slm_clu.py | 處理slm分群的output，和rid做對應，並整理出各群包含的rid，輸出為txt檔 |
+| src/extract/lda_clu.py | 跑lda分群，並整理出各群包含的rid，輸出為txt檔 |
+
