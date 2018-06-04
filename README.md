@@ -36,14 +36,6 @@ wget -O src/extract/raw_tsv/exclusion.tsv ftp://140.112.107.150/UCSD/exclusion.t
 #     [1] src/extract/ucsd_slm250.db
 #     [2] src/display/data/ucsd_slm250.db
 
-
-    #input:原始tsv檔
-    #output:pkl檔，其中存一dict，key為pmid，value為年份
-    #src/extract/process_data/中已放有跑好的結果，預設不重新執行
-    #參數一：data_path，為原始tsv檔存放位置
-    #參數二：save_path
-    #python3 get_year.py
-
     #input:原始tsv檔
     #output:跑slm分群需要的csv檔，包含rid1、rid2、emi三個欄位
     #參數一：data_path，為原始tsv檔存放位置，default = 'src/extract/raw_tsv/'
@@ -86,7 +78,9 @@ wget -O src/extract/raw_tsv/exclusion.tsv ftp://140.112.107.150/UCSD/exclusion.t
 
 # Step 3:
 #   產生圖表(.html)，預設output路徑為：src/display/graph/[*.html]
-$ python3 src/display/main.py --slm_db=[slm_db路徑] --dunn_db=[dunn_db路徑]
+    #input: 兩個.db檔案(dunn.db/ucsd_slm250.db)
+    #output: src/display/graph/*.html
+    $ python3 src/display/main.py --slm_db=[slm_db路徑] --dunn_db=[dunn_db路徑]
 
 # 其他程式
 
