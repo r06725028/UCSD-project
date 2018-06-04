@@ -3,6 +3,8 @@
 *.db
 *.pyc
 *.txt
+*.pkl
+*.csv
 src/display/graph/*.html
 src/display/_graph_generator.py
 
@@ -11,3 +13,4 @@ src/display/_graph_generator.py
 !src/display/graph/*.png
 !src/display/graph/*.js
 !src/display/graph/*.css
+!src/extract/process_data/pmid_to_year.pkl

@@ -118,7 +118,7 @@ print("create node ok")
 #從tsv檔新增紀錄到db中
 print("write mention start......")
 
-men_df = pkl.load(open(save_path+'men_df.pkl','rb')) 
+men_df = pkl.load(open(args.save_path+'men_df.pkl','rb')) 
 	
 #寫入資料庫:加入原本的mention table/不把dataframe的id作為一欄（原本資料中即有）
 men_df.to_sql('MENTION',conn,if_exists='append',index=False)
@@ -130,7 +130,7 @@ print("write mention ok!")
 #============================================
 print("write relationship start......")
 
-men_df = pkl.load(open(save_path+'rel_df.pkl','rb')) 
+men_df = pkl.load(open(args.save_path+'rel_df.pkl','rb')) 
 
 
 #寫入資料庫:加入原本的mention table/不把dataframe的id作為一欄（原本資料中即有）
@@ -242,6 +242,7 @@ node_df = node_df[node_df.progress_apply(lambda x: (x['MENTION']>0),axis=1)]
 #print("node len after = ",len(node_df))
 
 with open (args.save_path+'meta_df.pkl','wb') as f:
+        print('saving tmp files...')
 	pkl.dump(meta_df,f)
 #寫入資料庫:加入原本的mention table/不把dataframe的id作為一欄（原本資料中即有）
 node_df.to_sql('NODE',conn,if_exists='append',index=False)

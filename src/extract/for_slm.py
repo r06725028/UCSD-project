@@ -73,15 +73,15 @@ men_df = mention_tsv_filter(pd.read_csv(csvfile, delimiter='\t', low_memory=Fals
 
 
 #移除重複項（因為經過duplicate替代後會有重複項出現）
-print("men len before 移除重複項 = ",len(men_df))
+print("mention len before 移除重複項 = ",len(men_df))
 men_df = men_df.drop_duplicates(['rid','mentionid'])
-print("men len after 移除重複項 = ",len(men_df))
+print("mention len after 移除重複項 = ",len(men_df))
 
 #只取confidence > 0.5   OR   rating = good
-print("men len before 過濾 = ",len(men_df))
+print("mention len before 過濾 = ",len(men_df))
 tqdm.pandas(desc='過濾掉信心低的')
 men_df = men_df[men_df.progress_apply(lambda x: ((x['confidence']>0.5) or (x['rating']=='good')),axis=1)]
-print("men len after 過濾 = ",len(men_df))
+print("mention len after 過濾 = ",len(men_df))
 
 #加上年份
 year_list = []
@@ -115,8 +115,9 @@ men_df['YEAR'] = np.array(year_list)
 #處理遺失值
 men_df = men_df.fillna({'SNIPPET':'NULL'})
 
-with open (save_path+'men_df.pkl','wb') as f:
-	pkl.dump(men_df,f)
+with open (args.save_path+'men_df.pkl','wb') as f:
+    print('saving tmp files...')
+    pkl.dump(men_df,f)
 
 #===========================================
 #  relation
@@ -125,10 +126,10 @@ csvfile = open(args.data_path+'resource-mentions-relationships.tsv', 'r',encodin
 rel_df = relationship_tsv_filter(pd.read_csv(csvfile, delimiter='\t',quoting=3))
 
 #移除count_hc=0
-print("rel len before 移除count_hc=0 : ",len(rel_df))
-tqdm.pandas(desc='過濾掉信心低的')
+print("relationship len before 移除count_hc=0 : ",len(rel_df))
+tqdm.pandas(desc='Remove low confidence')
 rel_df = rel_df[rel_df.progress_apply(lambda x: (x['count_hc']>0),axis=1)]
-print("rel len after 移除count_hc=0 : ",len(rel_df))
+print("relationship len after 移除count_hc=0 : ",len(rel_df))
 
 #檢查是否r1>r2，不是的話就交換順序，方便之後移除重複項
 #（因為經過duplicate替代後，可能出現r1>r2的情況）
@@ -147,9 +148,9 @@ for index, row in tqdm(enumerate(rel_df.iterrows()),total=len(rel_df),desc='檢�
 rel_df = rel_df.sort_values(by=['r1','r2'])
 
 #移除重複項
-print("rel len before 移除重複項 = ",len(rel_df))
+print("relationship len before 移除重複項 = ",len(rel_df))
 rel_df = rel_df.drop_duplicates(['r1','r2','comentions_hc'])#預設留先出現的
-print("rel len after 移除重複項 = ",len(rel_df))
+print("relationship len after 移除重複項 = ",len(rel_df))
 
 
 #用pmid當key，找出每篇論文提到的rid有哪些
@@ -213,7 +214,8 @@ new_rel_df['MENTION_ID'] = np.array(menid_list)
 
 
 with open (args.save_path+'rel_df.pkl','wb') as f:
-	pkl.dump(new_rel_df,f)
+        print('saving tmp files...')
+        pkl.dump(new_rel_df,f)
 
 #輸出跑slm的tsv檔
 #轉換type

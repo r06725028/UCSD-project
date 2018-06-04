@@ -26,7 +26,7 @@ args = parser.parse_args()
 
 #########################################取出參與分群的rid們########################################
 #讀csv檔，轉成df的格式
-rel_df = pkl.load(open(save_path+'rel_df.pkl','rb'))
+rel_df = pkl.load(open(args.save_path+'rel_df.pkl','rb'))
 
 #兩個list相加後移除重複並從小到大排序
 sou_list = rel_df['SOURCE'].tolist()
@@ -80,7 +80,7 @@ for clu in rid_cluster_list:
 print("分成 ",len(clu_to_rid_dict)," 群")
 print(" 自己一群的有 ",len(only_one_dict)," 群")
 
-with open (save_path+"clu_num_r.txt",'a') as f:
+with open (args.save_path+"clu_num_r.txt",'a') as f:
 	f.write(args.r+" "+str(len(clu_to_rid_dict)+len(only_one_dict))+'\n')
 
 #新增資料夾
