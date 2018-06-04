@@ -92,7 +92,6 @@ wget -O src/extract/raw_tsv/exclusion.tsv ftp://140.112.107.150/UCSD/exclusion.t
 ```
 
 ### 其他程式
-# 其他程式
 ```sh
 #input:原始tsv檔、slm_clu.py的輸出
 #output:lda分群結果，每群各輸出一個txt檔，其中為被分為該群的rid，並放在community_path下
