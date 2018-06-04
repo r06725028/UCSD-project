@@ -13,6 +13,7 @@ args = parser.parse_args()
 #input : resource-duplicates.tsv
 #output : dict，其中key為要被取代的rid，value則是要使用的rid
 #=========================================================
+num_list = ['0','1','2','3','4','5','6','7','8','9']
 arr = []
 df = pd.read_csv(args.data_path + 'resource-duplicates.tsv', sep='\t')
 for a,b in zip(df['id1'], df['id2']):
