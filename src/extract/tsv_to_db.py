@@ -243,7 +243,7 @@ node_df = node_df[node_df.progress_apply(lambda x: (x['MENTION']>0),axis=1)]
 
 with open (args.save_path+'meta_df.pkl','wb') as f:
         print('saving tmp files...')
-	pkl.dump(meta_df,f)
+        pkl.dump(meta_df,f)
 #寫入資料庫:加入原本的mention table/不把dataframe的id作為一欄（原本資料中即有）
 node_df.to_sql('NODE',conn,if_exists='append',index=False)
 print("write node ok!")
