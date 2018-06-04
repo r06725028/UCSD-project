@@ -41,7 +41,7 @@ done
 
 echo '[-] generating slm db'
 
-#python3 src/extract/for_slm.py 
+python3 src/extract/for_slm.py 
 java -jar src/extract/ModularityOptimizer.jar  'src/extract/process_data/slm_input.csv'  'src/extract/slm_output/slm_output250.txt' 1 2.5 3 10 0 0 1
 python3 src/extract/slm_clu.py 
 python3 src/extract/tsv_to_db.py 
