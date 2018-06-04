@@ -20,21 +20,16 @@ from process_duplicate import mention_tsv_filter, relationship_tsv_filter, meta_
 
 #設定資料路徑
 parser = argparse.ArgumentParser(description='to_db')
-parser.add_argument('mode',choices=['slm','lda'])
-parser.add_argument('r')
+parser.add_argument('--mode',choices=['slm','lda'],default='slm')
+parser.add_argument('--r',default='250')
 
-parser.add_argument('--data_path', default = './raw_tsv/')
-parser.add_argument('--save_path', default = './process_data/')
-parser.add_argument('--community_path', default = './180306/')
-parser.add_argument('--output_path', default = './all_db/')
+parser.add_argument('--data_path', default = 'src/extract/raw_tsv/')
+parser.add_argument('--save_path', default = 'src/extract/process_data/')
+parser.add_argument('--community_path', default = 'src/extract/180306/')
+parser.add_argument('--output_path', default = 'src/display/ucsd_slm250.db')
 
 args = parser.parse_args()
 
-
-#新增資料夾
-dir_path = args.output_path
-if not os.path.isdir(dir_path):
-  os.mkdir(dir_path)
 
 #========================================================================================
 #計算EMI值
@@ -85,7 +80,7 @@ def EMIValueAdjust(value):
 
 t1 = time.time()
 #######################################連結資料庫#######################################
-engine = create_engine('sqlite:///db_all/ucsd_'+mode+r+'.db',encoding="utf8")
+engine = create_engine('sqlite:///'+args.output_path,encoding="utf8")
 conn = engine.connect()
 
 

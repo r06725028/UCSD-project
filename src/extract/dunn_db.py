@@ -17,12 +17,12 @@ import sys, argparse, os
 
 #設定資料路徑
 parser = argparse.ArgumentParser(description='dunn_db')
-parser.add_argument('mode',choice=['slm','lda'])
-parser.add_argument('r')
-parser.add_argument('--data_path', default = './raw_tsv/')
-parser.add_argument('--save_path', default = './process_data/')
-parser.add_argument('--community_path', default = './180306/')
-parser.add_argument('--output_path', default = '../display/dunn.db')
+parser.add_argument('--mode',choice=['slm','lda'],default='slm')
+parser.add_argument('--r',default='250')
+parser.add_argument('--data_path', default = 'src/extract/raw_tsv/')
+parser.add_argument('--save_path', default = 'src/extract/process_data/')
+parser.add_argument('--community_path', default = 'src/extract/180306/')
+parser.add_argument('--output_path', default = 'src/display/dunn.db')
 
 #建立資料庫
 conn = sqlite3.connect(args.dunn_path)
