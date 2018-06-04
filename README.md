@@ -38,8 +38,8 @@ wget -O src/extract/raw_tsv/exclusion.tsv ftp://140.112.107.150/UCSD/exclusion.t
 
 #input:原始tsv檔
 #output:跑slm分群需要的csv檔，包含rid1、rid2、emi三個欄位
-#參數一：data_path，為原始tsv檔存放位置，default = './raw_tsv/'
-#參數二：save_path，為各程式執行時中間產物的存放路徑，default = './process_data/'
+#參數一：data_path，為原始tsv檔存放位置，default = 'src/extract/raw_tsv/'
+#參數二：save_path，為各程式執行時中間產物的存放路徑，default = 'src/extract/process_data/'
 $ python3 src/extract/for_slm.py 
 
 #input:for_slm.py的輸出，用來跑slm分群的tsv檔
@@ -59,21 +59,21 @@ $ java -jar src/extract/ModularityOptimizer.jar  'src/extract/process_data/slm_i
 #input:ModularityOptimizer.jar的輸出，原始的slm分群結果txt檔
 #output:處理過後的slm分群結果，每群各輸出一個txt檔，其中為被分為該群的rid，並放在community_path下
 #參數一：r，default = '250'，為原本r值的100倍
-#參數二：data_path，為原始tsv檔存放位置，default = './raw_tsv/'
-#參數三：save_path，為各程式執行時中間產物的存放路徑，default = './process_data/'
-#參數四：community_path，為處理過後的slm分群結果存放資料夾名，default = './180306/'
+#參數二：data_path，為原始tsv檔存放位置，default = 'src/extract/raw_tsv/'
+#參數三：save_path，為各程式執行時中間產物的存放路徑，default = 'src/extract/process_data/'
+#參數四：community_path，為處理過後的slm分群結果存放資料夾名，default = 'src/extract/180306/'
 $ python3 src/extract/slm_clu.py 
 
 #input:原始tsv檔
 #output:db檔，包含mention、relationship、node三個table
 #參數一：mode，default = 'slm'
 #參數二：r，default = '250'，為原本r值的100倍
-#參數三：data_path，為原始tsv檔存放位置，default = './raw_tsv/'
-#參數四：save_path，為各程式執行時中間產物的存放路徑，default = './process_data/'
-#參數五：community_path，為處理過後的slm分群結果存放資料夾名，default = './180306/'
-#參數六：output_path，為存放db檔的路徑，default = 'ucsd_slm250.db'
-
+#參數三：data_path，為原始tsv檔存放位置，default = 'src/extract/raw_tsv/'
+#參數四：save_path，為各程式執行時中間產物的存放路徑，default = 'src/extract/process_data/'
+#參數五：community_path，為處理過後的slm分群結果存放資料夾名，default = 'src/extract/180306/'
+#參數六：output_path，為存放db檔的路徑，default = 'src/display/data/ucsd_slm250.db'
 $ python3 src/extract/tsv_to_db.py --output_path=[slm_db路徑]
+
 # (b) 產生dunn DB(.db)，預設output_path為：src/display/data/dunn.db
 $ python3 src/extract/dunn.py --output_path=[dunn_db路徑]
 
