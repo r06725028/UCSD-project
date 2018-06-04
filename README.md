@@ -17,7 +17,13 @@ Python version: 3.6.3
 | nltk | 3.0.3 |
 
 ### Usage
-#### (法1) 分別執行指令
+
+#### (法1) 直接執行我們包好的script
+```sh
+sudo bash run.sh
+```
+
+#### (法2) 分別執行指令
 ```sh 
 # Step 0:
 # 安裝packages
@@ -74,6 +80,8 @@ wget -O src/extract/raw_tsv/exclusion.tsv ftp://140.112.107.150/UCSD/exclusion.t
     $ python3 src/extract/tsv_to_db.py --output_path=[slm_db路徑]
 
 # (b) 產生dunn DB(.db)，預設output_path為：src/display/data/dunn.db
+    #input: 原始.tsv檔、slm_clu.py的輸出
+    #output: dunn.db
     $ python3 src/extract/dunn.py --output_path=[dunn_db路徑]
 
 # Step 3:
@@ -81,9 +89,11 @@ wget -O src/extract/raw_tsv/exclusion.tsv ftp://140.112.107.150/UCSD/exclusion.t
     #input: 兩個.db檔案(dunn.db/ucsd_slm250.db)
     #output: src/display/graph/*.html
     $ python3 src/display/main.py --slm_db=[slm_db路徑] --dunn_db=[dunn_db路徑]
+```
 
+### 其他程式
 # 其他程式
-
+```sh
 #input:原始tsv檔、slm_clu.py的輸出
 #output:lda分群結果，每群各輸出一個txt檔，其中為被分為該群的rid，並放在community_path下
 #須先執行slm_clu.py，取得slm分群的群數後才能執行，因為預設採用slm分群方法，所以run.sh中預設不執行
@@ -115,12 +125,6 @@ python3 comm_result.py
 #參數五：result_path，為存放整理後csv檔的路徑，default = 'src/extract/community_result/'
 #python3 order_lda.py
 ```
-
-#### (法2) 直接執行我們包好的script
-```sh
-sudo bash run.sh
-```
-
 ### 目錄說明
 * src/ : 圖表、資料庫生成的原始碼
 * utils/ : 臨時需求的原始碼
