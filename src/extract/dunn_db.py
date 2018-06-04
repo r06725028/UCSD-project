@@ -22,7 +22,7 @@ parser.add_argument('--r',default='250')
 parser.add_argument('--data_path', default = 'src/extract/raw_tsv/')
 parser.add_argument('--save_path', default = 'src/extract/process_data/')
 parser.add_argument('--community_path', default = 'src/extract/180306/')
-parser.add_argument('--output_path', default = 'src/display/dunn.db')
+parser.add_argument('--output_path', default = 'src/display/data/dunn.db')
 
 #建立資料庫
 conn = sqlite3.connect(args.dunn_path)
