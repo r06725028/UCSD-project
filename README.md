@@ -1,8 +1,8 @@
 # UCSD-project
 
 ### Environment
-OS: Ubuntu 16.04.4
-Python version: 3.6.3
+* OS: Ubuntu 16.04.4
+* Python version: 3.6.3
 
 ### Pre-install package
 | package | version |
@@ -20,7 +20,7 @@ Python version: 3.6.3
 
 #### (法1) 直接執行我們包好的script
 ```sh
-sudo bash run.sh
+$ sudo bash run.sh
 ```
 
 #### (法2) 分別執行指令

@@ -21,7 +21,7 @@ do
 			echo '[v] downloaded.'
 			break
 			;;
-		"From an url (valid url address)")
+		"From an url (should be valid url address)")
 			read -p "Enter url location containing all .tsv files (Ex: ftp://140.112.107.150/UCSD): " SOMEWHERE
 			echo '[-] .tsv files downloading'
 			curl -o src/extract/raw_tsv/resource-duplicates.tsv $SOMEWHERE/resource-duplicates.tsv
